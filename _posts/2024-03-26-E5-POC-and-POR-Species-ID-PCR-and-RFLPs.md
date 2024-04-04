@@ -417,6 +417,24 @@ Sample Processing:
 4. Add 200 µl DNA Wash Buffer to the column. Centrifuge at for 30 seconds. Repeat the wash step. 
 5. Add ≥ 25 µl DNA Elution Buffer directly to the column matrix and incubate at room temperature for one minute. Transfer the column to a 1.5 ml microcentrifuge tube and centrifuge at for 30 seconds to elute the DNA. Ultra-pure DNA is now ready for use. 
 
+**NanoDrop**
+
+To check the purity of the POR DNA samples before sequencing, we used a NanoDrop on 20240427:  
+
+- I followed the [NanoDrop Protocol](https://github.com/Putnam-Lab/Lab_Management/blob/master/Lab_Resources/DNA_RNA-protocols/NanoDrop-2000c-Protocol.md) exactly using the Zymo DNA Elution Buffer as my blank and the NanoDrop2000c in Dr. Jenkins lab CBLS 260.  
+
+Values:  
+
+| Sample ID    | NanoDrop Concentration | 260/280 | 260/230 |
+|--------------|------------------------|---------|---------|
+| POR_469 | 21.7 ng/uL             | 2.17    | 0.65    |
+| POR_837 | 39.8 ng/uL             | 1.87    | 1.33    |
+
+Composite Figures:  
+
+![POR_469](https://github.com/AHuffmyer/ASH_Putnam_Lab_Notebook/assets/40968353/ccbb80ea-960b-451f-8fff-bc92e7346bcb)  
+![POR_837](https://github.com/AHuffmyer/ASH_Putnam_Lab_Notebook/assets/40968353/acdfe95c-f54e-4a4d-aa85-31703ea1e0fc)  
+
 ### Preparation for Sanger sequencing 
 
 Danielle prepared the samples for Sanger sequencing for Janet at RI-INBRE.  
