@@ -147,16 +147,19 @@ The week before your departure (>48 hrs), fill out an eDeclaration (eDec form) i
 - Enter port of clearance. If you can, depart (if you are taking the samples in baggage on a flight) from a designated [port of clearance](https://www.fws.gov/sites/default/files/documents/OLE%20Wildlife%20Trade%20-%20Wildlife%20Inspection%20Offices%202023_0.pdf). If you cannot do a sample inspection at one of these sites, you will need to apply for a permit for [inspection at an alternative site](https://www.ecfr.gov/current/title-50/chapter-I/subchapter-B/part-14/subpart-C). 
 - Enter personal information, domestic, and foreign addresses. 
 - Enter species information and codes from your approved CITES permit. 
+- Submit
 
 ### 48 hr notice 
 
-AH ENTER HERE 
+If necessary, your port may require a 48 hr inspection notice for export. Call the port of export to ask for this information and file any relevant forms.  
 
 # Step 6: Inspect and export sample 
 
-AH ENTER HERE 
+Conduct an inspection according to the instructions given to you by the export port. They will sign the original CITES permit, which you will take with you for the export. The import country will keep the original CITES permit and import permit.  
 
 # Contact for questions 
 
-If you have questions, contact the USFW Management Authority at 800-358-2104 and ask to speak with a member of the biology team. 
+If you have questions, contact the USFW Management Authority at 800-358-2104 and ask to speak with a member of the biology team.  
+
+Contact your export port as well for information specific to your export.  
 
