@@ -144,30 +144,21 @@ Statistics are similar to the values from the original sequencing for these samp
 
 # 2. Trimming adapters 
 
-I ran trimming steps using the script from trimming original sequences, detailed in [my previous post]().  
+I ran trimming steps using the script from trimming original sequences, detailed in [my previous post](https://ahuffmyer.github.io/ASH_Putnam_Lab_Notebook/RNAseq-QC-for-Mcapitata-Larval-Thermal-Tolerance-Project/).  
 
 I first moved the .md5 files to an md5 folder to keep  only .fastq files in `raw-sequences`. 
-
-```
-cd raw-sequences
-mkdir md5_files
-
-mv *.md5 md5_files
-```
 
 Make a new folder for trimmed sequences. 
 
 ```
 cd /data/putnamlab/ashuffmyer/mcap-2023-rnaseq/
-mkdir trimmed-sequences
+mkdir trimmed-sequences-second-seq
 ```
 
 ```
 cd scripts
-nano trim_adapters.sh
+nano trim_adapters_second_seq.sh
 ``` 
-
-Generate a script adapted from Jill Ashey's [script here](https://github.com/JillAshey/JillAshey_Putnam_Lab_Notebook/blob/master/_posts/2024-01-18-RNASeq-Pacuta-Hawaii-2022.md).  
 
 I will use the following settings for trimming in `fastp`. [Fastp documentation can be found here](https://github.com/OpenGene/fastp).   
 
@@ -178,9 +169,7 @@ I will use the following settings for trimming in `fastp`. [Fastp documentation 
 - `unqualified_percent_limit 10 \`
 	- percents of bases are allowed to be unqualified, set here as 10% 
 - `length_required 100 \`
-	- Removes reads shorter than 100 bp. We have read lengths of 150 bp. 
-- `cut_right cut_right_window_size 5 cut_right_mean_quality 20`
-	- Jill used this sliding cut window in her script. I am going to leave it out for now and evaluate the QC to see if we need to implement cutting.  
+	- Removes small reads shorter than 100 bp. We have read lengths of 150 bp. 
         
 ```
 #!/bin/bash
@@ -192,8 +181,8 @@ I will use the following settings for trimming in `fastp`. [Fastp documentation 
 #SBATCH --mail-user=ashuffmyer@uri.edu #your email to send notifications
 #SBATCH --account=putnamlab
 #SBATCH -D /data/putnamlab/ashuffmyer/mcap-2023-rnaseq/scripts           
-#SBATCH -o adapter-trim-%j.out
-#SBATCH -e adapter-trim-%j.error
+#SBATCH -o adapter-trim-second-seq-%j.out
+#SBATCH -e adapter-trim-second-seq-%j.error
 
 # Load modules needed 
 module load fastp/0.19.7-foss-2018b
@@ -202,7 +191,7 @@ module load MultiQC/1.9-intel-2020a-Python-3.8.2
 
 # Make an array of sequences to trim in raw data directory 
 
-cd /data/putnamlab/ashuffmyer/mcap-2023-rnaseq/raw-sequences/
+cd /data/putnamlab/ashuffmyer/mcap-2023-rnaseq/raw-sequences/second_sequencing
 array1=($(ls *R1_001.fastq.gz))
 
 echo "Read trimming of adapters started." $(date)
@@ -211,8 +200,8 @@ echo "Read trimming of adapters started." $(date)
 for i in ${array1[@]}; do
     fastp --in1 ${i} \
         --in2 $(echo ${i}|sed s/_R1/_R2/)\
-        --out1 /data/putnamlab/ashuffmyer/mcap-2023-rnaseq/trimmed-sequences/trim.${i} \
-        --out2 /data/putnamlab/ashuffmyer/mcap-2023-rnaseq/trimmed-sequences/trim.$(echo ${i}|sed s/_R1/_R2/) \
+        --out1 /data/putnamlab/ashuffmyer/mcap-2023-rnaseq/trimmed-sequences-second-seq/trim.${i} \
+        --out2 /data/putnamlab/ashuffmyer/mcap-2023-rnaseq/trimmed-sequences-second-seq/trim.$(echo ${i}|sed s/_R1/_R2/) \
         --detect_adapter_for_pe \
         --qualified_quality_phred 30 \
         --unqualified_percent_limit 10 \
@@ -224,11 +213,15 @@ echo "Read trimming of adapters completed." $(date)
 ```
 
 ```
-sbatch trim_adapters.sh
+sbatch trim_adapters_second_seq.sh
 ```
 
-Job ID 303864   
-Ran on Feb 24 2024
+Job ID 312075   
+Ran on April 13 2024
+
+
+
+
 
 An example output from the error file looks like this:  
 
@@ -240,47 +233,52 @@ Detecting adapter sequence for read2...
 No adapter detected for read2
 
 Read1 before filtering:
-total reads: 33729404
-total bases: 5059410600
-Q20 bases: 4895787090(96.766%)
-Q30 bases: 4604173440(91.0022%)
+total reads: 17533977
+total bases: 2630096550
+Q20 bases: 2576383048(97.9577%)
+Q30 bases: 2477902823(94.2134%)
 
 Read1 after filtering:
-total reads: 21719378
-total bases: 3192545540
-Q20 bases: 3162771852(99.0674%)
-Q30 bases: 3094582490(96.9315%)
+total reads: 11457851
+total bases: 1693380571
+Q20 bases: 1685110826(99.5116%)
+Q30 bases: 1663210624(98.2184%)
 
 Read2 before filtering:
-total reads: 33729404
-total bases: 5059410600
-Q20 bases: 4807178351(95.0146%)
-Q30 bases: 4428591566(87.5318%)
+total reads: 17533977
+total bases: 2630096550
+Q20 bases: 2486634287(94.5454%)
+Q30 bases: 2272601196(86.4075%)
 
 Read2 aftering filtering:
-total reads: 21719378
-total bases: 3192740421
-Q20 bases: 3160586478(98.9929%)
-Q30 bases: 3088498530(96.735%)
+total reads: 11457851
+total bases: 1693487809
+Q20 bases: 1677451996(99.0531%)
+Q30 bases: 1639980332(96.8404%)
 
 Filtering result:
-reads passed filter: 43438756
-reads failed due to low quality: 23412708
-reads failed due to too many N: 334
-reads failed due to too short: 607010
-reads with adapter trimmed: 8474961
-bases trimmed due to adapters: 213620961
+reads passed filter: 22915702
+reads failed due to low quality: 11923964
+reads failed due to too many N: 146
+reads failed due to too short: 228142
+reads with adapter trimmed: 3211274
+bases trimmed due to adapters: 77884301
 
-Duplication rate: 62.6758%
+Duplication rate: 34.8162%
 
-Insert size peak (evaluated by paired-end reads): 166
+Insert size peak (evaluated by paired-end reads): 186
 
 JSON report: fastp.json
 HTML report: fastp.html
-
 ```   
 
-Completed early morning Feb 25 2024.  
+
+
+
+
+
+
+Completed XXXX date.  
 
 Move script out and error files and fastp files to the trimmed sequence folder to keep things organized.  
 
