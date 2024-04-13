@@ -899,15 +899,6 @@ R99_R2_001.fastq.gz: OK
 
 Everything looks good and all data files were transferred correctly.   
 
-Finally, I stored data files on the Gannet and Nightingales servers in the Roberts Lab, which allows for a URL address to all files and makes them easier to access.  
-
-```
-
-
-
-
-```
-
 Files are now stored on both URI and UW servers. 
 
 # Transfer data from URI server to NCBI SRA 

@@ -10,7 +10,11 @@ This post details protocols for Sanger Sequencing and RFLP assays for species id
 
 # Overview 
 
-This protocol contains updated and revised protocols as of 20240329 developed in the Putnam Lab and written by A. Huffmyer.  
+This protocol contains updated and revised protocols as of 20240329 developed in the Putnam Lab and written by A. Huffmyer.   
+
+This protocol uses two successive markers for *Pocillopora* species identification and one marker for *Porites* species identification.  
+
+For *Pocillopora* species identification, this protocol first uses an mtORF marker to distinguish between XXX and XXX. For species identified 
 
 OVERVIEW OF REASONS FOR PROTOCOL AND USING SEQUENCING/RFLPs
 
