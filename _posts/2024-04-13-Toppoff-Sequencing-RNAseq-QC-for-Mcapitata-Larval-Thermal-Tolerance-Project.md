@@ -329,15 +329,14 @@ These results show that filtering improved quality of reads and removed about 45
 
 Next, I'll run another round of fastqc and multiqc to see how this changed or improved our qc results.   
 
-# 2. FastQC and MultiQC on trimmed sequences  
+# 3. FastQC and MultiQC on trimmed sequences  
 
 Make a script for running QC on trimmed sequences.  
 
 ```
-cd /data/putnamlab/ashuffmyer/mcap-2023-rnaseq
-cd scripts
+cd /data/putnamlab/ashuffmyer/mcap-2023-rnaseq/scripts
 
-nano qc_trimmed.sh
+nano qc_trimmed_second_seq.sh
 ```
 
 ```
@@ -349,9 +348,9 @@ nano qc_trimmed.sh
 #SBATCH --mail-type=BEGIN,END,FAIL #email you when job starts, stops and/or fails
 #SBATCH --mail-user=ashuffmyer@uri.edu #your email to send notifications
 #SBATCH --account=putnamlab
-#SBATCH -D /data/putnamlab/ashuffmyer/mcap-2023-rnaseq/trimmed-sequences           
-#SBATCH -o trimmed-qc-%j.out
-#SBATCH -e trimmed-qc-%j.error
+#SBATCH -D /data/putnamlab/ashuffmyer/mcap-2023-rnaseq/trimmed-sequences-second-seq           
+#SBATCH -o trimmed-qc-second-seq-%j.out
+#SBATCH -e trimmed-qc-second-seq-%j.error
 
 # load modules needed
 module load fastp/0.19.7-foss-2018b
@@ -362,7 +361,7 @@ module load MultiQC/1.9-intel-2020a-Python-3.8.2
 fastqc *.fastq.gz 
 
 #generate multiqc report
-multiqc ./ --filename multiqc_report_trimmed.html 
+multiqc ./ --filename multiqc_report_trimmed_second_seq.html 
 
 echo "Trimmed MultiQC report generated." $(date)
 ```
@@ -370,190 +369,104 @@ echo "Trimmed MultiQC report generated." $(date)
 Run the script. 
 
 ```
-sbatch qc_trimmed.sh
+sbatch qc_trimmed_second_seq.sh
 ```
 
-Job 303885 started on 25 Feb in the morning.   
+Job 312079 started on 13 April, ended on 13 April.    
 
-Job ended on 25 Feb in the evening.   
-
-
-Make folders for QC files to go into. Move QC files. I tried to set output directories but it was failing, so I'm just manually moving them for now.   
+Make folders for QC files to go into. 
 
 ```
-cd /data/putnamlab/ashuffmyer/mcap-2023-rnaseq/trimmed-sequences
+cd /data/putnamlab/ashuffmyer/mcap-2023-rnaseq/trimmed-sequences-second-seq
 mkdir trimmed_qc_files 
 
 mv *fastqc.html trimmed_qc_files
 mv *fastqc.zip trimmed_qc_files
 mv multiqc* trimmed_qc_files
-mv trimmed-qc-303* trimmed_qc_files
 ```
 
 Copy the multiqc html file to my computer. 
 
 ```
-scp ashuffmyer@ssh3.hac.uri.edu:/data/putnamlab/ashuffmyer/mcap-2023-rnaseq/trimmed-sequences/trimmed_qc_files/multiqc_report_trimmed.html ~/MyProjects/larval_symbiont_TPC/data/rna_seq/QC
+scp ashuffmyer@ssh3.hac.uri.edu:/data/putnamlab/ashuffmyer/mcap-2023-rnaseq/trimmed-sequences-second-seq/trimmed_qc_files/multiqc_report_trimmed_second_seq.html ~/MyProjects/larval_symbiont_TPC/data/rna_seq/QC
 
-```
-
-The MultiQC report results are below. The seven samples that had <10M reads had reads reduced and now they are <5M reads. These will likely need to be removed from analyses. The remaining samples have 9M-25M reads. We will reevaluate which samples should be removed from analyses after the mapping step and after I hear back from Azenta. 
-
-This report also included the fastp stats, which was new to me!   
+``` 
 
 **Here are some of the main results:**    
  
-| Sample Name      | % Duplication | GC content | % PF   | % Adapter | % Dups | % GC | M Seqs |
-|------------------|---------------|------------|--------|-----------|--------|------|--------|
-| fastp            |  20.0%        |  43.8%     |  68.2% |  12.0%    |        |      |        |
-| trim.R100_R1_001 |               |            |        |           |  75.3% |  43% |  22.6  |
-| trim.R100_R2_001 |               |            |        |           |  75.3% |  43% |  22.6  |
-| trim.R101_R1_001 |               |            |        |           |  75.7% |  43% |  24.7  |
-| trim.R101_R2_001 |               |            |        |           |  75.7% |  43% |  24.7  |
-| trim.R102_R1_001 |               |            |        |           |  75.8% |  43% |  21.7  |
-| trim.R102_R2_001 |               |            |        |           |  75.7% |  43% |  21.7  |
-| trim.R103_R1_001 |               |            |        |           |  73.1% |  43% |  15.0  |
-| trim.R103_R2_001 |               |            |        |           |  73.1% |  43% |  15.0  |
-| trim.R104_R1_001 |               |            |        |           |  72.3% |  43% |  20.3  |
-| trim.R104_R2_001 |               |            |        |           |  72.2% |  43% |  20.3  |
-| trim.R105_R1_001 |               |            |        |           |  72.5% |  43% |  19.3  |
-| trim.R105_R2_001 |               |            |        |           |  72.5% |  43% |  19.3  |
-| trim.R106_R1_001 |               |            |        |           |  72.8% |  43% |  23.3  |
-| trim.R106_R2_001 |               |            |        |           |  72.8% |  43% |  23.3  |
-| trim.R107_R1_001 |               |            |        |           |  50.2% |  43% |  4.8   |
-| trim.R107_R2_001 |               |            |        |           |  50.1% |  43% |  4.8   |
-| trim.R108_R1_001 |               |            |        |           |  72.5% |  43% |  19.6  |
-| trim.R108_R2_001 |               |            |        |           |  72.6% |  43% |  19.6  |
-| trim.R55_R1_001  |               |            |        |           |  72.4% |  43% |  10.4  |
-| trim.R55_R2_001  |               |            |        |           |  72.2% |  43% |  10.4  |
-| trim.R56_R1_001  |               |            |        |           |  71.0% |  44% |  11.0  |
-| trim.R56_R2_001  |               |            |        |           |  70.7% |  44% |  11.0  |
-| trim.R57_R1_001  |               |            |        |           |  72.9% |  43% |  9.8   |
-| trim.R57_R2_001  |               |            |        |           |  72.5% |  43% |  9.8   |
-| trim.R58_R1_001  |               |            |        |           |  72.7% |  43% |  11.6  |
-| trim.R58_R2_001  |               |            |        |           |  72.4% |  43% |  11.6  |
-| trim.R59_R1_001  |               |            |        |           |  39.1% |  43% |  4.2   |
-| trim.R59_R2_001  |               |            |        |           |  38.9% |  43% |  4.2   |
-| trim.R60_R1_001  |               |            |        |           |  71.8% |  43% |  10.4  |
-| trim.R60_R2_001  |               |            |        |           |  71.4% |  43% |  10.4  |
-| trim.R61_R1_001  |               |            |        |           |  73.3% |  43% |  12.8  |
-| trim.R61_R2_001  |               |            |        |           |  73.0% |  43% |  12.8  |
-| trim.R62_R1_001  |               |            |        |           |  72.6% |  43% |  10.6  |
-| trim.R62_R2_001  |               |            |        |           |  72.4% |  43% |  10.6  |
-| trim.R63_R1_001  |               |            |        |           |  72.8% |  43% |  16.4  |
-| trim.R63_R2_001  |               |            |        |           |  72.8% |  43% |  16.4  |
-| trim.R64_R1_001  |               |            |        |           |  72.7% |  43% |  21.6  |
-| trim.R64_R2_001  |               |            |        |           |  72.7% |  43% |  21.6  |
-| trim.R65_R1_001  |               |            |        |           |  72.6% |  43% |  20.9  |
-| trim.R65_R2_001  |               |            |        |           |  72.6% |  43% |  20.9  |
-| trim.R66_R1_001  |               |            |        |           |  74.6% |  43% |  21.7  |
-| trim.R66_R2_001  |               |            |        |           |  74.7% |  43% |  21.7  |
-| trim.R67_R1_001  |               |            |        |           |  52.6% |  42% |  5.4   |
-| trim.R67_R2_001  |               |            |        |           |  52.7% |  43% |  5.4   |
-| trim.R68_R1_001  |               |            |        |           |  72.4% |  43% |  20.7  |
-| trim.R68_R2_001  |               |            |        |           |  72.5% |  43% |  20.7  |
-| trim.R69_R1_001  |               |            |        |           |  74.7% |  44% |  26.1  |
-| trim.R69_R2_001  |               |            |        |           |  74.6% |  44% |  26.1  |
-| trim.R70_R1_001  |               |            |        |           |  73.5% |  43% |  22.7  |
-| trim.R70_R2_001  |               |            |        |           |  73.6% |  43% |  22.7  |
-| trim.R71_R1_001  |               |            |        |           |  71.8% |  43% |  19.0  |
-| trim.R71_R2_001  |               |            |        |           |  71.8% |  43% |  19.0  |
-| trim.R72_R1_001  |               |            |        |           |  72.6% |  43% |  22.0  |
-| trim.R72_R2_001  |               |            |        |           |  72.5% |  43% |  22.0  |
-| trim.R73_R1_001  |               |            |        |           |  73.6% |  43% |  23.2  |
-| trim.R73_R2_001  |               |            |        |           |  73.6% |  43% |  23.2  |
-| trim.R74_R1_001  |               |            |        |           |  72.9% |  44% |  23.4  |
-| trim.R74_R2_001  |               |            |        |           |  73.0% |  44% |  23.4  |
-| trim.R75_R1_001  |               |            |        |           |  55.7% |  43% |  7.0   |
-| trim.R75_R2_001  |               |            |        |           |  55.9% |  43% |  7.0   |
-| trim.R76_R1_001  |               |            |        |           |  74.0% |  43% |  22.1  |
-| trim.R76_R2_001  |               |            |        |           |  74.1% |  43% |  22.1  |
-| trim.R77_R1_001  |               |            |        |           |  73.1% |  43% |  26.7  |
-| trim.R77_R2_001  |               |            |        |           |  73.0% |  43% |  26.7  |
-| trim.R78_R1_001  |               |            |        |           |  73.1% |  43% |  23.2  |
-| trim.R78_R2_001  |               |            |        |           |  73.2% |  43% |  23.2  |
-| trim.R79_R1_001  |               |            |        |           |  73.0% |  44% |  16.7  |
-| trim.R79_R2_001  |               |            |        |           |  72.9% |  44% |  16.7  |
-| trim.R80_R1_001  |               |            |        |           |  73.7% |  43% |  23.5  |
-| trim.R80_R2_001  |               |            |        |           |  73.6% |  43% |  23.5  |
-| trim.R81_R1_001  |               |            |        |           |  71.7% |  44% |  21.5  |
-| trim.R81_R2_001  |               |            |        |           |  71.6% |  44% |  21.5  |
-| trim.R82_R1_001  |               |            |        |           |  74.1% |  43% |  23.4  |
-| trim.R82_R2_001  |               |            |        |           |  74.1% |  43% |  23.4  |
-| trim.R83_R1_001  |               |            |        |           |  51.3% |  43% |  5.3   |
-| trim.R83_R2_001  |               |            |        |           |  51.4% |  43% |  5.3   |
-| trim.R84_R1_001  |               |            |        |           |  74.2% |  43% |  21.3  |
-| trim.R84_R2_001  |               |            |        |           |  74.1% |  43% |  21.3  |
-| trim.R85_R1_001  |               |            |        |           |  74.2% |  43% |  23.8  |
-| trim.R85_R2_001  |               |            |        |           |  74.1% |  43% |  23.8  |
-| trim.R86_R1_001  |               |            |        |           |  73.0% |  43% |  21.0  |
-| trim.R86_R2_001  |               |            |        |           |  73.0% |  43% |  21.0  |
-| trim.R87_R1_001  |               |            |        |           |  71.5% |  43% |  17.0  |
-| trim.R87_R2_001  |               |            |        |           |  71.6% |  43% |  17.0  |
-| trim.R88_R1_001  |               |            |        |           |  73.0% |  44% |  20.0  |
-| trim.R88_R2_001  |               |            |        |           |  73.1% |  44% |  20.0  |
-| trim.R89_R1_001  |               |            |        |           |  73.9% |  43% |  21.8  |
-| trim.R89_R2_001  |               |            |        |           |  74.0% |  43% |  21.8  |
-| trim.R90_R1_001  |               |            |        |           |  73.5% |  43% |  21.6  |
-| trim.R90_R2_001  |               |            |        |           |  73.5% |  43% |  21.6  |
-| trim.R91_R1_001  |               |            |        |           |  51.1% |  43% |  4.8   |
-| trim.R91_R2_001  |               |            |        |           |  51.2% |  43% |  4.8   |
-| trim.R92_R1_001  |               |            |        |           |  76.0% |  43% |  19.0  |
-| trim.R92_R2_001  |               |            |        |           |  76.0% |  43% |  19.0  |
-| trim.R93_R1_001  |               |            |        |           |  83.0% |  45% |  21.3  |
-| trim.R93_R2_001  |               |            |        |           |  83.1% |  45% |  21.3  |
-| trim.R94_R1_001  |               |            |        |           |  76.0% |  43% |  21.3  |
-| trim.R94_R2_001  |               |            |        |           |  76.1% |  43% |  21.3  |
-| trim.R95_R1_001  |               |            |        |           |  73.7% |  43% |  18.3  |
-| trim.R95_R2_001  |               |            |        |           |  73.6% |  43% |  18.3  |
-| trim.R96_R1_001  |               |            |        |           |  74.8% |  44% |  23.0  |
-| trim.R96_R2_001  |               |            |        |           |  74.8% |  44% |  23.0  |
-| trim.R97_R1_001  |               |            |        |           |  75.1% |  43% |  21.5  |
-| trim.R97_R2_001  |               |            |        |           |  75.1% |  43% |  21.5  |
-| trim.R98_R1_001  |               |            |        |           |  73.8% |  43% |  23.5  |
-| trim.R98_R2_001  |               |            |        |           |  73.8% |  43% |  23.5  |
-| trim.R99_R1_001  |               |            |        |           |  54.7% |  43% |  5.7   |
-| trim.R99_R2_001  |               |            |        |           |  54.6% |  43% |  5.7   |
+| Sample Name       | % Duplication | GC content | % PF   | % Adapter | % Dups | % GC | M Seqs |
+|-------------------|---------------|------------|--------|-----------|--------|------|--------|
+| fastp             |  30.4%        |  43.7%     |  56.9% |  8.9%     |        |      |        |
+| trim.R107s_R1_001 |               |            |        |           |  51.3% |  43% |  11.5  |
+| trim.R107s_R2_001 |               |            |        |           |  51.1% |  43% |  11.5  |
+| trim.R55s_R1_001  |               |            |        |           |  32.7% |  43% |  1.9   |
+| trim.R55s_R2_001  |               |            |        |           |  32.6% |  43% |  1.9   |
+| trim.R56s_R1_001  |               |            |        |           |  28.0% |  44% |  1.1   |
+| trim.R56s_R2_001  |               |            |        |           |  27.8% |  44% |  1.1   |
+| trim.R57s_R1_001  |               |            |        |           |  35.7% |  43% |  2.2   |
+| trim.R57s_R2_001  |               |            |        |           |  35.6% |  43% |  2.2   |
+| trim.R58s_R1_001  |               |            |        |           |  29.5% |  43% |  0.9   |
+| trim.R58s_R2_001  |               |            |        |           |  29.3% |  43% |  0.9   |
+| trim.R59s_R1_001  |               |            |        |           |  54.8% |  43% |  22.1  |
+| trim.R59s_R2_001  |               |            |        |           |  54.9% |  43% |  22.1  |
+| trim.R60s_R1_001  |               |            |        |           |  32.0% |  43% |  1.7   |
+| trim.R60s_R2_001  |               |            |        |           |  31.9% |  43% |  1.7   |
+| trim.R62s_R1_001  |               |            |        |           |  33.3% |  43% |  1.5   |
+| trim.R62s_R2_001  |               |            |        |           |  33.2% |  43% |  1.5   |
+| trim.R67s_R1_001  |               |            |        |           |  46.2% |  43% |  11.3  |
+| trim.R67s_R2_001  |               |            |        |           |  46.3% |  43% |  11.3  |
+| trim.R75s_R1_001  |               |            |        |           |  44.1% |  43% |  7.3   |
+| trim.R75s_R2_001  |               |            |        |           |  44.2% |  43% |  7.3   |
+| trim.R83s_R1_001  |               |            |        |           |  50.0% |  43% |  10.7  |
+| trim.R83s_R2_001  |               |            |        |           |  49.7% |  43% |  10.7  |
+| trim.R91s_R1_001  |               |            |        |           |  52.5% |  43% |  11.6  |
+| trim.R91s_R2_001  |               |            |        |           |  52.9% |  43% |  11.6  |
+| trim.R99s_R1_001  |               |            |        |           |  48.2% |  43% |  9.2   |
+| trim.R99s_R2_001  |               |            |        |           |  47.7% |  43% |  9.2   |
 
 - Fastp filtering: most reads filtered were due to low quality   
 
-![](https://github.com/AHuffmyer/ASH_Putnam_Lab_Notebook/blob/master/images/NotebookImages/Hawaii2023/rnaseq/fastp_filtered_reads_plot.png?raw=true)  
+![](https://github.com/AHuffmyer/ASH_Putnam_Lab_Notebook/blob/master/images/NotebookImages/Hawaii2023/rnaseq/second_seq/trim/fastp_filtered_reads_plot.png?raw=true)  
 
-- Average insert size is 133 bp
+- Average insert size is 133 bp and within expected range (150 with total overlap to <300 with less overlap).  
 
-![](https://github.com/AHuffmyer/ASH_Putnam_Lab_Notebook/blob/master/images/NotebookImages/Hawaii2023/rnaseq/fastp-insert-size-plot.png?raw=true) 
+![](https://github.com/AHuffmyer/ASH_Putnam_Lab_Notebook/blob/master/images/NotebookImages/Hawaii2023/rnaseq/second_seq/trim/fastp-insert-size-plot.png?raw=true) 
 
-- You can see the seven samples here with low read counts (<5M)
+- Read depth is highest for samples with lowest read depth in first round of sequencing.  
 
-![](https://github.com/AHuffmyer/ASH_Putnam_Lab_Notebook/blob/master/images/NotebookImages/Hawaii2023/rnaseq/trim_reads.png?raw=true)
+![](https://github.com/AHuffmyer/ASH_Putnam_Lab_Notebook/blob/master/images/NotebookImages/Hawaii2023/rnaseq/second_seq/trim/fastqc_sequence_counts_plot.png?raw=true)
 
-- There is some sequence duplication. Need to determine if this is expected or a problem.  
+- Duplication passes QC.  
 
-![](https://github.com/AHuffmyer/ASH_Putnam_Lab_Notebook/blob/master/images/NotebookImages/Hawaii2023/rnaseq/trim_duplication.png?raw=true)
+![](https://github.com/AHuffmyer/ASH_Putnam_Lab_Notebook/blob/master/images/NotebookImages/Hawaii2023/rnaseq/second_seq/trim/fastp-duprates-plot.png?raw=true)
 
-- GC content is better now. There are two samples with weird distributions. I'll look at those in more detail in individual files.  
+![](https://github.com/AHuffmyer/ASH_Putnam_Lab_Notebook/blob/master/images/NotebookImages/Hawaii2023/rnaseq/second_seq/trim/fastqc_per_sequence_gc_content_plot.png?raw=true)
 
-![](https://github.com/AHuffmyer/ASH_Putnam_Lab_Notebook/blob/master/images/NotebookImages/Hawaii2023/rnaseq/trim_gc.png?raw=true)
+- GC content passes QC. 
 
-- Length is shorter now after adapter removal.   
+![](https://github.com/AHuffmyer/ASH_Putnam_Lab_Notebook/blob/master/images/NotebookImages/Hawaii2023/rnaseq/second_seq/trim/fastp-seq-content-gc-plot.png?raw=true)
 
-![](https://github.com/AHuffmyer/ASH_Putnam_Lab_Notebook/blob/master/images/NotebookImages/Hawaii2023/rnaseq/trim_length.png?raw=true)
+![](https://github.com/AHuffmyer/ASH_Putnam_Lab_Notebook/blob/master/images/NotebookImages/Hawaii2023/rnaseq/second_seq/trim/fastqc_per_sequence_gc_content_plot.png?raw=true)
 
 - Quality is very high 
 
-![](https://github.com/AHuffmyer/ASH_Putnam_Lab_Notebook/blob/master/images/NotebookImages/Hawaii2023/rnaseq/trim_quality.png?raw=true)
+![](https://github.com/AHuffmyer/ASH_Putnam_Lab_Notebook/blob/master/images/NotebookImages/Hawaii2023/rnaseq/second_seq/trim/fastqc_per_sequence_quality_scores_plot.png?raw=true)
 
-Next I need to look at the individual raw and trimmed FastQC files for each sample.  
+![](https://github.com/AHuffmyer/ASH_Putnam_Lab_Notebook/blob/master/images/NotebookImages/Hawaii2023/rnaseq/second_seq/trim/fastp-seq-quality-plot.png?raw=true)
 
-Copy the individual fastqc files to my computer.   
+- Low N
+
+![](https://github.com/AHuffmyer/ASH_Putnam_Lab_Notebook/blob/master/images/NotebookImages/Hawaii2023/rnaseq/second_seq/trim/fastp-seq-content-n-plot.png?raw=true)
+
+No samples found with any adapter contamination > 0.1%.    
+
+Samples had less than 1% of reads made up of overrepresented sequences.    
+
+Copy the individual fastqc files to my computer.     
 
 ```
-scp ashuffmyer@ssh3.hac.uri.edu:/data/putnamlab/ashuffmyer/mcap-2023-rnaseq/raw-sequences/raw_fastqc/\*fastqc.html ~/MyProjects/larval_symbiont_TPC/data/rna_seq/QC/fastqc_raw
-
-scp ashuffmyer@ssh3.hac.uri.edu:/data/putnamlab/ashuffmyer/mcap-2023-rnaseq/trimmed-sequences/trimmed_qc_files/\*fastqc.html ~/MyProjects/larval_symbiont_TPC/data/rna_seq/QC/fastqc_trimmed 
+scp ashuffmyer@ssh3.hac.uri.edu:/data/putnamlab/ashuffmyer/mcap-2023-rnaseq/trimmed-sequences-second-seq/trimmed_qc_files/\*fastqc.html ~/MyProjects/larval_symbiont_TPC/data/rna_seq/QC/fastqc_second_sequencing_trimmed 
 
 ```
 
-Raw FastQC files can be found [on GitHub here](https://github.com/AHuffmyer/larval_symbiont_TPC/tree/main/data/rna_seq/QC/fastqc_raw) and trimmed FastQC files can be found [on GitHub here](https://github.com/AHuffmyer/larval_symbiont_TPC/tree/main/data/rna_seq/QC/fastqc_trimmed).  
-
-I'll next dig into each sample and see what they look like - especially those with low sequence counts and deviations from normal QC results.  
+Raw FastQC files can be found [on GitHub here](https://github.com/AHuffmyer/larval_symbiont_TPC/tree/main/data/rna_seq/QC/fastqc_second_sequencing_raw) and trimmed FastQC files can be found [on GitHub here](https://github.com/AHuffmyer/larval_symbiont_TPC/tree/main/data/rna_seq/QC/fastqc_second_sequencing_trimmed).  
