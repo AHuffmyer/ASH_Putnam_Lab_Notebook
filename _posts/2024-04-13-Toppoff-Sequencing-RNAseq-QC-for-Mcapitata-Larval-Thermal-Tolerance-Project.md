@@ -1,6 +1,6 @@
 ---
 layout: post
-title: QC of RNAseq files for Montipora capitata larval thermal tolerance 2023 project 
+title: QC of top off RNAseq files for Montipora capitata larval thermal tolerance 2023 project 
 date: '2024-04-13'
 categories: Larval_Symbiont_TPC_2023
 tags: Bioinformatics Mcapitata Molecular GeneExpression
@@ -121,37 +121,30 @@ Statistics are similar to the values from the original sequencing for these samp
 
 - Adapter content present in sequences, as expected, because we have not yet removed adapters. 
 
-![](xxx) 
+![](https://github.com/AHuffmyer/ASH_Putnam_Lab_Notebook/blob/master/images/NotebookImages/Hawaii2023/rnaseq/second_seq/fastqc_adapter_content_plot.png?raw=true) 
 
 - Some samples have warnings for GC content. We will revisit this after trimming.  
 
-![](xxx) 
+![](https://github.com/AHuffmyer/ASH_Putnam_Lab_Notebook/blob/master/images/NotebookImages/Hawaii2023/rnaseq/second_seq/fastqc_per_sequence_gc_content_plot.png?raw=true) 
 
 - There are a high proportion of overrepresented sequences. This is expected with RNAseq data as there are likely genes that are highly and consistently expressed. 
 
-![](xxx) 
-
-![](xxx) 
+![](https://github.com/AHuffmyer/ASH_Putnam_Lab_Notebook/blob/master/images/NotebookImages/Hawaii2023/rnaseq/second_seq/fastqc_sequence_counts_plot.png?raw=true) 
 
 - All reads are the same length (150 bp).  
 
 - High quality scores.  
 
-![](xxx)  
+![](https://github.com/AHuffmyer/ASH_Putnam_Lab_Notebook/blob/master/images/NotebookImages/Hawaii2023/rnaseq/second_seq/fastqc_per_base_sequence_quality_plot.png?raw=true)  
 
 - Low N content 
 
-![](xxx)   
-
-
-
-
-
+![](https://github.com/AHuffmyer/ASH_Putnam_Lab_Notebook/blob/master/images/NotebookImages/Hawaii2023/rnaseq/second_seq/fastqc_per_base_n_content_plot.png?raw=true)   
 
 
 # 2. Trimming adapters 
 
-I first ran a step to trim adapters from sequences. I will then generate another QC report to look at the results before making other trimming decisions.  
+I ran trimming steps using the script from trimming original sequences, detailed in [my previous post]().  
 
 I first moved the .md5 files to an md5 folder to keep  only .fastq files in `raw-sequences`. 
 
