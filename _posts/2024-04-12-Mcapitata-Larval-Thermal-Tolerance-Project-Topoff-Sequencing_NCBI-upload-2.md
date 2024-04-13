@@ -481,57 +481,21 @@ The files that were sequenced in the second round now contain "s" after the samp
 
 # 3. Upload to NCBI project 
 
-
-
-
-
-
-
-
-
-
-
-# 1. Creating SRA project and sample metadata
-
-I first created an NCBI SRA BioProject and BioSample information in preparation for download and submission. I used the same steps outlined in [my previous notebook post for the Mcap2020 project](https://ahuffmyer.github.io/ASH_Putnam_Lab_Notebook/SRA-Uploads-10-November-2022/) and the [Putnam Lab SRA protocol](https://github.com/Putnam-Lab/Lab_Management/blob/master/Bioinformatics_%26_Coding/Data_Mangament/SRA-Upload_Protocol.md). 
-
-I used the following characteristics to register the BioProject: 
-
-- Multispecies 
-- *M. capitata* and associated dinflaggellate endosymbionts in the family Symbiodinaceae
-- Raw sequence reads 
-- Data will be released in 1 year (March 1 2025) or earlier if published
-- Title: *Montipora capitata* larval thermal tolerance
-- Description: Influence of parental bleaching tolerance and symbiont species on larval thermal stress response in Montipora capitata corals
-- Associated grants: 
-	- ID: 2205966; OCE-PRF: Investigating ontogenetic shifts in microbe-derived nutrition in reef building corals; National Science Foundation
-
-*Submission information* 
-
-Submission ID: SUB14259319   
-Submitted on Feb 20  
 Project ID: PRJNA1078313   
 
-I then generated sample information sheets for sample metadata and SRA metadata.  
+I used the same information on uploading for this project [detailed in my previous post](https://ahuffmyer.github.io/ASH_Putnam_Lab_Notebook/Mcapitata-Larval-Thermal-Tolerance-Project-NCBI-upload/) and the [Putnam Lab SRA protocol](https://github.com/Putnam-Lab/Lab_Management/blob/master/Bioinformatics_%26_Coding/Data_Mangament/SRA-Upload_Protocol.md)..  
 
 The sample metadata can be found on GitHub here using the MIMS.me.host-associated template [here](https://github.com/AHuffmyer/larval_symbiont_TPC/blob/main/data/rna_seq/NCBI_upload/McapLarval_Tolerance_MIMS.me.host-associated.5.0.xlsx) and sequencing information and metadata [is located on GitHub here](https://github.com/AHuffmyer/larval_symbiont_TPC/blob/main/data/rna_seq/sample_rnaseq_metadata.csv).  
 
-I used the following characteristics for BioSample submission:  
-
-- Data released on March 1 2025 
-- Under above project ID PRJNA1078313
-- Illumina sequencing on NovaSeq X platform 
-
-I uploaded the biosample metadata [to GitHub here](https://github.com/AHuffmyer/larval_symbiont_TPC/blob/main/data/rna_seq/NCBI_upload/Hawaii2023_SRA_metadata.txt).   
-
-I will then finish the upload below after data is downloaded onto the URI server.  
+I uploaded the biosample metadata [to GitHub here](https://github.com/AHuffmyer/larval_symbiont_TPC/blob/main/data/rna_seq/NCBI_upload/Hawaii2023_SRA_metadata.txt). In this file I updated the design notes to include: "Standard mRNA-seq from libraries prepared using Zymo Quick MiniPrep Plus DNA/RNA extraction kit at the Putnam Lab (University of Rhode Island) with sequencing at Azenta Life Sciences. Additional top off sequencing performed by Azenta Life Sciences with additional sequencing files denoted with "s" following sample name prefix." I added the new sequence file names into filename 3 and 4 columns. 
 
 
 
 
 
 
-# Transfer data from URI server to NCBI SRA 
+
+## Transfer data from URI server to NCBI SRA 
  
 I then transferred files to NCBI SRA from URI Andromeda. 
 

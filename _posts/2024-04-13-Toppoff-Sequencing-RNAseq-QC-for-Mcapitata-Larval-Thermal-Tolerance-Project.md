@@ -217,11 +217,7 @@ sbatch trim_adapters_second_seq.sh
 ```
 
 Job ID 312075   
-Ran on April 13 2024
-
-
-
-
+Ran on April 13 2024, completed in about 1.5 hours. 
 
 An example output from the error file looks like this:  
 
@@ -272,29 +268,23 @@ JSON report: fastp.json
 HTML report: fastp.html
 ```   
 
-
-
-
-
-
-
-Completed XXXX date.  
-
 Move script out and error files and fastp files to the trimmed sequence folder to keep things organized.  
 
 ```
-cd raw-sequences
-mv adapter-trim* ../trimmed-sequences/
-mv fastp* ../trimmed-sequences/
+cd raw-sequences/second_sequencing
+mv fastp* ../../trimmed-sequences-second-seq/
+
+cd ../../trimmed-sequences-second-seq/
+mv fastp.html fastp_second_seq.html
 ```
 
 I then downloaded the fastp.html report to look at trimming information.  
 
 ```
-scp ashuffmyer@ssh3.hac.uri.edu:/data/putnamlab/ashuffmyer/mcap-2023-rnaseq/trimmed-sequences/fastp.html ~/MyProjects/larval_symbiont_TPC/data/rna_seq/QC
+scp ashuffmyer@ssh3.hac.uri.edu:/data/putnamlab/ashuffmyer/mcap-2023-rnaseq/trimmed-sequences-second-seq/fastp_second_seq.html ~/MyProjects/larval_symbiont_TPC/data/rna_seq/QC/
 ```
 
-This file can be found [on GitHub here](https://github.com/AHuffmyer/larval_symbiont_TPC/blob/main/data/rna_seq/QC/fastp.html). 
+This file can be found [on GitHub here](https://github.com/AHuffmyer/larval_symbiont_TPC/blob/main/data/rna_seq/QC/fastp_second_seq.html). 
 
 Here are the results:  
 
@@ -305,37 +295,37 @@ Here are the results:
 | sequencing:                   | paired end (150 cycles + 150 cycles)       |
 | mean length before filtering: | 150bp, 150bp                               |
 | mean length after filtering:  | 147bp, 147bp                               |
-| duplication rate:             | 20.022686%                                 |
-| Insert size peak:             | 133                                        |
+| duplication rate:             | 30.411524%                                 |
+| Insert size peak:             | 169                                        |
 | Detected read1 adapter:       | AGATCGGAAGAGCACACGTCTGAACTCCAGTCA          |
 
 ### Before filtering 
 
-| total reads: | 16.841214 M             |
+| total reads: | 32.443162 M             |
 |--------------|-------------------------|
-| total bases: | 2.526182 G              |
-| Q20 bases:   | 2.421432 G (95.853403%) |
-| Q30 bases:   | 2.262788 G (89.573449%) |
-| GC content:  | 44.519841%              |
+| total bases: | 4.866474 G              |
+| Q20 bases:   | 4.629020 G (95.120605%) |
+| Q30 bases:   | 4.274311 G (87.831783%) |
+| GC content:  | 44.578400%              |
 
 ### After filtering 
 
-| total reads: | 11.487322 M             |
+| total reads: | 18.461102 M             |
 |--------------|-------------------------|
-| total bases: | 1.692048 G              |
-| Q20 bases:   | 1.678653 G (99.208366%) |
-| Q30 bases:   | 1.645756 G (97.264174%) |
-| GC content:  | 43.779533%              |
+| total bases: | 2.725187 G              |
+| Q20 bases:   | 2.703615 G (99.208398%) |
+| Q30 bases:   | 2.651870 G (97.309640%) |
+| GC content:  | 43.742790%              |
 
 ### Filtering results 
 
-| reads passed filters:   | 11.487322 M (68.209584%) |
+| reads passed filters:   | 18.461102 M (56.902906%) |
 |-------------------------|--------------------------|
-| reads with low quality: | 5.219646 M (30.993288%)  |
-| reads with too many N:  | 150 (0.000891%)          |
-| reads too short:        | 134.096000 K (0.796237%) |
+| reads with low quality: | 13.784328 M (42.487622%) |
+| reads with too many N:  | 72 (0.000222%)           |
+| reads too short:        | 197.660000 K (0.609250%) |
 
-These results show that filtering improved quality of reads and removed about 30% of reads due to length (a small proportion) and quality (most of reads removed). Average Q30 bases improved from 89% to 97%. Adapters were removed. 
+These results show that filtering improved quality of reads and removed about 45% of reads due to length (a small proportion) and quality (most of reads removed). Average Q30 bases improved from 87% to 97%. Adapters were removed. 
 
 Next, I'll run another round of fastqc and multiqc to see how this changed or improved our qc results.   
 
