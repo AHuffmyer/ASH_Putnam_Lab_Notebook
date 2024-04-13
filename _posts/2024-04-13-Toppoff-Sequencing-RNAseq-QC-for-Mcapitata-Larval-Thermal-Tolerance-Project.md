@@ -8,10 +8,7 @@ tags: Bioinformatics Mcapitata Molecular GeneExpression
 
 This post details QC of the *Montipora capitata* 2023 larval thermal tolerance project RNAseq files from second delivery of top off sequencing. See my [notebook posts](https://ahuffmyer.github.io/ASH_Putnam_Lab_Notebook/categoryview/#larval-symbiont-tpc-2023) and my [GitHub repo](https://github.com/AHuffmyer/larval_symbiont_TPC) for information on this project. 
 
-
-Also see my [notebook post]() on sequence download and SRA upload for these files.     
-
-
+Also see my [notebook post](https://ahuffmyer.github.io/ASH_Putnam_Lab_Notebook/Mcapitata-Larval-Thermal-Tolerance-Project-Topoff-Sequencing_NCBI-upload-2/) on sequence download and SRA upload for these files.     
 
 # 1. Run MultiQC on raw data from second sequencing (untrimmed and unfiltered) 
 
@@ -84,160 +81,73 @@ scp ashuffmyer@ssh3.hac.uri.edu:/data/putnamlab/ashuffmyer/mcap-2023-rnaseq/raw-
 The raw sequence MultiQC [report can be found on GitHub here](https://github.com/AHuffmyer/larval_symbiont_TPC/blob/main/data/rna_seq/QC/multiqc_report_raw_second_sequencing.html).  
 
 
-
-
 **Here are the things I noticed from the QC report**:  
 
-See [this previous post with statistics of samples provided by Azenta](https://ahuffmyer.github.io/ASH_Putnam_Lab_Notebook/Mcapitata-Larval-Thermal-Tolerance-Project-NCBI-upload/).    
+See [this previous post with statistics of samples provided by Azenta](https://ahuffmyer.github.io/ASH_Putnam_Lab_Notebook/Mcapitata-Larval-Thermal-Tolerance-Project-Topoff-Sequencing_NCBI-upload-2/).    
 
-- **Samples with lowest sequence counts**   
-	- Samples R75, R99, R67, R83, R91, R107, R59 have <10M sequence counts. These are randomly distributed between treatments, so if they are removed it doesn't cause a problem. A standard approach is to have samples with >5M mapped reads for DEG analysis. If we have <5M reads after mapping they will likely be removed or we will need to see how or if results from these samples differ from others using PCA's, etc. 
-	- I emailed Azenta on 20240226 to inquire about library prep QC, methods, and the option to resequence these low read depth libraries.  
-	 
-	- **R75**: Bleached Cladocopium at 30°C; Batch 7; Qbit RNA 16.1; Nanodrop RNA 12.5 
-	- **R99**: Nonbleached Mixed at 33°C; Batch 9; Qbit RNA 21.6; Nanodrop RNA 14.1 
-	- **R67**: Wildtype at 27°C; Batch 8; Qbit RNA 20.7; Nanodrop RNA 18.6
-	- **R83**: Nonbleached Mixed at 33°C; Batch 7; Qbit RNA 18.15; Nanodrop RNA 13.5
-	- **R91**: Bleached Cladocopium at 33°C; Batch 7; Qbit RNA 25.2; Nanodrop RNA 18.6
-	- **R107**: Wildtype at 33°C; Batch 9; Qbit RNA 16.85; Nanodrop RNA 11.7
-	- **R59**: Bleached Cladocopium at 27°C; Batch 9; Qbit RNA 17.75; Nanodrop RNA 10.7
+- **Top off sequencing**   
+	- Samples that had the lowest read depth in the first round of sequencing have the highest read depth in this top off sequencing. Azenta sequenced samples to bring all samples to a total of ~18M reads. This is why there are variable read depths in these top off sequences. 
 
-	- All other samples had RNA concentrations ranging form Qbit 15-40 and Nanodrop 9-25. They are not all from one batch either. Low sequence counts do not appear to correlate with original RNA extraction or concentration and may be due to library prep or something that happened during sequencing.  
+| Sample Name  | % Dups | % GC | M Seqs |
+|--------------|--------|------|--------|
+| R107s_R1_001 |  53.2% |  43% |  17.5  |
+| R107s_R2_001 |  50.7% |  44% |  17.5  |
+| R55s_R1_001  |  34.0% |  43% |  2.9   |
+| R55s_R2_001  |  32.5% |  44% |  2.9   |
+| R56s_R1_001  |  29.5% |  44% |  1.7   |
+| R56s_R2_001  |  27.9% |  45% |  1.7   |
+| R57s_R1_001  |  37.2% |  43% |  3.3   |
+| R57s_R2_001  |  35.4% |  44% |  3.3   |
+| R58s_R1_001  |  30.8% |  43% |  1.4   |
+| R58s_R2_001  |  29.1% |  44% |  1.4   |
+| R59s_R1_001  |  56.8% |  44% |  33.7  |
+| R59s_R2_001  |  54.6% |  44% |  33.7  |
+| R60s_R1_001  |  33.0% |  44% |  2.5   |
+| R60s_R2_001  |  31.5% |  44% |  2.5   |
+| R62s_R1_001  |  34.7% |  43% |  2.3   |
+| R62s_R2_001  |  32.9% |  44% |  2.3   |
+| R67s_R1_001  |  48.2% |  43% |  17.4  |
+| R67s_R2_001  |  46.2% |  44% |  17.4  |
+| R75s_R1_001  |  46.0% |  43% |  11.1  |
+| R75s_R2_001  |  44.2% |  44% |  11.1  |
+| R83s_R1_001  |  52.9% |  43% |  17.6  |
+| R83s_R2_001  |  49.4% |  44% |  17.6  |
+| R91s_R1_001  |  54.1% |  43% |  17.5  |
+| R91s_R2_001  |  52.5% |  44% |  17.5  |
+| R99s_R1_001  |  51.1% |  44% |  16.2  |
+| R99s_R2_001  |  46.8% |  44% |  16.2  |
 
-| Sample Name | % Dups | % GC | M Seqs |
-|-------------|--------|------|--------|
-| R77_R1_001  |  73.5% |  44% |  39.7  |
-| R77_R2_001  |  72.9% |  44% |  39.7  |
-| R69_R1_001  |  75.0% |  44% |  39.5  |
-| R69_R2_001  |  74.2% |  44% |  39.5  |
-| R101_R1_001 |  76.1% |  43% |  38.5  |
-| R101_R2_001 |  75.2% |  44% |  38.5  |
-| R85_R1_001  |  74.7% |  43% |  36.9  |
-| R85_R2_001  |  73.8% |  44% |  36.9  |
-| R80_R1_001  |  74.2% |  44% |  36.1  |
-| R80_R2_001  |  73.4% |  44% |  36.1  |
-| R96_R1_001  |  75.2% |  45% |  35.9  |
-| R96_R2_001  |  74.3% |  45% |  35.9  |
-| R98_R1_001  |  74.2% |  44% |  35.9  |
-| R98_R2_001  |  73.4% |  44% |  35.9  |
-| R82_R1_001  |  74.6% |  43% |  35.5  |
-| R82_R2_001  |  73.8% |  44% |  35.5  |
-| R78_R1_001  |  73.4% |  43% |  35.4  |
-| R78_R2_001  |  72.8% |  44% |  35.4  |
-| R73_R1_001  |  74.0% |  44% |  35.2  |
-| R73_R2_001  |  73.3% |  44% |  35.2  |
-| R106_R1_001 |  73.2% |  43% |  34.9  |
-| R106_R2_001 |  72.4% |  44% |  34.9  |
-| R74_R1_001  |  73.3% |  44% |  34.9  |
-| R74_R2_001  |  72.7% |  44% |  34.9  |
-| R100_R1_001 |  75.4% |  44% |  34.6  |
-| R100_R2_001 |  74.5% |  44% |  34.6  |
-| R70_R1_001  |  73.8% |  43% |  34.3  |
-| R70_R2_001  |  73.0% |  44% |  34.3  |
-| R72_R1_001  |  73.1% |  43% |  34.0  |
-| R72_R2_001  |  72.3% |  44% |  34.0  |
-| R102_R1_001 |  76.1% |  44% |  33.7  |
-| R102_R2_001 |  75.1% |  44% |  33.7  |
-| R81_R1_001  |  72.2% |  44% |  33.5  |
-| R81_R2_001  |  71.4% |  45% |  33.5  |
-| R97_R1_001  |  75.4% |  43% |  33.4  |
-| R97_R2_001  |  74.6% |  44% |  33.4  |
-| R89_R1_001  |  74.3% |  43% |  33.1  |
-| R89_R2_001  |  73.6% |  44% |  33.1  |
-| R76_R1_001  |  74.2% |  44% |  33.0  |
-| R76_R2_001  |  73.7% |  44% |  33.0  |
-| R86_R1_001  |  73.5% |  43% |  32.7  |
-| R86_R2_001  |  72.7% |  44% |  32.7  |
-| R94_R1_001  |  76.1% |  44% |  32.5  |
-| R94_R2_001  |  75.5% |  44% |  32.5  |
-| R64_R1_001  |  73.2% |  44% |  32.3  |
-| R64_R2_001  |  72.5% |  44% |  32.3  |
-| R66_R1_001  |  75.0% |  43% |  32.3  |
-| R66_R2_001  |  74.3% |  44% |  32.3  |
-| R84_R1_001  |  74.5% |  43% |  32.2  |
-| R84_R2_001  |  73.7% |  44% |  32.2  |
-| R65_R1_001  |  73.0% |  43% |  32.1  |
-| R65_R2_001  |  72.1% |  44% |  32.1  |
-| R90_R1_001  |  73.9% |  43% |  31.9  |
-| R90_R2_001  |  73.2% |  44% |  31.9  |
-| R93_R1_001  |  82.9% |  46% |  31.6  |
-| R93_R2_001  |  82.3% |  46% |  31.6  |
-| R68_R1_001  |  72.7% |  43% |  30.9  |
-| R68_R2_001  |  72.1% |  44% |  30.9  |
-| R104_R1_001 |  72.7% |  44% |  30.6  |
-| R104_R2_001 |  72.0% |  44% |  30.6  |
-| R88_R1_001  |  73.5% |  44% |  30.6  |
-| R88_R2_001  |  72.8% |  45% |  30.6  |
-| R105_R1_001 |  72.8% |  43% |  29.4  |
-| R105_R2_001 |  72.1% |  44% |  29.4  |
-| R108_R1_001 |  72.7% |  43% |  29.3  |
-| R108_R2_001 |  72.2% |  44% |  29.3  |
-| R92_R1_001  |  76.2% |  43% |  28.6  |
-| R92_R2_001  |  75.5% |  44% |  28.6  |
-| R71_R1_001  |  72.2% |  43% |  27.8  |
-| R71_R2_001  |  71.7% |  44% |  27.8  |
-| R95_R1_001  |  74.0% |  43% |  27.4  |
-| R95_R2_001  |  73.3% |  44% |  27.4  |
-| R79_R1_001  |  73.5% |  44% |  25.0  |
-| R79_R2_001  |  72.7% |  45% |  25.0  |
-| R87_R1_001  |  71.9% |  43% |  24.4  |
-| R87_R2_001  |  71.5% |  43% |  24.4  |
-| R63_R1_001  |  73.2% |  43% |  23.8  |
-| R63_R2_001  |  72.6% |  44% |  23.8  |
-| R103_R1_001 |  73.4% |  44% |  22.0  |
-| R103_R2_001 |  72.7% |  44% |  22.0  |
-| R61_R1_001  |  72.6% |  44% |  19.9  |
-| R61_R2_001  |  70.4% |  44% |  19.9  |
-| R58_R1_001  |  71.9% |  43% |  18.0  |
-| R58_R2_001  |  69.6% |  44% |  18.0  |
-| R56_R1_001  |  70.4% |  44% |  17.5  |
-| R56_R2_001  |  68.3% |  45% |  17.5  |
-| R62_R1_001  |  71.8% |  44% |  16.7  |
-| R62_R2_001  |  69.5% |  45% |  16.7  |
-| R60_R1_001  |  70.8% |  44% |  16.3  |
-| R60_R2_001  |  68.6% |  45% |  16.3  |
-| R55_R1_001  |  72.1% |  43% |  15.8  |
-| R55_R2_001  |  69.8% |  44% |  15.8  |
-| R57_R1_001  |  72.4% |  43% |  15.2  |
-| R57_R2_001  |  70.1% |  44% |  15.2  |
-| R75_R1_001  |  65.4% |  43% |  9.9   |
-| R75_R2_001  |  65.1% |  44% |  9.9   |
-| R99_R1_001  |  65.3% |  44% |  8.4   |
-| R99_R2_001  |  64.9% |  44% |  8.4   |
-| R67_R1_001  |  63.6% |  43% |  7.7   |
-| R67_R2_001  |  63.2% |  44% |  7.7   |
-| R83_R1_001  |  64.1% |  43% |  7.5   |
-| R83_R2_001  |  63.5% |  44% |  7.5   |
-| R91_R1_001  |  64.1% |  43% |  6.9   |
-| R91_R2_001  |  63.7% |  44% |  6.9   |
-| R107_R1_001 |  63.7% |  43% |  6.7   |
-| R107_R2_001 |  63.2% |  44% |  6.7   |
-| R59_R1_001  |  60.2% |  44% |  6.0   |
-| R59_R2_001  |  59.2% |  44% |  6.0   |
+Statistics are similar to the values from the original sequencing for these samples. 
 
 - Adapter content present in sequences, as expected, because we have not yet removed adapters. 
 
-![](https://github.com/AHuffmyer/ASH_Putnam_Lab_Notebook/blob/master/images/NotebookImages/Hawaii2023/rnaseq/raw_adapter.png?raw=true) 
+![](xxx) 
 
 - Some samples have warnings for GC content. We will revisit this after trimming.  
 
-![](https://github.com/AHuffmyer/ASH_Putnam_Lab_Notebook/blob/master/images/NotebookImages/Hawaii2023/rnaseq/raw_gc.png?raw=true) 
+![](xxx) 
 
 - There are a high proportion of overrepresented sequences. This is expected with RNAseq data as there are likely genes that are highly and consistently expressed. 
 
-![](https://github.com/AHuffmyer/ASH_Putnam_Lab_Notebook/blob/master/images/NotebookImages/Hawaii2023/rnaseq/raw_dup_seqs.png?raw=true) 
+![](xxx) 
 
-![](https://github.com/AHuffmyer/ASH_Putnam_Lab_Notebook/blob/master/images/NotebookImages/Hawaii2023/rnaseq/raw_dup_level.png?raw=true) 
+![](xxx) 
 
 - All reads are the same length (150 bp).  
 
 - High quality scores.  
 
-![](https://github.com/AHuffmyer/ASH_Putnam_Lab_Notebook/blob/master/images/NotebookImages/Hawaii2023/rnaseq/raw-quality.png?raw=true)  
+![](xxx)  
 
-- Low/no N content 
+- Low N content 
 
-![](https://github.com/AHuffmyer/ASH_Putnam_Lab_Notebook/blob/master/images/NotebookImages/Hawaii2023/rnaseq/raw_n.png?raw=true)   
+![](xxx)   
+
+
+
+
+
+
 
 # 2. Trimming adapters 
 
