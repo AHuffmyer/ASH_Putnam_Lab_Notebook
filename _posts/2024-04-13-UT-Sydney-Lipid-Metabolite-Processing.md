@@ -46,7 +46,11 @@ We then quantified protein again and found that samples were within detection li
 
 # April 14, 2024
 
+Today I labeled tubes for the processing that we will need to do this week. I labeled tubes for host fraction separation ("host" tubes), extraction ("E" tubes), lipid separation ("L"), and metabolite separation ("M tubes"). I also prepared new BSA stocks at 1 mg/mL.  
 
+Finally, I processed two samples from the first time point test samples and took subsamples of homogenate of the holobiont and the isolated host fraction. We will use these next week to look at cell densities via microscopy to quantify the presence of cells in host fraction, if any.  
+
+# April 15, 2024  
 
 
 
