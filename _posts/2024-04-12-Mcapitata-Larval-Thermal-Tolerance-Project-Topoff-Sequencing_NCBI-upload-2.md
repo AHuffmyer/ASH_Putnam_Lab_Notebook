@@ -490,15 +490,19 @@ The sample metadata can be found on GitHub here using the MIMS.me.host-associate
 I uploaded the biosample metadata [to GitHub here](https://github.com/AHuffmyer/larval_symbiont_TPC/blob/main/data/rna_seq/NCBI_upload/Hawaii2023_SRA_metadata.txt). In this file I updated the design notes to include: "Standard mRNA-seq from libraries prepared using Zymo Quick MiniPrep Plus DNA/RNA extraction kit at the Putnam Lab (University of Rhode Island) with sequencing at Azenta Life Sciences. Additional top off sequencing performed by Azenta Life Sciences with additional sequencing files denoted with "s" following sample name prefix." I added the new sequence file names into filename 3 and 4 columns. 
 
 
-
-
-AH WORKING HERE 
-
-
-
-
 ## Transfer data from URI server to NCBI SRA 
  
+I first emailed SRA to ask about how to upload these new files so that they will be linked to the original data at sra@ncbi.nlm.nih.gov. 
+
+
+
+
+
+
+
+AH WORKING HERE: 
+
+
 I then transferred files to NCBI SRA from URI Andromeda. 
 
 I first made a folder with sym links to only the .fastq.gz files.  
