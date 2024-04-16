@@ -1,7 +1,7 @@
 ---
 layout: post
 title: UT Sydney processing for lipidomics and metabolomics for Hawaii 2023 project
-date: '2024-04-13'
+date: '2024-04-16'
 categories: Larval_Symbiont_TPC_2023
 tags: Extraction Mcapitata Lipids Metabolomics Lipidomics Processing Protein 
 ---
