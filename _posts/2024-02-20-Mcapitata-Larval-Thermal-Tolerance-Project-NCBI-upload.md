@@ -947,6 +947,4 @@ Continue with the submission by selecting the preload folder on SRA once all 108
 
 RNA-Seq sequence files were submitted under SRA SUB14259382. 
 
-I will come back and add the bioaccession values HERE once they are approved.  
-
 All information [added to the Putnam Lab sequence inventory here](https://docs.google.com/spreadsheets/d/1qDGGpLFcmoO-fIFOPSUhPcxi4ErXIq2PkQbxvCCzI40/edit#gid=0).  

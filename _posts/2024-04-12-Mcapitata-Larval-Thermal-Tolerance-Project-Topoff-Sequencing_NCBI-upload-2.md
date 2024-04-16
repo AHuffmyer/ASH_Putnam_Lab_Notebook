@@ -487,41 +487,35 @@ I used the same information on uploading for this project [detailed in my previo
 
 The sample metadata can be found on GitHub here using the MIMS.me.host-associated template [here](https://github.com/AHuffmyer/larval_symbiont_TPC/blob/main/data/rna_seq/NCBI_upload/McapLarval_Tolerance_MIMS.me.host-associated.5.0.xlsx) and sequencing information and metadata [is located on GitHub here](https://github.com/AHuffmyer/larval_symbiont_TPC/blob/main/data/rna_seq/sample_rnaseq_metadata.csv).  
 
-I uploaded the biosample metadata [to GitHub here](https://github.com/AHuffmyer/larval_symbiont_TPC/blob/main/data/rna_seq/NCBI_upload/Hawaii2023_SRA_metadata.txt). In this file I updated the design notes to include: "Standard mRNA-seq from libraries prepared using Zymo Quick MiniPrep Plus DNA/RNA extraction kit at the Putnam Lab (University of Rhode Island) with sequencing at Azenta Life Sciences. Additional top off sequencing performed by Azenta Life Sciences with additional sequencing files denoted with "s" following sample name prefix." I added the new sequence file names into filename 3 and 4 columns. 
+I will upload these files as a new SRA submission and link them to the existing bioproject and biosamples.  
 
+I started a new SRA submission process and entered the BioProject number PRJNA1078313. I added a release date of March 1 2025. 
+
+I created a new SRA metadata sheet for the samples that are being uploaded in this upload. I added the description "Standard mRNA-seq from libraries prepared using Zymo Quick MiniPrep Plus DNA/RNA extraction kit at the Putnam Lab (University of Rhode Island) with sequencing at Azenta Life Sciences. Additional top off sequencing performed by Azenta Life Sciences with additional sequencing files denoted with "s" following sample name prefix.".  
+
+The metadata sheet for these files can be found on [GitHub here](https://github.com/AHuffmyer/larval_symbiont_TPC/blob/main/data/rna_seq/NCBI_upload/Hawaii2023_SRA_metadata_20240416.xlsx).  
 
 ## Transfer data from URI server to NCBI SRA 
- 
-I first emailed SRA to ask about how to upload these new files so that they will be linked to the original data at sra@ncbi.nlm.nih.gov. 
+
+I next followed FTP instructions to upload top off sequencing files.  
 
 
-
-
-
-
-
-AH WORKING HERE: 
-
-
-I then transferred files to NCBI SRA from URI Andromeda. 
-
-I first made a folder with sym links to only the .fastq.gz files.  
-
-```
-cd /data/putnamlab/ashuffmyer/mcap-2023-rnaseq
-mkdir ncbi_upload
-cd ncbi_upload
-
-#sym link files
-ln -s /data/putnamlab/ashuffmyer/mcap-2023-rnaseq/raw-sequences/*gz /data/putnamlab/ashuffmyer/mcap-2023-rnaseq/ncbi_upload
-```
-
-The destination of files for upload is now `data/putnamlab/ashuffmyer/mcap-2023-rnaseq/ncbi_upload`.  
-
-I then clicked the "FTP" option for preloaded folder on the NCBI SRA submission page and followed instructions for uploading files.  
+First, log onto Andromeda, make a folder for this upload, and symlink all files.  
 
 ```
 cd /data/putnamlab/ashuffmyer/mcap-2023-rnaseq/ncbi_upload
+mkdir 20240416_upload
+cd 20240416_upload
+
+ln -s /data/putnamlab/ashuffmyer/mcap-2023-rnaseq/raw-sequences/second_sequencing/*gz /data/putnamlab/ashuffmyer/mcap-2023-rnaseq/ncbi_upload/20240416_upload
+
+
+```
+
+Next, upload files using FTP instructions. 
+
+```
+cd /data/putnamlab/ashuffmyer/mcap-2023-rnaseq/ncbi_upload/20240416_upload
 
 ftp -i 
 
@@ -531,22 +525,20 @@ open ftp-private.ncbi.nlm.nih.gov
 
 cd uploads/ashuffmyer_gmail.com_bsKvx0RY
 
-mkdir mcap-2023-rnaseq-upload
+mkdir mcap-2023-rnaseq-upload-20240416
 
-cd mcap-2023-rnaseq-upload
+cd mcap-2023-rnaseq-upload-20240416
 
 mput * 
 
 ```
 
-This moves all files from my folder on Andromeda to the NCBI upload folder using the FTP.  
-
 The upload to SRA will proceed for each file with messages “transfer complete” when each is uploaded. Keep computer active until all uploads are finished.  
 
-Continue with the submission by selecting the preload folder on SRA once all 108 files registered.   
+Files successfully uploaded.   
 
-RNA-Seq sequence files were submitted under SRA SUB14259382. 
+Continue with the submission by selecting the preload folder on SRA once all 26 files registered.   
 
-I will come back and add the bioaccession values HERE once they are approved.  
+RNA-Seq sequence files were submitted under SRA SUB14381642. 
 
 All information [added to the Putnam Lab sequence inventory here](https://docs.google.com/spreadsheets/d/1qDGGpLFcmoO-fIFOPSUhPcxi4ErXIq2PkQbxvCCzI40/edit#gid=0).  

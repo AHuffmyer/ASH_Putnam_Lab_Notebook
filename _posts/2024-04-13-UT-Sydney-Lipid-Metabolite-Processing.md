@@ -52,5 +52,28 @@ Finally, I processed two samples from the first time point test samples and took
 
 # April 15, 2024  
 
+I separated host fractions for 35 of the 54 our experimental samples today. I followed the protocol we developed on April 12th. The overall process was as follows. All details are in my physical lab notebook. 
 
+1. Thaw samples on ice. 
+2. Add 100 µL LC-grade MilliQ water and 1 µL EDTA (20mg/mL) and 1 µL BHT (20mg/mL) to prevent lipid oxidation. This is our homogenate volume. Chill on ice. 
+3. Pipette larvae onto a 0.22 µm filter on a vacuum pump. Add another 200 µL of LC-grade water to the original sample tube and pipette onto the filter. This rinses off any remaining seawater and allows for removing all of the larvae from the tube. Use chilled water for all portions of the assay. 
+4. Scrape the larvae from the filter into a new sample tube with the homogenate water with EDTA and BHT with a chattaway filter. Clean spatula with 80% EtOH between samples. 
+5. Place on ice. 
+6. Repeat for all samples. 
+7. Homogenize all samples on ice with a plastic tube pestel. 
+8. Centrifuge at 3000 rcf at 4°C for 5 min. 
+9. Remove the host supernatant and scrape lipid film from around and on top of the pellet. Transfer to a new tube. 
+10. Centrifuge at 3000 rcf at 4°C for 5 min. 
+9. Remove the host supernatant and scrape lipid film from around and on top of the pellet. Transfer to a new tube labeled with "Sample - Host". At this point, the pellet is small or not present. 
+10. Freeze at -80°C until processing for protein. 
+
+This was done for 35 samples (7 batches of 5 samples each). I also generated 3 blanks that will be used during protein quantification that did not have larvae added.  
+
+# April 16, 2024 
+
+Today I finished host separations as described on April 15th. 
+
+I then tested protein quantification. We only hve 80-100uL of material after separations and want to retain as much material as possible. So, I tested if a signal could be obtained from just 5uL of sample rather than 10uL in the Bradford assay. It was below the standard curve, so it didn't work. 
+
+Instead of standardizing input protein in our extractions, we will use all available material and standardize to protein after the extraction by using the protein pellet obtained during extractions. I will proceed with extractions starting tomorrow. I'll start with a batch size of 5 and increase as I become more efficient.   
 
