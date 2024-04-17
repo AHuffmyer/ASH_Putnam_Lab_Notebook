@@ -482,7 +482,7 @@ PCR master mix included:
 | DNA                            |               | 1          |            |
 | Total volume                   |               | 33uL       |              |
 
-Each reaction included 32 uL master mix, 1uL template DNA, with ultra pure water added for negative controls. *Note that the volume added of DNA was incorrect - the volume should have been adjusted to 1.32 uL DNA to have the same proportion DNA added as in our 25 uL reactions.*  
+Each reaction included 32 uL master mix, 1uL template DNA, with ultra pure water added for negative controls. 
 
 The PCR started at 11:27 and ran until 13:04.  
 

@@ -194,35 +194,57 @@ For each primer that you are using to sequence (forward and reverse) make enough
 6. Fill out the template linked above and print out two copies. One is for your records and can contain extraneous information such as your sample # (POC1 as opposed to the # given to GSC, ZD1), the undiluted concentration, and anything else you want to include in your lab notebook. The copy you print for GSC should have this info removed before printing. Either print this and bring it with you and add to the clipboard on the sample drop-off freezer or email this sheet to the GSC at jatoyan@uri.edu or gsc@etal.uri.edu saying you are submitting how ever many samples for Sanger sequencing for the Putnam Lab using her blanket PO (purchase order).
 7. Take plate/tubes up to the GSC and place in freezer next to the door. There is a place on the top shelf that with a label that says "samples for GSC sequencing", place your tubes in that rack (right now it is purple).
 
-You should get the sequences back the next day!
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 ## 2. POC Histone marker - RFLP
 
-Haplotype 1a samples are next run through an RFLP assay to distinguish between *P. meandrina* and *P. grandis*.  
+Haplotype 1a samples are next run through an RFLP assay to distinguish between *P. meandrina* and *P. grandis*. For those samples identified as haplotype 1a, proceed with the following protocol.   
+
+### PCR of POC Histone 
+
+- Prepare the master mix using required components. A table is included below for a 25 µL reaction volume and can be scaled as desired. 
+- The table below shows an example for 18 reactions. Calculate the total volume required for each component with an additional 10% added for pipetting error. 
+
+| Component                      | Concentration | 1 rxn (uL) | 18 rxns (uL) |
+|--------------------------------|---------------|------------|--------------|
+| EmeraldAmp 2X GT PCR Master Mix |               | 12.55      | 225.9        |
+| POC Histone F primer               | 10 uM         | 0.32       | 5.76         |
+| POC Histone R primer                  | 10 uM         | 0.32       | 5.76         |
+| Ultra Pure H20                 |               | 10.8       | 194.4        |
+| DNA                            |               | 1          |            |
+| Total volume                   |               | 25uL       |              |
+
+- Label PCR strip tubes with sample ID's
+- Add a negative control with input as 1 µL Ultra pure H20 
+- Add the required master mix volume (24 µL) to each reaction tube. 
+- Add the template DNA (1 µL) to each respective tube. 
+- Spin down briefly. 
+- Load into the thermocycler. 
+
+The PCR protocol is as follows:  
+
+- [94°C 60 secondes] 1 cycle
+- [94°C 30 sec,53°C 30 sec, 72°C 60 sec] 30 cycles
+- [72°C 5 minutes] 1 cycle
+- [4°C infinity]
+
+- Store at 4°C if not proceeding to gel imaging and restriction enzyme steps next.  
+
+### Gel of PCR product 
+
+1. Prepare a 2% gel. 
+2. Add 4 µL of each samples to the gel along with 4 µL 1Kb ladder in each row and 4 µL of a smaller ladder (100bp or 300bp) in each row. Samples do not need loading dye. Add loading dye to ladders if required. 
+3. Run at 80V for 1.5 hours. 
+4. Image the gel to evaluate the results. 
+5. First, check the negative control to ensure there was no amplification. If there was, you may have primer dimer (~100 bp) or contamination. 
+6. Next, check the positive controls. We are expecting a single band at 669bp. 
+7. You should see a single band at 669bp in all samples. If there are issues at this point, troubleshoot your PCR before proceeding.  
 
 ### Prepare restriction enzyme master mix 
 
 - Prepare the restriction enzyme master mix. First thaw the Xhol RE and rCutSmart buffers on ice. 
-- Calculate the volume of restriction enzyme and buffer needed for each reaction. Each reaction requires a 0.1 ratio of rCutSmart 10X buffer to total reaction volume. The reaction requires equal volumes of rCutSmart and Xhol.   
+- Calculate the volume of restriction enzyme and buffer needed for each reaction. Each reaction requires a 0.1 ratio of rCutSmart 10X buffer to total reaction volume. The reaction requires equal volumes of rCutSmart and Xhol.  
+- Include a sample with Ultrapure H20 as a control for the restriction enzyme incubation.  
+
+Note that this volume is increased from Johnson et al. concentration of rCutSmart buffer. We are following manufacturer guidelines for 0.1 ratio of rCutSmart buffer.   
 
 Here are two examples. The first equation is for 15uL sample volume in the reaction (use for dilute samples or weak amplification) or for reduced 7.5uL sample volumes (use for strong amplification to reduce volume used and allow for sufficient volume for troubleshooting).   
 
@@ -236,16 +258,30 @@ Here are two examples. The first equation is for 15uL sample volume in the react
 
 - Multiply the volume of each component by the number of reactions + 10% error. 
 - Combine Xhol and rCutSmart to generate a master mix.  
+- Add the required volume of master mix to each sample. 
 
-For example:  
+| Component             | 1 rxn | 10 rrxns |
+|-----------------------|-------|----------|
+| rCutSmart Buffer      | 1.9   | 19       |
+| Xhol RE               | 1.9   | 19       |
+| Sample                | 15    |          |
+| MM add to each sample |       | 3.8      |
 
-TABLE HERE 
-
-### Incubate samples with restriction enzyme 
-
+- Incubate in a thermocycler for 1 h at 37°C followed by 20 min at 65°C with a hold at 10°C. 
 
 ### Evaluate results using gel electrophoresis 
-1. Prepare 
+
+1. Prepare a 2% gel. 
+2. Add 4 µL of each samples to the gel along with 4 µL 1Kb ladder in each row and 4 µL of a smaller ladder (100bp or 300bp) in each row. Samples do not need loading dye. Add loading dye to ladders if required. 
+3. Run at 80V for 1.5 hours. 
+4. Image the gel to evaluate the results. 
+5. First, check the negative control to ensure there was no amplification. If there was, you may have primer dimer (~100 bp) or contamination. 
+6. Next, check the positive controls. You should see double banding at smaller band sizes for samples that are *Pocillopora grandis*. If you do not see cutting in the positive controls, troubleshoot PCR and/or restriction enzyme steps. 
+7. Check the rest of the samples for banding. Samples that did not cut (single, larger band) are *P. meandrina* and those that did cut (multiple, smaller bands) are *P. grandis*. 
+
+Here is an example of a gel where cutting was seen in the positive controls and all experimental samples were identified as *P. meandrina*.  
+
+![](https://github.com/AHuffmyer/ASH_Putnam_Lab_Notebook/blob/master/images/NotebookImages/uri_2024/20240329_POC_RFLP_gel.jpeg?raw=true)
 
 # Porites 
 
@@ -264,8 +300,8 @@ Master mix and general reagents:
 
 Porites H2 Sanger sequencing primers:  
 
-- Forward primer [H2 F](XXX)
-- Reverse primer [H2 R](XXX)
+- Forward primer: zH2AH4f 5′-GTGTACTTGGCTGCYGTRCT-3′
+- Reverse primer: zH4Fr 5′-GACAACCGAGAATGTCCGGT-3′
 
 Consumables:  
 
@@ -276,21 +312,118 @@ Consumables:
 - Tube racks 
 - Freezer boxes 
 
-
-
-
-
 ## 1. Sanger Sequencing of H2 marker
 
 Follow the primer preparation steps described for *Pocillopora* above for H2 primer set.   
 
-xxx
+### PCR of H2 marker
 
+First, prepare the master mix. Thaw the necessary components on ice. 
 
+For all primer sets for Sanger sequencing, we used the following master mix at a 25 µL reaction volume. This can be scaled up to 33 µL if desired.  
 
+| Master Mix 25 µL reaction |                                   |
+|---------------------------|-----------------------------------|
+| 12.55                     | Emerald Master Mix                |
+| 10.80                     | Nuclease Free Water               |
+| 0.32                      | 10µM working stock of For Primer  |
+| 0.32                      | 10µM working stock of Rev Primer  |
+| 1.00                      | DNA Template                      |
+| 25                        | Total Volume                      |
 
+For each amplification, you will need to have a positive control and a negative control. Ideally, the positive control is a sample of DNA that has been successfully amplified using that primer set before. The positive control is important to test that the reaction is working as expected. 
 
-- For H2 the calculation is: ((1500/100)* 1.25) * 2 = 37.5. That means you'll need 37.5ng of each amplification
+For the negative control, add everything except for the DNA into the reaction (add 1 µL H20 instead). The negative control is important because it will show a sign of any contamination in your reaction, primers, master mix, or water.
+
+1. Calculate the amount of master mix needed. Do this by adding the number of samples, 1 negative control, 1 positive control, and 10% added for error. For example, if you have 8 samples and 2 controls, add 1 sample for error and generate master mix for 11 total reactions. Multiply the volume of each master mix component by the number of samples using the table above. 
+2. Prepare master mix in a tube of appropriate volume. Load the master mix in the order of least expensive to most expensive. That way, if a mistake is made early in the master mix, you reduce the risk of losing more expensive components. 
+3. Vortex and spin down the master mix. Keep on ice. 
+4. Into labeled PCR strip tubes, add 24µL of master mix to as many tubes as samples you have + the number of positive and negative controls planned. Positive and negative controls could be in a separate strip tube or individual 0.2 mL tubes since they do not need to be kept after the gel imaging step.
+5. Using a p2 pipette, add 1µL of DNA sample to their respective tube where the master mix is added. Add in 1 µL of H2O (or nothing) to the tube for the negative control and add 1 µL of the positive control DNA to the positive control tube. You should have 25µL in each tube.
+6. Spin down in microcentrifuge with strip-tube attachment. 
+7. Turn on thermocyler and login to PUTNAM (1,2,3,4) and navigate to the program (in Sanger folder) for the given primer set.
+
+**PCR POR H2 program: bold fields are cycled 34 times**   
+
+- 120 seconds 96 ºC  
+- **20 seconds 96 ºC**  
+- **20 seconds 58.5 ºC**  
+- **90 seconds 72 ºC**  
+- 5 minutes 72 ºC  
+- Hold at 4°C 
+
+After PCR runs (about 1 h 30 min), store at 4°C until running a gel or preparing for sequencing.  
+
+### Gel to QC PCR product 
+
+1. Run a gel using the [Putnam Lab gel protocol from Zoe](https://zdellaert.github.io/ZD_Putnam_Lab_Notebook/Gel-Protocol/) using a 1.5% gel run at 80V for 90 min. Running the gel for a longer period of time will allow the smallest DNA fragments to be distinguished clearly to diagnose any contamination or potential primer dimer.  
+2. If using a ladder with loading dye (e.g. NEB purple ladder), you can load directly into the gel. If using a 1Kb ladder without dye and that needs to be diluted, do the following step.  
+	- Dilute 1kb ladder: Add 6 µL H2O, 2 µL of ladder, and 2 µL of loading dye. Load 4 µL of this mixture per row.
+3. Load 3 µL of PCR product from each reaction into the gel. Make a map of sample location in your notebook. Add a DNA ladder to each row. 
+4. No loading dye is needed for samples because of the green dye in the Master Mix. Use a 1kb DNA ladder. For POR H2, there should be 1 band at ~1,500bp.
+5. Other bands are signs of potential contamination or off target amplification. Small bands at 100 bp could be primer dimers. Troubleshoot as necessary. 
+6. Once gel shows a single band at expected length, proceed with clean up of PCR product.  
+
+### PCR product clean up 
+
+This protocol uses an ethanol preciptation to clean up PCR product for sequencing.  
+
+1. Add 2.1µL of 3M sodium acetate to each PCR reaction (1/10th the total voume)
+2. Add 69.3µL of **ice cold** 100% ethanol to each tube (3x the total volume after adding sodium acetate)
+3. Pipette up and down to mix and transfer entire volume to a new labeled 1.5ml tube
+4. Place tubes in -80 ºC freezer for 1 hour or in the -20 ºC freezer overnight
+5. Spin for 30 minutes at 15,000rcf (room temp). Make sure all the tubes are facing the same way (hinges out). The DNA will pellet on the back wall
+6. Pipette off the liquid without disturbing the pellet. It will most likely be invisible.
+7. Add 200µL of **ice cold** 70% Ethanol
+8. Spin for 15 minutes at 15,000rcf. This is to wash the pellet. Again make sure each tube is facing the same direction
+9. Pipette off the ethanol without disturbing the pellet
+10. Let dry at room temperature with the caps open for about 15 minutes or until all ethanol has evaporated
+11. Add 30µL of Tris to the pellet and pipette up and down to resuspend, go straight to nanodrop/qubit quantification or store cleaned PCR product in the -20 ºC freezer.
+
+### Quantify cleaned PCR product
+
+There are two options for quantification of PCR product:
+
+1. Follow Broad Range dsDNA Qubit [protocol](https://zdellaert.github.io/ZD_Putnam_Lab_Notebook/Qubit-Protocol/) to analyze cleaned PCR product. Read standards once and record values, read all samples twice.
+
+2. Nanodrop the samples:
+
+- The standard Nanodrop protocol for RNA for the Putnam Lab/PPP Labs can be found [here](https://zdellaert.github.io/ZD_Putnam_Lab_Notebook/Nanodrop-Protocol/).
+- Blank nanodrop with the same Tris used to elute the cleaned PCR product.
+
+### Prepare for Sanger Sequencing 
+
+#### Primer Dilution from 10 µM Primer Working stock to 3.2 µM for sequencing
+
+        1.6 µL of 10 µM primer + 3.4 µL H2O = 5 µL
+
+For each primer that you are using to sequence (forward and reverse) make enough for # of samples times two so you have 2µL per reaction (e.g. 30 µL plus some extra for error)
+
+#### Prep for sequencing (post PCR bench)
+
+**[GSC Template to fill out](https://github.com/zdellaert/ZD_Putnam_Lab_Notebook/blob/master/images/protocols/gsc_template.xlsx), does the below calculations for you**
+
+- For Sanger sequencing at the URI GSC the amount of DNA to send them depends on how long the fragment is. The equation for how many ng to send is **((number of bases / 100)) * 1.25) * 2**  
+    - For H2 the calculation is: ((1500/100)* 1.25) * 2 = 37.5. That means you'll need 37.5ng of each amplification
+- 37.5 ng is not a lot of DNA, so some of your Qubit values are likely going to be higher than 25ng/µL. It's best practice not to pipette below 1µL, so it's probably you'll need to dilute the PCR product such that you can pipette 37.5 ng.
+- The volume of liquid sent to the GSC is 12µL total, and 2µL of that is one of the primers. So you have 10µL to use for DNA. Depending on the concentrations, you'll have to decide if a 1:10, 1:5, 1:2, etc dilution will work to pipette over 1µL for 25 ng but under 10µL.
+
+**Tube labelling for GSC:**
+
+"Please identify your samples using the following code: Your initials followed by the number 1 to 9999 (i.e.: PJ1, PJ2, etc.). You should increment the number with each submission. This code facilitates instrument plate setup and data file management." This is how Kristina taught me to label, and I would continue that pattern for #s 9-XX with the ZD on the first and last tube/lid as shown:
+
+![Sanger_tubes.JPG](https://github.com/zdellaert/ZD_Putnam_Lab_Notebook/blob/master/images/protocols/Sanger_tubes.JPG?raw=true)
+
+**Steps for sequencing prep:**
+
+1. Dilute DNA into new strip tubes. As an example, fill all the strip tubes (for appropriate # of samples x 2 for the forward and reverse primers) with 9µL of water and then add  1µL from each sample into the appropriately labelled tube. That would be a 1:10 dilution
+2. Dilute each of the primers to 3.2µM in volume for 2µL per sample (see above). Sanger sequencing amplifies the fragment with one of the two primers at a time, so you will submit two tubes per sample, one prepared with the forward primer and one prepared with the reverse primer.
+3. Calculate volume of DNA for each sample (use the dilution factor you used on your previous concentration values)
+4. Aliquot labelled strip tubes with the correct amount of DNA per sample and nuclease free water up to 10µL for each well (add water first, then DNA, then primers, always load least expensive reagent --> most expensive). Using a sample list here where you highlight off each well after adding the right amount is very helpful. For setting up forward and reverse reactions, each sample will be pipetted into two wells (i.e. tubes 1 & 2 will both contain sample POC1, tubes 3 & 4 will both contain sample POC2, so be very careful in this pipetting step because it can get confusing).
+   - example: 2.9 µL of 1:10 diluted DNA and 7.1 µL of H2O
+5. Add 2µL of 3.2µM FORWARD primer to the first tube for each sample (i.e. in the example above tubes 1 & 3) and 2µL of 3.2µM REVERSE primer to the second tube for each sample (i.e. in the example above tubes 2 & 4).
+6. Fill out the template linked above and print out two copies. One is for your records and can contain extraneous information such as your sample # (POC1 as opposed to the # given to GSC, ZD1), the undiluted concentration, and anything else you want to include in your lab notebook. The copy you print for GSC should have this info removed before printing. Either print this and bring it with you and add to the clipboard on the sample drop-off freezer or email this sheet to the GSC at jatoyan@uri.edu or gsc@etal.uri.edu saying you are submitting how ever many samples for Sanger sequencing for the Putnam Lab using her blanket PO (purchase order).
+7. Take plate/tubes up to the GSC and place in freezer next to the door. There is a place on the top shelf that with a label that says "samples for GSC sequencing", place your tubes in that rack (right now it is purple).
 
 # References 
 

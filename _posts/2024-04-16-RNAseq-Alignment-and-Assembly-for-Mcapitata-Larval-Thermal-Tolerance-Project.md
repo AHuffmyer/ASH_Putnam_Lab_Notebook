@@ -441,7 +441,21 @@ sbatch align.sh
 
 Job ID 312427 started at 15:45 on 17 April 2024.  
 
-View mapping percentages after job was completed. 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Obtain mapping percentages after job was completed. 
 
 ```
 interactive 
