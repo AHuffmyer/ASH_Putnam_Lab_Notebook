@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Alignmnet and assembly of RNAseq reads for Montipora capitata larval thermal tolerance 2023 project 
+title: Alignment and assembly of RNAseq reads for Montipora capitata larval thermal tolerance 2023 project 
 date: '2024-04-16'
 categories: Larval_Symbiont_TPC_2023
 tags: Bioinformatics Mcapitata Molecular GeneExpression

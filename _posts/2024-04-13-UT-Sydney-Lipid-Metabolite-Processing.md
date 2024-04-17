@@ -85,3 +85,6 @@ Today, I ran 4 batches each with 5 samples and 1 blank successfully. I will do a
 
 Samples were stored at -80°C for processing next week.  
 
+# April 18, 2024
+
+I continued with extractions today using the same protocols as yesterday.
