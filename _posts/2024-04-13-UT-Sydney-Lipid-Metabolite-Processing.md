@@ -77,3 +77,11 @@ I then tested protein quantification. We only hve 80-100uL of material after sep
 
 Instead of standardizing input protein in our extractions, we will use all available material and standardize to protein after the extraction by using the protein pellet obtained during extractions. I will proceed with extractions starting tomorrow. I'll start with a batch size of 5 and increase as I become more efficient.   
 
+# April 17, 2024 
+
+I started lipid and metabolite extractions today. This protocol is detailed in my lab notebook. Collaborators asked for the protocol to not be made public until publication, so I am not able to include in my online notebook here.  
+
+Today, I ran 4 batches each with 5 samples and 1 blank successfully. I will do another 3-4 batches until finished.  
+
+Samples were stored at -80°C for processing next week.  
+
