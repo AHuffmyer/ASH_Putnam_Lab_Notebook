@@ -49,7 +49,7 @@ fragmented DNA sample.
 and down multiple times.
 
 4. Incubate the tubes at room temperature for
-5 – 15 min to bind the DNA to the beads
+15 min to bind the DNA to the beads.
 
 5. Place the tubes on a magnet to capture the
 beads. Incubate until the liquid is clear.
@@ -74,9 +74,7 @@ temperature for ≥30 sec.
 to remove all residual ethanol without disturbing
 the beads.
 
-13. Dry the beads at room temperature for 3 – 5 min,
-or until all of the ethanol has evaporated. Caution:
-over-drying the beads may result in reduced yield.
+13. Dry the beads at room temperature for 3 – 5 min, or until all of the ethanol has evaporated. The beads should have a matte appearance without any cracking (caused by over drying). Caution: over-drying the beads may result in reduced yield.
 
 14. Remove the plate/tube(s) from the magnet
 
@@ -85,18 +83,15 @@ of elution buffer (10 mM Tris-HCl, pH 8.0 – 8.5) or
 PCR-grade water, depending on the downstream
 application. Here, we will use an alkaline elution buffer (10 mM Tris-HCl). *We chose 25uL as the elution volume because it was the original sample input volume. We will test this protocol and revise if necessary.* 
   
-16. Incubate the plate/tube(s) at room temperature for
-2 min to elute the DNA off the beads. The elution
-time may be extended up to 10 min if necessary to
-improve DNA recovery.
+16. Incubate the plate/tube(s) at room temperature for 8 min to elute the DNA off the beads. The elution time may be extended up to 10 min if necessary to improve DNA recovery.
 
-17. Place the plate/tube(s) on a magnet to capture the
-beads. Incubate until the liquid is clear
+17. Place the plate/tube(s) on a magnet to capture the beads. Incubate until the liquid is clear
 
 18. Transfer the clear supernatant to a new plate/
 tube(s). Proceed with your downstream
 application, or store DNA at -20°C.
 
+19. Run a QC gel to confirm clean up was successful.  
 
 
 
