@@ -213,3 +213,7 @@ After QC'ing gel, we will pool PCR product from the technical replicates for eac
 1. Label new PCR strip tubes according to sequencing facility instructions. For submission at RI-INBRE, we label samples with initials and ascending sample number (e.g., AH 1-18) in strip tubes. 
 2. Aliquot volume of PCR product into each strip tube for each sample according to sequencing facility instructions. 
 3. Store at 4°C until submission for next-generation sequencing. 
+
+# 7. Clean up (if required)
+
+If primer dimers are present or size specific clean up is required, see [this protocol](https://ahuffmyer.github.io/ASH_Putnam_Lab_Notebook/KAPA-bead-clean-up-protocol-for-removal-of-primer-dimers-from-PCR-product/) for more information.  
