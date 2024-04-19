@@ -645,7 +645,7 @@ cd /data/putnamlab/ashuffmyer/mcap-2023-rnaseq/bam-files
 array=($(ls *.bam)) #Make an array of sequences to assemble
 
 for i in ${array[@]}; do 
-        sample_name=`echo $i| awk -F [_] '{print $1"_"$2"_"$3}'`
+        sample_name=`echo $i| awk -F [_] '{print $1}'`
 	stringtie -p 8 -e -B -G /data/putnamlab/ashuffmyer/mcap-2023-rnaseq/references/Montipora_capitata_HIv3.genes.gff3 -A ${sample_name}.gene_abund.tab -o ${sample_name}.gtf ${i}
         echo "StringTie assembly for seq file ${i}" $(date)
 done
@@ -653,8 +653,9 @@ done
 echo "Assembly for each sample complete " $(date)
 ```
 
+
 ```
 sbatch assembly.sh
 ```
 
-Job ID 312538 started at 09:33 on 20 April 2024. 
+Job ID 312539 started at 10:00 on 20 April 2024. 
