@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Alignment and assembly of RNAseq reads for Montipora capitata larval thermal tolerance 2023 project 
-date: '2024-04-16'
+date: '2024-04-20'
 categories: Larval_Symbiont_TPC_2023
 tags: Bioinformatics Mcapitata Molecular GeneExpression
 ---
@@ -642,18 +642,19 @@ echo "Assembling transcripts using stringtie" $(date)
 
 cd /data/putnamlab/ashuffmyer/mcap-2023-rnaseq/bam-files
 
-array1=($(ls *.bam)) #Make an array of sequences to assemble
+array=($(ls *.bam)) #Make an array of sequences to assemble
 
-for i in ${array1[@]}; do
-    stringtie -p 8 -e -B -G /data/putnamlab/ashuffmyer/mcap-2023-rnaseq/references/Montipora_capitata_HIv3.genes.gff3 -A ${i}.gene_abund.tab -o ${i}.gtf ${i}
+for i in ${array[@]}; do 
+        sample_name=`echo $i| awk -F [_] '{print $1"_"$2"_"$3}'`
+	stringtie -p 8 -e -B -G /data/putnamlab/ashuffmyer/mcap-2023-rnaseq/references/Montipora_capitata_HIv3.genes.gff3 -A ${sample_name}.gene_abund.tab -o ${sample_name}.gtf ${i}
+        echo "StringTie assembly for seq file ${i}" $(date)
 done
 
 echo "Assembly for each sample complete " $(date)
 ```
 
-
 ```
 sbatch assembly.sh
 ```
 
-Job ID 312532 started at 09:33 on 20 April 2024. 
+Job ID 312538 started at 09:33 on 20 April 2024. 
