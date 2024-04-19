@@ -393,7 +393,19 @@ cd /data/putnamlab/ashuffmyer/mcap-2023-rnaseq/scripts
 nano align.sh
 ```
 
-The manual for [hisat2 can be found here](https://daehwankimlab.github.io/hisat2/manual/). Here, we will align trimmed and concatenated sequences generated above. We will use multiple processors (`-p 8`) and `--rna-strandness RF` to specify strand-specific information.  
+The manual for [hisat2 can be found here](https://daehwankimlab.github.io/hisat2/manual/). Here, we will align trimmed and concatenated sequences generated above. We will use multiple processors (`-p 8`) and `--rna-strandness RF` to specify strand-specific information. We will keep the .sam file. The options used are below:  
+
+-  `-f` Reads are FASTA files - used for building reference in `hisat2-build`
+- `x` The basename of the index for the reference genome 
+- `-p 8` Use multiple processors (8) 
+- `--rna-strandness RF` Specify strand-specific information: the default is unstranded. For paired-end reads, use either FR or RF. With this option being used, every read alignment will have an XS attribute tag: ’+’ means a read belongs to a transcript on ‘+’ strand of genome. ‘-‘ means a read belongs to a transcript on ‘-‘ strand of genome.
+- `--dta` Downstream transcriptome assembly. Report alignments tailored for transcript assemblers including StringTie. With this option, HISAT2 requires longer anchor lengths for de novo discovery of splice sites. This leads to fewer alignments with short-anchors, which helps transcript assemblers improve significantly in computation and memory usage. We are using StringTie below.  
+- `-1` Comma-separated list of files containing mate 1s (filename usually includes _1) (R1 files) 
+- `-2` Comma-separated list of files containing mate 2s (filename usually includes _2) (R2 files) 
+- `sed s/_R1/_R2/`: This is a sed command that performs a search and replace operation. It replaces `_R1` with `_R2`. This allows the R1 file to be specified in the input array and the program will read in the corresponding R2 file. 
+- `-S` File to write SAM alignments to.
+- In the `samtools sort` function, `-@` sets number of threads for parallel processing and `-o` sets the output file.   
+
 
 ```
 #!/bin/bash
@@ -412,17 +424,18 @@ The manual for [hisat2 can be found here](https://daehwankimlab.github.io/hisat2
 module load HISAT2/2.2.1-foss-2019b #Alignment to reference genome: HISAT2
 module load SAMtools/1.9-foss-2018b #Preparation of alignment for assembly: SAMtools
 
-echo "Building genome reference" $(date)
+#echo "Building genome reference" $(date)
 
 # index the reference genome for Pacuta output index to working directory
 hisat2-build -f /data/putnamlab/ashuffmyer/mcap-2023-rnaseq/references/Montipora_capitata_HIv3.assembly.fasta /data/putnamlab/ashuffmyer/mcap-2023-rnaseq/references/Mcapitata_ref
+
 echo "Referece genome indexed. Starting alingment" $(date)
 
 # This script exports alignments as bam files
 # sorts the bam file because Stringtie takes a sorted file for input (--dta)
 # removes the sam file because it is no longer needed
 
-array=($(ls /data/putnamlab/ashuffmyer/mcap-2023-rnaseq/trimmed-sequences/cat-sequences/*fastq.gz)) # call the clean sequences - make an array to align
+array=($(ls /data/putnamlab/ashuffmyer/mcap-2023-rnaseq/trimmed-sequences/cat-sequences/*_R1_001.fastq.gz)) # call the clean sequences - make an array to align
 
 for i in ${array[@]}; do
         sample_name=`echo $i| awk -F [.] '{print $2}'`
@@ -439,23 +452,11 @@ echo "Alignment complete!" $(date)
 sbatch align.sh
 ```
 
-Job ID 312427 started at 15:45 on 17 April 2024.  
+Job ID 312488 started at 11:00 on 19 April 2024.  
 
+Job finished at 03:00 on 20 April 2024.  
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-Obtain mapping percentages after job was completed. 
+Obtain mapping percentages after job was completed. Use the `samtools flagstat` function that does a full pass through the input file to calculate and print statistics to stdout. Provides counts for each of 13 categories based primarily on bit flags in the FLAG field. Each category in the output is broken down into QC pass and QC fail, which is presented as "#PASS + #FAIL" followed by a description of the category.
 
 ```
 interactive 
@@ -463,7 +464,6 @@ interactive
 cd /data/putnamlab/ashuffmyer/mcap-2023-rnaseq/trimmed-sequences/cat-sequences/
 
 module load SAMtools/1.9-foss-2018b 
-#Preparation of alignment for assembly: SAMtools
 
 for i in *.bam; do
     echo "${i}" >> mapped_reads_counts
@@ -474,4 +474,186 @@ done
 
 View the results. 
 
-RESULTS HERE 
+```
+less mapped_reads_counts
+
+R100_R1_001.bam
+48546456 + 0 mapped (88.52% : N/A)
+R101_R1_001.bam
+50823099 + 0 mapped (88.61% : N/A)
+R102_R1_001.bam
+47629227 + 0 mapped (88.93% : N/A)
+R103_R1_001.bam
+34061219 + 0 mapped (88.57% : N/A)
+R104_R1_001.bam
+38331360 + 0 mapped (83.35% : N/A)
+R105_R1_001.bam
+38291367 + 0 mapped (86.94% : N/A)
+R106_R1_001.bam
+44981515 + 0 mapped (85.40% : N/A)
+R107c_R1_001.bam
+34154018 + 0 mapped (88.21% : N/A)
+R108_R1_001.bam
+39118124 + 0 mapped (86.82% : N/A)
+R55c_R1_001.bam
+24191832 + 0 mapped (85.93% : N/A)
+R56c_R1_001.bam
+21720710 + 0 mapped (80.27% : N/A)
+R57c_R1_001.bam
+22995053 + 0 mapped (84.52% : N/A)
+R58c_R1_001.bam
+24584697 + 0 mapped (85.47% : N/A)
+R59c_R1_001.bam
+50409476 + 0 mapped (84.59% : N/A)
+R60c_R1_001.bam
+23258702 + 0 mapped (84.56% : N/A)
+R61_R1_001.bam
+28733929 + 0 mapped (89.69% : N/A)
+R62c_R1_001.bam
+25793167 + 0 mapped (87.32% : N/A)
+R63_R1_001.bam
+31334562 + 0 mapped (84.81% : N/A)
+R64_R1_001.bam
+42529670 + 0 mapped (86.47% : N/A)
+R65_R1_001.bam
+41257485 + 0 mapped (86.56% : N/A)
+R66_R1_001.bam
+43227744 + 0 mapped (87.96% : N/A)
+R67c_R1_001.bam
+32687009 + 0 mapped (87.56% : N/A)
+R68_R1_001.bam
+40790317 + 0 mapped (86.25% : N/A)
+R69_R1_001.bam
+56513901 + 0 mapped (87.15% : N/A)
+R70_R1_001.bam
+44931912 + 0 mapped (87.46% : N/A)
+R71_R1_001.bam
+37858692 + 0 mapped (88.31% : N/A)
+R72_R1_001.bam
+44050034 + 0 mapped (87.44% : N/A)
+R73_R1_001.bam
+46100943 + 0 mapped (85.56% : N/A)
+R74_R1_001.bam
+45238135 + 0 mapped (83.95% : N/A)
+R75c_R1_001.bam
+27623064 + 0 mapped (84.72% : N/A)
+R76_R1_001.bam
+42983597 + 0 mapped (84.87% : N/A)
+R77_R1_001.bam
+50734492 + 0 mapped (83.71% : N/A)
+R78_R1_001.bam
+45822615 + 0 mapped (86.63% : N/A)
+R79_R1_001.bam
+37810491 + 0 mapped (87.37% : N/A)
+R80_R1_001.bam
+47352909 + 0 mapped (87.42% : N/A)
+R81_R1_001.bam
+41085082 + 0 mapped (83.82% : N/A)
+R82_R1_001.bam
+46121413 + 0 mapped (86.04% : N/A)
+R83c_R1_001.bam
+32597478 + 0 mapped (87.63% : N/A)
+R84_R1_001.bam
+43999246 + 0 mapped (87.44% : N/A)
+R85_R1_001.bam
+47890197 + 0 mapped (87.61% : N/A)
+R86_R1_001.bam
+41182836 + 0 mapped (87.11% : N/A)
+R87_R1_001.bam
+33690883 + 0 mapped (87.49% : N/A)
+R88_R1_001.bam
+46415439 + 0 mapped (88.28% : N/A)
+R89_R1_001.bam
+43717178 + 0 mapped (87.52% : N/A)
+R90_R1_001.bam
+42916789 + 0 mapped (87.57% : N/A)
+R91c_R1_001.bam
+34549408 + 0 mapped (88.12% : N/A)
+R92_R1_001.bam
+41520832 + 0 mapped (88.47% : N/A)
+R93_R1_001.bam
+67123654 + 0 mapped (92.22% : N/A)
+R94_R1_001.bam
+43946968 + 0 mapped (86.17% : N/A)
+R95_R1_001.bam
+36354614 + 0 mapped (87.17% : N/A)
+R96_R1_001.bam
+52937351 + 0 mapped (87.08% : N/A)
+R97_R1_001.bam
+45017808 + 0 mapped (88.38% : N/A)
+R98_R1_001.bam
+45239251 + 0 mapped (84.92% : N/A)
+R99c_R1_001.bam
+35015923 + 0 mapped (90.36% : N/A)
+
+```
+
+All mapping percentages >80%! This are great for coral alignment and are the upper range of what I have seen for this species.  
+
+Note that the output files are named with "R1" because that is the name of files in the input array. R1 and R2 reads were used in the mapping step. If you want, you could remove R1 from the names.  
+
+# 3. Assemble and quantify read counts with stringtie 
+
+First, sym link .bam files to a new bam-files directory. I am using sym links throughout this pipeline so that the original scripts will overwrite existing files if something needs to be re run. If desired, you can keep all files in the same directory. I like to keep things in discrete directories to keep it organized.   
+
+```
+cd /data/putnamlab/ashuffmyer/mcap-2023-rnaseq
+
+mkdir bam-files
+
+cd bam-files
+
+ln -s /data/putnamlab/ashuffmyer/mcap-2023-rnaseq/trimmed-sequences/cat-sequences/*.bam /data/putnamlab/ashuffmyer/mcap-2023-rnaseq/bam-files
+```
+
+Write a script for assembly. 
+
+```
+cd /data/putnamlab/ashuffmyer/mcap-2023-rnaseq/scripts
+
+nano assembly.sh
+```
+
+We will use stringtie for assembly with the following options:  
+
+- `-p 8` for using multiple processors 
+- `-e` this option directs StringTie to operate in expression estimation mode; this limits the processing of read alignments to estimating the coverage of the transcripts given with the -G option (hence this option requires -G).
+- `-B` This switch enables the output of Ballgown input table files (.ctab) containing coverage data for the reference transcripts given with the -G option. (See the Ballgown documentation for a description of these files.) With this option StringTie can be used as a direct replacement of the tablemaker program included with the Ballgown distribution. If the option -o is given as a full path to the output transcript file, StringTie will write the .ctab files in the same directory as the output GTF.
+- `-G` Use a reference annotation file (in GTF or GFF3 format) to guide the assembly process. The output will include expressed reference transcripts as well as any novel transcripts that are assembled. This option is required by options -B, -b, -e, -C.
+- `-A` Gene abundances will be reported (tab delimited format) in the output file with the given name.
+- `-o` output file name for the merged transcripts GTF (default: stdout)
+
+```
+#!/bin/bash
+#SBATCH -t 120:00:00
+#SBATCH --nodes=1 --ntasks-per-node=10
+#SBATCH --export=NONE
+#SBATCH --mem=100GB
+#SBATCH --mail-type=BEGIN,END,FAIL #email you when job starts, stops and/or fails
+#SBATCH --mail-user=ashuffmyer@uri.edu #your email to send notifications
+#SBATCH --account=putnamlab
+#SBATCH -D /data/putnamlab/ashuffmyer/mcap-2023-rnaseq/bam-files       
+#SBATCH -o assemble-out.out
+#SBATCH -e assemble-error.error
+
+module load StringTie/2.2.1-GCC-11.2.0
+
+echo "Assembling transcripts using stringtie" $(date)
+
+cd /data/putnamlab/ashuffmyer/mcap-2023-rnaseq/bam-files
+
+array1=($(ls *.bam)) #Make an array of sequences to assemble
+
+for i in ${array1[@]}; do
+    stringtie -p 8 -e -B -G /data/putnamlab/ashuffmyer/mcap-2023-rnaseq/references/Montipora_capitata_HIv3.genes.gff3 -A ${i}.gene_abund.tab -o ${i}.gtf ${i}
+done
+
+echo "Assembly for each sample complete " $(date)
+```
+
+
+```
+sbatch assembly.sh
+```
+
+Job ID 312532 started at 09:33 on 20 April 2024. 
