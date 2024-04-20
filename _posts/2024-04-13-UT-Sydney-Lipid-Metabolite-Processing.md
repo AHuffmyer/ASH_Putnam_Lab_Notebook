@@ -1,7 +1,7 @@
 ---
 layout: post
 title: UT Sydney processing for lipidomics and metabolomics for Hawaii 2023 project
-date: '2024-04-16'
+date: '2024-04-19'
 categories: Larval_Symbiont_TPC_2023
 tags: Extraction Mcapitata Lipids Metabolomics Lipidomics Processing Protein 
 ---
@@ -87,4 +87,8 @@ Samples were stored at -80°C for processing next week.
 
 # April 18, 2024
 
-I continued with extractions today using the same protocols as yesterday.
+I continued with extractions today using the same protocols as yesterday. On the last batch, I was running short on Mix 1 reagents. We do not have the materials to make more. So I calculated the amount needed to finish all samples. In order to do this, I scaled down all reagents and components by 80% and will finish the remaining ~15 samples in two large batches to reduce the number of blanks required. This shouldn't be a problem. We are adding in such a small amount of material that the extraction will very likely not reach saturation. 
+
+# April 19, 2024
+
+I finished the last extractions today! All went well. Recorded metadata in notebooks and data files. 
