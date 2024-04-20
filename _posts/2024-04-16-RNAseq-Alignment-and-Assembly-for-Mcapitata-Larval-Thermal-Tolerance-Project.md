@@ -364,7 +364,33 @@ Other files available include the following. We will use the functional annotati
 
 - KAAS Functional Annotation: `http://cyanophora.rutgers.edu/montipora/Montipora_capitata_HIv3.genes.KEGG_results.txt.gz` 
 
-Download files to Andromeda folder.  
+### Fix GFF3 format  
+
+*Note that I have to first correct the format of the .gff3 file.* I had to do this [before in a previous analysis](https://ahuffmyer.github.io/ASH_Putnam_Lab_Notebook/Analyzing-TagSeq-data-with-new-annotation/) because it generated many unknown gene names even though the sequences mapped to the reference. We have to correct the format of column 9.   
+
+Download gff to local computer a the website listed above to `~/MyProjects/larval_symbiont_TPC/scripts/bioinformatics`.  
+
+```
+cd ~/MyProjects/larval_symbiont_TPC/data/rna_seq
+
+gunzip Montipora_capitata_HIv3.genes.gff3.gz
+
+```
+
+I next ran [this R script](https://github.com/AHuffmyer/larval_symbiont_TPC/blob/main/scripts/bioinformatics/fix_gff_format.Rmd) in the GitHub R project for this data.  
+
+```
+#This script add transcript and gene id into GFF file for alignment.  #Here, I'll be adding transcript_id= and gene_id= to 'gene' column because we needs that label to map our RNAseq data  #Load libraries and data. library(tidyverse)library(R.utils)#Load  gene gff filegff <- read.csv(file="data/rna_seq/Montipora_capitata_HIv3.genes.gff3", header=FALSE, sep="\t") #Rename columns colnames(gff) <- c("scaffold", "Gene.Predict", "id", "gene.start","gene.stop", "pos1", "pos2","pos3", "gene")head(gff)#Create transcript ID  gff$transcript_id <- sub(";.*", "", gff$gene)gff$transcript_id <- gsub("ID=", "", gff$transcript_id) #remove ID= gff$transcript_id <- gsub("Parent=", "", gff$transcript_id) #remove ID= head(gff)#Create Parent ID gff$parent_id <- sub(".*Parent=", "", gff$gene)gff$parent_id <- sub(";.*", "", gff$parent_id)gff$parent_id <- gsub("ID=", "", gff$parent_id) #remove ID= head(gff)#Now add these values into the gene column separated by semicolons.  gff <- gff %>%   mutate(gene = ifelse(id != "gene", paste0(gene, ";transcript_id=", gff$transcript_id, ";gene_id=", gff$parent_id),  paste0(gene)))head(gff)#Now remove the transcript and parent ID separate columns.  gff<-gff %>%  select(!transcript_id)%>%  select(!parent_id)head(gff)#Save file. Then upload this to Andromeda for use in bioinformatic steps.  write.table(gff, file="data/rna_seq/Montipora_capitata_HIv3.genes_fixed.gff3", sep="\t", col.names = FALSE, row.names=FALSE, quote=FALSE)```
+
+Upload file to Andromeda. 
+
+```
+scp ~/MyProjects/larval_symbiont_TPC/data/rna_seq/Montipora_capitata_HIv3.genes_fixed.gff3 ashuffmyer@ssh3.hac.uri.edu:/data/putnamlab/ashuffmyer/mcap-2023-rnaseq/references/ 
+```  
+
+### Transfer files to Andromeda  
+
+Download reference genome files to Andromeda folder.  
 
 ```
 cd /data/putnamlab/ashuffmyer/mcap-2023-rnaseq/
@@ -374,14 +400,11 @@ cd references
 
 wget http://cyanophora.rutgers.edu/montipora/Montipora_capitata_HIv3.assembly.fasta.gz
 
-wget http://cyanophora.rutgers.edu/montipora/Montipora_capitata_HIv3.genes.gff3.gz
-
 gunzip Montipora_capitata_HIv3.assembly.fasta.gz
-gunzip Montipora_capitata_HIv3.genes.gff3.gz
 
 ``` 
 
-These files are now available at `/data/putnamlab/ashuffmyer/mcap-2023-rnaseq/references` as `Montipora_capitata_HIv3.assembly.fasta` and `Montipora_capitata_HIv3.genes.gff3`.  
+These files are now available at `/data/putnamlab/ashuffmyer/mcap-2023-rnaseq/references` as `Montipora_capitata_HIv3.assembly.fasta` and `Montipora_capitata_HIv3.genes_fixed.gff3`.  
 
 ### Alignment with hisat2
 
@@ -646,16 +669,141 @@ array=($(ls *.bam)) #Make an array of sequences to assemble
 
 for i in ${array[@]}; do 
         sample_name=`echo $i| awk -F [_] '{print $1}'`
-	stringtie -p 8 -e -B -G /data/putnamlab/ashuffmyer/mcap-2023-rnaseq/references/Montipora_capitata_HIv3.genes.gff3 -A ${sample_name}.gene_abund.tab -o ${sample_name}.gtf ${i}
+	stringtie -p 8 -e -B -G /data/putnamlab/ashuffmyer/mcap-2023-rnaseq/references/Montipora_capitata_HIv3.genes_fixed.gff3 -A ${sample_name}.gene_abund.tab -o ${sample_name}.gtf ${i}
         echo "StringTie assembly for seq file ${i}" $(date)
 done
 
 echo "Assembly for each sample complete " $(date)
 ```
 
-
 ```
 sbatch assembly.sh
 ```
 
-Job ID 312539 started at 10:00 on 20 April 2024. 
+Job ID 312546 started at 14:00 on 20 April 2024. Completed 16:00 on April 2024. 
+
+
+Sym link .gtf files to new directory. 
+
+```
+cd /data/putnamlab/ashuffmyer/mcap-2023-rnaseq/
+mkdir gtf-files
+cd gtf-files
+
+ln -s /data/putnamlab/ashuffmyer/mcap-2023-rnaseq/bam-files/*.gtf /data/putnamlab/ashuffmyer/mcap-2023-rnaseq/gtf-files
+
+ln -s /data/putnamlab/ashuffmyer/mcap-2023-rnaseq/bam-files/*.tab /data/putnamlab/ashuffmyer/mcap-2023-rnaseq/gtf-files
+```
+
+# 4. Prepare .gtf files and generate gene count matrix 
+
+Make list of .gtf files. I am doing these steps individually, but can be added to a bash script if desired.  
+
+```
+cd /data/putnamlab/ashuffmyer/mcap-2023-rnaseq/gtf-files
+
+ls *.gtf > gtf_list.txt
+```
+
+Merge .gtf's. Use same stringtie settings as above and generate a merged gtf file.   
+
+```
+interactive 
+
+module load StringTie/2.1.4-GCC-9.3.0
+
+stringtie --merge -e -p 8 -G /data/putnamlab/ashuffmyer/mcap-2023-rnaseq/references/Montipora_capitata_HIv3.genes_fixed.gff3 -o Mcapitata_merged.gtf gtf_list.txt 
+
+```
+
+Assess the accuracy of the merged assembly with `gffcompare`.
+
+```
+interactive 
+
+module purge
+module load GffCompare/0.12.1-GCCcore-8.3.0
+
+gffcompare -r /data/putnamlab/ashuffmyer/mcap-2023-rnaseq/references/Montipora_capitata_HIv3.genes_fixed.gff3 Mcapitata_merged.gtf 
+
+  54384 reference transcripts loaded.
+  2 duplicate reference transcripts discarded.
+  54384 query transfrags loaded.
+```
+
+View the merged file.  
+
+```
+less gffcmp.stats 
+```
+
+```
+# gffcompare v0.12.1 | Command line was:
+#gffcompare -r /data/putnamlab/ashuffmyer/mcap-2023-rnaseq/references/Montipora_capitata_HIv3.genes_fixed.gff3 Mcapitata_merged.gtf
+#
+
+#= Summary for dataset: Mcapitata_merged.gtf 
+#     Query mRNAs :   54384 in   54185 loci  (36023 multi-exon transcripts)
+#            (141 multi-transcript loci, ~1.0 transcripts per locus)
+# Reference mRNAs :   54382 in   54185 loci  (36023 multi-exon)
+# Super-loci w/ reference transcripts:    54185
+#-----------------| Sensitivity | Precision  |
+        Base level:   100.0     |   100.0    |
+        Exon level:   100.0     |   100.0    |
+      Intron level:   100.0     |   100.0    |
+Intron chain level:   100.0     |   100.0    |
+  Transcript level:   100.0     |   100.0    |
+       Locus level:   100.0     |   100.0    |
+
+     Matching intron chains:   36023
+       Matching transcripts:   54358
+              Matching loci:   54183
+
+          Missed exons:       0/256029  (  0.0%)
+           Novel exons:       0/256028  (  0.0%)
+        Missed introns:       0/201643  (  0.0%)
+         Novel introns:       0/201643  (  0.0%)
+           Missed loci:       0/54185   (  0.0%)
+            Novel loci:       0/54185   (  0.0%)
+
+ Total union super-loci across all input datasets: 54185 
+54384 out of 54384 consensus transcripts written in gffcmp.annotated.gtf (0 discarded as redundant)
+```
+
+Make gtf list text file for gene count matrix creation; still in interactive mode. 
+
+```
+for filename in R*.gtf; do echo $filename $PWD/$filename; done > listGTF.txt
+```
+
+Download the prepDE.py script from [here](https://github.com/gpertea/stringtie/blob/master/prepDE.py) and put it in the stringtie output folder. 
+
+In a terminal not logged into Andromeda:  
+
+```
+scp ~/MyProjects/larval_symbiont_TPC/scripts/bioinformatics/prepDE.py ashuffmyer@ssh3.hac.uri.edu:/data/putnamlab/ashuffmyer/mcap-2023-rnaseq/scripts/ 
+
+```
+
+Load python and compile the gene count matrix
+
+```
+interactive 
+
+cd /data/putnamlab/ashuffmyer/mcap-2023-rnaseq/gtf-files 
+
+module purge
+module load Python/2.7.18-GCCcore-9.3.0
+
+python /data/putnamlab/ashuffmyer/mcap-2023-rnaseq/scripts/prepDE.py -g Mcapitata2023_gene_count_matrix.csv -i listGTF.txt
+```
+
+We do not have any STRG gene names, which means that fixing the GFF file allowed for correct identification of annotated genes/transcripts.  
+
+Transfer gene count matrix to desktop.  
+
+```
+scp ashuffmyer@ssh3.hac.uri.edu:/data/putnamlab/ashuffmyer/mcap-2023-rnaseq/gtf-files/Mcapitata2023_gene_count_matrix.csv ~/MyProjects/larval_symbiont_TPC/data/rna_seq
+
+```
+
