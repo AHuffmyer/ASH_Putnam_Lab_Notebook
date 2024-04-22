@@ -92,3 +92,7 @@ I continued with extractions today using the same protocols as yesterday. On the
 # April 19, 2024
 
 I finished the last extractions today! All went well. Recorded metadata in notebooks and data files. 
+
+# April 22, 2024 
+
+Today we prepared samples and loaded them on the LCMS. In order to prepare the samples, we dried the lipid extract under a nitrogen stream and then resuspended the extract with a isopropanol and methanol reagent. We added 5 µL of each sample into a pooled tube as a Pooled Biological Quality Control (PBQC). Samples (63 larval samples) were loaded into the LCMS. We are running these cycles with blanks before and after the samples and a PBQC every 9 samples. Samples will be run in negative mode first, then positive mode. This will take about 3 days to run. 
