@@ -96,3 +96,19 @@ I finished the last extractions today! All went well. Recorded metadata in noteb
 # April 22, 2024 
 
 Today we prepared samples and loaded them on the LCMS. In order to prepare the samples, we dried the lipid extract under a nitrogen stream and then resuspended the extract with a isopropanol and methanol reagent. We added 5 µL of each sample into a pooled tube as a Pooled Biological Quality Control (PBQC). Samples (63 larval samples) were loaded into the LCMS. We are running these cycles with blanks before and after the samples and a PBQC every 9 samples. Samples will be run in negative mode first, then positive mode. This will take about 3 days to run. 
+
+# April 23, 2024
+
+Today I processed all protein samples using a digestion of the cell debris pellets from extractions. Cell debris was digested with 0.2M NaOH at 98°C for 20 min and then centrifuged with the supernatant used for protein assays. 
+
+Assays were run using a Bradford assay. I ran a total of 4 plates. After each plate I calculated the protein concentrations. Any samples that were below the standard curve were run again but with higher input volume. All samples except one worked and were within the standard curve. One sample was below the curve and did not improve with more input material. 
+
+LCMS data is looking great. We have data as expected for positive and negative mode with blank samples showing high noise as expected. Samples have clear peaks. This should finish early morning on April 25th. 
+
+# April 24, 2024 
+
+I prepared all metabolite extracts for shipping today to Metabolomics Australia. I generated PBQC samples using a pool of subsamples of all samples. Samples were dried in a vacufuge at 30°C for 3.5 hours and stored in a bag with dessicant. Jen will send these samples on Monday. 
+
+We also imaged homogenate samples from two of the first timepoint test samples from the holobiont and host fractions to demonstrate that host tissue did not contain symbionts. We imaged samples on a fluorescent scope and took images showing the presence of host cells (DAPI filter) with symbiont cells present in holobiont fractions and no cells seen in host fraction. Jen will send images to me.  
+
+Everything is done! :) 
