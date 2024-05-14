@@ -1,7 +1,7 @@
 ---
 layout: post
 title: DESeq2 Analysis of Montipora capitata 2023 RNAseq data 
-date: '2024-05-03'
+date: '2024-05-07'
 categories: Larval_Symbiont_TPC_2023
 tags: R Mcapitata Molecular GeneExpression
 ---
