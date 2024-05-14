@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Hatchery field day at Point Whitney May 6 2024
+title: Oyster ploidy results
 date: '2024-05-13'
 categories: RobertsLab_Oysters WSG_USDA
 tags: ExperimentalDesign Husbandry Growth Oyster
