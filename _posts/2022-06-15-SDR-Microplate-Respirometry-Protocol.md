@@ -1,7 +1,7 @@
 ---
 layout: post
 title: SDR Microplate Respirometry Protocol
-date: '2022-06-15'
+date: '2023-06-15'
 categories: Protocol
 tags: Respirometry Protocol
 ---
@@ -11,6 +11,8 @@ This protocol details the step-by-step use of PreSens/Loligo Microplate respirat
 # **Larval photosynthesis and respirometry protocol using SDR microplate**   
 
 [Original protocol](https://ahuffmyer.github.io/ASH_Putnam_Lab_Notebook/Mcapitata-Early-Life-History-Respirometry-Protocol/) written by Ariana Huffmyer and modified by Jill Ashey and Federica Scucchia (Hawai’i June 2022) 
+
+Also see the [Putnam Lab SDR protocol](https://github.com/Putnam-Lab/Lab_Management/blob/master/Lab_Resources/Equipment_Protocols/Respirometry_Protocol/SDR-Respirometry-Protocol.md).  
 
 ## 1. Prepare equipment  
 
@@ -26,6 +28,8 @@ This protocol details the step-by-step use of PreSens/Loligo Microplate respirat
 - PC computer
 - Kimwipes
  
+If you are conducting respiration measurements in bench top incubators, follow these steps:  
+
 1. Drill a 1” hole in the right side of the incubator and put the incubator trays at the bottom. 
 2. Zip-tie an AI light inside the incubator at the top. The AI light power cord should run out of the hole in the side of the incubator 
 3. Place hobo logger on the floor of the incubator for temperature measurements
@@ -38,11 +42,12 @@ This protocol details the step-by-step use of PreSens/Loligo Microplate respirat
 - Presens Oxy-10 Sensor Dish Reader 
 - Connectors 
 
+*Note that light is only used for photosynthesis measurements, but keep in mind that the oxygen spots are highly variable under light and we recommend measuring photosynthesis using sensor probes or other options in which the oxygen spots are not upward facing.*  
 
 ## 2. Prepare larvae   
 
 - Take larvae out of the squaricals and rinse them in filtered seawater to clean any debris off of them 
-- Based on previous respirometry trials by AH, 5 P. acuta larvae per well or 6 M. capitata larvae per well will give good signals 
+- Based on previous respirometry trials by AH, 5 P. acuta larvae per well or 6 M. capitata larvae per well will give consistent signals 
 - Use a glass transfer pipette to transfer some larvae into a 6 or 24 well plate and separate them out so you can get 5-6 larvae. Count them and put them into small “bubbles” of water. 
 
 ## 3. Calibrate oxygen spots 
@@ -61,16 +66,16 @@ This protocol details the step-by-step use of PreSens/Loligo Microplate respirat
 7. Select one of the SDR tabs. 
 8. Select “Oxygen” from the drop down menu. Select PSt5-1624-01_25C under Batch No. 
 9. For each SDR (either 641 or 710), enter the correct Meas. Temp. C depending on what incubator it is in and what temperature the incubator is currently at. 
-10. Enter 34 for the salinity for both SDRs. 
+10. Enter salinity in psu for the salinity for both SDRs. 
 11. Select pO2 (%air sat) under Oxygen Unit.  
 12. After these data are entered, select one SDR tab.
 13. Click the calibration menu and select One-Point Adjustment
 14. Enter 100% at the bottom and click “OK”  
-15. Perform this calibration at the start of each measuring day.  
+15. Perform this calibration at the start of each new temperature level. 
 
 ## 4. Prepare plates and metadata  
 
-1. Before preparing larvae, turn on the incubators and lights to the desired temperature and level to allow the incubator to come to temperature. Set the lights at 30% intensity on all channels with 0% on the UV channel. Measure the light at the level of the SDR plate and record. 
+1. Before preparing larvae, turn on the incubators and lights to the desired temperature and level to allow the incubator to come to temperature. Set the lights at desired intensity to achieve desired PAR. Measure the light at the level of the SDR plate and record. 
 2. Place a cover over the doors of the incubator to block ambient light. 
 
 *Note*: Only use kimwipes and be very gentle and careful with the plates. Be careful not to touch or scratch the oxygen sensor spots in the bottom of each well. 
