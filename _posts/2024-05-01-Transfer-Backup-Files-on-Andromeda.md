@@ -1,14 +1,12 @@
 ---
 layout: post
 title: Transfer raw sequencing data to backup Andromeda folder 
-date: '2024-05-01'
+date: '2024-05-17'
 categories: Larval_Symbiont_TPC_2023 Mcapitata_EarlyLifeHistory_2020
 tags: 16S ITS2 GeneExpression 
 ---
 
 This post details transfer of raw files for sequencing projects to hputnam KITT folder on Andromeda as an additional backup.   
-
-*Pending HP permissions to use KITT directory*  
 
 Folders:   
 
