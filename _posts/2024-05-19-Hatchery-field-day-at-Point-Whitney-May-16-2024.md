@@ -26,7 +26,29 @@ Today I went at Point Whitney to check on projects, receive new oysters from the
 
 ### Take pH/temp/conductivity measurements
 
-I took pH (NBS scale), temperature (°C), and conductivity measurements (psu) in the left, middle, and right tanks as well as the trays outside. Measurements are in notebook images below. 
+I took pH (NBS scale), temperature (°C), and conductivity measurements (psu) in the left, middle, and right tanks as well as the trays outside. Measurements are in notebook images below.
+
+Here are measurements from this week and last week:  
+
+| tank         | date    | time  | temp.C | pH.nbs | sal.psu | initials | notes                                                                                                                                 |
+|--------------|---------|-------|--------|--------|---------|----------|---------------------------------------------------------------------------------------------------------------------------------------|
+| left         | 5/6/24  | 13:40 | 15.8   | 8.14   | 29.84   | ash      | Orion Star A325; calibrated pH with nbs and conductivity with standards   today; pH slope =100.9%; avg cell cal conducitivity = 0.487 |
+| middle       | 5/6/24  | 13:40 | 14.5   | 8.16   | 29.74   | ash      |                                                                                                                                       |
+| right        | 5/6/24  | 13:40 | 14.5   | 8.18   | 29.8    | ash      |                                                                                                                                       |
+| outdoor_tray | 5/6/24  | 13:40 | 12.4   | 7.89   | 29.02   | ash      |                                                                                                                                       |
+| left         | 5/16/24 | 11:30 | 15.3   | 8.17   | 29.99   | ash      | tank                                                                                                                                  |
+| left         | 5/16/24 | 11:30 | 15.5   | 8.11   | 29.82   | ash      | silo                                                                                                                                  |
+| left         | 5/16/24 | 11:30 | 15.5   | 8.11   | 29.6    | ash      | silo                                                                                                                                  |
+| middle       | 5/16/24 | 11:30 | 14.6   | 8.12   | 29.83   | ash      | tank                                                                                                                                  |
+| middle       | 5/16/24 | 11:30 | 14.5   | 8.1    | 29.87   | ash      | silo                                                                                                                                  |
+| middle       | 5/16/24 | 11:30 | 14.5   | 8.16   | 29.92   | ash      | silo                                                                                                                                  |
+| right        | 5/16/24 | 11:30 | 15     | 8.16   | 29.83   | ash      | tank                                                                                                                                  |
+| right        | 5/16/24 | 11:30 | 15.2   | 8.09   | 29.93   | ash      | silo                                                                                                                                  |
+| right        | 5/16/24 | 11:30 | 15     | 8.18   | 29.85   | ash      | silo                                                                                                                                  |
+| outdoor_tray | 5/16/24 | 11:30 | 16.6   | 7.75   | 29.06   | ash      | large POGS                                                                                                                            |
+| outdoor_tray | 5/16/24 | 11:30 | 16.6   | 7.72   | 29.05   | ash      | large POGS                                                                                                                            |
+| outdoor_tray | 5/16/24 | 11:30 | 16.9   | 7.83   | 29.82   | ash      | small POGS                                                                                                                            |
+| outdoor_tray | 5/16/24 | 11:30 | 17     | 7.88   | 28.88   | ash      | small POGS                                                                                                                            | 
 
 ### Pulse feed all tanks
 
@@ -47,6 +69,13 @@ I conducted 30 minute stress exposures of the following groups:
 These exposures were done as we have in previous weeks. Animals were exposed to stress for 30 minutes. Fresh water exposure was done in a bucket filled with fresh water. I took salinity and temp and pH measurements during these stressors with values below in notebook images.  
 
 Trays were then returned outside and bags were put back in their respective trays.    
+
+Here are the measurements from the stress conditions:  
+
+| tank         | date    | temp.C | pH.nbs | sal.psu | initials | notes |
+|--------------|---------|--------|--------|---------|----------|-------|
+| fresh stress | 5/16/24 | 13.9   | 8.51   | 0.057   | ash      |       |
+| temp stress  | 5/16/24 | 22.0   | 7.62   | 29.35   | ash      |       |
 
 ### Receive new adults from USDA POGS program  
 
@@ -107,6 +136,10 @@ I drained and rinsed all tanks from 12:30-13:30. After cleaning I rinsed all of 
 ### Check Apex profiles 
 
 Temperature profiles look good - Apex and heaters working as expected.    
+
+### LCO growth 
+
+I took all LCO growth measurements and will enter them on the LCO GitHub. I took images of the spat that I will analyze via ImageJ.  
 
 # Notebook images 
 
