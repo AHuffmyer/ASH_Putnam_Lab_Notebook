@@ -6,7 +6,7 @@ categories: RobertsLab_Oysters WSG_USDA
 tags: Husbandry Growth Oyster ExperimentalDesign
 ---
 
-This post details activities at Point Whitney from 122 May 2024 trip.  
+This post details activities at Point Whitney from 22 May 2024 trip.  
 
 # Overview 
 
