@@ -45,7 +45,9 @@ Date|Position| Affiliation
 
 [Google Scholar Profile](https://scholar.google.com/citations?user=_dw3pYEAAAAJ&hl=en)
 
-16. **AS Huffmyer**, KH Wong, DM Becker, E Strand, T Mass, HM Putnam. 2023. Multi-omic analysis of coral development elucidates the metabolic transitions from parental provisioning to endosymbiotic nutritional exchange. bioRxiv. https://www.biorxiv.org/content/10.1101/2023.03.20.533475v1 
+18. **AS Huffmyer**, J Ashey, E Strand, E Chiles, X Su, HM Putnam. Coral larvae employ nitrogen sequestration mechanisms to stabilize carbon provisioning from algal symbionts under increased temperature. Available on bioRxiv at https://www.biorxiv.org/content/10.1101/2024.06.07.598017v1
+17. Venkataraman Y, **AS Huffmyer**, S White, A Downey-Wall, J Ashey, D Becker, Z Bengtsson, HM Putnam, E Strand, J Rodríguez-Casariego, SA Wanamaker, K Lottheros, S Roberts. DNA methylation modulates transcriptional noise in response to elevated pCO2 in the eastern oyster (*Crassostrea virginica*). Environmental Epigenetics. In revision. Available on bioRxiv at https://www.biorxiv.org/content/10.1101/2024.04.04.588108v1
+16. **AS Huffmyer**, KH Wong, DM Becker, E Strand, T Mass, HM Putnam. 2023. Nutritional exchange between reef-building corals and algal endosymbionts buffers the energetic demand of larval development and metamorphosis. bioRxiv. https://www.biorxiv.org/content/10.1101/2023.03.20.533475v2 
 15. Chiles EN, **AS Huffmyer**, C Drury, HM Putnam, D Bhattacharya, X Su. 2022. Stable isotope tracing reveals compartmentalized nitrogen assimilation in scleractinian corals. Frontiers in Marine Science. https://doi.org/10.3389/fmars.2022.1035523  
 14. **Huffmyer AS**, E Majerova, N Bean, C Harris, C Drury. 2022. Variable intraspecific diversity effects impact thermal tolerance in a reef-building coral. Coral Reefs 42:119-129  
 13. **Huffmyer AS**, T O’Neill, JD Lemus. 2022. Evidence for professional conceptualization in science as an important component of science identity. CBE – Life Sciences Education 21(4): ar76      
@@ -93,6 +95,9 @@ Date|Position| Affiliation
 
 #### *Oral Presentations*  
 
+23. **Huffmyer AS**. Seasonal environmental variation drives host and symbiont physiological state of three important reef-building coral species in Moorea, French Polynesia. University of Washington eScience Postdoctoral Fellows seminar. Seattle, WA, USA. January 2024.  
+22. **Huffmyer AS**, J Ashey, E Chiles, E Strand, X Su, HM Putnam. Thermal stress reduces photosynthate metabolism and disrupts nitrogen cycling in coral larvae. Society of Integrative and Comparative Biology. Seattle, WA, USA. January 2024.  
+21. **Huffmyer AS**. Metabolic dysfunction of the coral-algal symbiosis under marine heatwaves: Insights from a stable isotope metabolomic approach. University of Washington eScience Postdoctoral Fellows seminar. Seattle, WA, USA. May 2023.  
 20. **Huffmyer AS**. Linking ‘omics and physiology through correlation network approaches. E5 Coral Rules of Life – Epigenetics Annual Meeting. Santa Barbara, CA, USA. January 2023. 
 19. **Huffmyer AS**. Physiological and multi-omic signatures of shifts in symbiotic nutritional exchange in reef-building coral early life history. Benthic Ecology Conference. Portsmouth, NH, USA. March 2022.
 18. **Huffmyer AS**. How do dynamic environmental conditions shape coral symbiosis and metabolism and drive energetic-epigenetic linkages? Moorea Coral Reef LTER All Investigators Meeting. Virtual presentation. November 2021.  
@@ -137,6 +142,7 @@ Date|Position| Affiliation
 ### TEACHING EXPERIENCE   
 
 #### *Teaching Assistantships and Course Instruction*  
+- 2023: RNAseq: Experimental design and analytical approaches. University of Washington – Bioinformatics for Environmental Sciences (FSH546). Invited lecture (12 students). 
 - 2023: Proposal writing and scientific messaging. University of Washington - Graduate student professional development course (FSH512). Invited lecture (22 students)  
 - 2021: Coral symbiosis and application of ‘omics to answer emerging questions in marine invertebrate ecophysiology. University of Rhode Island - Marine Environmental Physiology course. Virtual invited lecture (20 students)
 - 2018: Early life history of reef building corals. University of Hawaiʻi at Mānoa - Corals and Coral Reefs course. Invited lecture. Honolulu, HI, USA (30 students)
