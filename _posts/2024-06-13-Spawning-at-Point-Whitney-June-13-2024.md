@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Preparing Westcott outplants at Point Whitney on June 4 2024
+title: Spawning at Point Whitney June 13 2024
 date: '2024-06-14'
 categories: RobertsLab_Oysters WSG_USDA
 tags: Husbandry Growth Oyster Reproduction StripSpawning Protocol
