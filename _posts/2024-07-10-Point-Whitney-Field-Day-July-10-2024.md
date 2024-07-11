@@ -48,3 +48,7 @@ I didn't see any mortality in LCO oysters. The bags were really dirty in the tan
 
 ![](https://github.com/AHuffmyer/ASH_Putnam_Lab_Notebook/blob/master/images/NotebookImages/oysters/wsg_usda/20240710/nb1.jpeg?raw=true)  
 
+# To do list for 7/12/2024
+
+1. Open broodstock to look for gametes
+2. 10K seed stress: PolyIC, fresh, 35C seawater, 35C fresh water stressors 
