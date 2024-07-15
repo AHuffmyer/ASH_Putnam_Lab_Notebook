@@ -1,7 +1,7 @@
 ---
 layout: post
-title: Field day at Point Whitney June 28 2024
-date: '2024-06-28'
+title: Field day at Point Whitney July 10 2024
+date: '2024-07-10'
 categories: RobertsLab_Oysters WSG_USDA
 tags: Husbandry Growth Oyster
 ---
