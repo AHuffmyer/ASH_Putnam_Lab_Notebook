@@ -124,7 +124,17 @@ Next week, I'll sample for enzymes and ATPase and work on more survival measurem
 
 # Friday July 26 
 
+Resazurin and survival
+Fresh water accidental stress
+
 # Monday July 29 
 
+Resazurin and survival
+Enzyme sampling for ATPase and citrate synthase/lactate dehydrogenase
+Tank maintenance/feeding 
+Data upload and check 
+
 # Tuesday July 30 
+
+Resazurin and survival 
  
