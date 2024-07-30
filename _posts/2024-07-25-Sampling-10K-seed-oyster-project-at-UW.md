@@ -124,17 +124,42 @@ Next week, I'll sample for enzymes and ATPase and work on more survival measurem
 
 # Friday July 26 
 
-Resazurin and survival
-Fresh water accidental stress
+## Resazurin and survival
+
+Colby followed up with survival monitoring of the resazurin batch from 7/25. All notes are in Colby's notebook. I'll update the notes here after sampling is completed and notebooks are collected.  
+
+## Other notes
+
+There was an accidental fresh water stress sometime in the evening of 7/26 to the morning of 7/27. Kathleen caught this issue in the morning of 7/27. Water was leaking from the ceiling. 
+
+Kathleen returned conditions to normal late morning on 7/27.  
 
 # Monday July 29 
 
-Resazurin and survival
-Enzyme sampling for ATPase and citrate synthase/lactate dehydrogenase
-Tank maintenance/feeding 
-Data upload and check 
+## Resazurin and survival
+
+Today Colby ran resazurin and survival on the control group of seed (Bag #37). We chose to do controls again to see if the fresh water exposure over the weekend altered responses. We saw consistent responses with last week. We saw mortality in high temperature oysters (12 total) and that the oysters that died had the highest metabolic rates. The rates peaked early in high temperature oysters, leveling off at about half way through the incubation. The control temperature oysters increased more slowly and continued to increase throughout the entire exposure. We are seeing these same patterns as we did last week. Given the consistency, we will proceed with treated oysters the rest of the week.  
+
+I'll check survival in the morning. 
+
+## Sampling for enzyme activity 
+
+Today, I sampled oysters for enzyme activity (citrate synthase, lactate dehydrogenase, and ATPase). To do this, I exposed n=5 oysters per bag to 42°C and n=5 oysters per bag to 18°C (totaling n=10 oysters per treatment to each temperature). This was run in the same method as done for RNA sampling last week. I staggered start times by 20-30 min intervals to allow for sampling for 1 h exposure for all oysters.  
+
+At sampling, I dissected the gill/mantle tissue as done for prior sampling for RNA and then split the tissue in two. One tissue sample went into a tube labeled with "A" and a running number (A1-A100) with 500 uL of SEI buffer for ATPase activity. This was then snap frozen in liquid nitrogen and stored at -80°C.  
+
+The second tissue sample was put into a tube labeled with "E" and a running number (E1-E100) and flash frozen and stored at -80°C. This will be used for citrate synthase and lactate dehydrogenase. I'll likely have to optimize these assays for lower tissue input due to the small size of oysters.  
+
+This took place form about 11:00-17:00. Samples were kept in 2 E boxes and 2 A boxes in the middle freezer, fourth shelf, on the right. I'll organize the freezer tomorrow.  
+
+## Tank maintenance 
+
+I added about 15 mL of food to the tank at 09:00. I took probe measurements for temp, pH, and salinity at 17:00. 
 
 # Tuesday July 30 
 
-Resazurin and survival 
- 
+Montior survival 
+Data upload and check 
+Tank maintenance 
+Enter data 
+
