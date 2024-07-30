@@ -158,8 +158,31 @@ I added about 15 mL of food to the tank at 09:00. I took probe measurements for 
 
 # Tuesday July 30 
 
-Montior survival 
-Data upload and check 
-Tank maintenance 
-Enter data 
+## Resazurin survival 
 
+Today I checked survival for resazurin. There are 3 dead in control and 18 dead in the 42°C group. I uploaded all survival data to the GitHub today and asked Colby to upload data to GitHub. Survival was the same at 11:00 and 15:00.  
+
+## Tank maintenance 
+
+I did a 75% water change today and adjusted salinity to ~26 psu. I fed about 20 mL of shellfish food (Reed Mariculture instant algae #1880) at 11:30.  
+
+## Data uploading 
+
+I uploaded images, notebook images, and available data to GitHub today. The [10K seed repository is here](https://github.com/RobertsLab/10K-seed-Cgigas).  
+
+## Planning next week  
+
+Here is the order of resazurin/survival for this week:  
+
+- Tomorrow (Wed 7/31): Bag 30 (temperature hardened)
+- Thursday (8/1): Bag 75 (fresh water and temperature hardened) 
+- Friday: Montior survival 
+- Monday (8/5): Bag 50 (immune hardened) 
+- Tuesday (8/6): Monitor survival 
+- Wednesday (8/7): Bag 47 (temperature hardened) 
+- Thursday (8/8): Bag 56 (fresh water hardened) 
+- Friday (8/9): Monitor survival 
+- Monday (8/12): Bag 36 (control) 
+- Tuesday (8/13): Monitor survival 
+- Wednesday (8/14): Bag 49 (immune hardened) 
+- Thursday (8/15): Bag 76 (fresh water and temperatured hardened) 
