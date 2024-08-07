@@ -186,3 +186,27 @@ Here is the order of resazurin/survival for this week:
 - Tuesday (8/13): Monitor survival 
 - Wednesday (8/14): Bag 49 (immune hardened) 
 - Thursday (8/15): Bag 76 (fresh water and temperatured hardened) 
+
+# Wednesday July 31
+
+Resazurin completed on Bag 30 (temperature hardened). Detailed in [Colby's notebook](https://genefish.wordpress.com/author/colbyelvrum/). 
+
+# Thursday Aug 1
+
+Resazurin completed on Bag 75 (fresh water + temperature hardened). Detailed in [Colby's notebook](https://genefish.wordpress.com/author/colbyelvrum/). 
+
+# Friday Aug 2
+
+Survival monitored from Bag 75. Detailed in [Colby's notebook](https://genefish.wordpress.com/author/colbyelvrum/). 
+
+# Monday Aug 5
+
+Resazurin completed on Bag 50 (immune hardened). Detailed in [Colby's notebook](https://genefish.wordpress.com/author/colbyelvrum/). 
+
+# Tuesday Aug 6
+
+Survival monitored from Bag 50. Detailed in [Colby's notebook](https://genefish.wordpress.com/author/colbyelvrum/). 
+
+# Wednesday Aug 7 
+
+Resazurin completed on Bag 47 (temperature hardened). Detailed in [Colby's notebook](https://genefish.wordpress.com/author/colbyelvrum/). 
