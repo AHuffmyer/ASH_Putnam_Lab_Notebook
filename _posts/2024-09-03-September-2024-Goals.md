@@ -38,6 +38,21 @@ September goals and daily notebook entries.
 
 ## **Daily Log**   
 
+### Sept 5 
+
+- Mcap2020
+- Catching up on emails, slack, budgets 
+- Meeting with Hollie 
+
+### Sept 4
+
+- Catching up on emails
+- Metabolomics sample shipment
+- Review Jill's manuscript
+- Meeting with Danielle 
+- Meeting with Eric C. 
+- Meeting with Aixa PRFP
+
 ### Sept 1-3  
 
 - Shedd Caribbean research cruise 
