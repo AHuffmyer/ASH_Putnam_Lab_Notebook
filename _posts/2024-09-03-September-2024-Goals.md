@@ -38,6 +38,13 @@ September goals and daily notebook entries.
 
 ## **Daily Log**   
 
+### Sept 6 
+
+- E5 molecular meeting
+- Lipids meeting with Yaamini
+- Lipidomic data processing
+- Mcap 2020
+
 ### Sept 5 
 
 - Mcap2020
