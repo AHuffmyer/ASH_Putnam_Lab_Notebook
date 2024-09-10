@@ -17,6 +17,7 @@ September goals and daily notebook entries.
 3. Revise E5 manuscript - results, intro, discussion
 4. Submit E5 to bioRxiv
 5. Outline oyster LCO manuscript 
+6. Revise Mcap2021 manuscript
 
 ### Analysis
 
@@ -28,15 +29,26 @@ September goals and daily notebook entries.
 
 ### Oysters 
  
-1. Goose Point survival & growth 
-2. Efforts B/E/D survival sampling 
-3. Analyze 10K seed data 
+1. ~~Goose Point survival & growth~~
+2. Plot Goose Point growth data 
+3. Efforts B/E/D survival sampling 
+4. Analyze 10K seed data 
 
 ### Funding 
 
 1. Grant search
 
 ## **Daily Log**   
+
+### Sept 10 
+
+- Mcap2021 revisions
+- Reimbursements and emails
+- Meeting with Danielle - writing  
+
+### Sept 9 
+
+- Goose Point field day to collect survival and size data for all oysters
 
 ### Sept 6 
 
