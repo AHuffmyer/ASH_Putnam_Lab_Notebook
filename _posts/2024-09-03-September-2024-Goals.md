@@ -36,6 +36,12 @@ September goals and daily notebook entries.
 
 ## **Daily Log**   
 
+### Sept 13 
+
+- Mcap2021 revisions
+- Notebook entries 
+- E5 results 
+
 ### Sept 12 
 
 - Mcap2021 revisions
