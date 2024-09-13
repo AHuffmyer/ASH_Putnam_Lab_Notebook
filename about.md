@@ -3,33 +3,28 @@ layout: page
 title: About
 permalink: /about/
 ---
-
-I am a marine biologist and eco-physiologist working to understand the role of the physical environment and biological interactions in shaping the physiology, performance, and resilience of early life stages of reef-building corals.  
-
-View more information on my LinkTree at the QR code below.  
+ 
 ![](https://raw.githubusercontent.com/AHuffmyer/ASH_Putnam_Lab_Notebook/master/images/BusinessCard.jpg)  
 
 ### Contact me
 
-[ashuffmyer@uri.edu](mailto:ashuffmyer@uri.edu)  
+[ashuffmyer@uri.edu](mailto:ashuff@uw.edu)  
+[UW Roberts Lab website](https://faculty.washington.edu/sr320/) 
 [URI Putnam Lab website](www.putnamlab.com)  
 [E5 Coral website](www.e5coral.org)  
-[UW Roberts Lab website](https://faculty.washington.edu/sr320/)    
-
+   
 ## <center>ARIANA S. HUFFMYER, PHD</center>
-<center>National Science Foundation Ocean Sciences Postdoctoral Fellow</center>
 <center>UW Data Science Postdoctoral Fellow</center>
-
-<center>Department of Biological Sciences | University of Rhode Island</center>
 <center>School of Aquatic and Fisheries Sciences | University of Washington</center>
 
-<center>ashuffmyer@uri.edu</center>
+<center>ashuff (at) uw.edu</center>
 
 ### POSITIONS HELD
 
 Time|Position| Affiliation
 --|--|--
-2020-Present	| Postdoctoral Researcher | University of Rhode Island (URI), Department of Biological Sciences | University of Washington, School of Aquatic and Fisheries Sciences  
+2024-present | Research Scientist | University of Washington | School of Aquatic and Fisheries Sciences
+2020-2024	| Postdoctoral Researcher | University of Rhode Island (URI), Department of Biological Sciences | University of Washington, School of Aquatic and Fisheries Sciences  
 2014-2020	| Graduate Research and Teaching  Assistant | University of Hawaii at Manoa (UH), Hawaii Institute of Marine Biology (HIMB)  
 
 ### EDUCATION
@@ -45,9 +40,9 @@ Date|Position| Affiliation
 
 [Google Scholar Profile](https://scholar.google.com/citations?user=_dw3pYEAAAAJ&hl=en)
 
-18. **AS Huffmyer**, J Ashey, E Strand, E Chiles, X Su, HM Putnam. Coral larvae employ nitrogen sequestration mechanisms to stabilize carbon provisioning from algal symbionts under increased temperature. Available on bioRxiv at https://www.biorxiv.org/content/10.1101/2024.06.07.598017v1
+18. **AS Huffmyer**, J Ashey, E Strand, E Chiles, X Su, HM Putnam. Coral larvae employ nitrogen sequestration mechanisms to stabilize carbon provisioning from algal symbionts under increased temperature. In revision. Available on bioRxiv at https://www.biorxiv.org/content/10.1101/2024.06.07.598017v1
 17. Venkataraman Y, **AS Huffmyer**, S White, A Downey-Wall, J Ashey, D Becker, Z Bengtsson, HM Putnam, E Strand, J Rodríguez-Casariego, SA Wanamaker, K Lottheros, S Roberts. DNA methylation modulates transcriptional noise in response to elevated pCO2 in the eastern oyster (*Crassostrea virginica*). Environmental Epigenetics. In revision. Available on bioRxiv at https://www.biorxiv.org/content/10.1101/2024.04.04.588108v1
-16. **AS Huffmyer**, KH Wong, DM Becker, E Strand, T Mass, HM Putnam. 2023. Nutritional exchange between reef-building corals and algal endosymbionts buffers the energetic demand of larval development and metamorphosis. bioRxiv. https://www.biorxiv.org/content/10.1101/2023.03.20.533475v2 
+16. **AS Huffmyer**, KH Wong, DM Becker, E Strand, T Mass, HM Putnam. 2023. Nutritional exchange between reef-building corals and algal endosymbionts buffers the energetic demand of larval development and metamorphosis. In revision. Available on bioRxiv at https://www.biorxiv.org/content/10.1101/2023.03.20.533475v2 
 15. Chiles EN, **AS Huffmyer**, C Drury, HM Putnam, D Bhattacharya, X Su. 2022. Stable isotope tracing reveals compartmentalized nitrogen assimilation in scleractinian corals. Frontiers in Marine Science. https://doi.org/10.3389/fmars.2022.1035523  
 14. **Huffmyer AS**, E Majerova, N Bean, C Harris, C Drury. 2022. Variable intraspecific diversity effects impact thermal tolerance in a reef-building coral. Coral Reefs 42:119-129  
 13. **Huffmyer AS**, T O’Neill, JD Lemus. 2022. Evidence for professional conceptualization in science as an important component of science identity. CBE – Life Sciences Education 21(4): ar76      
@@ -139,27 +134,4 @@ Date|Position| Affiliation
 2. **Huffmyer AS**. Utilizing heterotrophy: Nutritional provisioning for juvenile corals in climate change. UHM Albert L. Tester Symposium. Honolulu, Hawaiʻi, USA. April 2016.
 1. **Meltvedt AM**. Novel nematode characterization and phylogeny. Science Education Alliance Symposium. Janelia Farms, Virginia, USA. June 2011. 
 
-### TEACHING EXPERIENCE   
-
-#### *Teaching Assistantships and Course Instruction*  
-- 2023: RNAseq: Experimental design and analytical approaches. University of Washington – Bioinformatics for Environmental Sciences (FSH546). Invited lecture (12 students). 
-- 2023: Proposal writing and scientific messaging. University of Washington - Graduate student professional development course (FSH512). Invited lecture (22 students)  
-- 2021: Coral symbiosis and application of ‘omics to answer emerging questions in marine invertebrate ecophysiology. University of Rhode Island - Marine Environmental Physiology course. Virtual invited lecture (20 students)
-- 2018: Early life history of reef building corals. University of Hawaiʻi at Mānoa - Corals and Coral Reefs course. Invited lecture. Honolulu, HI, USA (30 students)
-- 2017: You are what you eat: Coral nutrition. University of Hawaiʻi at Mānoa - Corals and Coral Reefs course. Invited lecture. Honolulu, HI, USA (25 students)
-- 2015: University of Hawaiʻi at Manoa Biology 265 Laboratory Teaching Assistant (50 students)
-- 2014: University of Hawaiʻi at Manoa Biology 265 Laboratory Teaching Assistant (50 students)
-
-#### *Field Course Instruction*  
-
-- 2015: HIMB Summer Research Experience in Marine Biology for Hawaiʻi High School Students: Full-time instructor and research mentor (20 students)
-- 2013: HIMB Summer Research Experience in Marine Biology for Hawaiʻi High School Students: Undergraduate instruction assistant (20 students)
-
-#### *Curriculum Development and Teacher Education*  
-
-- 2023: Maritime High School, University of Washington curriculum unit: Coastal Erosion
-- 2018: Stanford Ignite educator curriculum development co-host		
-- 2016: Climate Science Teachers Institute co-coordinator, American Samoa & Marshall Islands
-- 2016: Connecting Culture and Coral Reefs: Hawaiʻi educator workshop coordinator
-- 2015: COSEE Island Earth Traditional Hawaiian Knowledge curriculum co-coordinator	
 
