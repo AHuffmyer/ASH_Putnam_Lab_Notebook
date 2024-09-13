@@ -8,10 +8,10 @@ permalink: /about/
 
 ### Contact me
 
-[ashuffmyer@uri.edu](mailto:ashuff@uw.edu)  
-[UW Roberts Lab website](https://faculty.washington.edu/sr320/) 
-[URI Putnam Lab website](www.putnamlab.com)  
-[E5 Coral website](www.e5coral.org)  
+[ashuff (at) uw.edu](mailto:ashuff@uw.edu)    
+[UW Roberts Lab website](https://faculty.washington.edu/sr320/)   
+[URI Putnam Lab website](www.putnamlab.com)    
+[E5 Coral website](www.e5coral.org)    
    
 ## <center>ARIANA S. HUFFMYER, PHD</center>
 <center>UW Data Science Postdoctoral Fellow</center>
