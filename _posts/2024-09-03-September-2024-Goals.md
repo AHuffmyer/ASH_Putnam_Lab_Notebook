@@ -24,8 +24,8 @@ September goals and daily notebook entries.
 1. E5 data science analysis 
 2. Analyze LCO oyster qPCR data
 3. Phenoplate and RLC analyses for Hawaii 2023
-4. Hawaii 2023 lipidomics analysis
-5. Hawaii 2023 metabolomics analysis 
+4. ~~Hawaii 2023 lipidomics analysis~~
+5. ~~Hawaii 2023 metabolomics analysis~~ 
 
 ### Oysters 
  
@@ -34,11 +34,20 @@ September goals and daily notebook entries.
 3. Efforts B/E/D survival sampling 
 4. Analyze 10K seed data 
 
-### Funding 
-
-1. Grant search
-
 ## **Daily Log**   
+
+### Sept 12 
+
+- Mcap2021 revisions
+- Lipid and metabolite analysis
+- Campus day - working with Madeline 
+- Meeting with students 
+- Oyster planning
+
+### Sept 11
+
+- Mcap2021 revisions
+- Lipid and metabolite analysis
 
 ### Sept 10 
 
