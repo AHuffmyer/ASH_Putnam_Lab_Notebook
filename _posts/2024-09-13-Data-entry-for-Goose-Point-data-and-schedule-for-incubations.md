@@ -30,7 +30,7 @@ Madeline successfully cloned the repositories and pushed/pulled practice changes
 
 Madeline will also use the data we enter to practice R skills!  
 
-##2. Data entry protocol 
+## 2. Data entry protocol 
 
 We will be entering growth data from the 9/9/2024 Goose Point field collection. Here is the protocol we will follow: 
 
@@ -53,7 +53,7 @@ We will be entering growth data from the 9/9/2024 Goose Point field collection. 
 
 After data is entered, we will make some scripts to graph the data - this will be a great opportunity for Madeline to practice plotting and coding in R.  
 
-##3. Schedule for next week 
+## 3. Schedule for next week 
 
 Next week, we are going to try increasing heat stress for survival incubation trials. Here is the schedule we agreed on:  
 
