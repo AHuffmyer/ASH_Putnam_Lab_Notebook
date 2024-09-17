@@ -14,8 +14,8 @@ September goals and daily notebook entries.
               
 1. Resubmit Mcap2020 manuscript
 2. Methods for Mcap2023 analysis
-3. Revise E5 manuscript - results, intro, discussion
-4. Submit E5 to bioRxiv
+3. ~~Revise E5 manuscript - results~~
+4. Submit E5 to co-authors and journal
 5. Outline oyster LCO manuscript 
 6. Revise Mcap2021 manuscript
 
@@ -35,6 +35,12 @@ September goals and daily notebook entries.
 4. Analyze 10K seed data 
 
 ## **Daily Log**   
+
+### Sept 16 
+
+- Finished full draft of E5 results section
+- Meeting with Hollie
+- Putnam Lab meeting
 
 ### Sept 13 
 
