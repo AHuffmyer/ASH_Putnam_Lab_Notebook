@@ -1,10 +1,15 @@
 ---
 layout: post
-title: Point Whitney Field Day September 17 2024
-date: '2024-09-17'
+title: Point Whitney Field Day September 17 and 20 2024
+date: '2024-09-19'
 categories: 10K_Seed RobertsLab_Oysters WSG_USDA
 tags: Oyster StripSpawning Survival Cgigas Environmental
 ---
+
+Field work notebook posts from 17-20 September at Point Whitney.  
+
+
+# September 17 
 
 Today I went to the Point Whitney hatchery to conduct continued 10K Seed stress hardening and check on broodstock gamete development.  
 
@@ -74,3 +79,23 @@ We also need to decide what to do with Effort C project dip/trip families that u
 ![](https://github.com/AHuffmyer/ASH_Putnam_Lab_Notebook/blob/master/images/NotebookImages/oysters/wsg_usda/20240917/p6.jpeg?raw=true)
 
 ![](https://github.com/AHuffmyer/ASH_Putnam_Lab_Notebook/blob/master/images/NotebookImages/oysters/wsg_usda/20240917/p7.jpeg?raw=true)
+
+# September 20  
+
+Today I went to Point Whitney to finish images of 10K seed bags and conduct another round of fresh water stressors.  
+
+## 1. Continuing stress 
+
+I conducted another round of stress hardening as described in [Steven's notebook](https://sr320.github.io/tumbling-oysters/posts/29-prime/). The temperature exposure is occuring in the lab on a daily timer of exposure (36°C between 11pm-5am daily). I took bags 75/76 and 56/66 and added each bag to an individual 5 gallon bucket in fresh water for two hours from 10:00-12:00. 
+
+All bags were taken back to the lagoon after the fresh water stress. We will now let the bags be in the lagoon for a couple weeks before outplanting.  
+
+I cleaned all tanks and removed all heaters and pumps.  
+
+## 2. Photos of 10K seed for growth and numbers 
+
+I took images of seed for the 10K project from bags 30, 36, 37, 49, and 50. For each bag, there are two photos (bag "a" and bag "b"). All seeds are contained within the two photos. I added a caliper for size reference and a notepad with the bag and photo letter in each photo.  
+
+We will continue to analyze these images for number of oysters in each bag and average size before outplanting as described [in this issue](https://github.com/RobertsLab/resources/issues/1963). 
+
+All images are uplaoded to [this directory in GitHub](https://github.com/RobertsLab/10K-seed-Cgigas/tree/main/data/images_0915).  

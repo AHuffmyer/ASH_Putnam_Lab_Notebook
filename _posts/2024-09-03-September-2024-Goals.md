@@ -1,7 +1,7 @@
 ---
 layout: post
 title: September 2024 Goals
-date: '2024-09-03'
+date: '2024-09-18'
 categories: Monthly_Goals
 tags: Goals
 ---
@@ -17,7 +17,7 @@ September goals and daily notebook entries.
 3. ~~Revise E5 manuscript - results~~
 4. Submit E5 to co-authors and journal
 5. Outline oyster LCO manuscript 
-6. Revise Mcap2021 manuscript
+6. ~~Revise Mcap2021 manuscript~~
 
 ### Analysis
 
@@ -30,11 +30,40 @@ September goals and daily notebook entries.
 ### Oysters 
  
 1. ~~Goose Point survival & growth~~
-2. Plot Goose Point growth data 
+2. ~~Plot Goose Point growth data~~ 
 3. Efforts B/E/D survival sampling 
 4. Analyze 10K seed data 
 
 ## **Daily Log**   
+
+### Sept 20
+
+- Mcap 2021 revisions
+- E5 paper
+- Point Whitney field day 
+- Molecular E5 meeting
+
+### Sept 19 
+
+- Mcap 2021
+- E5 paper
+- Hawaii 2023 analysis 
+- Danielle writing meeting
+
+### Sept 18 
+
+- Mcap 2021
+- E5 paper
+- Goose Point growth plotting 
+- Hawaii 2023 analysis 
+- Putnam Lab meeting
+
+### Sept 17 
+
+- Mcap 2021
+- E5 paper
+- Oyster incubation trouble shooting 
+- Point Whitney field day 
 
 ### Sept 16 
 
