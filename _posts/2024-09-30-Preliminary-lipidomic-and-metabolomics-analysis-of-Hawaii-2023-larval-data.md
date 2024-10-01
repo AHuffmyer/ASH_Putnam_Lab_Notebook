@@ -2865,7 +2865,7 @@ interaction_VIP_1 %>%
 dev.off() 
 ```
 
-![](https://github.com/AHuffmyer/ASH_Putnam_Lab_Notebook/blob/master/images/NotebookImages/Hawaii2023/omics/metabolomics/Interaction_VIP.jpeg?raw=true)
+![](https://github.com/AHuffmyer/ASH_Putnam_Lab_Notebook/blob/master/images/NotebookImages/Hawaii2023/omics/metabolomics/Interaction_VIP.png?raw=true)
 
 These lists represent VIPs that drive separation between parent x temperature groups.  
 
@@ -2929,7 +2929,7 @@ draw(heatmap)
 dev.off()
 ```
 
-![](https://github.com/AHuffmyer/ASH_Putnam_Lab_Notebook/blob/master/images/NotebookImages/Hawaii2023/omics/metabolomics/VIP_heatmap_parentxtemperature.jpeg?raw=true)  
+![](https://github.com/AHuffmyer/ASH_Putnam_Lab_Notebook/blob/master/images/NotebookImages/Hawaii2023/omics/metabolomics/VIP_heatmap_parentxtemperature.png?raw=true)  
 
 View PCA for VIPs.  
 
