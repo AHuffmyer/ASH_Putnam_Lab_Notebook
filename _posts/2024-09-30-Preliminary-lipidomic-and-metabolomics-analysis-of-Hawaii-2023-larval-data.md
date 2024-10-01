@@ -617,13 +617,15 @@ permanova<-adonis2(vegan ~ parent*temperature, data = wide_data, method='eu')
 permanova
 ```  
 
+```
 adonis2(formula = vegan ~ parent * temperature, data = wide_data, method = "eu")
                    Df SumOfSqs      R2      F Pr(>F)  
 parent              2     3925 0.09312 2.5252  0.024 *
 temperature         2     3346 0.07938 2.1525  0.050 *
 parent:temperature  4     2238 0.05309 0.7198  0.703  
 Residual           42    32642 0.77441                
-Total              50    42150 1.00000      
+Total              50    42150 1.00000 
+```     
 
 Because the unsupervised analysis shows an effect of parent and temperature, we will proceed with PLSDA analyses to look at VIPS that separate parent groups and those that separate temperature groups.  
 
@@ -872,13 +874,15 @@ permanova<-adonis2(vegan ~ parent*temperature, data = vip_data_parent, method='e
 permanova
 ```
 
+```
 adonis2(formula = vegan ~ parent * temperature, data = vip_data_parent, method = "eu")
                    Df SumOfSqs      R2      F Pr(>F)    
 parent              2   2631.8 0.22209 7.0674  0.001 ***
 temperature         2    874.1 0.07376 2.3472  0.031 *  
 parent:temperature  4    524.0 0.04422 0.7035  0.753    
 Residual           42   7820.1 0.65993                  
-Total              50  11850.0 1.00000         
+Total              50  11850.0 1.00000  
+```       
 
 ```
 pca_vip_parent1<-ggplot2::autoplot(scaled.pca, data=vip_data_parent, frame.colour="parent", loadings=FALSE,  colour="parent", shape="temperature", loadings.label.colour="black", loadings.colour="black", loadings.label=FALSE, frame=TRUE, loadings.label.size=5, loadings.label.vjust=-1, size=4) + 
@@ -1107,13 +1111,16 @@ permanova<-adonis2(vegan ~ parent*temperature, data = vip_data_temperature, meth
 permanova
 ```
 
+```
 adonis2(formula = vegan ~ parent * temperature, data = vip_data_temperature, method = "eu")
                    Df SumOfSqs      R2      F Pr(>F)  
 parent              2   1228.1 0.09786 2.7436  0.018 *
 temperature         2   1219.2 0.09715 2.7237  0.021 *
 parent:temperature  4    702.6 0.05598 0.7848  0.681  
 Residual           42   9400.1 0.74901                
-Total              50  12550.0 1.00000          
+Total              50  12550.0 1.00000  
+```
+        
 
 ```
 pca_vip_temperature1<-ggplot2::autoplot(scaled.pca, data=vip_data_temperature, frame.colour="parent", loadings=FALSE,  colour="parent", shape="temperature", loadings.label.colour="black", loadings.colour="black", loadings.label=FALSE, frame=TRUE, loadings.label.size=5, loadings.label.vjust=-1, size=4) + 
@@ -1350,13 +1357,15 @@ permanova<-adonis2(vegan ~ parent*temperature, data = vip_data_interaction, meth
 permanova
 ```
 
+```
 adonis2(formula = vegan ~ parent * temperature, data = vip_data_interaction, method = "eu")
                    Df SumOfSqs      R2      F Pr(>F)    
 parent              2   2779.5 0.18407 5.8640  0.001 ***
 temperature         2   1432.4 0.09486 3.0220  0.002 ** 
 parent:temperature  4    934.5 0.06189 0.9858  0.450    
 Residual           42   9953.7 0.65918                  
-Total              50  15100.0 1.00000    
+Total              50  15100.0 1.00000 
+```   
 
 No interactive effect detected.  
 
@@ -1429,7 +1438,7 @@ full_lipid_list<-lipids_filtered%>%
 
 What is the overlap in these lists? Create an upset plot. 
 
-```{r}
+```
 # Combine lists into a data frame indicating membership (1 = present, 0 = absent)
 upset_data <- data.frame(
   Lipid = unique(c(parent_vip_list, temperature_vip_list, interaction_vip_list)),
@@ -1559,7 +1568,7 @@ Heatmap of parent VIPs:
 
 PCA of parent VIPs:  
 
-![](https://github.com/AHuffmyer/ASH_Putnam_Lab_Notebook/blob/master/images/NotebookImages/Hawaii2023/omics/pca_plots_parentVIP_height.png?raw=true)
+![](https://github.com/AHuffmyer/ASH_Putnam_Lab_Notebook/blob/master/images/NotebookImages/Hawaii2023/omics/pca_plots_parentVIP_height.jpeg?raw=true)
 
 ## Temperature effects
 
@@ -2242,13 +2251,15 @@ permanova<-adonis2(vegan ~ parent*temperature, data = wide_data, method='eu')
 permanova
 ```
 
+```
 adonis2(formula = vegan ~ parent * temperature, data = wide_data, method = "eu")
                    Df SumOfSqs      R2      F Pr(>F)  
 parent              2    79.95 0.03203 0.8623  0.483  
 temperature         2    74.27 0.02975 0.8009  0.542  
 parent:temperature  4   301.81 0.12092 1.6274  0.087 .
 Residual           44  2039.97 0.81730                
-Total              52  2496.00 1.00000      
+Total              52  2496.00 1.00000 
+```     
 
 No effect of parent or temperature.      
 
@@ -2292,7 +2303,7 @@ Script modified from the following tutorial: https://mixomicsteam.github.io/Book
 
 ### PLS-DA for the effect of parent 
 
-Generate a PLS-DA and plot.    
+Generate a PLS-DA and plot.      
 
 ```
 #assigning datasets 
@@ -2323,7 +2334,7 @@ plotIndiv(MyResult.plsda, col=cols, ind.names = FALSE, legend=TRUE, legend.title
 
 Set model to determine VIPs.  
 
-```{r, message=FALSE}
+```
 MyResult.plsda_parent <- plsda(X,Y, ncomp=2) 
 
 #view plsda model again
@@ -2483,13 +2494,15 @@ permanova<-adonis2(vegan ~ parent*temperature, data = vip_data_parent, method='e
 permanova
 ```
 
+```
 adonis2(formula = vegan ~ parent * temperature, data = vip_data_parent, method = "eu")
                    Df SumOfSqs      R2      F Pr(>F)
 parent              2    44.50 0.05705 1.5591  0.182
 temperature         2    22.15 0.02839 0.7760  0.548
 parent:temperature  4    85.45 0.10955 1.4969  0.159
 Residual           44   627.91 0.80501              
-Total              52   780.00 1.00000      
+Total              52   780.00 1.00000     
+``` 
 
 No difference in VIPs by parent or temperature.  
 
@@ -2719,13 +2732,15 @@ permanova<-adonis2(vegan ~ parent*temperature, data = vip_data_temperature, meth
 permanova
 ```
 
+```
 adonis2(formula = vegan ~ parent * temperature, data = vip_data_temperature, method = "eu")
                    Df SumOfSqs      R2      F Pr(>F)
 parent              2    28.82 0.05543 1.5314  0.208
 temperature         2    23.68 0.04553 1.2579  0.263
 parent:temperature  4    53.42 0.10273 1.4192  0.203
 Residual           44   414.08 0.79630              
-Total              52   520.00 1.00000   
+Total              52   520.00 1.00000 
+```  
 
 No significant effects.  
 
@@ -2758,6 +2773,7 @@ pca_plots_temperature<-plot_grid(pca_vip_temperature1, pca_vip_temperature2, nco
 
 ggsave(pca_plots_temperature, filename="figures/metabolites/pca_plots_temperatureVIP.jpeg", width=12, height=4)
 ```
+
 ![](https://github.com/AHuffmyer/ASH_Putnam_Lab_Notebook/blob/master/images/NotebookImages/Hawaii2023/omics/metabolomics/pca_plots_temperatureVIP.jpeg?raw=true)
 
 ### PLS-DA for the effect of parent x temperature groups   
@@ -2959,13 +2975,15 @@ permanova<-adonis2(vegan ~ parent*temperature, data = vip_data_interaction, meth
 permanova
 ```
 
+```
 adonis2(formula = vegan ~ parent * temperature, data = vip_data_interaction, method = "eu")
                    Df SumOfSqs      R2      F Pr(>F)  
 parent              2    28.06 0.04151 1.1445  0.332  
 temperature         2    27.70 0.04098 1.1299  0.315  
 parent:temperature  4    80.85 0.11960 1.6489  0.099 .
 Residual           44   539.39 0.79791                
-Total              52   676.00 1.00000               
+Total              52   676.00 1.00000 
+```              
 
 No effects are significant.  
 
