@@ -1,7 +1,7 @@
 ---
 layout: post
 title: September 2024 Goals
-date: '2024-09-18'
+date: '2024-09-30'
 categories: Monthly_Goals
 tags: Goals
 ---
@@ -35,6 +35,15 @@ September goals and daily notebook entries.
 4. Analyze 10K seed data 
 
 ## **Daily Log**   
+
+### Sept 30 
+
+- Was on vacation last week
+- Meetings, emails, catch up
+- Resubmit Mcap 2021
+- Paper review 
+- Lucy's paper comments
+- Putnam Lab meeting 
 
 ### Sept 20
 
