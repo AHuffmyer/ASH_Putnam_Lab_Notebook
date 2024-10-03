@@ -13,10 +13,10 @@ This post shows plots from temperature loggers for oyster field sites and outpla
 GitHub repositories for these projects can be found at the following locations:  
 
 - [Oyster stress hardening](https://github.com/RobertsLab/project-gigas-conditioning/tree/main) 
-- [10K seed]()
-- [Life stage carryover]()
+- [10K seed](https://github.com/RobertsLab/10K-seed-Cgigas)
+- [Life stage carryover](https://github.com/RobertsLab/project-gigas-carryover/tree/main/lifestage_carryover)
 
-The plots produced from these scripts can be found for each project in the [oyster stress hardening](https://github.com/RobertsLab/project-gigas-conditioning/blob/main/code/loggers.Rmd) projects and [10K seed hardening]() project.  
+The plots produced from these scripts can be found for each project in the [oyster stress hardening](https://github.com/RobertsLab/project-gigas-conditioning/blob/main/code/loggers.Rmd) projects and [10K seed hardening](https://github.com/RobertsLab/10K-seed-Cgigas) project.  
 
 ## Point Whitney loggers 
 
