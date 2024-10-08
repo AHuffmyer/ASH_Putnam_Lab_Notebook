@@ -1,12 +1,12 @@
 ---
 layout: post
-title: Analysis of Oct 2 oyster lab survival tests
-date: '2024-10-03'
+title: Analysis of Effort D oyster lab survival tests
+date: '2024-10-08'
 categories: RobertsLab_Oysters WSG_USDA
 tags: Cgigas Oyster R Survival
 ---
 
-Today I ran scripts to analyze the first round of Effort D survival incubations for oysters in the lab. 
+Today I ran scripts to analyze Effort D survival incubations for oysters in the lab. 
 
 # Overview 
 
@@ -18,7 +18,7 @@ The script used here can be found on [GitHub at this link](https://github.com/Ro
 
 In this project, we exposed oyster seed to hardening stressors (sub lethal temperature exopsure) in the spring. We are now conducting lab thermal stress tests to test survivorship. Counterparts of these oysters are deployed at field sites.  
 
-Noah's notebook posts for these incubations from 10/2-10/3 [can be found here](https://genefish.wordpress.com/2024/10/02/bag-21-and-bag-38-trial-at-46-celsius-10-2-24/).  
+Noah's notebook posts for these incubations [can be found here](https://genefish.wordpress.com/).  
 
 ## Set up 
 
@@ -96,16 +96,7 @@ Use a log rank model to determine statistical differences in curves.
 survdiff(Surv(time, status) ~ treatment, data = control)
 ```
 
-```
-Call:
-survdiff(formula = Surv(time, status) ~ treatment, data = control)
-
-                    N Observed Expected (O-E)^2/E (O-E)^2/V
-treatment=Control 140        0        0       NaN       NaN
-treatment=Treated 140        0        0       NaN       NaN
-
- Chisq= 0  on -1 degrees of freedom, p= NA 
-```
+No significant difference. P=1  
 
 Analyze again with a Cox proportional hazards model.   
 
@@ -116,16 +107,7 @@ coxph(Surv(time, status) ~ treatment, data = control) %>%
   tbl_regression(exp = TRUE) 
 ```
 
-```
-Call:
-coxph(formula = Surv(time, status) ~ treatment, data = control)
-
-                 coef exp(coef) se(coef)  z  p
-treatmentTreated   NA        NA        0 NA NA
-
-Likelihood ratio test=0  on 0 df, p=1
-n= 280, number of events= 0 
-```
+No significant difference. P=1  
 
 There is no difference in curves with p=1. This makes sense because there was 0 mortality.  
 
@@ -161,16 +143,7 @@ Use a log rank model to determine statistical differences in curves.
 survdiff(Surv(time, status) ~ treatment, data = stress)
 ```
 
-```
-Call:
-survdiff(formula = Surv(time, status) ~ treatment, data = stress)
-
-                    N Observed Expected (O-E)^2/E (O-E)^2/V
-treatment=Control 140       83     75.5     0.745      2.62
-treatment=Treated 140       68     75.5     0.745      2.62
-
- Chisq= 2.6  on 1 degrees of freedom, p= 0.1 
-```
+No significant difference. P=0.7    
 
 Analyze again with a Cox proportional hazards model.   
 
@@ -181,16 +154,7 @@ coxph(Surv(time, status) ~ treatment, data = stress) %>%
   tbl_regression(exp = TRUE) 
 ```
 
-```
-Call:
-coxph(formula = Surv(time, status) ~ treatment, data = stress)
-
-                    coef exp(coef) se(coef)     z     p
-treatmentTreated -0.2406    0.7862   0.1637 -1.47 0.142
-
-Likelihood ratio test=2.17  on 1 df, p=0.1404
-n= 280, number of events= 151 
-```
+No significant difference. P=0.7 
 
 ## Generate plots 
  
@@ -247,4 +211,4 @@ ggsave(plots, filename="figures/survival/KMcurves.png", width=10, height=4)
 
 No difference between hardening treatments. There is a clear effect of the incubation stress temperature as desired!  
 
-We will keep running oysters through this protocol from all efforts.  
+We will keep running oysters through this protocol from all efforts.    
