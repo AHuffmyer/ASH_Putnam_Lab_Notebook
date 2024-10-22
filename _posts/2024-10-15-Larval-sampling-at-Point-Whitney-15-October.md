@@ -20,7 +20,7 @@ Today I sampled larvae when Carrie dropped all of the 1K L tanks. We followed si
 
 We dropped all of the tanks onto 80 um screens. The larvae were very pigmented and concentrated! All tanks returned similar yields onto the screens.  
 
-![](https://github.com/AHuffmyer/ASH_Putnam_Lab_Notebook/blob/master/images/NotebookImages/oysters/wsg_usda/20241015/pic1.jpeg)
+![](https://github.com/AHuffmyer/ASH_Putnam_Lab_Notebook/blob/master/images/NotebookImages/oysters/wsg_usda/20241015/pic1.jpeg?raw=true)
 
 Larval rearing conditions in these tanks have been consistent (see notebook images below).  
 
@@ -32,30 +32,30 @@ We then rinsed the larvae through the following screen sizes:
 - 60 um
 - 30 um
 
-![](https://github.com/AHuffmyer/ASH_Putnam_Lab_Notebook/blob/master/images/NotebookImages/oysters/wsg_usda/20241015/pic4.jpeg)
+![](https://github.com/AHuffmyer/ASH_Putnam_Lab_Notebook/blob/master/images/NotebookImages/oysters/wsg_usda/20241015/pic4.jpeg?raw=true)
 
 Larvae were rinsed and we looked at the screens for 105 um and 80 um. Very little larvae were passed through to the 80 um with the bulk on the 105 um. We therefore decided to cull the 80 um and keep the  105+ um larvae for both the control and treated groups.  
 
 Here is what the 105 screens looked like: 
 
 
-![](https://github.com/AHuffmyer/ASH_Putnam_Lab_Notebook/blob/master/images/NotebookImages/oysters/wsg_usda/20241015/pic2.jpeg)
+![](https://github.com/AHuffmyer/ASH_Putnam_Lab_Notebook/blob/master/images/NotebookImages/oysters/wsg_usda/20241015/pic2.jpeg?raw=true)
 
-![](https://github.com/AHuffmyer/ASH_Putnam_Lab_Notebook/blob/master/images/NotebookImages/oysters/wsg_usda/20241015/pic3.jpeg)
+![](https://github.com/AHuffmyer/ASH_Putnam_Lab_Notebook/blob/master/images/NotebookImages/oysters/wsg_usda/20241015/pic3.jpeg?raw=true)
 
 Here is the 80 um screen: 
 
-![](https://github.com/AHuffmyer/ASH_Putnam_Lab_Notebook/blob/master/images/NotebookImages/oysters/wsg_usda/20241015/pic5.jpeg)
+![](https://github.com/AHuffmyer/ASH_Putnam_Lab_Notebook/blob/master/images/NotebookImages/oysters/wsg_usda/20241015/pic5.jpeg?raw=true)
 
 We looked at the larvae under the scope - they looked great! Larvae were large and the guts were full in both treatments. There may have been some smaller runts in the treated tanks, but there was not a clear difference in size.  
 
 Control larvae:  
 
-![](https://github.com/AHuffmyer/ASH_Putnam_Lab_Notebook/blob/master/images/NotebookImages/oysters/wsg_usda/20241015/pic6.jpeg)
+![](https://github.com/AHuffmyer/ASH_Putnam_Lab_Notebook/blob/master/images/NotebookImages/oysters/wsg_usda/20241015/pic6.jpeg?raw=true)
 
 Treated larvae:  
 
-![](https://github.com/AHuffmyer/ASH_Putnam_Lab_Notebook/blob/master/images/NotebookImages/oysters/wsg_usda/20241015/pic7.jpeg)
+![](https://github.com/AHuffmyer/ASH_Putnam_Lab_Notebook/blob/master/images/NotebookImages/oysters/wsg_usda/20241015/pic7.jpeg?raw=true)
 
 Once the larvae were isolated on the 105 um screen, I took samples by scooping concentrated larvae into tubes with 500 uL RNA/DNA shield.  
 
@@ -154,12 +154,12 @@ Flow was 1.4-1.8 in all tanks.
 
 # Notebook images 
 
-![](https://github.com/AHuffmyer/ASH_Putnam_Lab_Notebook/blob/master/images/NotebookImages/oysters/wsg_usda/20241015/nb1.jpeg)
+![](https://github.com/AHuffmyer/ASH_Putnam_Lab_Notebook/blob/master/images/NotebookImages/oysters/wsg_usda/20241015/nb1.jpeg?raw=true)
 
-![](https://github.com/AHuffmyer/ASH_Putnam_Lab_Notebook/blob/master/images/NotebookImages/oysters/wsg_usda/20241015/nb2.jpeg)
+![](https://github.com/AHuffmyer/ASH_Putnam_Lab_Notebook/blob/master/images/NotebookImages/oysters/wsg_usda/20241015/nb2.jpeg?raw=true)
 
-![](https://github.com/AHuffmyer/ASH_Putnam_Lab_Notebook/blob/master/images/NotebookImages/oysters/wsg_usda/20241015/nb3.jpeg)
+![](https://github.com/AHuffmyer/ASH_Putnam_Lab_Notebook/blob/master/images/NotebookImages/oysters/wsg_usda/20241015/nb3.jpeg?raw=true)
 
-![](https://github.com/AHuffmyer/ASH_Putnam_Lab_Notebook/blob/master/images/NotebookImages/oysters/wsg_usda/20241015/carrie1.jpeg)
+![](https://github.com/AHuffmyer/ASH_Putnam_Lab_Notebook/blob/master/images/NotebookImages/oysters/wsg_usda/20241015/carrie1.jpeg?raw=true)
 
-![](https://github.com/AHuffmyer/ASH_Putnam_Lab_Notebook/blob/master/images/NotebookImages/oysters/wsg_usda/20241015/carrie2.jpeg)
+![](https://github.com/AHuffmyer/ASH_Putnam_Lab_Notebook/blob/master/images/NotebookImages/oysters/wsg_usda/20241015/carrie2.jpeg?raw=true)
