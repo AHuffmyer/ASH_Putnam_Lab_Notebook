@@ -51,4 +51,7 @@ We dumped the oysters out of mesh seed bags that [we prepared yesterday](https:/
 
 The bags were attached to three lines with 10 bags per line, all randomly distributed. We will keep in touch with Baywater to help with maintenance and will assess them in the spring! 
 
-![]()
+![](https://github.com/AHuffmyer/ASH_Putnam_Lab_Notebook/blob/master/images/NotebookImages/oysters/wsg_usda/20241030/pic1.jpeg?raw=true)
+
+
+![](https://github.com/AHuffmyer/ASH_Putnam_Lab_Notebook/blob/master/images/NotebookImages/oysters/wsg_usda/20241030/pic2.jpeg?raw=true)
