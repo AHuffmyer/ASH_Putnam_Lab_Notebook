@@ -1,7 +1,7 @@
 ---
 layout: post
 title: 10K seed outplant at Baywater Shellfish
-date: '2024-10-30'
+date: '2024-10-31'
 categories: 10K_Seed RobertsLab_Oysters
 tags: Oyster R Resazurin Survival
 ---
