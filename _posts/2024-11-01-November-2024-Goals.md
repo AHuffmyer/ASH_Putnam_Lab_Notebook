@@ -37,3 +37,12 @@ November goals and daily notebook entries.
 
 ## **Daily Log**   
 
+### Nov 4 
+
+- Putnam Lab meeting
+- Roberts Lab meeting 
+- Roberts/Tornebene Lab meeting
+- Roberts Lab poster 
+- Test metabolomic data for E5 
+- Reading papers
+
