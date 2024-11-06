@@ -16,7 +16,7 @@ November goals and daily notebook entries.
 2. Methods for Mcap2023 analysis
 3. Submit E5 to co-authors
 4. Submit E5 to journal
-5. Draft 10K/resazurin assay 
+5. Draft 10K/resazurin assay manuscript
 6. Methods and results for LCO manuscript 
 
 ### Analysis
@@ -36,12 +36,25 @@ November goals and daily notebook entries.
 2. Plan fall growth assessment for Point Whitney outplants 
 3. Plan PolyIC larval sampling 
 
+### Outreach 
+
+1. Reva Atea magazine 
+2. Nov 12th Maritime HS visit to UW
+
 ### Presentations 
 
 1. Prepare Moorea LTER presentation on E5 work 
 2. Prepare eScience seminar presentation on Mcap2023 work 
 
 ## **Daily Log**   
+
+### Nov 6
+
+- eScience postdoc lunch
+- Planning outreach event for next week 
+- Planning URI trip 
+- Mcap2020 revisions
+- Pacuta 2022 paper comments 
 
 ### Nov 5
 
