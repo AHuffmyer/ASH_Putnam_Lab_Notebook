@@ -1,7 +1,7 @@
 ---
 layout: post
 title: November 2024 Goals
-date: '2024-11-01'
+date: '2024-11-05'
 categories: Monthly_Goals
 tags: Goals
 ---
@@ -16,7 +16,7 @@ November goals and daily notebook entries.
 2. Methods for Mcap2023 analysis
 3. Submit E5 to co-authors
 4. Submit E5 to journal
-5. Methods for 10K seed manuscript
+5. Draft 10K/resazurin assay 
 6. Methods and results for LCO manuscript 
 
 ### Analysis
@@ -30,12 +30,26 @@ November goals and daily notebook entries.
 7. Growth analysis for Westcott seed
 8. Data analysis for LCO growth 
 
+### Field work 
+
+1. Plan fall growth assessment for Goose Point and Westcott
+2. Plan fall growth assessment for Point Whitney outplants 
+3. Plan PolyIC larval sampling 
+
 ### Presentations 
 
 1. Prepare Moorea LTER presentation on E5 work 
 2. Prepare eScience seminar presentation on Mcap2023 work 
 
 ## **Daily Log**   
+
+### Nov 5
+
+- Writing meeting with Danielle
+- Lipids meeting with Yaamini
+- Mcap2020 revisions
+- Meeting with Steven 
+- Roberts Lab poster 
 
 ### Nov 4 
 
