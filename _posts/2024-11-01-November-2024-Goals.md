@@ -48,6 +48,12 @@ November goals and daily notebook entries.
 
 ## **Daily Log**   
 
+### Nov 7
+
+- Career compass workshop 
+- Planning UW outreach visit 
+- E5 phys paper 
+
 ### Nov 6
 
 - eScience postdoc lunch
