@@ -48,6 +48,17 @@ November goals and daily notebook entries.
 
 ## **Daily Log**   
 
+### Nov 8
+
+- Planning UW outreach visit 
+- Danielle practice defense
+- Meeting with UW metabolomics
+- Drafting metabolomics/lipids protocols for URI next week
+- Booking URI travel 
+- Meeting with Rosalind 
+- Meeting with Andy on campus
+- WSG planning meeting 
+
 ### Nov 7
 
 - Career compass workshop 
