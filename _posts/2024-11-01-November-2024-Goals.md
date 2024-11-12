@@ -1,7 +1,7 @@
 ---
 layout: post
 title: November 2024 Goals
-date: '2024-11-05'
+date: '2024-11-12'
 categories: Monthly_Goals
 tags: Goals
 ---
@@ -12,11 +12,11 @@ November goals and daily notebook entries.
 
 ### Writing and manuscripts 
               
-1. Resubmit Mcap2020 manuscript to Functional Ecology 
+1. Resubmit Mcap2020 manuscript
 2. Methods for Mcap2023 analysis
 3. Submit E5 to co-authors
 4. Submit E5 to journal
-5. Draft 10K/resazurin assay manuscript
+5. Draft resazurin assay manuscript
 6. Methods and results for LCO manuscript 
 
 ### Analysis
@@ -39,7 +39,7 @@ November goals and daily notebook entries.
 ### Outreach 
 
 1. Reva Atea magazine 
-2. Nov 12th Maritime HS visit to UW
+2. ~~Nov 12th Maritime HS visit to UW~~
 
 ### Presentations 
 
@@ -47,6 +47,12 @@ November goals and daily notebook entries.
 2. Prepare eScience seminar presentation on Mcap2023 work 
 
 ## **Daily Log**   
+
+### Nov 12
+
+- Campus Outreach event with Maritime High School 
+- Meeting with Jen
+- New paper published at [PLOS Biology](https://journals.plos.org/plosbiology/article?id=10.1371/journal.pbio.3002875)! 
 
 ### Nov 8
 
