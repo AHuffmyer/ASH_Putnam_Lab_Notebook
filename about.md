@@ -4,7 +4,7 @@ title: About
 permalink: /about/
 ---
  
-![](https://raw.githubusercontent.com/AHuffmyer/ASH_Putnam_Lab_Notebook/master/images/BusinessCard.jpg)  
+![](https://raw.githubusercontent.com/AHuffmyer/ASH_Putnam_Lab_Notebook/master/images/BusinessCard.png)  
 
 ### Contact me
 
@@ -14,7 +14,6 @@ permalink: /about/
 [E5 Coral website](www.e5coral.org)    
    
 ## <center>ARIANA S. HUFFMYER, PHD</center>
-<center>UW Data Science Postdoctoral Fellow</center>
 <center>School of Aquatic and Fisheries Sciences | University of Washington</center>
 
 <center>ashuff (at) uw.edu</center>
@@ -34,14 +33,12 @@ Date|Position| Affiliation
 2020 |	PhD in Marine Biology | University of Hawaii at Manoa
 2014 |	BSc with Honors in Marine Biology, Chemistry Minor | Oregon State University
 
- - PhD Dissertation: Getting a head start: Influential early experiences for juvenile corals and community college science students
-
 ### PUBLICATIONS
 
 [Google Scholar Profile](https://scholar.google.com/citations?user=_dw3pYEAAAAJ&hl=en)
 
-18. **AS Huffmyer**, J Ashey, E Strand, E Chiles, X Su, HM Putnam. Coral larvae employ nitrogen sequestration mechanisms to stabilize carbon provisioning from algal symbionts under increased temperature. In revision. Available on bioRxiv at https://www.biorxiv.org/content/10.1101/2024.06.07.598017v1
-17. Venkataraman Y, **AS Huffmyer**, S White, A Downey-Wall, J Ashey, D Becker, Z Bengtsson, HM Putnam, E Strand, J Rodríguez-Casariego, SA Wanamaker, K Lottheros, S Roberts. DNA methylation modulates transcriptional noise in response to elevated pCO2 in the eastern oyster (*Crassostrea virginica*). Environmental Epigenetics. In revision. Available on bioRxiv at https://www.biorxiv.org/content/10.1101/2024.04.04.588108v1
+18. **AS Huffmyer**, J Ashey, E Strand, E Chiles, X Su, HM Putnam. 2024. Coral larvae increase nitrogen assimilation to stabilize algal symbiosis and combat bleaching under increased temperature. PLoS Biology 22(11): e3002875
+17. Venkataraman Y, **AS Huffmyer**, S White, A Downey-Wall, J Ashey, D Becker, Z Bengtsson, HM Putnam, E Strand, J Rodríguez-Casariego, SA Wanamaker, K Lottheros, S Roberts. 2024. DNA methylation correlates with transcriptional noise in response to elevated pCO2 in the eastern oyster (*Crassostrea virginica*). Environmental Epigenetics. 10(1): dvae018
 16. **AS Huffmyer**, KH Wong, DM Becker, E Strand, T Mass, HM Putnam. 2023. Nutritional exchange between reef-building corals and algal endosymbionts buffers the energetic demand of larval development and metamorphosis. In revision. Available on bioRxiv at https://www.biorxiv.org/content/10.1101/2023.03.20.533475v2 
 15. Chiles EN, **AS Huffmyer**, C Drury, HM Putnam, D Bhattacharya, X Su. 2022. Stable isotope tracing reveals compartmentalized nitrogen assimilation in scleractinian corals. Frontiers in Marine Science. https://doi.org/10.3389/fmars.2022.1035523  
 14. **Huffmyer AS**, E Majerova, N Bean, C Harris, C Drury. 2022. Variable intraspecific diversity effects impact thermal tolerance in a reef-building coral. Coral Reefs 42:119-129  
@@ -58,7 +55,6 @@ Date|Position| Affiliation
 3. **Huffmyer AS**, SB Matsuda, AE Eggers, JD Lemus, RD Gates. 2020. Evaluation of laser scanning confocal microscopy as a method for characterizing reef-building coral tissue thickness and Symbiodiniaceae fluorescence. Journal of Experimental Biology 223(6): jeb220335. Cover image contribution.   
 2. **Huffmyer AS** and JD Lemus. 2019. Graduate TA teaching styles impact student achievement in a research-based undergraduate science course. Journal of College Science Teaching 48(3):56-65.  
 1. **Meltvedt AM** and C Jadot. 2014. Progression of the coral – algal phase shift in the Caribbean: a case study in Bonaire, Dutch Caribbean. Marine Technology Society Journal: 48(6):33-41.    
-
 
 ### RESEARCH GRANTS
 
