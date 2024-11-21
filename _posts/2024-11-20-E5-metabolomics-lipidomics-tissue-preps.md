@@ -31,6 +31,7 @@ We did the following to accomplish the goals listed above:
 - Airburshing is now done with LC grade water. 
 - We are using true eppendorf safe lock tubes and plastic pestles for homogenization. 
 - We tested host/symbiont fraction separations and confirmed symbiont pellet was removed with two rounds of centrifugation. 
+- We changed the airbrush from the vaccuum pump on the bench to an air compressor. This helped increase the pressure so that the concentration can be increased by using air without water.  
 
 ### Protein content 
 
@@ -77,7 +78,7 @@ We did the following to accomplish the goals listed above:
 - Airbrush
 - LC grade water 
 
-*During ALL steps keep sample on ice and as cold as possible!* 
+*During ALL steps keep sample on dry ice and as cold as possible! Use ice cold LC grade water!* 
 
 #### Airbrushing and tissue quantification 
 
