@@ -1,7 +1,7 @@
 ---
 layout: post
 title: November 2024 Goals
-date: '2024-11-12'
+date: '2024-11-19'
 categories: Monthly_Goals
 tags: Goals
 ---
@@ -24,7 +24,7 @@ November goals and daily notebook entries.
 1. E5 data science analysis 
 2. Analyze LCO oyster qPCR data
 3. Phenoplate and RLC analyses for Hawaii 2023
-4. E5 test metabolomics analysis
+4. ~~E5 test metabolomics analysis~~
 5. Size normalization for 10K seed data 
 6. Growth analysis for Goose Point seed
 7. Growth analysis for Westcott seed
@@ -32,7 +32,7 @@ November goals and daily notebook entries.
 
 ### Field work 
 
-1. Plan fall growth assessment for Goose Point and Westcott
+1. ~~Plan fall growth assessment for Goose Point and Westcott~~
 2. Plan fall growth assessment for Point Whitney outplants 
 3. Plan PolyIC larval sampling 
 
@@ -44,9 +44,16 @@ November goals and daily notebook entries.
 ### Presentations 
 
 1. Prepare Moorea LTER presentation on E5 work 
-2. Prepare eScience seminar presentation on Mcap2023 work 
 
 ## **Daily Log**   
+
+### Nov 13-20
+
+- Week at URI for lab work 
+- Sanger sequencing PCR, cleaning, preps for Moorea 2023 project
+- E5 metabolomics and lipidomics preparations with Jill
+- Troubleshooting lipid protocol with Flo 
+- Danielle's defense!
 
 ### Nov 12
 
