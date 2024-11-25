@@ -34,6 +34,7 @@ November goals and daily notebook entries.
 
 1. ~~Plan fall growth assessment for Goose Point and Westcott~~
 2. Plan fall growth assessment for Point Whitney outplants 
+3. ~~Plan fall growth assessment for Westcott outplants~~ 
 3. Plan PolyIC larval sampling 
 
 ### Outreach 
