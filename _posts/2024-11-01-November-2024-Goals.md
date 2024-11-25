@@ -46,7 +46,20 @@ November goals and daily notebook entries.
 
 1. Prepare Moorea LTER presentation on E5 work 
 
+### Funding 
+
+1. Submit NOAA LOI for aquaculture opportunity 
+
 ## **Daily Log**   
+
+### Nov 25
+
+- UW campus 
+- NOAA LOI
+- Interview with journalist 
+- Roberts Lab meeting
+- Meeting with Sarah 
+- Assess oysters in FTR 
 
 ### Nov 13-20
 
