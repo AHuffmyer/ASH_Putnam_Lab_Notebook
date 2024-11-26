@@ -33,9 +33,8 @@ November goals and daily notebook entries.
 ### Field work 
 
 1. ~~Plan fall growth assessment for Goose Point and Westcott~~
-2. Plan fall growth assessment for Point Whitney outplants 
 3. ~~Plan fall growth assessment for Westcott outplants~~ 
-3. Plan PolyIC larval sampling 
+4. Plan PolyIC seed/set sampling 
 
 ### Outreach 
 
@@ -48,9 +47,17 @@ November goals and daily notebook entries.
 
 ### Funding 
 
-1. Submit NOAA LOI for aquaculture opportunity 
+1. ~~Write paragraph for NOAA LOI for aquaculture opportunity~~ 
 
 ## **Daily Log**   
+
+### Nov 26
+
+- Meeting with Aixa
+- Meeting with Neil USDA 
+- Meeting with Serena E5 analyses 
+- E5 phys writing 
+- Resazurin manuscript writing
 
 ### Nov 25
 
