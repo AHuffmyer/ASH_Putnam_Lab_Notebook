@@ -152,7 +152,7 @@ acr_host_light<-7.53
 
 ```
 
-These results produce information including model significance, model term significance, variance constrained by terms, and variance in multivariate physiology explained by terms. Note thatt in the partition table example above, X1|X2 indicates the variance explained by temperature accounting for light and X2|X1 indicates the variance explained by light accounting for temperature.   
+These results produce information including model significance, model term significance, variance constrained by terms, and variance in multivariate physiology explained by terms. Note thatt in the partition table example above, `X1|X2` indicates the variance explained by temperature accounting for light and `X2|X1` indicates the variance explained by light accounting for temperature.   
 
 Here is a table with all model results for analysis of all species and fractions.  
 
