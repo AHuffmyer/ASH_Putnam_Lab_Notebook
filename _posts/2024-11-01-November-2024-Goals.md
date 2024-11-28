@@ -34,7 +34,8 @@ November goals and daily notebook entries.
 
 1. ~~Plan fall growth assessment for Goose Point and Westcott~~
 3. ~~Plan fall growth assessment for Westcott outplants~~ 
-4. Plan PolyIC seed/set sampling 
+4. ~~Plan PolyIC seed/set sampling~~ 
+5. Sample PolyIC seed at PW early December
 
 ### Outreach 
 
@@ -50,6 +51,11 @@ November goals and daily notebook entries.
 1. ~~Write paragraph for NOAA LOI for aquaculture opportunity~~ 
 
 ## **Daily Log**   
+
+### Nov 27
+
+- Stats meeting with Amy
+- E5 physiology analysis and paper - environmental data 
 
 ### Nov 26
 
