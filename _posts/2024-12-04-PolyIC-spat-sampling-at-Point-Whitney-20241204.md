@@ -90,7 +90,13 @@ Logger downloaded files are on [GitHub here](https://github.com/RobertsLab/proje
 
 ## Cleaning/organizing oysters at hatchery 
 
+Today I rinsed all oyster bags. Eventually the 10K seed need to be moved to larger/adult bags, but they are still too small and therefore need to stay in seed bags. The bags are looking pretty rough, so next time I'll move them to new seed bags.  
+
+I rinsed all other oyster bags and added them all into one outdoor tank. This is mostly some broodstock from USDA from this last year, and Effort C bags. Next time I need to combine/move these to different bags so it is cleaner.  
+
 ![](https://github.com/AHuffmyer/ASH_Putnam_Lab_Notebook/blob/master/images/NotebookImages/oysters/wsg_usda/20241204/pic5.jpeg?raw=true)
+
+The 2024 USDA seed are getting big! Soon we will need to think about moving them to larger bins/locations. They may be ok for the winter since growth is slow.  
 
 ![](https://github.com/AHuffmyer/ASH_Putnam_Lab_Notebook/blob/master/images/NotebookImages/oysters/wsg_usda/20241204/pic6.jpeg?raw=true)
 
