@@ -12,28 +12,28 @@ December goals and daily notebook entries.
 
 ### Writing and manuscripts 
               
-1. Resubmit Mcap2020 manuscript
+1. Submit Mcap2020 manuscript to Current Biology
 2. Methods for Mcap2023 analysis
-3. Submit E5 to co-authors
-4. Submit E5 to journal
+3. Submit E5 physiology ms to co-authors and bioRxiv 
 5. Draft resazurin assay manuscript
 6. Methods and results for LCO manuscript 
 
 ### Analysis
 
-1. E5 data science analysis 
-2. Analyze LCO oyster qPCR data
-3. Phenoplate and RLC analyses for Hawaii 2023
-4. Size normalization for 10K seed data 
-5. Growth analysis for Goose Point seed
-6. Growth analysis for Westcott seed
-7. Data analysis for LCO growth 
+1. Analyze LCO oyster qPCR data
+2. Phenoplate and RLC analyses for Hawaii 2023
+3. Size normalization for 10K seed data 
+4. Growth analysis for Goose Point seed
+5. ~~Growth analysis for Westcott seed with Grace~~
+6. Data analysis for LCO growth 
+7. ~~TopGO analysis for Hawaii 2023~~
 
 ### Field work 
 
 1. Goose Point assessment
 2. Westcott assessment 
-3. PolyIC sampling at Point Whitney
+3. ~~PolyIC sampling at Point Whitney~~
+4. PolyIC seed transport to UW 
 
 ### Outreach 
 
@@ -44,6 +44,11 @@ December goals and daily notebook entries.
 1. Prepare Moorea LTER presentation on E5 work 
 
 ## **Daily Log**   
+
+### Dec 4 
+
+- PolyIC larval sampling at Point Whitney 
+- Oyster maintenance at Point Whitney
 
 ### Dec 3 
 
