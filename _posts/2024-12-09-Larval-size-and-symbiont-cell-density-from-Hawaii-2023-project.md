@@ -36,17 +36,17 @@ Data sheets used are here:
 The working protocol for isolation of symbiont cells is as follows:  
 
 - Remove as much Z-fix as possible from each tube and discard (~200 uL) 
-- Add 100 uL of DI water or 1X PBS *I need to confirm what we have available*  
+- Add 200 uL of DI water 
 - Centrifuge for 3 minutes at 3,000g
 - Remove the liquid host fraction and discard (this sample was fixed, so we are not able to keep it for any other assays)  
-- Resuspend in 100 uL DI water or 1X PBS and mix (*confirm volume*)
-- Freeze at -80°C until processing for cell counts  
+- Freeze pellet at -80°C until processing for cell counts  
 
 #### DATE LOG OF PROCESSING HERE 
 
 ## Cell density 
 
 - Thaw sample on ice 
+- Resuspend in 100 uL DI water and mix with pipette 
 - Homogenize briefly with pipette
 - Count cells on hemocytometer in 6 replicates per sample using the [Putnam Lab protocol](https://github.com/Putnam-Lab/Lab_Management/blob/master/Lab_Resources/Physiology_Protocols/Cell_Density-Protocol.md)  
 - Cell density will be calculated in R and normalized to number of larvae (cells per larvae) and larval size (cells per unit planar surface area).  
