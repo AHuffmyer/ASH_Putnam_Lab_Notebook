@@ -1,7 +1,7 @@
 ---
 layout: post
 title: December 2024 Goals
-date: '2024-12-02'
+date: '2024-12-09'
 categories: Monthly_Goals
 tags: Goals
 ---
@@ -27,6 +27,8 @@ December goals and daily notebook entries.
 5. ~~Growth analysis for Westcott seed with Grace~~
 6. Data analysis for LCO growth 
 7. ~~TopGO analysis for Hawaii 2023~~
+8. Larval size analysis for Hawaii 2023
+9. Larval symbiont density analysis for Hawaii 2023
 
 ### Field work 
 
@@ -41,9 +43,30 @@ December goals and daily notebook entries.
 
 ### Presentations 
 
-1. Prepare Moorea LTER presentation on E5 work 
+1. ~~Prepare Moorea LTER presentation on E5 work~~ 
 
 ## **Daily Log**   
+
+### Dec 9 
+
+- Cleaning oyster tanks at FTR 
+- Stored and labeled PolyIC sampling tubes from last week
+- Lab meeting 
+- UW SAFS postdoc meet up 
+- Protocol and started larval symbiont cell density processing
+
+### Dec 6 
+
+- E5 talk
+- E5 molecular meeting 
+- Resazurin manuscript 
+
+### Dec 5 
+
+- Resazurin manuscript 
+- E5 analysis 
+- Meeting with Lucy 
+- E5 talk
 
 ### Dec 4 
 
