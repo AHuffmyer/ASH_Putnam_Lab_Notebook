@@ -47,6 +47,12 @@ December goals and daily notebook entries.
 
 ## **Daily Log**   
 
+### Dec 10 
+
+- Symbiont cell density preparation and analysis for Hawaii 2023 project
+- E5 MCR talk preparations
+- Aspen's defense 
+
 ### Dec 9 
 
 - Cleaning oyster tanks at FTR 

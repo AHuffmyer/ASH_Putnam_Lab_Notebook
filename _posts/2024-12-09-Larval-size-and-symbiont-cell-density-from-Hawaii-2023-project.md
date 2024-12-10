@@ -37,18 +37,35 @@ The working protocol for isolation of symbiont cells is as follows:
 
 - Remove as much Z-fix as possible from each tube and discard (~200 uL) 
 - Add 200 uL of DI water 
-- Centrifuge for 3 minutes at 3,000g
+- Homogenize with Tissue Tearer homogenizer 
+- Centrifuge for 3 minutes at 3,500rcf
 - Remove the liquid host fraction and discard (this sample was fixed, so we are not able to keep it for any other assays)  
-- Freeze pellet at -80°C until processing for cell counts  
+- Centrifuge again for 3 min at 3,500rcf and remove supernatant 
+- Freeze pellet at -20°C until processing for cell counts  
 
-#### DATE LOG OF PROCESSING HERE 
+#### 20241210
+
+Samples completed for this step:  
+
+- F1-F35  
 
 ## Cell density 
 
-- Thaw sample on ice 
-- Resuspend in 100 uL DI water and mix with pipette 
-- Homogenize briefly with pipette
+- Resuspend pellet in 100 uL DI water and mix with pipette (record resuspension volume) 
+- Sonicate with microtip tissue homogenizer for 5 sec
 - Count cells on hemocytometer in 6 replicates per sample using the [Putnam Lab protocol](https://github.com/Putnam-Lab/Lab_Management/blob/master/Lab_Resources/Physiology_Protocols/Cell_Density-Protocol.md)  
 - Cell density will be calculated in R and normalized to number of larvae (cells per larvae) and larval size (cells per unit planar surface area).  
 
-#### DATE LOG OF PROCESSING HERE 
+#### 20241209 
+
+Samples completed for this step: 
+
+- F1 
+
+I trialed cell counts for sample F1 today. I did a set of cell counts before sonication and after sonication. I found that the tissue was very clumped and hard to see cells before sonication and were clear to see afterwards.  
+
+Counts before sonication were done on 4 squares per replicate with a mean of 114 cells per replicate. CV was 11%. 
+
+Counts after sonication were also done on 4 squares and also had a mean of 114 cells per replicate! CV was 14%. 
+
+This indicates that cells were not lost/lysed during sonication. I will keep the sonication step to make the cells easier to see. Data for sample F1 is entered.  
