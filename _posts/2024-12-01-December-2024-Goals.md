@@ -32,7 +32,7 @@ December goals and daily notebook entries.
 
 ### Field work 
 
-1. Goose Point assessment
+1. ~~Goose Point assessment~~
 2. Westcott assessment 
 3. ~~PolyIC sampling at Point Whitney~~
 4. PolyIC seed transport to UW 
@@ -46,6 +46,10 @@ December goals and daily notebook entries.
 1. ~~Prepare Moorea LTER presentation on E5 work~~ 
 
 ## **Daily Log**   
+
+### Dec 11 
+
+- Work at Goose Point 
 
 ### Dec 10 
 
