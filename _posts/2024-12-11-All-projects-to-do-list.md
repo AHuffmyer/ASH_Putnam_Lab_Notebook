@@ -1,22 +1,22 @@
 ---
 layout: post
 title: All Projects To Do List
-date: '2024-12-11'
+date: '2024-12-12'
 categories: Monthly_Goals
 tags: Goals
 ---
 
 This post lists all my ongoing projects and to-do list.  
-
-## Mcap 2020 
-**Final manuscript** 
+  
+## Mcap 2020   
+**Final manuscript**   
 
 - Revise text for length and format 
 - Release GitHub respository prior to submission 
 - Submit manuscript to Current Biology 
 
-## Hawaii 2023 
-**Analysis and writing** 
+## Hawaii 2023   
+**Analysis and writing**   
 
 - Process all samples for larval symbiont cell density in the lab at UW 
 - Revise analysis of rapid light curves from phenoplate data and send results to UTS collaborators 
@@ -30,15 +30,15 @@ This post lists all my ongoing projects and to-do list.
 - Storyboard manuscript with collaborators 
 - Finalize methods section 
 
-## Moorea 2023 
-**Data collection and analysis** 
+## Moorea 2023   
+**Data collection and analysis**   
 
 - Analyze Sanger DNA sequences for Acropora, Pocillopora, and Porites sepecies identification 
 - Decide on samples to process for RNAseq and/or stable isotope metabolomics depending on species DNA identification 
 - Update methods section 
 
-## E5 Physiology 
-**Final manuscript** 
+## E5 Physiology     
+**Final manuscript**   
 
 - Add correlation analyses of phys and light/temp to results and methods section 
 - Finish writing discussion section 
@@ -46,14 +46,14 @@ This post lists all my ongoing projects and to-do list.
 - Revise manuscript and post on bioRxiv 
 - Submit manuscript
 
-## E5 Molecular 
+## E5 Molecular   
 **Data analysis** 
 
 - Conduct multi-omic analysis using DIABLO method for the deep dive expression project 
 - Assist Jill with sending samples to UW facility for metabolomics and lipidomics processing 
 - Analyze metabolomic and lipidomic data when made available
 
-## Resazurin methods manuscript 
+## Resazurin methods manuscript   
 **Analysis and writing** 
 
 - Obtain size data for all oysters (Noah in progress)
@@ -63,27 +63,27 @@ This post lists all my ongoing projects and to-do list.
 - Results
 - Discussion
 
-## Oyster 2024 Stress Hardening 
+## Oyster 2024 Stress Hardening   
 **Data collection and analysis** 
 
 - Goose Point
 	- Measure size of June 2024 oysters prior to outplant from images 
 	- Measure size of December 2024 oysters from images
 	- Analyze growth rates from June to September to December 
-	- Analyze and plot temperature data and send to Goose Point manager 
 	- Analyze survival data from June to September to December time points 
-
+  
 - Westcott
-	- Conduct December assessment with Grace at Westcott farm for growth and survival 
-	- Help Grace analyze growth and survival data from Westcott 
-
+	- ~~Conduct December assessment with Grace at Westcott farm for growth and survival~~ 
+	- Analyze growth and survival data from Westcott 12/17/2024 assessment (Grace in progress)
+  
 - Point Whitney 
 	- Conduct spring assessment of siblings outplanted at Point Whitney 
 	- Consolidate and clean oysters at Point Whitney and move broodstock from Point Whitney to UW 
 	- Clean and inventory supplies 
 	- Transfer HUDLs to other facilities if we decide not to keep them 
 	- Move 2024 USDA seed out of heath trays and into larger cages or upwellers when they outgrow the current trays 
-
+	- Analyze temperature data from December 2024 logger download
+  
 - Story board potential manuscripts and decide on timeline for continuing assessments of oysters at all sites
 - Record methods for all efforts 
 - Organize GitHub repository
@@ -100,40 +100,40 @@ This post lists all my ongoing projects and to-do list.
 - Results 
 - Discussion 
 
-## 10K Seed  
-**Data collection and analysis** 
+## 10K Seed    
+**Data collection and analysis**   
 
 - Re-analyze data after size normalization (Noah in progress) 
 - Conduct spring growth and survival of outplants at Baywater shellfish 
 - Pending outplant data, storyboard potential manuscripts or additional analyses 
 - Move animals at Point Whitney to new bags and count the number alive at Point Whitney to track winter survival
 
-## PolyIC Larvae 
-**Data collection and experiments** 
+## PolyIC Larvae   
+**Data collection and experiments**   
 
 - Test RNA extractions of shelled larvae and seed using Zymo Quick RNA test kits 
 - Design January 2025 resazurin stress testing experiment 
 - Transport seed samples from Point Whitney to UW lab for January 2025 testing 
 - Conduct testing in the lab and resazurin assay in January 
 
-## Oyster 2025 Stress Hardening 
-**Planning** 
+## Oyster 2025 Stress Hardening   
+**Planning**   
 
 - Design spring-summer oyster stress hardening projects  
 - Design spring-summer oyster spawning/larval projects 
 
-## Planning and funding  
+## Planning and funding    
 
 - Talk with the Coral Resilience Lab about upcoming work and potential projects 
 - Work on grant applications with Steven and Hollie 
 - Perspectives manuscript with Yaamini
 
-## Student projects 
+## Student projects   
 
 - Test/optimize enzyme assays in the lab on test oysters 
 - Conduct lab based stress hardening trials
 
-## Outreach and education 
+## Outreach and education   
 
 - Create and publish Reva Atea spring issue of communications magazine 
 - Work with Bellingham Technical College to plan summer internship for WSG project

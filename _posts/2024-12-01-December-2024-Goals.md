@@ -1,7 +1,7 @@
 ---
 layout: post
 title: December 2024 Goals
-date: '2024-12-09'
+date: '2024-12-17'
 categories: Monthly_Goals
 tags: Goals
 ---
@@ -33,7 +33,7 @@ December goals and daily notebook entries.
 ### Field work 
 
 1. ~~Goose Point assessment~~
-2. Westcott assessment 
+2. ~~Westcott assessment~~ 
 3. ~~PolyIC sampling at Point Whitney~~
 4. PolyIC seed transport to UW 
 
@@ -46,6 +46,25 @@ December goals and daily notebook entries.
 1. ~~Prepare Moorea LTER presentation on E5 work~~ 
 
 ## **Daily Log**   
+
+### Dec 16-17
+
+- Westcott oyster assessment
+
+### Dec 13 
+
+- Oyster NSF grant 
+- MCR AIM
+- Mcap2020 writing
+- E5 writing
+
+### Dec 12 
+
+- Goose Point temperature data 
+- MCR AIM
+- Meeting with Shayle
+- Meeting with Steven - NSF grant 
+- MCR AIM talk preparation
 
 ### Dec 11 
 
