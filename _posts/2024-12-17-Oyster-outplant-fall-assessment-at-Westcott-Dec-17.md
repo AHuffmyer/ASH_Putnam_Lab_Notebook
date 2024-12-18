@@ -6,11 +6,11 @@ categories: RobertsLab_Oysters WSG_USDA
 tags: Cgigas Oyster Survival Growth
 ---
 
-Assessment of oyster survival and growth at Westcott Shellfish. This assessment is our fall time point. We will assess again in the spring.  
+Today Grace and I did an assessment of oyster survival and growth at Westcott Shellfish. This assessment is our fall time point. We will assess again in the spring.  
 
 # Overview 
 
-We outplanted oysters at Westcott this past summer (June) after conducting sub-lethal stress hardening treatments (daily or weekly exposure to elevated temperatures; Efforts B and D). We assessed growth and survival in September and again today. 
+We outplanted oysters at Westcott this past summer (June) after conducting sub-lethal stress hardening treatments (daily or weekly exposure to elevated temperatures; Efforts B and D).  
 
 More information on this project can be found in the [GitHub repo](https://github.com/RobertsLab/project-gigas-conditioning) and my past [notebook posts](https://ahuffmyer.github.io/ASH_Putnam_Lab_Notebook/categoryview/#wsg-usda).   
 
@@ -33,13 +33,13 @@ Size data, mortality, and notes regarding bags or cage condition were made in th
 
 Here is an example of images from today:  
 
-![oyster size image]()
+![oyster size image](https://github.com/RobertsLab/project-gigas-conditioning/blob/main/data/outplanting/Westcott/20241217_images/bag036_20241217.jpeg?raw=true)
 
 All images of oysters and notebook pages with size data are [stored on GitHub](https://github.com/RobertsLab/project-gigas-conditioning/tree/main/data/outplanting/Westcott/20241217_images).   
 
 # Temperature loggers 
 
-I downloaded all five loggers today and left them in their original location. Each logger has used only 19% of memory, so I did not clear the memory and kept them deployed at their current settings.  
+We downloaded all five loggers today and left them in their original location. Each logger has used only 19% of memory, so we did not clear the memory and kept them deployed at their current settings.  
 
 Files were downloaded and added [to GitHub here](https://github.com/RobertsLab/project-gigas-conditioning/tree/main/data/environmental/loggers/westcott).  
 
@@ -51,17 +51,17 @@ Loggers were left attached in their same cages, they were not fouled and did not
 - Logger 22023405: UW-SR12
 - Logger 22023412: UW-SR19 
 
-Here is the temperature data from the start of the outplanting process:  
+Here is the temperature data from the start of the outplanting process after downloading data today:  
 
-![temperature plot]()
+![temperature plot](https://github.com/RobertsLab/project-gigas-conditioning/blob/main/figures/environmental/westcott-loggers.png?raw=true)
 
 # Next steps 
 
-Grace is going to work on the following steps:  
+We are now going to work on the following steps:  
 
 - Measure oyster size from images 
 - Count oysters in each cage for survival 
 - Run models to predict volume from length and width measurements from subset of manually measured oysters 
 - Analyze growth as percent growth from intial time point 
 
-We will assess outplants again in the spring, when the farm typically sees some inital mortality.  
+We will assess outplants again in the spring.   
