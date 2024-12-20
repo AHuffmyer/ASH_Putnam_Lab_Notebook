@@ -12,7 +12,6 @@ This post lists all my ongoing projects and to-do list.
 **Final manuscript**   
 
 - Revise text for length and format 
-- Release GitHub respository prior to submission 
 - Submit manuscript to Current Biology 
 
 ## Hawaii 2023   
@@ -52,6 +51,7 @@ This post lists all my ongoing projects and to-do list.
 - Conduct multi-omic analysis using DIABLO method for the deep dive expression project 
 - Assist Jill with sending samples to UW facility for metabolomics and lipidomics processing 
 - Analyze metabolomic and lipidomic data when made available
+- Conduct time series WGCNA between RNAseq and physiology
 
 ## Resazurin methods manuscript   
 **Analysis and writing** 
@@ -73,7 +73,6 @@ This post lists all my ongoing projects and to-do list.
 	- Analyze survival data from June to September to December time points 
   
 - Westcott
-	- ~~Conduct December assessment with Grace at Westcott farm for growth and survival~~ 
 	- Analyze growth and survival data from Westcott 12/17/2024 assessment (Grace in progress)
   
 - Point Whitney 
@@ -132,6 +131,7 @@ This post lists all my ongoing projects and to-do list.
 
 - Test/optimize enzyme assays in the lab on test oysters 
 - Conduct lab based stress hardening trials
+- Plan student projects 
 
 ## Outreach and education   
 
