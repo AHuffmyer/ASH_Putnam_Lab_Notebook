@@ -47,6 +47,25 @@ December goals and daily notebook entries.
 
 ## **Daily Log**   
 
+### Dec 20
+
+- E5 molecular manuscript
+- Mcap2020 manuscripts
+- Cell counts in the lab 
+- Water change for oysters 
+
+### Dec 19
+
+- Mcap2020 manuscript
+- Meeting with Yaamini
+
+### Dec 18
+
+- Mcap2020 manuscript
+- Reefs Unknown meeting
+- Reva Atea magazine 
+- Moorea DNA sequences
+
 ### Dec 16-17
 
 - Westcott oyster assessment
