@@ -37,7 +37,7 @@ The working protocol for isolation of symbiont cells is as follows:
 
 - Remove as much Z-fix as possible from each tube and discard (~200 uL) 
 - Add 200 uL of DI water 
-- Homogenize with Tissue Tearer homogenizer 
+- Homogenize with tube pestle
 - Centrifuge for 3 minutes at 3,500rcf
 - Remove the liquid host fraction and discard (this sample was fixed, so we are not able to keep it for any other assays)  
 - Centrifuge again for 3 min at 3,500rcf and remove supernatant 
@@ -48,6 +48,12 @@ The working protocol for isolation of symbiont cells is as follows:
 Samples completed for this step:  
 
 - F1-F35  
+
+#### 20241220
+
+Samples completed for this step:  
+
+- F36-F60  
 
 ## Cell density 
 

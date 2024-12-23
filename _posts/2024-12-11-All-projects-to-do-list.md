@@ -90,7 +90,7 @@ This post lists all my ongoing projects and to-do list.
 ## Oyster Lifestage Carry Over 
 **Analysis and writing** 
 
-- Analyze qPCR data 
+- Decide on any additional metrics to measure in samples after qPCR results 
 - Storyboard potential manuscript 
 - Analyze final time point growth data 
 - Organize GitHub repository 
