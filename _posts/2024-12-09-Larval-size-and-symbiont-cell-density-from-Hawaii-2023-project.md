@@ -47,13 +47,23 @@ The working protocol for isolation of symbiont cells is as follows:
 
 Samples completed for this step:  
 
-- F1-F35  
+- F1-F36  
 
 #### 20241220
 
 Samples completed for this step:  
 
-- F36-F60  
+- F37-F54, F63, F64, F66, F69, F71, F72
+
+Sample F44 had no Z-fix liquid in the tube, this sample may be too degraded to conduct cell counts.    
+
+#### 20241223
+
+Samples completed for this step:  
+
+All remaining samples, up to F90
+
+All stored in -20°C freezer in two boxes in FTR 213.  
 
 ## Cell density 
 
@@ -75,3 +85,5 @@ Counts before sonication were done on 4 squares per replicate with a mean of 114
 Counts after sonication were also done on 4 squares and also had a mean of 114 cells per replicate! CV was 14%. 
 
 This indicates that cells were not lost/lysed during sonication. I will keep the sonication step to make the cells easier to see. Data for sample F1 is entered.  
+
+#### 2024XXXX

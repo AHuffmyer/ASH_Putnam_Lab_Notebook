@@ -20,7 +20,7 @@ December goals and daily notebook entries.
 
 ### Analysis
 
-1. Analyze LCO oyster qPCR data
+1. ~~Analyze LCO oyster qPCR data~~
 2. Phenoplate and RLC analyses for Hawaii 2023
 3. Size normalization for 10K seed data 
 4. Growth analysis for Goose Point seed
@@ -47,12 +47,21 @@ December goals and daily notebook entries.
 
 ## **Daily Log**   
 
+### Dec 23
+
+- E5 phys manuscript
+- Oyster project roadmapping
+- Cell counts in the lab 
+- WGCNA with Kathleen
+- PolyIC project design and time line 
+- Lab meeting 
+
 ### Dec 20
 
-- E5 molecular manuscript
+- E5 molecular analysis
 - Mcap2020 manuscripts
 - Cell counts in the lab 
-- Water change for oysters 
+- Water change for oysters and feed oysters 
 
 ### Dec 19
 
