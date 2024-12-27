@@ -86,4 +86,3 @@ Counts after sonication were also done on 4 squares and also had a mean of 114 c
 
 This indicates that cells were not lost/lysed during sonication. I will keep the sonication step to make the cells easier to see. Data for sample F1 is entered.  
 
-#### 2024XXXX

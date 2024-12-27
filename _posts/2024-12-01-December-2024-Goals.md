@@ -1,7 +1,7 @@
 ---
 layout: post
 title: December 2024 Goals
-date: '2024-12-17'
+date: '2024-12-25'
 categories: Monthly_Goals
 tags: Goals
 ---
@@ -46,6 +46,12 @@ December goals and daily notebook entries.
 1. ~~Prepare Moorea LTER presentation on E5 work~~ 
 
 ## **Daily Log**   
+
+### Dec 25
+
+- E5 phys manuscript
+- Reading lots of papers
+- E5 timeseries molecular WGCNA 
 
 ### Dec 23
 

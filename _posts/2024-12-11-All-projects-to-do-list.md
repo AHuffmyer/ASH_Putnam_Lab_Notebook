@@ -11,7 +11,6 @@ This post lists all my ongoing projects and to-do list.
 ## Mcap 2020   
 **Final manuscript**   
 
-- Revise text for length and format 
 - Submit manuscript to Current Biology 
 
 ## Hawaii 2023   
@@ -114,6 +113,7 @@ This post lists all my ongoing projects and to-do list.
 - Design January 2025 resazurin stress testing experiment 
 - Transport seed samples from Point Whitney to UW lab for January 2025 testing 
 - Conduct testing in the lab and resazurin assay in January 
+- Plan January/February lab hardening projects
 
 ## Oyster 2025 Stress Hardening   
 **Planning**   
