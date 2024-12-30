@@ -47,6 +47,21 @@ December goals and daily notebook entries.
 
 ## **Daily Log**   
 
+### Dec 30
+
+- E5 phys manuscript
+- Reading papers
+- Meetings with Emma 
+- Oyster check on campus 
+- Cell counts on campus 
+- Roberts Lab meeting
+- Putnam Lab meeting 
+
+### Dec 26-27
+
+- E5 phys manuscript
+- Reading lots of papers 
+
 ### Dec 25
 
 - E5 phys manuscript

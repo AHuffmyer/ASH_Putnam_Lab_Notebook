@@ -65,24 +65,23 @@ This post lists all my ongoing projects and to-do list.
 ## Oyster 2024 Stress Hardening   
 **Data collection and analysis** 
 
-- Goose Point
+- *Goose Point*
 	- Measure size of June 2024 oysters prior to outplant from images 
 	- Measure size of December 2024 oysters from images
 	- Analyze growth rates from June to September to December 
 	- Analyze survival data from June to September to December time points 
   
-- Westcott
+- *Westcott*
 	- Analyze growth and survival data from Westcott 12/17/2024 assessment (Grace in progress)
   
-- Point Whitney 
+- *Point Whitney* 
 	- Conduct spring assessment of siblings outplanted at Point Whitney 
 	- Consolidate and clean oysters at Point Whitney and move broodstock from Point Whitney to UW 
 	- Clean and inventory supplies 
 	- Transfer HUDLs to other facilities if we decide not to keep them 
 	- Move 2024 USDA seed out of heath trays and into larger cages or upwellers when they outgrow the current trays 
 	- Analyze temperature data from December 2024 logger download
-  
-- Story board potential manuscripts and decide on timeline for continuing assessments of oysters at all sites
+
 - Record methods for all efforts 
 - Organize GitHub repository
 
