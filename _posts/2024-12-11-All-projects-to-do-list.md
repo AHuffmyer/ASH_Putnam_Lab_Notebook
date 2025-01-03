@@ -1,7 +1,7 @@
 ---
 layout: post
 title: All Projects To Do List
-date: '2024-12-12'
+date: '2025-01-01'
 categories: Monthly_Goals
 tags: Goals
 ---
@@ -38,7 +38,6 @@ This post lists all my ongoing projects and to-do list.
 ## E5 Physiology     
 **Final manuscript**   
 
-- Add correlation analyses of phys and light/temp to results and methods section 
 - Finish writing discussion section 
 - Send draft of full manuscript to coauthors 
 - Revise manuscript and post on bioRxiv 
@@ -47,10 +46,9 @@ This post lists all my ongoing projects and to-do list.
 ## E5 Molecular   
 **Data analysis** 
 
-- Conduct multi-omic analysis using DIABLO method for the deep dive expression project 
+- Examine neural networks and SEM modeling for time series multiomic modeling analyses 
 - Assist Jill with sending samples to UW facility for metabolomics and lipidomics processing 
 - Analyze metabolomic and lipidomic data when made available
-- Conduct time series WGCNA between RNAseq and physiology
 
 ## Resazurin methods manuscript   
 **Analysis and writing** 
@@ -88,7 +86,7 @@ This post lists all my ongoing projects and to-do list.
 ## Oyster Lifestage Carry Over 
 **Analysis and writing** 
 
-- Decide on any additional metrics to measure in samples after qPCR results 
+- Analyze next set of qPCR 
 - Storyboard potential manuscript 
 - Analyze final time point growth data 
 - Organize GitHub repository 
