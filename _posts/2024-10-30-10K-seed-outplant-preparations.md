@@ -3,7 +3,7 @@ layout: post
 title: 10K seed outplant preparations
 date: '2024-10-30'
 categories: 10K_Seed RobertsLab_Oysters
-tags: Oyster R Resazurin Survival
+tags: Oyster 
 ---
 
 This post details preparations for outplanting 10K Seed at Baywater shellfish.    
