@@ -2,7 +2,7 @@
 layout: post
 title: Spawning at Point Whitney 7 October 2024
 date: '2024-10-07'
-categories: RobertsLab_Oysters WSG_USDA
+categories: PolyIC_Larvae RobertsLab_Oysters WSG_USDA
 tags: Immune Oyster Reproduction StripSpawning Cgigas
 ---
 

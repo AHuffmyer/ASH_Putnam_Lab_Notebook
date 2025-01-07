@@ -2,7 +2,7 @@
 layout: post
 title: Larval sampling at Point Whitney 15 October
 date: '2024-10-15'
-categories: 10K_Seed RobertsLab_Oysters WSG_USDA
+categories: PolyIC_Larvae RobertsLab_Oysters WSG_USDA
 tags: Cgigas Oyster Reproduction StripSpawning Husbandry
 ---
 
