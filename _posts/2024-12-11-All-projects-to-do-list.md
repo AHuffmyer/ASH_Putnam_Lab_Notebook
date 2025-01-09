@@ -1,7 +1,7 @@
 ---
 layout: post
 title: All Projects To Do List
-date: '2025-01-01'
+date: '2025-01-06'
 categories: Monthly_Goals
 tags: Goals
 ---
@@ -53,7 +53,6 @@ This post lists all my ongoing projects and to-do list.
 ## Resazurin methods manuscript   
 **Analysis and writing** 
 
-- Obtain size data for all oysters (Noah in progress)
 - Re-analyze data for metabolic rates and survival after size normalization 
 - Introduction
 - Methods
@@ -64,7 +63,7 @@ This post lists all my ongoing projects and to-do list.
 **Data collection and analysis** 
 
 - *Goose Point*
-	- Measure size of June 2024 oysters prior to outplant from images 
+	- Measure size of June 2024 oysters prior to outplant from images (Noah in progress) 
 	- Measure size of December 2024 oysters from images
 	- Analyze growth rates from June to September to December 
 	- Analyze survival data from June to September to December time points 
@@ -74,8 +73,6 @@ This post lists all my ongoing projects and to-do list.
   
 - *Point Whitney* 
 	- Conduct spring assessment of siblings outplanted at Point Whitney 
-	- Consolidate and clean oysters at Point Whitney and move broodstock from Point Whitney to UW 
-	- Clean and inventory supplies 
 	- Transfer HUDLs to other facilities if we decide not to keep them 
 	- Move 2024 USDA seed out of heath trays and into larger cages or upwellers when they outgrow the current trays 
 	- Analyze temperature data from December 2024 logger download
@@ -107,10 +104,9 @@ This post lists all my ongoing projects and to-do list.
 **Data collection and experiments**   
 
 - Test RNA extractions of shelled larvae and seed using Zymo Quick RNA test kits 
-- Design January 2025 resazurin stress testing experiment 
-- Transport seed samples from Point Whitney to UW lab for January 2025 testing 
 - Conduct testing in the lab and resazurin assay in January 
 - Plan January/February lab hardening projects
+- Measure size from December and January images for growth 
 
 ## Oyster 2025 Stress Hardening   
 **Planning**   
