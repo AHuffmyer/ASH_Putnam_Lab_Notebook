@@ -63,7 +63,7 @@ This post lists all my ongoing projects and to-do list.
 **Data collection and analysis** 
 
 - *Goose Point*
-	- Measure size of June 2024 oysters prior to outplant from images (Noah in progress) 
+	- Measure size of June 2024 oysters prior to outplant from images (Noah K. in progress) 
 	- Measure size of December 2024 oysters from images
 	- Analyze growth rates from June to September to December 
 	- Analyze survival data from June to September to December time points 
@@ -75,10 +75,8 @@ This post lists all my ongoing projects and to-do list.
 	- Conduct spring assessment of siblings outplanted at Point Whitney 
 	- Transfer HUDLs to other facilities if we decide not to keep them 
 	- Move 2024 USDA seed out of heath trays and into larger cages or upwellers when they outgrow the current trays 
-	- Analyze temperature data from December 2024 logger download
 
 - Record methods for all efforts 
-- Organize GitHub repository
 
 ## Oyster Lifestage Carry Over 
 **Analysis and writing** 
@@ -129,6 +127,4 @@ This post lists all my ongoing projects and to-do list.
 ## Outreach and education   
 
 - Create and publish Reva Atea spring issue of communications magazine 
-- Work with Bellingham Technical College to plan summer internship for WSG project
-- Work with Bellingham Technical College to set up winter/spring stress hardening trials for WSG project
-
+- Work with Bellingham Technical College to plan summer internship for WSG project and hardening trials 
