@@ -17,11 +17,27 @@ This post details activities from the field at Point Whitney for our oyster work
 
 ## Environmental probe measurements 
 
-Poly IC seed readings are [on GitHub here]() and listed below:  
+Poly IC seed readings are [on GitHub here](https://github.com/RobertsLab/polyIC-larvae/blob/main/data/environmental/daily-measurements.xlsx) and listed below:  
 
+| tank         | date   | time  | temp.C | pH.nbs | sal.psu | initials | notes                 |
+|--------------|--------|-------|--------|--------|---------|----------|-----------------------|
+| PolyIC-tank1 | 1/7/25 | 13:00 | 7.9    | 7.65   | 23.32   | ash      | PolyIC-larvae-control |
+| PolyIC-tank2 | 1/7/25 | 13:00 | 7.8    | 7.63   | 23.36   | ash      | PolyIC-larvae-control |
+| PolyIC-tank4 | 1/7/25 | 13:00 | 7.8    | 7.68   | 23.34   | ash      | PolyIC-larvae-treated |
+| PolyIC-tank5 | 1/7/25 | 13:00 | 7.8    | 7.7    | 23.34   | ash      | PolyIC-larvae-treated |
 
-10K seed and all other tank readings are [on GitHub here]() and listed below: 
+10K seed and all other tank readings are [on GitHub here](https://github.com/RobertsLab/project-gigas-conditioning/blob/main/data/environmental/probe_measurements.csv) and listed below: 
 
+| tank         | date   | time  | temp.C | pH.nbs | sal.psu | initials | notes                   |
+|--------------|--------|-------|--------|--------|---------|----------|-------------------------|
+| outdoor_tray | 1/7/25 | 13:00 | 9      | 7.68   | 27.15   | ash      | tray 25 - top           |
+| outdoor_tray | 1/7/25 | 13:00 | 8.8    | 7.7    | 26.33   | ash      | tray 27                 |
+| outdoor_tray | 1/7/25 | 13:00 | 8.8    | 7.7    | 26.22   | ash      | tray 32                 |
+| outdoor_tray | 1/7/25 | 13:00 | 8.8    | 7.7    | 26.2    | ash      | tray 31                 |
+| outdoor_tray | 1/7/25 | 13:00 | 8.7    | 7.71   | 26.2    | ash      | tray 40                 |
+| outdoor_tray | 1/7/25 | 13:00 | 8.7    | 7.71   | 26.2    | ash      | tray 33 - bottom        |
+| upweller     | 1/7/25 | 13:00 | 7.7    | 7.79   | 22.78   | ash      | broodstock, all others  |
+| dock         | 1/7/25 | 13:00 | 7.7    | 1.8    | 23.36   | ash      | seed                    |
 
 
 ## 10K seed bags 
@@ -68,3 +84,6 @@ I selected two families of our USDA broodstock to transport to UW for conditioni
 
 ## Notebook pictures 
 
+![](https://github.com/AHuffmyer/ASH_Putnam_Lab_Notebook/blob/master/images/NotebookImages/oysters/wsg_usda/20250107/nb2.jpeg?raw=true)
+
+![](https://github.com/AHuffmyer/ASH_Putnam_Lab_Notebook/blob/master/images/NotebookImages/oysters/wsg_usda/20250107/nb1.jpeg?raw=true)
