@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Writing updates
-date: '2024-11-05'
+date: '2025-01-01'
 categories: Writing
 tags: Writing
 ---
@@ -12,11 +12,11 @@ They are organized from "oldest" data sets to "newest" data sets.
 
 ## Mcap2020   
 
-*Status*: Revised manuscript sent to coauthors
+*Status*: All coauthor feedback recieved 
 
-*Next step*: Final revisions with coauthor comments
+*Next step*: Final revisions and submission
 
-*Timeline*: Submit by end of November 2024
+*Timeline*: Submit by January 10 2025
 
 ## E5 physiology 
 
@@ -24,13 +24,7 @@ They are organized from "oldest" data sets to "newest" data sets.
 
 *Next step*: Complete introduction and discussion writing 
 
-*Timeline*: Complete writing and submit by end of November 2024
-
-## Mcap2021
-
-*Status*: **Accepted!** 
-
-*Timeline*: Publish Nov 12, 2024   
+*Timeline*: Complete writing by end of January 2024
 
 ## Hawaii2023
 
@@ -72,6 +66,14 @@ They are organized from "oldest" data sets to "newest" data sets.
 
 *Timeline*: Finish analysis and methods by end of November 2024
 
+## PolyIC Larvae   
+
+*Status*: Final data collection, written outline
+
+*Next step*: Analyze final qPCR data and write methods section
+
+*Timeline*: Finish analysis and methods by end of November 2024
+
 ## Collaborative manuscripts 
 
 This is a list of the papers (I think all of them) that I am a coauthor on at the moment:  
@@ -84,6 +86,7 @@ This is a list of the papers (I think all of them) that I am a coauthor on at th
 - Becker et al. Heatwave environmental memory - **writing** 
 - Venkataraman et al. ceabig paper - **accepted** 
 - Ashey et al. Mcap developmental RNAs - **writing** 
+- Putnam et al. Pocillopora larval development = **writing** 
 
 
 
