@@ -12,11 +12,11 @@ They are organized from "oldest" data sets to "newest" data sets.
 
 ## Mcap2020   
 
-*Status*: All coauthor feedback recieved 
+*Status*: Submitted to bioRxiv
 
-*Next step*: Final revisions and submission
+*Next step*: Submit to journal
 
-*Timeline*: Submit by January 10 2025
+*Timeline*: Submit by January 13 2025
 
 ## E5 physiology 
 
