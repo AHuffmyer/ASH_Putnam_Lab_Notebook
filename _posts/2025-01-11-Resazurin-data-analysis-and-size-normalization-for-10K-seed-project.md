@@ -32,15 +32,22 @@ This is a long post, so here are the take homes:
 4. There were small increases in metabolic rate under stress (42°C) in oysters that received environmental hardening treatments as compared to control oysters. 
 5. There was a moderate relationship between size and metabolic rate, and the analysis was conducted with size-normalized metabolic rates. 
 5. We can clearly measure changes in metabolic rate in oysters over time and detect metabolic signals of stress. Further, metabolic rates were higher in oysters that ended up dying under stress. 
+6. There is a higher risk of mortality with increasing metabolic rate, and sensitivity to mortality is higher at 42°C.  
 
 *Metabolic rates are lower at 42°C compared to 18°C.*  
 ![](https://github.com/AHuffmyer/ASH_Putnam_Lab_Notebook/blob/master/images/NotebookImages/oysters/analysis/20250111/resazurin_files/figure-gfm/unnamed-chunk-37-1.png?raw=true)<!-- -->
+
+![](https://github.com/AHuffmyer/ASH_Putnam_Lab_Notebook/blob/master/images/NotebookImages/oysters/analysis/20250111/resazurin_files/figure-gfm/temp_effects.png?raw=true)<!-- -->
 
 *There are minor differences between hardening treatments, with higher metabolic rates at 18°C in immune challenged oysters.*  
 ![](https://github.com/AHuffmyer/ASH_Putnam_Lab_Notebook/blob/master/images/NotebookImages/oysters/analysis/20250111/resazurin_files/figure-gfm/unnamed-chunk-37-2.png?raw=true)<!-- -->
 
 *Oysters that died under 42°C stress had much higher metabolic rates than those that survived. Capacity to further depress metabolism under stress may favor survival.*    
 ![](https://github.com/AHuffmyer/ASH_Putnam_Lab_Notebook/blob/master/images/NotebookImages/oysters/analysis/20250111/resazurin_files/figure-gfm/unnamed-chunk-55-1.png?raw=true)<!-- -->
+
+*Probability of subsequent mortality increases with metabolic rate, and the threshold is much lower at elevated temperature. Lower metabolic rate decreases mortality risk.*  
+![](https://github.com/AHuffmyer/ASH_Putnam_Lab_Notebook/blob/master/images/NotebookImages/oysters/analysis/20250111/resazurin_files/figure-gfm/mortality_predictions.png?raw=true)<!-- -->
+
 
 My next steps in this analysis are to: 
 
@@ -2971,3 +2978,28 @@ pairs(emm)
 
 All treatments have higher metabolic rates in oysters that died at 42°C
 (control is P=0.05 when rounded).
+
+## Model mortality effects with hardening effects as random effects & examine mortality risk 
+
+I then included hardening effects as random effects due to the small effects seen above. I then analyzed the effects of temperature on metabolic rates and the probability of mortality at subsequent time points based on metabolic rates at each time point.  
+
+I'll just post the results here, full code can be found at the link above.  
+
+First, I analyzed the effect of temperature on metabolic rates. Metabolic rate was higher at 42°C in the first hour, then was substantially lower at 42°C in the 2-4 hour window.  
+ 
+![](https://github.com/AHuffmyer/ASH_Putnam_Lab_Notebook/blob/master/images/NotebookImages/oysters/analysis/20250111/resazurin_files/figure-gfm/temp_effects.png?raw=true)<!-- -->
+
+Probability of subsequent mortality increases with metabolic rate, and the threshold is much lower at elevated temperature. Lower metabolic rate decreases mortality risk.
+
+![](https://github.com/AHuffmyer/ASH_Putnam_Lab_Notebook/blob/master/images/NotebookImages/oysters/analysis/20250111/resazurin_files/figure-gfm/mortality_predictions.png?raw=true)<!-- -->
+
+This is really cool! I'll explore this further with predictive modeling.   
+
+
+
+
+
+
+
+
+
