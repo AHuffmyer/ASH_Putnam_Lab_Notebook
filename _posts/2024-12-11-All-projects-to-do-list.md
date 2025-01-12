@@ -9,9 +9,9 @@ tags: Goals
 This post lists all my ongoing projects and to-do list.  
   
 ## Mcap 2020   
-**Final manuscript**   
+**In review!**   
 
-- Submit manuscript to Current Biology 
+- Address revisions once received 
 
 ## Hawaii 2023   
 **Analysis and writing**   
@@ -53,7 +53,6 @@ This post lists all my ongoing projects and to-do list.
 ## Resazurin methods manuscript   
 **Analysis and writing** 
 
-- Re-analyze data for metabolic rates and survival after size normalization 
 - Introduction
 - Methods
 - Results
@@ -93,7 +92,6 @@ This post lists all my ongoing projects and to-do list.
 ## 10K Seed    
 **Data collection and analysis**   
 
-- Re-analyze data after size normalization (Noah in progress) 
 - Conduct spring growth and survival of outplants at Baywater shellfish 
 - Pending outplant data, storyboard potential manuscripts or additional analyses 
 - Move animals at Point Whitney to new bags and count the number alive at Point Whitney to track winter survival
