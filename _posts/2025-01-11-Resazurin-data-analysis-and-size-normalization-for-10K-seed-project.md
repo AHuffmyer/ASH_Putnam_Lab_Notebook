@@ -6,9 +6,9 @@ categories: 10K_Seed Analysis RobertsLab_Oysters WSG_USDA
 tags: Cgigas Oyster Resazurin R
 ---
 
-# Overview 
-
 This post details revised 10K seed resazurin metabolic rate analysis incorporating size data for metabolic rate normalization.  
+
+# Overview 
 
 This post includes the entire script and analysis (and is a bit long). The GitHub project is located [here](https://github.com/RobertsLab/10K-seed-Cgigas/) and [here is a direct link to the script](https://github.com/RobertsLab/10K-seed-Cgigas/blob/main/scripts/resazurin.Rmd).  
 
@@ -32,6 +32,15 @@ This is a long post, so here are the take homes:
 4. There were small increases in metabolic rate under stress (42°C) in oysters that received environmental hardening treatments as compared to control oysters. 
 5. There was a moderate relationship between size and metabolic rate, and the analysis was conducted with size-normalized metabolic rates. 
 5. We can clearly measure changes in metabolic rate in oysters over time and detect metabolic signals of stress. Further, metabolic rates were higher in oysters that ended up dying under stress. 
+
+*Metabolic rates are lower at 42°C compared to 18°C.*  
+![](https://github.com/AHuffmyer/ASH_Putnam_Lab_Notebook/blob/master/images/NotebookImages/oysters/analysis/20250111/resazurin_files/figure-gfm/unnamed-chunk-37-1.png?raw=true)<!-- -->
+
+*There are minor differences between hardening treatments, with higher metabolic rates at 18°C in immune challenged oysters.*  
+![](https://github.com/AHuffmyer/ASH_Putnam_Lab_Notebook/blob/master/images/NotebookImages/oysters/analysis/20250111/resazurin_files/figure-gfm/unnamed-chunk-37-2.png?raw=true)<!-- -->
+
+*Oysters that died under 42°C stress had much higher metabolic rates than those that survived. Capacity to further depress metabolism under stress may favor survival.*    
+![](https://github.com/AHuffmyer/ASH_Putnam_Lab_Notebook/blob/master/images/NotebookImages/oysters/analysis/20250111/resazurin_files/figure-gfm/unnamed-chunk-55-1.png?raw=true)<!-- -->
 
 My next steps in this analysis are to: 
 

@@ -37,9 +37,9 @@ Date|Position| Affiliation
 
 [Google Scholar Profile](https://scholar.google.com/citations?user=_dw3pYEAAAAJ&hl=en)
 
-18. **AS Huffmyer**, J Ashey, E Strand, E Chiles, X Su, HM Putnam. 2024. Coral larvae increase nitrogen assimilation to stabilize algal symbiosis and combat bleaching under increased temperature. PLoS Biology 22(11): e3002875
-17. Venkataraman Y, **AS Huffmyer**, S White, A Downey-Wall, J Ashey, D Becker, Z Bengtsson, HM Putnam, E Strand, J Rodríguez-Casariego, SA Wanamaker, K Lottheros, S Roberts. 2024. DNA methylation correlates with transcriptional noise in response to elevated pCO2 in the eastern oyster (*Crassostrea virginica*). Environmental Epigenetics. 10(1): dvae018
-16. **AS Huffmyer**, KH Wong, DM Becker, E Strand, T Mass, HM Putnam. 2023. Nutritional exchange between reef-building corals and algal endosymbionts buffers the energetic demand of larval development and metamorphosis. In revision. Available on bioRxiv at https://www.biorxiv.org/content/10.1101/2023.03.20.533475v2 
+18. **AS Huffmyer**, KH Wong, DM Becker, E Strand, T Mass, HM Putnam. 2023. Metabolic dynamics of the coral-algal symbiosis from fertilization to settlement identify critical coral energetic vulnerabilities. In review. Current Biology. Available on bioRxiv at https://www.biorxiv.org/content/10.1101/2023.03.20.533475 
+17. **AS Huffmyer**, J Ashey, E Strand, E Chiles, X Su, HM Putnam. 2024. Coral larvae increase nitrogen assimilation to stabilize algal symbiosis and combat bleaching under increased temperature. PLoS Biology 22(11): e3002875
+16. Venkataraman Y, **AS Huffmyer**, S White, A Downey-Wall, J Ashey, D Becker, Z Bengtsson, HM Putnam, E Strand, J Rodríguez-Casariego, SA Wanamaker, K Lottheros, S Roberts. 2024. DNA methylation correlates with transcriptional noise in response to elevated pCO2 in the eastern oyster (*Crassostrea virginica*). Environmental Epigenetics. 10(1): dvae018
 15. Chiles EN, **AS Huffmyer**, C Drury, HM Putnam, D Bhattacharya, X Su. 2022. Stable isotope tracing reveals compartmentalized nitrogen assimilation in scleractinian corals. Frontiers in Marine Science. https://doi.org/10.3389/fmars.2022.1035523  
 14. **Huffmyer AS**, E Majerova, N Bean, C Harris, C Drury. 2022. Variable intraspecific diversity effects impact thermal tolerance in a reef-building coral. Coral Reefs 42:119-129  
 13. **Huffmyer AS**, T O’Neill, JD Lemus. 2022. Evidence for professional conceptualization in science as an important component of science identity. CBE – Life Sciences Education 21(4): ar76      
@@ -86,6 +86,7 @@ Date|Position| Affiliation
 
 #### *Oral Presentations*  
 
+24. **Huffmyer AS**. Holobiont composition and seasonal plasticity in physiology are key to understanding reef building coral resilience. Moorea Coral Reef Long Term Ecological Research All-Investigators Meeting. Virtual. December 2024.  
 23. **Huffmyer AS**. Seasonal environmental variation drives host and symbiont physiological state of three important reef-building coral species in Moorea, French Polynesia. University of Washington eScience Postdoctoral Fellows seminar. Seattle, WA, USA. January 2024.  
 22. **Huffmyer AS**, J Ashey, E Chiles, E Strand, X Su, HM Putnam. Thermal stress reduces photosynthate metabolism and disrupts nitrogen cycling in coral larvae. Society of Integrative and Comparative Biology. Seattle, WA, USA. January 2024.  
 21. **Huffmyer AS**. Metabolic dysfunction of the coral-algal symbiosis under marine heatwaves: Insights from a stable isotope metabolomic approach. University of Washington eScience Postdoctoral Fellows seminar. Seattle, WA, USA. May 2023.  
