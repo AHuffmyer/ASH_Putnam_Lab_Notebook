@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Writing updates
-date: '2025-01-01'
+date: '2025-01-15'
 categories: Writing
 tags: Writing
 ---
@@ -42,21 +42,13 @@ They are organized from "oldest" data sets to "newest" data sets.
 
 *Timeline*: DNA species ID completed by end of December 2024, decide on sequencing by January 2025
 
-## Resazurin methods paper 
+## 10K Seed Hardening/Resazurin paper 
 
-*Status*: Data anlysis  
+*Status*: Final data analysis
 
 *Next step*: Finalize analysis, draft manuscript   
 
 *Timeline*: Draft by end of Dec 2024  
-
-## 10K Seed Hardening 
-
-*Status*: Data collection, written outline
-
-*Next step*: Write methods, continue data collection and lab work
-
-*Timeline*: Write methods and wrap up lab work by end of December 2024 
 
 ## Lifestage Carryover 
 
@@ -70,7 +62,7 @@ They are organized from "oldest" data sets to "newest" data sets.
 
 *Status*: Final data collection, written outline
 
-*Next step*: Analyze final qPCR data and write methods section
+*Next step*: Analyze final qPCR data and write methods section; analyze and conduct resazurin trials 
 
 *Timeline*: Finish analysis and methods by end of November 2024
 
@@ -81,10 +73,9 @@ This is a list of the papers (I think all of them) that I am a coauthor on at th
 - Ashey et al. E5 ncRNA descriptive - **writing**
 - E5 group deep dive expression - **initial analysis**
 - E5 group time series molecular - **initial analysis**
-- Ashey et al. Pocillopora acuta temp x pCO2 - **final draft**
+- Ashey et al. Pocillopora acuta temp x pCO2 - **submitted**
 - Becker et al. Molecular mechanisms - **writing**
-- Becker et al. Heatwave environmental memory - **writing** 
-- Venkataraman et al. ceabig paper - **accepted** 
+- Becker et al. Heatwave environmental memory - **writing**  
 - Ashey et al. Mcap developmental RNAs - **writing** 
 - Putnam et al. Pocillopora larval development = **writing** 
 

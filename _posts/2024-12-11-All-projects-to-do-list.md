@@ -65,7 +65,7 @@ This post lists all my ongoing projects and to-do list.
 	- Measure size of June 2024 oysters prior to outplant from images (Noah K. in progress) 
 	- Measure size of December 2024 oysters from images
 	- Analyze growth rates from June to September to December 
-	- Analyze survival data from June to September to December time points 
+	- Analyze survival data from June to September to December  
   
 - *Westcott*
 	- Analyze growth and survival data from Westcott 12/17/2024 assessment (Grace in progress)
@@ -100,9 +100,8 @@ This post lists all my ongoing projects and to-do list.
 **Data collection and experiments**   
 
 - Test RNA extractions of shelled larvae and seed using Zymo Quick RNA test kits 
-- Conduct testing in the lab and resazurin assay in January 
-- Plan January/February lab hardening projects
-- Measure size from December and January images for growth 
+- Conduct testing in the lab and resazurin assay in January-February 
+- Measure size from December and January images for growth (Madeline)
 
 ## Oyster 2025 Stress Hardening   
 **Planning**   
