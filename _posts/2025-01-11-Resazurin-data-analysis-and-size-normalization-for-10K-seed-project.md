@@ -104,6 +104,8 @@ Higher metabolic rates were related to significantly increased risk of mortality
 
 Oysters were far more sensitive to increases in metabolic stress under acute stress than under ambient temperatures. Interestingly, even under ambient conditions, oysters with the highest metabolic rates were more likely to experience mortality. 
 
+![](https://github.com/AHuffmyer/ASH_Putnam_Lab_Notebook/blob/master/images/NotebookImages/oysters/analysis/20250116/temperature_mortality-risk_alive4h_dead24h.png?raw=true)
+
 ## Take home thoughts 
 
 - These results demonstrate that oysters are metabolically susceptible to mortality and capacity for metabolic depression may favor survival.  
