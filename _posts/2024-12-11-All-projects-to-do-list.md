@@ -1,7 +1,7 @@
 ---
 layout: post
 title: All Projects To Do List
-date: '2025-01-06'
+date: '2025-01-25'
 categories: Monthly_Goals
 tags: Goals
 ---
@@ -34,6 +34,7 @@ This post lists all my ongoing projects and to-do list.
 - Analyze Sanger DNA sequences for Acropora, Pocillopora, and Porites sepecies identification 
 - Decide on samples to process for RNAseq and/or stable isotope metabolomics depending on species DNA identification 
 - Update methods section 
+- ITS2 sequencing 
 
 ## E5 Physiology     
 **Final manuscript**   
@@ -47,7 +48,6 @@ This post lists all my ongoing projects and to-do list.
 **Data analysis** 
 
 - Examine neural networks and SEM modeling for time series multiomic modeling analyses 
-- Assist Jill with sending samples to UW facility for metabolomics and lipidomics processing 
 - Analyze metabolomic and lipidomic data when made available
 
 ## Resazurin methods manuscript   
@@ -94,12 +94,10 @@ This post lists all my ongoing projects and to-do list.
 
 - Conduct spring growth and survival of outplants at Baywater shellfish 
 - Pending outplant data, storyboard potential manuscripts or additional analyses 
-- Move animals at Point Whitney to new bags and count the number alive at Point Whitney to track winter survival
 
 ## PolyIC Larvae   
 **Data collection and experiments**   
 
-- Test RNA extractions of shelled larvae and seed using Zymo Quick RNA test kits 
 - Conduct testing in the lab and resazurin assay in January-February 
 - Measure size from December and January images for growth (Madeline)
 
@@ -119,9 +117,7 @@ This post lists all my ongoing projects and to-do list.
 
 - Test/optimize enzyme assays in the lab on test oysters 
 - Conduct lab based stress hardening trials
-- Plan student projects 
 
 ## Outreach and education   
 
 - Create and publish Reva Atea spring issue of communications magazine 
-- Work with Bellingham Technical College to plan summer internship for WSG project and hardening trials 

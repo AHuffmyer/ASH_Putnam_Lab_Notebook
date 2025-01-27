@@ -24,7 +24,7 @@ They are organized from "oldest" data sets to "newest" data sets.
 
 *Next step*: Complete introduction and discussion writing 
 
-*Timeline*: Complete writing by end of January 2024
+*Timeline*: Complete writing and submit by end of February 2024
 
 ## Hawaii2023
 
@@ -70,14 +70,15 @@ They are organized from "oldest" data sets to "newest" data sets.
 
 This is a list of the papers (I think all of them) that I am a coauthor on at the moment:  
 
-- Ashey et al. E5 ncRNA descriptive - **writing**
-- E5 group deep dive expression - **initial analysis**
-- E5 group time series molecular - **initial analysis**
 - Ashey et al. Pocillopora acuta temp x pCO2 - **submitted**
+- Ashey et al. E5 ncRNA descriptive - **waiting for submission**
+- E5 group deep dive expression - **initial analysis**
+- E5 group time series molecular - **initial analysis and data collection**
 - Becker et al. Molecular mechanisms - **writing**
 - Becker et al. Heatwave environmental memory - **writing**  
 - Ashey et al. Mcap developmental RNAs - **writing** 
 - Putnam et al. Pocillopora larval development = **writing** 
+- Gorman et al. Toxin discovery = **waiting for submission** 
 
 
 
