@@ -105,6 +105,10 @@ Before starting, set the incubator at the desired temperature.
 10. Move the elevated temperature plates to the incubator and record the incubator temperature. 
 11. Repeat at 1, 2, 3, 4, and 5 hours of incubation.
 
+Here is an example of the plate maps.  
+
+![](https://github.com/AHuffmyer/ASH_Putnam_Lab_Notebook/blob/master/images/NotebookImages/oysters/analysis/20250128/nb3.jpeg?raw=true)
+
 ## Survival measurements 
 
 1. After the 5 hour incubation, finish the last measurement and then bring the plates to FTR 213 for survival measurements. 
@@ -117,6 +121,9 @@ Before starting, set the incubator at the desired temperature.
 7. Repeat for all plates. 
 8. Discard of resazurin in the appropriate waste bin. Empty plates into a tripour and pour into a labeled waste container. 
 9. Rise plates thoroughly in the sink and allow to dry for the next day. 
+
+Here is an example of the data sheet in the notebook.  
+![](https://github.com/AHuffmyer/ASH_Putnam_Lab_Notebook/blob/master/images/NotebookImages/oysters/analysis/20250128/nb5.jpeg?raw=true)
 
 # Data sheets 
 
