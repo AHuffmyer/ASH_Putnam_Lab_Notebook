@@ -34,7 +34,7 @@ This post lists all my ongoing projects and to-do list.
 - Analyze Sanger DNA sequences for Acropora, Pocillopora, and Porites sepecies identification 
 - Decide on samples to process for RNAseq and/or stable isotope metabolomics depending on species DNA identification 
 - Update methods section 
-- ITS2 sequencing 
+- ITS2 sequencing analysis
 
 ## E5 Physiology     
 **Final manuscript**   

@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Resazurin Metabolic Assays Protocol for PolyIC Seed Testing
-date: '2025-01-16'
+date: '2025-01-29'
 categories: PolyIC_Larvae Protocol RobertsLab_Oysters
 tags: Cgigas Oyster Protocol Resazurin Survival
 ---
@@ -32,7 +32,7 @@ Store in a dark fridge or freezer.
 
 To prepare the working solution of resazurin, prepare the following. 
 
-This recipe is to make 150 mL of working stock. To run a single 96 well plate, approximately 35 mL will be required (allowing for extra for re-do's or errors). For example, if we are running 4 total plates, we will need to prepare 4 x 35 mL = 150 mL of working solution. 
+This recipe is to make 150 mL of working stock. To run a single 96 well plate, approximately 35 mL will be required (allowing for extra for re-do's or errors). For example, if we are running 4 total plates, we will need to prepare 4 x 35 mL = 150 mL of working solution. Increase if more is required.  
 
 - 148 mL seawater (DI water with Instant Ocean adjusted to 23-25 ppt) 
 - 333 µL resazurin stock solution
@@ -41,11 +41,7 @@ This recipe is to make 150 mL of working stock. To run a single 96 well plate, a
 
 Store at 4°C in dark fridge.  
 
-### 3. Seawater 
-
-Prepare clean seawater solution using DI water and set on the bench at the control temperature. This will be used for survival incubations at the end of the day after resazurin measurements. 
-
-### 4. Supplies 
+### 3. Supplies 
 
 - Two Hobo TidbiT [temperature loggers](https://www.onsetcomp.com/products/data-loggers/mx2203)
 	- One placed in incubator and one placed on counter at room temperature 
@@ -53,47 +49,86 @@ Prepare clean seawater solution using DI water and set on the bench at the contr
 - Paper towels and bench paper/pads 
 - Tweezers, transfer pipettes, and forceps 
 - Dissecting microscope 
-- Spectrophotometer plate reader(Perkin Elmer 1420 Multilabel Counter Victor3) and software version 3.00  
+- Spectrophotometer plate reader (Perkin Elmer 1420 Multilabel Counter Victor3) and software version 3.00  
 - P1000 pipette
 - Scale bar/ruler
 - Scale (mg measurements)  
 
-Label plates with identifying number (e.g. "High Plate 1", "Control Plate 2").  
+Label plates with identifying number (e.g. "Plate 1", "Plate 2").  
 
 # Protocol
 
-## Resazurin measurements 
+We will be conducting measurements at several temperatures. Each day of measurements, we will run a control (benchtop, ~16°C) and an elevated temperature (25°C, 30°C, 35°C, 40°C).
+
+## Schedule 
+
+Each day, the schedule will be as follows. Note that this schedule is written for a single person. If there are 2-3 people, the time frame for loading and assessing survival will be shorter than written here. 
+
+08:00-09:00: Load plates with oysters, take size images, and load resazurin solution   
+09:00: Time 0 measurement   
+10:00: Time 1 measurement   
+11:00: Time 2 measurement  
+12:00: Time 3 measurement  
+13:00: Time 4 measurement  
+14:00: Time 5 measurement  
+14:00-16:00: Survival assessments and clean up   
+
+## Load and prepare samples  
+
+Before starting, set the incubator at the desired temperature.  
 
 1. Prepare spat for assays by getting some spat from each silo in the FTR tank room. Label a cup with the appropriate label (control-1, control-2, treated-4, or treated-5). These are from duplicate tanks. We will want to keep these separate and track the tanks they came from during the measurements. 
-2. Add 40 spat into a labeled 96 well plate (with a plate number and "resazurin") from the same treatment group from each replicate. For example, in one plate add 40 wells of control-1 spat and 40 wells of control -2 spat. Repeat to generate 1 plates per treatment group per temperature (control or high) for a total of 4 96 well plates. Leave at least 10 random wells open for blank measurements. 
-	- Here is how the plates can be structured: 
-		- *Control Plate 1*: 40 wells of control-1 seed and 40 wells of control-2 seed; 10 blank wells. Set at control temperature. 
-		- *Control Plate 2*: 40 wells of treated-1 seed and 40 wells of treated-2 seed; 10 blank wells. Set at control temperature. 
-		- *High Plate 1*: 40 wells of control-1 seed and 40 wells of control-2 seed; 10 blank wells. Set at high temperature. 
-		- *High Plate 2*: 40 wells of treated-1 seed and 40 wells of treated-2 seed; 10 blank wells. Set at high temperature. 
-3. Prepare the scale. Plate the 96 well plate on the scale and zero the meaurement. 
-4. Place seed individually on the 96 well plate after dabbing on a towel to remove excess water, recording the weight of each spat as you load into the plate (in mg) in the notebook. Record the plate number and the well number with the weight. Zero the scale after each spat is added and repeat until all spat are loaded. Load without water. 
-2. Record plate number and position of samples in each plate. Assign plate number as `YYYYMMDD_TemperatureTreatment_Plate#`. For example, `20250110_High_Plate1`. Label plates consecutively, such that there is never a repeat of "plate 1". Record which spat treatment group is in each plate and which wells contain oysters and which contain blanks. 
-3. Fill each well with 300 µL of resazurin working stock at ambient temperature. 
-4. Take a reading for each plate on the plate reader (initial time point). Save the file as `YYYYMMDD_TemperatureTreatment_Plate#_T0.xlsx`. 
-5. Put the plates in respective temperature treatments. Put High plates at the 42°C incubation and Control plates at the countertop (~16°C). 
-6. After 1, 2, 3, 4, and 5 hours, read the plates again on the plate reader. Record the name of data files as `YYYYMMDD_TemperatureTreatment_Plate#_Time1.xlsx` and so on. 
-7. Save the data to a flash drive and add to GitHub at the [location here](https://github.com/RobertsLab/polyIC-larvae/tree/main/data/resazurin/plate-files/). 
+2. Add spat into labeled 96 well plate (with a plate number and "resazurin") from each replicate tank placing them on the bottom of each well. For example, in one plate add control-1 and control-2 spat. Generate four plates as outlined below. We will leave 12 wells open for blank measurements in each plate.   
+	- Here is how the plates will be structured each day: 
+		- *Plate 1*: 16°C (control temperature) with control spat. Wells A1-D6 = control-1; wells D7-E6 = blanks; wells E7-H12 = control-2
+		- *Plate 2*: 16°C (control temperature) with treated spat. Wells A1-D6 = treated-4; wells D7-E6 = blanks; wells E7-H12 = treated-5
+		- *Plate 3*: Elevated temperaure with control spat. Wells A1-D6 = control-1; wells D7-E6 = blanks; wells E7-H12 = control-2 
+		- *Plate 4*: Elevated temperature with treated spat. Wells A1-D6 = treated-4; wells D7-E6 = blanks; wells E7-H12 = treated-5
+3. Write the location of wells on a plate map for each plate. 
+4. Take images of each plate. This can be done by flipping the plate upside down gently with oysters stuck on the bottom of the well. If oysters stay on the bottom of the well, then an image can be taken from the bottom with a scale bar and label in the image. See an example below.  
+5. If the oysters do not stick to the well, take several images across the plate from the top view to view each oyster in each well for size analysis. 
+6. Fill each well with 300 µL of resazurin working stock at ambient temperature (in FTR 213 fridge). 
+
+![](https://github.com/AHuffmyer/ASH_Putnam_Lab_Notebook/blob/master/images/NotebookImages/oysters/analysis/20250128/size.jpg?raw=true)  
+
+## Measurements 
+
+1. Turn on the computer and plate reader. Open the plate reader software. 
+2. Use the "Colby resazurin" protocol in the software to take a measurement of each plate at T0 before starting the incubation. 
+3. Put the plate on the loading platform. 
+4. Click Start
+5. After the data is collected, press the spreadsheet icon. 
+6. Click File > Export
+7. Save the file as: `YYYYMMDD_TemperatureTreatment_Plate#_T0.xlsx`. For example, `20250128_40C_Plate#_T3.xlsx`. 
+8. Save the data to a flash drive and add to GitHub at the [location here](https://github.com/RobertsLab/polyIC-larvae/tree/main/data/resazurin/plate-files/). 
+9. Record the time of the measurement.
+10. Move the elevated temperature plates to the incubator and record the incubator temperature. 
+11. Repeat at 1, 2, 3, 4, and 5 hours of incubation.
 
 ## Survival measurements 
 
-1. After the 5 hour incubation, prepare new labeled plates with the same plate identification numbers and a label with "survival". 
-2. Move the samples in the identical positions from the resazurin plate to the survival plate. In the transfer, gently rinse each spat by dunking into a clean seawater from the respective temperature to remove excess resazurin solution. Do this in a petri dish or cup. 
-3. While transfering, assess if the oyster is dead (gaping open with no movement when shell is probed) or alive (closed). Use a microscope if needed. It is clear to see when the oysters have died by probing the flat portion of the shell to see if it remains gaping after being touched. 
-4. Record the plate, well number, and whether the oyster is dead or alive in the notebook or in a data sheet. You can do this by just making a list of the wells with either dead or alive spat. 
-5. Fill the wells of the survival plate with 300 µL seawater from the benchtop temperature. 
-6. Place all plates in the cold room on the table over night. 
-7. The next day (~24 h since start of resazurin measurements), record survival again as in step 4 above.
-8. All oysters will be discarded after this time point.  
+1. After the 5 hour incubation, finish the last measurement and then bring the plates to FTR 213 for survival measurements. 
+2. Prepare  96 well plate maps for survival data recording for each plate. 
+3. In the plate maps, you will record which wells have dead oysters. Use an "X" to mark wells with dead oysters. 
+4. Start with high temperature plates. 
+4. Use tweezers to take each oyster out and examine in a petri dish filled with DI water under a dissecting scope. Determine if the oyster is dead by placing the cup side of the oyster down and gently taping/moving the shell. If the shell is open and remains open after tapping, the oyster is dead. If the shell is closed tight or closes after tapping, the oyster is alive. 
+5. Record any notes of oysters that were damaged by the tweezers or if you noticed 2 oysters in a well. 
+6. After examining each oyster, move it to a beaker. Discard oysters in the compost bin after the measurements are done. 
+7. Repeat for all plates. 
+8. Discard of resazurin in the appropriate waste bin. Empty plates into a tripour and pour into a labeled waste container. 
+9. Rise plates thoroughly in the sink and allow to dry for the next day. 
 
 # Data sheets 
 
-Ariana will add links to data sheets here after initial trials. 
+Data will be stored on GitHub. Links are available below.  
+
+[Size image folder](https://github.com/RobertsLab/polyIC-larvae/tree/main/data/resazurin/images/)  
+[Size data sheet](https://github.com/RobertsLab/polyIC-larvae/blob/main/data/resazurin/size.csv)  
+[Resazurin plate reader files](https://github.com/RobertsLab/polyIC-larvae/tree/main/data/resazurin/plate_files)  
+[Resazurin plate metadata](https://github.com/RobertsLab/polyIC-larvae/blob/main/data/resazurin/metadata/metadata.xlsx)  
+[Survival data](https://github.com/RobertsLab/polyIC-larvae/blob/main/data/resazurin/survival.csv)  
+
+Scripts for analysis are available on GitHub [here](https://github.com/RobertsLab/polyIC-larvae/blob/main/scripts/resazurin/resazurin-analysis.Rmd) and figures of results are [available here](https://github.com/RobertsLab/polyIC-larvae/tree/main/figures/resazurin).    
 
 # Notes 
 
