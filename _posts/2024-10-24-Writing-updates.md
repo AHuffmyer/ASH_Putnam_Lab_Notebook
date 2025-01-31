@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Writing updates
-date: '2025-01-15'
+date: '2025-01-29'
 categories: Writing
 tags: Writing
 ---
@@ -16,7 +16,7 @@ They are organized from "oldest" data sets to "newest" data sets.
 
 *Next step*: Revisions when received 
 
-*Timeline*: TBD
+*Timeline*: Pending review
 
 ## E5 physiology 
 
@@ -24,13 +24,13 @@ They are organized from "oldest" data sets to "newest" data sets.
 
 *Next step*: Complete introduction and discussion writing 
 
-*Timeline*: Complete writing and submit by end of February 2024
+*Timeline*: Complete writing and submit by end of February 2025
 
 ## Hawaii2023
 
 *Status*: Data analysis, methods complete 
 
-*Next step*: Finish RNAseq, lipids, metabolites, and phenoplate data analysis
+*Next step*: Finish RNAseq, ITS2, lipids, metabolites, and phenoplate data analysis
 
 *Time line*: Wrap up data analysis by January 2025
 
@@ -40,7 +40,7 @@ They are organized from "oldest" data sets to "newest" data sets.
 
 *Next step*: Write methods complete up to this point, conduct DNA species ID 
 
-*Timeline*: DNA species ID completed by end of December 2024, decide on sequencing by January 2025
+*Timeline*: DNA species ID completed by end of January 2025, decide on sequencing by January 2025
 
 ## 10K Seed Hardening/Resazurin paper 
 
@@ -60,20 +60,20 @@ They are organized from "oldest" data sets to "newest" data sets.
 
 ## PolyIC Larvae   
 
-*Status*: Final data collection, written outline
+*Status*: Data collection, written outline
 
-*Next step*: Analyze final qPCR data and write methods section; analyze and conduct resazurin trials 
+*Next step*: Analyze resazurin data and growth; complete methods section
 
-*Timeline*: Finish analysis and methods by end of November 2024
+*Timeline*: Finish analysis by February 2025
 
 ## Collaborative manuscripts 
 
 This is a list of the papers (I think all of them) that I am a coauthor on at the moment:  
 
-- Ashey et al. Pocillopora acuta temp x pCO2 - **submitted**
+- Ashey et al. Pocillopora acuta temp x pCO2 - **in review**
 - Ashey et al. E5 ncRNA descriptive - **waiting for submission**
-- E5 group deep dive expression - **initial analysis**
-- E5 group time series molecular - **initial analysis and data collection**
+- E5 group deep dive expression - **analysis**
+- E5 group time series molecular - **analysis and data collection**
 - Becker et al. Molecular mechanisms - **writing**
 - Becker et al. Heatwave environmental memory - **writing**  
 - Ashey et al. Mcap developmental RNAs - **writing** 

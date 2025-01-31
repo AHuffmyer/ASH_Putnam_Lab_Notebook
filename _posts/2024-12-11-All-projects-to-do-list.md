@@ -49,6 +49,8 @@ This post lists all my ongoing projects and to-do list.
 
 - Examine neural networks and SEM modeling for time series multiomic modeling analyses 
 - Analyze metabolomic and lipidomic data when made available
+- Conduct mRNA-lncRNA correlations for Deep Dive Expression
+- Trial machine learning approaches to predict mRNA from features of other omics
 
 ## Resazurin methods manuscript   
 **Analysis and writing** 
@@ -64,8 +66,7 @@ This post lists all my ongoing projects and to-do list.
 - *Goose Point*
 	- Measure size of June 2024 oysters prior to outplant from images (Noah K. in progress) 
 	- Measure size of December 2024 oysters from images
-	- Analyze growth rates from June to September to December 
-	- Analyze survival data from June to September to December  
+	- Analyze growth rates and survival from June to September to December 
   
 - *Westcott*
 	- Analyze growth and survival data from Westcott 12/17/2024 assessment (Grace in progress)
