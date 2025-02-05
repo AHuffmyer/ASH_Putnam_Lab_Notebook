@@ -47,6 +47,15 @@ February goals and daily notebook entries.
 
 ## **Daily Log**   
 
+### Feb 5
+
+- Meetings with undergrads for project design 
+- E5 deep dive expression correlation analyses
+- Plate reader ordering/troubleshooting
+- Oyster tanks and feeding 
+- WSG talk meeting 
+- E5 physiology manuscript
+
 ### Feb 4
 
 - Meetings with undergrads for project design 
