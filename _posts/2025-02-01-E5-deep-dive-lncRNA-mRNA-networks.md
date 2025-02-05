@@ -56,7 +56,7 @@ I used WGCNA correlation network analyses to investigate correlations between mR
 
 ## *Acropora pulchra*  
 
-1. **Co-expression of mRNAs and lncRNAs are co-expressed:** There were co-expressed modules of mRNA and lncRNAs. Rather than perform pairwise comparisons between many features, WGCNA identifies groups of co-expressed features. All modules contained both mRNAs and lncRNAs (indicating co-expression of features in each module) with varying numbers of lncRNAs contained in each module.  
+- **Co-expression of mRNAs and lncRNAs are co-expressed:** There were co-expressed modules of mRNA and lncRNAs. Rather than perform pairwise comparisons between many features, WGCNA identifies groups of co-expressed features. All modules contained both mRNAs and lncRNAs (indicating co-expression of features in each module) with varying numbers of lncRNAs contained in each module.  
 
 Each of these modules can be examined for functional enrichment to determine biological functions involved in co-expression of mRNAs and lncRNAs.  
 
@@ -68,7 +68,7 @@ The expression of each module for each sample can be seen below. We will use mod
 
 ![](https://github.com/AHuffmyer/ASH_Putnam_Lab_Notebook/blob/master/images/NotebookImages/E5_deepdive/20250204/ap3.png?raw=true)
 
-2. **Correlation of mRNA and lncRNA co-expression modules:** There were several modules that were correlated. These correlations represent groups of co-expressed mRNAs and lncRNAs that are either negatively or positively correlated to other groups of co-expressed features.  
+- **Correlation of mRNA and lncRNA co-expression modules:** There were several modules that were correlated. These correlations represent groups of co-expressed mRNAs and lncRNAs that are either negatively or positively correlated to other groups of co-expressed features.  
 
 ![](https://github.com/AHuffmyer/ASH_Putnam_Lab_Notebook/blob/master/images/NotebookImages/E5_deepdive/20250204/ap4.png?raw=true)  
 
@@ -78,7 +78,7 @@ Here is an example of two correlated modules and their expression values.
 
 ![](https://github.com/AHuffmyer/ASH_Putnam_Lab_Notebook/blob/master/images/NotebookImages/E5_deepdive/20250204/ap5.png?raw=true)
 
-3. **Correlation network of mRNA-lncRNA co-expression:** I then generated a correlation network to show the relationships between modules of co-expressed mRNA and lncRNAs.   
+- **Correlation network of mRNA-lncRNA co-expression:** I then generated a correlation network to show the relationships between modules of co-expressed mRNA and lncRNAs.   
 
 ![](https://github.com/AHuffmyer/ASH_Putnam_Lab_Notebook/blob/master/images/NotebookImages/E5_deepdive/20250204/ap1.png?raw=true)  
 
@@ -91,7 +91,7 @@ There are a few interesting take-aways:
 
 ## *Porites evermanni*  
 
-1. **Co-expression of mRNAs and lncRNAs are co-expressed:** There were co-expressed modules of mRNA and lncRNAs. Rather than perform pairwise comparisons between many features, WGCNA identifies groups of co-expressed features. All modules contained both mRNAs and lncRNAs (indicating co-expression of features in each module) with varying numbers of lncRNAs contained in each module.  
+- **Co-expression of mRNAs and lncRNAs are co-expressed:** There were co-expressed modules of mRNA and lncRNAs. Rather than perform pairwise comparisons between many features, WGCNA identifies groups of co-expressed features. All modules contained both mRNAs and lncRNAs (indicating co-expression of features in each module) with varying numbers of lncRNAs contained in each module.  
 
 Each of these modules can be examined for functional enrichment to determine biological functions involved in co-expression of mRNAs and lncRNAs.  
 
@@ -103,9 +103,9 @@ The expression of each module for each sample can be seen below. We will use mod
 
 ![](https://github.com/AHuffmyer/ASH_Putnam_Lab_Notebook/blob/master/images/NotebookImages/E5_deepdive/20250204/pe3.png?raw=true)
 
-2. **Correlation of mRNA and lncRNA co-expression modules:** There were several modules that were correlated. These correlations represent groups of co-expressed mRNAs and lncRNAs that are either negatively or positively correlated to other groups of co-expressed features.  
+- **Correlation of mRNA and lncRNA co-expression modules:** There were several modules that were correlated. These correlations represent groups of co-expressed mRNAs and lncRNAs that are either negatively or positively correlated to other groups of co-expressed features.  
 
-![](https://github.com/AHuffmyer/ASH_Putnam_Lab_Notebook/blob/master/images/NotebookImages/E5_deepdive/20250204/ap4.png?raw=true)  
+![](https://github.com/AHuffmyer/ASH_Putnam_Lab_Notebook/blob/master/images/NotebookImages/E5_deepdive/20250204/pe4.png?raw=true)  
 
 This correlation matrix shows significantly correlated modules. Note that there is one pair of modules that are positively correlated while the others are negatively correlated. There are more significant correlations than we saw in *A. pulchra*.  
 
@@ -113,7 +113,7 @@ Here is an example of two correlated modules and their expression values.
 
 ![](https://github.com/AHuffmyer/ASH_Putnam_Lab_Notebook/blob/master/images/NotebookImages/E5_deepdive/20250204/pe5.png?raw=true)
 
-3. **Correlation network of mRNA-lncRNA co-expression:** I then generated a correlation network to show the relationships between modules of co-expressed mRNA and lncRNAs.   
+- **Correlation network of mRNA-lncRNA co-expression:** I then generated a correlation network to show the relationships between modules of co-expressed mRNA and lncRNAs.   
 
 ![](https://github.com/AHuffmyer/ASH_Putnam_Lab_Notebook/blob/master/images/NotebookImages/E5_deepdive/20250204/pe1.png?raw=true)  
 
@@ -127,7 +127,7 @@ There are a few interesting take-aways:
 
 ## *Pocillopora tuahiniensis*  
 
-1. **Co-expression of mRNAs and lncRNAs are co-expressed:** There were co-expressed modules of mRNA and lncRNAs. Rather than perform pairwise comparisons between many features, WGCNA identifies groups of co-expressed features. All modules contained both mRNAs and lncRNAs (indicating co-expression of features in each module) with varying numbers of lncRNAs contained in each module.  
+- **Co-expression of mRNAs and lncRNAs are co-expressed:** There were co-expressed modules of mRNA and lncRNAs. Rather than perform pairwise comparisons between many features, WGCNA identifies groups of co-expressed features. All modules contained both mRNAs and lncRNAs (indicating co-expression of features in each module) with varying numbers of lncRNAs contained in each module.  
 
 Each of these modules can be examined for functional enrichment to determine biological functions involved in co-expression of mRNAs and lncRNAs.  
 
@@ -139,7 +139,7 @@ The expression of each module for each sample can be seen below. We will use mod
 
 ![](https://github.com/AHuffmyer/ASH_Putnam_Lab_Notebook/blob/master/images/NotebookImages/E5_deepdive/20250204/pt3.png?raw=true)
 
-2. **Correlation of mRNA and lncRNA co-expression modules:** There were several modules that were correlated. These correlations represent groups of co-expressed mRNAs and lncRNAs that are either negatively or positively correlated to other groups of co-expressed features.  
+- **Correlation of mRNA and lncRNA co-expression modules:** There were several modules that were correlated. These correlations represent groups of co-expressed mRNAs and lncRNAs that are either negatively or positively correlated to other groups of co-expressed features.  
 
 ![](https://github.com/AHuffmyer/ASH_Putnam_Lab_Notebook/blob/master/images/NotebookImages/E5_deepdive/20250204/pt4.png?raw=true)  
 
@@ -149,7 +149,7 @@ Here is an example of two correlated modules and their expression values.
 
 ![](https://github.com/AHuffmyer/ASH_Putnam_Lab_Notebook/blob/master/images/NotebookImages/E5_deepdive/20250204/pt5.png?raw=true)
 
-3. **Correlation network of mRNA-lncRNA co-expression:** I then generated a correlation network to show the relationships between modules of co-expressed mRNA and lncRNAs.   
+- **Correlation network of mRNA-lncRNA co-expression:** I then generated a correlation network to show the relationships between modules of co-expressed mRNA and lncRNAs.   
 
 ![](https://github.com/AHuffmyer/ASH_Putnam_Lab_Notebook/blob/master/images/NotebookImages/E5_deepdive/20250204/pt1.png?raw=true)  
 
