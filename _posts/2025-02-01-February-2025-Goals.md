@@ -24,6 +24,8 @@ February goals and daily notebook entries.
 3. Data analysis for LCO growth 
 4. Larval size analysis for Hawaii 2023
 5. Larval symbiont density analysis for Hawaii 2023
+6. Project Nom Nom PR data analysis 
+7. ~~mRNA-lncRNA corelations for deep dive expression~~
 
 ### Field work 
 
@@ -44,6 +46,13 @@ February goals and daily notebook entries.
 3. Cell count processing for HI2023
 
 ## **Daily Log**   
+
+### Feb 4
+
+- Meetings with undergrads for project design 
+- E5 deep dive expression correlation analyses
+- Meeting with Hollie 
+- MERLAB meeting 
 
 ### Feb 3
 

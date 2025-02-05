@@ -66,6 +66,14 @@ They are organized from "oldest" data sets to "newest" data sets.
 
 *Timeline*: Finish analysis by February 2025
 
+## Nom Nom Project   
+
+*Status*: Data collection
+
+*Next step*: Analyze PR data and work with collaborators on ITS2 data
+
+*Timeline*: Finish analysis by March 2025
+
 ## Collaborative manuscripts 
 
 This is a list of the papers (I think all of them) that I am a coauthor on at the moment:  

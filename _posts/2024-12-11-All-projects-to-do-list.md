@@ -49,8 +49,12 @@ This post lists all my ongoing projects and to-do list.
 
 - Examine neural networks and SEM modeling for time series multiomic modeling analyses 
 - Analyze metabolomic and lipidomic data when made available
-- Conduct mRNA-lncRNA correlations for Deep Dive Expression
 - Trial machine learning approaches to predict mRNA from features of other omics
+
+## E5 Nom Nom   
+**Data analysis** 
+
+- Analyze PR rates data set 
 
 ## Resazurin methods manuscript   
 **Analysis and writing** 
