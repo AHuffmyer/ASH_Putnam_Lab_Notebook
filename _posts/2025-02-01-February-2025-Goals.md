@@ -1,7 +1,7 @@
 ---
 layout: post
 title: February 2025 Goals
-date: '2025-02-01'
+date: '2025-02-07'
 categories: Monthly_Goals
 tags: Goals
 ---
@@ -46,6 +46,21 @@ February goals and daily notebook entries.
 3. Cell count processing for HI2023
 
 ## **Daily Log**   
+
+### Feb 7
+
+- Reva Atea magazine 
+- Roberts Lab website updates
+- E5 analysis at Science Hour
+- Plate reader quotes 
+
+### Feb 6
+
+- Reva Atea magazine 
+- RNAseq analysis with Lucy
+- Roberts Lab meeting
+- Roberts Lab website updates
+- Plate reader quotes 
 
 ### Feb 5
 
