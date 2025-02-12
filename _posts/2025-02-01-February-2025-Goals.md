@@ -1,7 +1,7 @@
 ---
 layout: post
 title: February 2025 Goals
-date: '2025-02-07'
+date: '2025-02-11'
 categories: Monthly_Goals
 tags: Goals
 ---
@@ -20,12 +20,14 @@ February goals and daily notebook entries.
 ### Analysis
 
 1. Phenoplate and RLC analyses for Hawaii 2023
-2. Growth analysis for Goose Point seed
-3. Data analysis for LCO growth 
-4. Larval size analysis for Hawaii 2023
-5. Larval symbiont density analysis for Hawaii 2023
-6. Project Nom Nom PR data analysis 
-7. ~~mRNA-lncRNA corelations for deep dive expression~~
+2. Growth analysis for Goose Point seed (Sept)
+3. Growth analysis for Goose Point seed (Dec)
+4. Data analysis for LCO growth 
+5. Larval size analysis for Hawaii 2023
+6. Larval symbiont density analysis for Hawaii 2023
+7. Project Nom Nom PR data analysis 
+8. ~~mRNA-lncRNA corelations for deep dive expression~~
+9. WGCNA for time series expression using multi-omics 
 
 ### Field work 
 
@@ -37,7 +39,7 @@ February goals and daily notebook entries.
 
 ### Conferences 
 
-1. WSG Shellfish grower meeting
+1. ~~WSG Shellfish grower meeting~~
 
 ### Lab experiments 
 
@@ -46,6 +48,18 @@ February goals and daily notebook entries.
 3. Cell count processing for HI2023
 
 ## **Daily Log**   
+
+### Feb 12
+
+- Growth and survival data analysis for oyster projects 
+- Reviewer reports 
+- E5 phys manuscript 
+- E5 WGCNA analysis 
+- Transfer files from Andromeda to Klone 
+
+### Feb 10-11
+
+- WSG meeting 
 
 ### Feb 7
 
