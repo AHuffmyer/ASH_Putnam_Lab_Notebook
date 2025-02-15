@@ -12,11 +12,11 @@ They are organized from "oldest" data sets to "newest" data sets.
 
 ## Mcap2020   
 
-*Status*: Submitted and in review!
+*Status*: Minor revisions
 
-*Next step*: Revisions when received 
+*Next step*: Complete revisions
 
-*Timeline*: Pending review
+*Timeline*: Mid March submit revisions 
 
 ## E5 physiology 
 

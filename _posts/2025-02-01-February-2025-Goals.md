@@ -12,22 +12,23 @@ February goals and daily notebook entries.
 
 ### Writing and manuscripts 
               
-1. Methods for Mcap2023 analysis
-2. Submit E5 physiology ms to co-authors and bioRxiv 
-3. Draft resazurin assay 10K seed manuscript
-4. Methods and results for LCO manuscript 
+1. Revise Mcap2020
+2. Methods for Mcap2023 analysis
+3. Submit E5 physiology ms to co-authors and bioRxiv 
+4. Draft resazurin assay 10K seed manuscript
+5. Methods and results for LCO manuscript 
 
 ### Analysis
 
 1. Phenoplate and RLC analyses for Hawaii 2023
-2. Growth analysis for Goose Point seed (Sept)
+2. ~~Growth analysis for Goose Point seed (Sept)~~
 3. Growth analysis for Goose Point seed (Dec)
 4. Data analysis for LCO growth 
 5. Larval size analysis for Hawaii 2023
 6. Larval symbiont density analysis for Hawaii 2023
 7. Project Nom Nom PR data analysis 
 8. ~~mRNA-lncRNA corelations for deep dive expression~~
-9. WGCNA for time series expression using multi-omics 
+9. ~~WGCNA for time series expression using multi-omics~~ 
 
 ### Field work 
 
@@ -44,10 +45,24 @@ February goals and daily notebook entries.
 ### Lab experiments 
 
 1. PolyIC resazurin experiments with UW and undergraduates
-2. PolyIC survival experiments 
+2. ~~PolyIC survival experiments~~ 
 3. Cell count processing for HI2023
 
 ## **Daily Log**   
+
+### Feb 14
+
+- E5 time series WGCNA analysis 
+- E5 molecular meeting 
+- Lipid/metabolomics meeting with Yaamini
+- Mcap2020 revisions 
+
+### Feb 13
+
+- Survival for Poly IC larvae 
+- Lab meeting and photo 
+- Lab cleaning 
+- Setting up OA equipment 
 
 ### Feb 12
 

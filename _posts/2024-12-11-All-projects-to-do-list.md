@@ -11,7 +11,7 @@ This post lists all my ongoing projects and to-do list.
 ## Mcap 2020   
 **In review!**   
 
-- Address revisions once received 
+- Revise by mid March 2020 at the latest
 
 ## Hawaii 2023   
 **Analysis and writing**   
@@ -50,7 +50,7 @@ This post lists all my ongoing projects and to-do list.
 - Examine neural networks and SEM modeling for time series multiomic modeling analyses 
 - Analyze metabolomic and lipidomic data when made available
 - Trial machine learning approaches to predict mRNA from features of other omics
-- Multi-omic WGCNA analysis 
+- ~~Multi-omic WGCNA analysis~~ 
 
 ## E5 Nom Nom   
 **Data analysis** 
@@ -69,8 +69,7 @@ This post lists all my ongoing projects and to-do list.
 **Data collection and analysis** 
 
 - *Goose Point*
-	- Measure size of December 2024 oysters from images (Noah K. in progress) 
-	- Analyze growth rates and survival from June to September to December 
+	- Measure size of December 2024 oysters from images (Noah K. in progress) and analyze
   
 - *Point Whitney* 
 	- Conduct spring assessment of siblings outplanted at Point Whitney 
@@ -115,11 +114,6 @@ This post lists all my ongoing projects and to-do list.
 - Talk with the Coral Resilience Lab about upcoming work and potential projects 
 - Work on grant applications with Steven and Hollie 
 - Perspectives manuscript with Yaamini
-
-## Student projects   
-
-- Test/optimize enzyme assays in the lab on test oysters 
-- Conduct lab based stress hardening trials
 
 ## Outreach and education   
 
