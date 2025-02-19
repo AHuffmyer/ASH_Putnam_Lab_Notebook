@@ -1,7 +1,7 @@
 ---
 layout: post
 title: February 2025 Goals
-date: '2025-02-11'
+date: '2025-02-18'
 categories: Monthly_Goals
 tags: Goals
 ---
@@ -29,6 +29,7 @@ February goals and daily notebook entries.
 7. Project Nom Nom PR data analysis 
 8. ~~mRNA-lncRNA corelations for deep dive expression~~
 9. ~~WGCNA for time series expression using multi-omics~~ 
+10. ~~Test lipidomic sample analysis~~
 
 ### Field work 
 
@@ -49,6 +50,13 @@ February goals and daily notebook entries.
 3. Cell count processing for HI2023
 
 ## **Daily Log**   
+
+### Feb 18
+
+- E5 time series test lipid sample analysis
+- E5 physiology paper writing
+- Metabolomics paper writing with Yaamini 
+- Methods added to Deep Dive expression paper for WGCNA 
 
 ### Feb 14
 
