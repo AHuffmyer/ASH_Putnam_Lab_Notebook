@@ -1,7 +1,7 @@
 ---
 layout: post
 title: February 2025 Goals
-date: '2025-02-18'
+date: '2025-02-20'
 categories: Monthly_Goals
 tags: Goals
 ---
@@ -30,6 +30,7 @@ February goals and daily notebook entries.
 8. ~~mRNA-lncRNA corelations for deep dive expression~~
 9. ~~WGCNA for time series expression using multi-omics~~ 
 10. ~~Test lipidomic sample analysis~~
+11. Lucy's RNAseq bioinformatics 
 
 ### Field work 
 
@@ -51,11 +52,36 @@ February goals and daily notebook entries.
 
 ## **Daily Log**   
 
+### Feb 22 
+
+- COTS project bioinformatic processing 
+- Mcap2020 revisions 
+
+### Feb 21 
+
+- Science hour 
+- E5 time series machine learning analyses
+- Mcap2020 revisions
+
+### Feb 20 
+
+- Logged into Klone R Studio using [these steps](https://sr320.github.io/tumbling-oysters/posts/38-klone/)
+- Writing meeting for E5 paper with Hollie 
+- Roberts Lab meeting 
+- Lucy's bioinformatic data on Unity 
+- Mcap2020 revisions 
+
+### Feb 19
+
+- Metabolomics paper writing with Yaamini 
+- Mcap2020 revisions
+- E5 physiology paper  
+
 ### Feb 18
 
 - E5 time series test lipid sample analysis
 - E5 physiology paper writing
-- Metabolomics paper writing with Yaamini 
+- Metabolomics paper writing 
 - Methods added to Deep Dive expression paper for WGCNA 
 
 ### Feb 14

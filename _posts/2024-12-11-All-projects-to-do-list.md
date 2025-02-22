@@ -102,6 +102,7 @@ This post lists all my ongoing projects and to-do list.
 
 - Conduct testing in the lab and resazurin assay in January-February 
 - Measure size from December and January images for growth (Madeline)
+- RNA extractions and RNAseq analyses
 
 ## Oyster 2025 Stress Hardening   
 **Planning**   
