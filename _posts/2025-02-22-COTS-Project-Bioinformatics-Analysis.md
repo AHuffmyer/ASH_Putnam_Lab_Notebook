@@ -171,11 +171,52 @@ sbatch trimming.sh
 
 Job started at 14:00 on 22 February 2025.  
 
-Transfer fastp report to computer. 
+Job completed at 21:00 on 22 Feb 2025 (~7 hours).  
+
+## MultiQC on trimmed sequences 
+
+Run FastQC and generate a MultiQC report on the trimmed sequences.  
+
+Make a script.  
 
 ```
-scp ashuffmyer_uri_edu@unity.rc.umass.edu:/work/pi_hputnam_uri_edu/ashuffmyer/cots-gorman/raw_data/fastp.html /Users/ashuffmyer/MyProjects/COTS-Bioinformatics
+mkdir trimmed_multiqc 
+
+cd scripts 
+nano trimmed_qc.sh
+``` 
+
+```
+#!/bin/bash
+#SBATCH --job-name=trimmed_qc
+#SBATCH --nodes=1 --cpus-per-task=8
+#SBATCH --mem=250G  # Requested Memory
+#SBATCH -p gpu  # Partition
+#SBATCH -G 1  # Number of GPUs
+#SBATCH --time=10:00:00  # Job time limit
+#SBATCH -o slurm-trim_qc.out  # %j = job ID
+#SBATCH -e slurm-trim_qc.err  # %j = job ID
+#SBATCH -D /work/pi_hputnam_uri_edu/ashuffmyer/cots-gorman/trimmed_multiqc
+
+#load modules 
+module load uri/main
+module load fastqc/0.12.1
+module load MultiQC/1.12-foss-2021b
+
+#run fastqc on trimmed data
+fastqc /work/pi_hputnam_uri_edu/ashuffmyer/cots-gorman/trimmed_data/*.fastq.gz -o /work/pi_hputnam_uri_edu/ashuffmyer/cots-gorman/trimmed_multiqc/
+
+#generate multiqc report
+multiqc /work/pi_hputnam_uri_edu/ashuffmyer/cots-gorman/trimmed_multiqc/ --filename multiqc_report_trimmed.html 
+
+echo "Initial QC of trimmed seq data complete." $(date)
 
 ```
 
-Job completed at xxxxx.  
+Run the script. 
+
+```
+sbatch trimmed_qc.sh
+```
+
+Job started at 21:00 on 22 Feb 2025.  
