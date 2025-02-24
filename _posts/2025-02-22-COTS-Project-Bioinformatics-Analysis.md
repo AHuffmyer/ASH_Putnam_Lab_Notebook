@@ -193,7 +193,7 @@ nano trimmed_qc.sh
 #SBATCH --mem=250G  # Requested Memory
 #SBATCH -p gpu  # Partition
 #SBATCH -G 1  # Number of GPUs
-#SBATCH --time=10:00:00  # Job time limit
+#SBATCH --time=24:00:00  # Job time limit
 #SBATCH -o slurm-trim_qc.out  # %j = job ID
 #SBATCH -e slurm-trim_qc.err  # %j = job ID
 #SBATCH -D /work/pi_hputnam_uri_edu/ashuffmyer/cots-gorman/trimmed_multiqc
@@ -219,4 +219,18 @@ Run the script.
 sbatch trimmed_qc.sh
 ```
 
-Job started at 21:00 on 22 Feb 2025.  
+Job started at 11:15 on 23 Feb 2025, ended at about 24 h.  
+
+Copy file to computer. 
+
+```
+scp ashuffmyer_uri_edu@unity.rc.umass.edu:/work/pi_hputnam_uri_edu/ashuffmyer/cots-gorman/trimmed_multiqc/multiqc_report_trimmed.html /Users/ashuffmyer/MyProjects/COTS-Bioinformatics
+
+```
+
+Adapters are removed, quality scores are high. QC content is weird, but likely due to symbiont and microbial reads seen in Hollie's tests of alignment previously. We will see what happens at the alignment steps.  
+
+
+
+
+
