@@ -78,12 +78,12 @@ Completed after approx. 24 hours.
 
 Transfer raw multiQC report to desktop to view. 
 
-I currently don't have access to a GitHub repo for this project, so I'll keep the files on my computer for now.  
+The file can be [viewed on GitHub here](https://github.com/lmgorman/CoTS-RNAseq/blob/main/output/seq_qc/multiqc_report_raw.html).  
 
 In window outside Unity (logged onto my own computer): 
 
 ```
-scp ashuffmyer_uri_edu@unity.rc.umass.edu:/work/pi_hputnam_uri_edu/ashuffmyer/cots-gorman/raw_data/multiqc_report_raw.html /Users/ashuffmyer/MyProjects/COTS-Bioinformatics
+scp ashuffmyer_uri_edu@unity.rc.umass.edu:/work/pi_hputnam_uri_edu/ashuffmyer/cots-gorman/raw_data/multiqc_report_raw.html /Users/ashuffmyer/MyProjects/CoTS-RNAseq/output/seq_qc
 ```
 
 We have some adapter content and lots of variation in GC histograms.  
@@ -224,13 +224,26 @@ Job started at 11:15 on 23 Feb 2025, ended at about 24 h.
 Copy file to computer. 
 
 ```
-scp ashuffmyer_uri_edu@unity.rc.umass.edu:/work/pi_hputnam_uri_edu/ashuffmyer/cots-gorman/trimmed_multiqc/multiqc_report_trimmed.html /Users/ashuffmyer/MyProjects/COTS-Bioinformatics
+scp ashuffmyer_uri_edu@unity.rc.umass.edu:/work/pi_hputnam_uri_edu/ashuffmyer/cots-gorman/trimmed_multiqc/multiqc_report_trimmed.html /Users/ashuffmyer/MyProjects/CoTS-RNAseq/output/seq_qc
 
 ```
 
 Adapters are removed, quality scores are high. QC content is weird, but likely due to symbiont and microbial reads seen in Hollie's tests of alignment previously. We will see what happens at the alignment steps.  
 
+The file can be [viewed on GitHub here](https://github.com/lmgorman/CoTS-RNAseq/blob/main/output/seq_qc/multiqc_report_trimmed.html). 
 
+## Make species specific lists of samples 
+
+
+
+
+## Alignment to genomes 
+
+### Pocillopora   
+
+
+
+### Porites 
 
 
 
