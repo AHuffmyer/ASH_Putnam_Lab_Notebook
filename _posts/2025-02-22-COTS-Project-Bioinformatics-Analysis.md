@@ -234,16 +234,308 @@ The file can be [viewed on GitHub here](https://github.com/lmgorman/CoTS-RNAseq/
 
 ## Make species specific lists of samples 
 
+Make a list of Acropora and Porites files. 
 
+```
+nano acr-list.txt
 
+497R_R1_001.fastq.gz
+568R_R1_001.fastq.gz
+410R_R1_001.fastq.gz
+549R_R1_001.fastq.gz
+414R_R1_001.fastq.gz
+321RA_R1_001.fastq.gz
+581R_R1_001.fastq.gz
+370R_R1_001.fastq.gz
+419R_R1_001.fastq.gz
+331RA_R1_001.fastq.gz
+336R_R1_001.fastq.gz
+512R_R1_001.fastq.gz
+380R_R1_001.fastq.gz
+571R_R1_001.fastq.gz
+586R_R1_001.fastq.gz
+468R_R1_001.fastq.gz
+497R_R2_001.fastq.gz
+568R_R2_001.fastq.gz
+410R_R2_001.fastq.gz
+549R_R2_001.fastq.gz
+414R_R2_001.fastq.gz
+321RA_R2_001.fastq.gz
+581R_R2_001.fastq.gz
+370R_R2_001.fastq.gz
+419R_R2_001.fastq.gz
+331RA_R2_001.fastq.gz
+336R_R2_001.fastq.gz
+512R_R2_001.fastq.gz
+380R_R2_001.fastq.gz
+571R_R2_001.fastq.gz
+586R_R2_001.fastq.gz
+468R_R2_001.fastq.gz
+
+```
+
+```
+nano por-list.txt
+
+225R_R1_001.fastq.gz
+235R_R1_001.fastq.gz
+43R_R1_001.fastq.gz
+211R_R1_001.fastq.gz
+218R_R1_001.fastq.gz
+34R_R1_001.fastq.gz
+227R_R1_001.fastq.gz
+16R_R1_001.fastq.gz
+61R_R1_001.fastq.gz
+86R_R1_001.fastq.gz
+236R_R1_001.fastq.gz
+244R_R1_001.fastq.gz
+82R_R1_001.fastq.gz
+71R_R1_001.fastq.gz
+253R_R1_001.fastq.gz
+76R_R1_001.fastq.gz
+225R_R2_001.fastq.gz
+235R_R2_001.fastq.gz
+43R_R2_001.fastq.gz
+211R_R2_001.fastq.gz
+218R_R2_001.fastq.gz
+34R_R2_001.fastq.gz
+227R_R2_001.fastq.gz
+16R_R2_001.fastq.gz
+61R_R2_001.fastq.gz
+86R_R2_001.fastq.gz
+236R_R2_001.fastq.gz
+244R_R2_001.fastq.gz
+82R_R2_001.fastq.gz
+71R_R2_001.fastq.gz
+253R_R2_001.fastq.gz
+76R_R2_001.fastq.gz
+```
+
+Make a folder for Acropora and Porites files.  
+
+```
+mkdir acr
+mkdir por
+```
+
+Sym link Acropora files to the `acr` folder.  
+
+```
+while IFS= read -r filename; do
+    trimmed_file="trimmed_data/trim.$filename"
+    if [[ -f "$trimmed_file" ]]; then
+        ln -s "$(realpath "$trimmed_file")" "acr/trim.$filename"
+    else
+        echo "Warning: $trimmed_file not found" >&2
+    fi
+done < acr-list.txt
+```
+
+Sym link Porites files to the `por` folder.  
+
+```
+while IFS= read -r filename; do
+    trimmed_file="trimmed_data/trim.$filename"
+    if [[ -f "$trimmed_file" ]]; then
+        ln -s "$(realpath "$trimmed_file")" "por/trim.$filename"
+    else
+        echo "Warning: $trimmed_file not found" >&2
+    fi
+done < por-list.txt
+```
 
 ## Alignment to genomes 
 
-### Pocillopora   
+### Index genomes 
 
+Copy genome fasta files to my directory to prevent permission issues. 
+
+```
+mkdir refs 
+mkdir por
+mkdir acr
+
+cp /work/pi_hputnam_uri_edu/refs/Plutea_genome/plut_final_2.1.fasta /work/pi_hputnam_uri_edu/ashuffmyer/cots-gorman/refs/por
+
+cp /work/pi_hputnam_uri_edu/refs/Plutea_genome/plut2v1.1.genes.gff3 /work/pi_hputnam_uri_edu/ashuffmyer/cots-gorman/refs/por
+
+cp /work/pi_hputnam_uri_edu/refs/Ahyacinthus_genome/Ahyacinthus_genome_V1/Ahyacinthus.chrsV1.fasta /work/pi_hputnam_uri_edu/ashuffmyer/cots-gorman/refs/acr
+
+cp /work/pi_hputnam_uri_edu/refs/Ahyacinthus_genome/Ahyacinthus_genome_V1/Ahyacinthus.coding.gff3 /work/pi_hputnam_uri_edu/ashuffmyer/cots-gorman/refs/acr
+```
+
+Index Porites genome 
+
+```
+cd scripts 
+nano por-genome.sh
+
+#!/bin/bash
+#SBATCH --job-name=STAR_genome_index_Plutea
+#SBATCH --nodes=1 --cpus-per-task=8
+#SBATCH --mem=100G  # Requested Memory
+#SBATCH -p gpu  # Partition
+#SBATCH -G 1  # Number of GPUs
+#SBATCH --time=24:00:00  # Job time limit
+#SBATCH -o slurm-por-genome.out  # %j = job ID
+#SBATCH -e slurm-por-genome.err  # %j = job ID
+#SBATCH -D /work/pi_hputnam_uri_edu/ashuffmyer/cots-gorman/refs/por
+
+#load modules
+module load uri/main
+module load STAR/2.7.11b-GCC-12.3.0
+
+STAR --runThreadN 6 \
+--runMode genomeGenerate \
+--genomeDir Plutea_index \
+--genomeFastaFiles /work/pi_hputnam_uri_edu/ashuffmyer/cots-gorman/refs/por/plut_final_2.1.fasta \
+--sjdbGTFfile /work/pi_hputnam_uri_edu/ashuffmyer/cots-gorman/refs/por/plut2v1.1.genes.gff3 \
+--sjdbGTFtagExonParentTranscript Parent \
+--sjdbOverhang 99 \
+--genomeSAindexNbases 13
+
+sbatch por-genome.sh
+```
+
+Index Acropora genome 
+
+```
+cd scripts 
+nano acr-genome.sh
+
+#!/bin/bash
+#SBATCH --job-name=STAR_genome_index_Ahya
+#SBATCH --nodes=1 --cpus-per-task=8
+#SBATCH --mem=100G  # Requested Memory
+#SBATCH -p gpu  # Partition
+#SBATCH -G 1  # Number of GPUs
+#SBATCH --time=24:00:00  # Job time limit
+#SBATCH -o slurm-acr-genome.out  # %j = job ID
+#SBATCH -e slurm-acr-genome.err  # %j = job ID
+#SBATCH -D /work/pi_hputnam_uri_edu/ashuffmyer/cots-gorman/refs/acr
+
+module load uri/main
+module load STAR/2.7.11b-GCC-12.3.0
+
+STAR --runThreadN 6 \
+--runMode genomeGenerate \
+--genomeDir Ahya_index \
+--genomeFastaFiles /work/pi_hputnam_uri_edu/ashuffmyer/cots-gorman/refs/acr/Ahyacinthus.chrsV1.fasta \
+--sjdbGTFfile /work/pi_hputnam_uri_edu/ashuffmyer/cots-gorman/refs/acr/Ahyacinthus.coding.gff3 \
+--sjdbGTFtagExonParentTranscript Parent \
+--sjdbOverhang 99
+
+sbatch acr-genome.sh
+```
+
+Jobs started at 12:00 24 February 2025. Jobs finished after about 10-30 min.  
+
+### Acropora 
+
+Align all ACR files in the relevant folder to generated index files.  
+
+``` 
+cd scripts 
+nano acr-align.sh
+```
+
+```
+#!/bin/bash
+#SBATCH --job-name=acr-align
+#SBATCH --nodes=1 --cpus-per-task=8
+#SBATCH --mem=250G  # Requested Memory
+#SBATCH -p gpu  # Partition
+#SBATCH -G 1  # Number of GPUs
+#SBATCH --time=24:00:00  # Job time limit
+#SBATCH -o slurm-acr-align.out  # %j = job ID
+#SBATCH -e slurm-acr-align.err  # %j = job ID
+#SBATCH -D /work/pi_hputnam_uri_edu/ashuffmyer/cots-gorman/acr
+
+#load modules
+echo "Loading programs" $(date)
+module load uri/main
+module load STAR/2.7.11b-GCC-12.3.0
+
+echo "Starting read alignment." $(date)
+#loop through all files to align them to genome
+for i in /work/pi_hputnam_uri_edu/ashuffmyer/cots-gorman/acr/*_R1_001.fastq.gz; do
+
+# Define the corresponding R2 file by replacing _R1_ with _R2_
+    r2_file="${i/_R1_001.fastq.gz/_R2_001.fastq.gz}"
+    
+    # Run STAR alignment
+    STAR --runMode alignReads \
+        --genomeDir /work/pi_hputnam_uri_edu/ashuffmyer/cots-gorman/refs/acr/Ahya_index \
+        --runThreadN 10 \
+        --readFilesCommand zcat \
+        --readFilesIn "$i" "$r2_file" \
+        --outSAMtype BAM SortedByCoordinate \
+        --outSAMunmapped Within \
+        --outSAMattributes Standard \
+        --genomeSAindexNbases 13 \
+        --outFileNamePrefix "${i%.fastq.gz}"
+done
+
+echo "Alignment of Trimmed Seq data complete." $(date)
+
+```   
+
+```
+sbatch acr-align.sh
+```
 
 
 ### Porites 
 
+Align all POR files in the relevant folder using generated genome index.    
 
+``` 
+cd scripts 
+nano por-align.sh
+```
 
+```
+#!/bin/bash
+#SBATCH --job-name=por-align
+#SBATCH --nodes=1 --cpus-per-task=8
+#SBATCH --mem=250G  # Requested Memory
+#SBATCH -p gpu  # Partition
+#SBATCH -G 1  # Number of GPUs
+#SBATCH --time=24:00:00  # Job time limit
+#SBATCH -o slurm-por-align.out  # %j = job ID
+#SBATCH -e slurm-por-align.err  # %j = job ID
+#SBATCH -D /work/pi_hputnam_uri_edu/ashuffmyer/cots-gorman/por
+
+#load modules
+echo "Loading programs" $(date)
+module load uri/main
+module load STAR/2.7.11b-GCC-12.3.0
+
+echo "Starting read alignment." $(date)
+#loop through all files to align them to genome
+for i in /work/pi_hputnam_uri_edu/ashuffmyer/cots-gorman/por/*_R1_001.fastq.gz; do
+
+# Define the corresponding R2 file by replacing _R1_ with _R2_
+    r2_file="${i/_R1_001.fastq.gz/_R2_001.fastq.gz}"
+    
+    # Run STAR alignment
+    STAR --runMode alignReads \
+        --genomeDir /work/pi_hputnam_uri_edu/ashuffmyer/cots-gorman/refs/por/Plutea_index \
+        --runThreadN 10 \
+        --readFilesCommand zcat \
+        --readFilesIn "$i" "$r2_file" \
+        --outSAMtype BAM SortedByCoordinate \
+        --outSAMunmapped Within \
+        --outSAMattributes Standard \
+        --outFileNamePrefix "${i%.fastq.gz}"
+done
+
+echo "Alignment of Trimmed Seq data complete." $(date)
+
+```   
+
+```
+sbatch por-align
+```
+
+Both jobs started on 24 Feb 2025 at 14:00.  
