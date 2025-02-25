@@ -36,6 +36,10 @@ February goals and daily notebook entries.
 
 1. Plan spring outplant assessment dates
 
+### Funding
+
+1. Submit SeaGrant LOI
+
 ### Outreach 
 
 1. Reva Atea magazine 
@@ -49,8 +53,16 @@ February goals and daily notebook entries.
 1. PolyIC resazurin experiments with UW and undergraduates
 2. ~~PolyIC survival experiments~~ 
 3. Cell count processing for HI2023
+4. Purchase plate reader
 
 ## **Daily Log**   
+
+### Feb 24 
+
+- COTS project bioinformatic processing 
+- Mcap2020 revisions
+- WSG LOI 
+- Plate reader purchasing 
 
 ### Feb 22 
 

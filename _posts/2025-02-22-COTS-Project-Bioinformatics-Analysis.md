@@ -539,3 +539,35 @@ sbatch por-align
 ```
 
 Both jobs started on 24 Feb 2025 at 14:00.  
+
+Obtain mapping percentages after job was completed. Use the `samtools flagstat` function that does a full pass through the input file to calculate and print statistics to stdout. Provides counts for each of 13 categories based primarily on bit flags in the FLAG field. Each category in the output is broken down into QC pass and QC fail, which is presented as "#PASS + #FAIL" followed by a description of the category.
+
+Porites  
+
+```
+interactive 
+
+cd /work/pi_hputnam_uri_edu/ashuffmyer/cots-gorman/por/
+
+module load SAMtools/1.9-foss-2018b 
+
+for i in *.bam; do
+    echo "${i}" >> mapped_reads_counts
+    samtools flagstat ${i} | grep "mapped (" >> mapped_reads_counts
+done
+```
+
+Acropora  
+
+```
+interactive 
+
+cd /work/pi_hputnam_uri_edu/ashuffmyer/cots-gorman/acr/
+
+module load SAMtools/1.9-foss-2018b 
+
+for i in *.bam; do
+    echo "${i}" >> mapped_reads_counts
+    samtools flagstat ${i} | grep "mapped (" >> mapped_reads_counts
+done
+```
