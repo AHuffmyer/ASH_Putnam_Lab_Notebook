@@ -492,7 +492,7 @@ ggplot(top_features, aes(x = reorder(Feature, MeanImportance), y = MeanImportanc
        y = "Mean Importance")
 ```
 
-![](https://github.com/AHuffmyer/ASH_Putnam_Lab_Notebook/blob/master/images/NotebookImages/E5_molecular/machine-learning/unnamed-chunk-27-1.png)<!-- -->
+![](https://github.com/AHuffmyer/ASH_Putnam_Lab_Notebook/blob/master/images/NotebookImages/E5_molecular/machine-learning/unnamed-chunk-27-1.png?raw=TRUE)<!-- -->
 
 ``` r
 ggplot(performance_results, aes(x = PC, y = R2)) +
@@ -508,7 +508,7 @@ ggplot(performance_results, aes(x = PC, y = R2)) +
     ## Warning: Removed 6 rows containing missing values or values outside the scale range
     ## (`geom_point()`).
 
-![](https://github.com/AHuffmyer/ASH_Putnam_Lab_Notebook/blob/master/images/NotebookImages/E5_molecular/machine-learning/unnamed-chunk-28-1.png)<!-- -->
+![](https://github.com/AHuffmyer/ASH_Putnam_Lab_Notebook/blob/master/images/NotebookImages/E5_molecular/machine-learning/unnamed-chunk-28-1.png?raw=TRUE)<!-- -->
 
 View components associated with PCs
 
@@ -594,7 +594,7 @@ ggplot(top_cpgs, aes(x = reorder(CpG, abs(Loading)), y = Loading, fill = Methyla
   facet_grid(~Methylation_PC, scales = "free_y")  # Separate plots for each PC
 ```
 
-![](https://github.com/AHuffmyer/ASH_Putnam_Lab_Notebook/blob/master/images/NotebookImages/E5_molecular/machine-learning/unnamed-chunk-31-1.png)<!-- -->
+![](https://github.com/AHuffmyer/ASH_Putnam_Lab_Notebook/blob/master/images/NotebookImages/E5_molecular/machine-learning/unnamed-chunk-31-1.png?raw=TRUE)<!-- -->
 
 View predicted vs actual gene expression values to evaluate model.
 
@@ -627,7 +627,7 @@ ggplot(prediction_df, aes(x = Actual, y = lambda.min)) +
 
     ## `geom_smooth()` using formula = 'y ~ x'
 
-![](https://github.com/AHuffmyer/ASH_Putnam_Lab_Notebook/blob/master/images/NotebookImages/E5_molecular/machine-learning/unnamed-chunk-32-1.png)<!-- -->
+![](https://github.com/AHuffmyer/ASH_Putnam_Lab_Notebook/blob/master/images/NotebookImages/E5_molecular/machine-learning/unnamed-chunk-32-1.png?raw=TRUE)<!-- -->
 
 ``` r
 ggplot(performance_results, aes(y = R2)) +
@@ -640,7 +640,7 @@ ggplot(performance_results, aes(y = R2)) +
     ## Warning: Removed 6 rows containing non-finite outside the scale range
     ## (`stat_boxplot()`).
 
-![](https://github.com/AHuffmyer/ASH_Putnam_Lab_Notebook/blob/master/images/NotebookImages/E5_molecular/machine-learning/unnamed-chunk-33-1.png)<!-- -->
+![](https://github.com/AHuffmyer/ASH_Putnam_Lab_Notebook/blob/master/images/NotebookImages/E5_molecular/machine-learning/unnamed-chunk-33-1.png?raw=TRUE)<!-- -->
 
 ``` r
 # Compute correlation between actual and predicted gene expression PCs
@@ -661,4 +661,4 @@ pheatmap(cor_matrix, color = colorRampPalette(c("blue", "white", "red"))(50),
          fontsize = 10)
 ```
 
-![](https://github.com/AHuffmyer/ASH_Putnam_Lab_Notebook/blob/master/images/NotebookImages/E5_molecular/machine-learning/unnamed-chunk-34-1.png)<!-- -->
+![](https://github.com/AHuffmyer/ASH_Putnam_Lab_Notebook/blob/master/images/NotebookImages/E5_molecular/machine-learning/unnamed-chunk-34-1.png?raw=TRUE)<!-- -->
