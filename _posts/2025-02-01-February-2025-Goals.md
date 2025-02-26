@@ -38,7 +38,7 @@ February goals and daily notebook entries.
 
 ### Funding
 
-1. Submit SeaGrant LOI
+1. ~~Submit SeaGrant LOI~~
 
 ### Outreach 
 
@@ -56,6 +56,14 @@ February goals and daily notebook entries.
 4. Purchase plate reader
 
 ## **Daily Log**   
+
+### Feb 25 
+
+- COTS project bioinformatic processing 
+- Mcap2020 revisions
+- WSG LOI submitted 
+- E5 phys paper 
+- Budget revisions 
 
 ### Feb 24 
 
