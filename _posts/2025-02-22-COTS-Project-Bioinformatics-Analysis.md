@@ -432,6 +432,17 @@ Jobs started at 12:00 24 February 2025. Jobs finished after about 10-30 min.
 
 ### Acropora 
 
+Start a scratch directory to temporarily store the output .bam files. Call the directory `cots` and use for 30 days. It was created on Feb 25th, so we should be prepared to extend or move files we need to keep by March 25th ish.     
+
+```
+ws_allocate cots 30
+
+Info: creating workspace.
+/scratch3/workspace/ashuffmyer_uri_edu-cots
+remaining extensions  : 5
+remaining time in days: 30
+```
+
 Align all ACR files in the relevant folder to generated index files.  
 
 ``` 
@@ -449,7 +460,7 @@ nano acr-align.sh
 #SBATCH --time=24:00:00  # Job time limit
 #SBATCH -o slurm-acr-align.out  # %j = job ID
 #SBATCH -e slurm-acr-align.err  # %j = job ID
-#SBATCH -D /work/pi_hputnam_uri_edu/ashuffmyer/cots-gorman/acr
+#SBATCH -D /work/pi_hputnam_uri_edu/ashuffmyer/cots-gorman/acr/
 
 #load modules
 echo "Loading programs" $(date)
@@ -463,7 +474,10 @@ for i in /work/pi_hputnam_uri_edu/ashuffmyer/cots-gorman/acr/*_R1_001.fastq.gz; 
 # Define the corresponding R2 file by replacing _R1_ with _R2_
     r2_file="${i/_R1_001.fastq.gz/_R2_001.fastq.gz}"
     
-    # Run STAR alignment
+# Define output prefix
+    output_prefix="/scratch3/workspace/ashuffmyer_uri_edu-cots/acr/$(basename "${i%_R1_001.fastq.gz}")_"
+    
+ # Run STAR alignment
     STAR --runMode alignReads \
         --genomeDir /work/pi_hputnam_uri_edu/ashuffmyer/cots-gorman/refs/acr/Ahya_index \
         --runThreadN 10 \
@@ -473,7 +487,7 @@ for i in /work/pi_hputnam_uri_edu/ashuffmyer/cots-gorman/acr/*_R1_001.fastq.gz; 
         --outSAMunmapped Within \
         --outSAMattributes Standard \
         --genomeSAindexNbases 13 \
-        --outFileNamePrefix "${i%.fastq.gz}"
+        --outFileNamePrefix "$output_prefix"
 done
 
 echo "Alignment of Trimmed Seq data complete." $(date)
@@ -484,6 +498,7 @@ echo "Alignment of Trimmed Seq data complete." $(date)
 sbatch acr-align.sh
 ```
 
+This script outputs files in the scratch `acr` directory that I made.  
 
 ### Porites 
 
@@ -504,7 +519,7 @@ nano por-align.sh
 #SBATCH --time=24:00:00  # Job time limit
 #SBATCH -o slurm-por-align.out  # %j = job ID
 #SBATCH -e slurm-por-align.err  # %j = job ID
-#SBATCH -D /work/pi_hputnam_uri_edu/ashuffmyer/cots-gorman/por
+#SBATCH -D /work/pi_hputnam_uri_edu/ashuffmyer/cots-gorman/por/
 
 #load modules
 echo "Loading programs" $(date)
@@ -518,7 +533,10 @@ for i in /work/pi_hputnam_uri_edu/ashuffmyer/cots-gorman/por/*_R1_001.fastq.gz; 
 # Define the corresponding R2 file by replacing _R1_ with _R2_
     r2_file="${i/_R1_001.fastq.gz/_R2_001.fastq.gz}"
     
-    # Run STAR alignment
+# Define output prefix
+    output_prefix="/scratch3/workspace/ashuffmyer_uri_edu-cots/por/$(basename "${i%_R1_001.fastq.gz}")_"
+    
+# Run STAR alignment
     STAR --runMode alignReads \
         --genomeDir /work/pi_hputnam_uri_edu/ashuffmyer/cots-gorman/refs/por/Plutea_index \
         --runThreadN 10 \
@@ -527,7 +545,7 @@ for i in /work/pi_hputnam_uri_edu/ashuffmyer/cots-gorman/por/*_R1_001.fastq.gz; 
         --outSAMtype BAM SortedByCoordinate \
         --outSAMunmapped Within \
         --outSAMattributes Standard \
-        --outFileNamePrefix "${i%.fastq.gz}"
+        --outFileNamePrefix "$output_prefix"
 done
 
 echo "Alignment of Trimmed Seq data complete." $(date)
@@ -538,7 +556,19 @@ echo "Alignment of Trimmed Seq data complete." $(date)
 sbatch por-align
 ```
 
-Both jobs started on 24 Feb 2025 at 14:00.  
+This script outputs files in the scratch `acr` directory that I made.  
+
+Both jobs started on 25 Feb 2025 at 16:30.  
+
+
+
+
+
+
+
+
+
+## Look at mapping results
 
 Obtain mapping percentages after job was completed. Use the `samtools flagstat` function that does a full pass through the input file to calculate and print statistics to stdout. Provides counts for each of 13 categories based primarily on bit flags in the FLAG field. Each category in the output is broken down into QC pass and QC fail, which is presented as "#PASS + #FAIL" followed by a description of the category.
 
