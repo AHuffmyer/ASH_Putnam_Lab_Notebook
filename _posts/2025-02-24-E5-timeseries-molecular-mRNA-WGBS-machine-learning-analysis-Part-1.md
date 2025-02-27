@@ -662,3 +662,5 @@ pheatmap(cor_matrix, color = colorRampPalette(c("blue", "white", "red"))(50),
 ```
 
 ![](https://github.com/AHuffmyer/ASH_Putnam_Lab_Notebook/blob/master/images/NotebookImages/E5_molecular/machine-learning/unnamed-chunk-34-1.png?raw=TRUE)<!-- -->
+
+The correlations showing 0 in the heatmap are those in which the predicted value did not correlate at all with the actual value. Some of the PCs are more predictive than others. 

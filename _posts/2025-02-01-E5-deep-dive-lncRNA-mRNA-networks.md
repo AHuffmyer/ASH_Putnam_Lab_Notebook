@@ -145,6 +145,8 @@ The expression of each module for each sample can be seen below. We will use mod
 
 This correlation matrix shows significantly correlated modules. Note that there are four pairs of modules that are positively correlated while the others are negatively correlated. There are more significant correlations than we saw in the other species and more positively correlated modules.  
 
+Note that the r values are all 0.9 in the matrix above. This is because I ran a spearman correlation (due to low sample size). The way the r values are claculated are rank based, and with only n=5 samples, the number of possible ranks are very small. There are few unique rank orderings, so this leads to a small set of possible r values. We will need to think about our limitations using correlation analyses with only n=5.  
+
 Here is an example of two correlated modules and their expression values.  
 
 ![](https://github.com/AHuffmyer/ASH_Putnam_Lab_Notebook/blob/master/images/NotebookImages/E5_deepdive/20250204/pt5.png?raw=true)

@@ -453,8 +453,8 @@ nano acr-align.sh
 ```
 #!/bin/bash
 #SBATCH --job-name=acr-align
-#SBATCH --nodes=1 --cpus-per-task=30
-#SBATCH --mem=500G  # Requested Memory
+#SBATCH --nodes=1 --cpus-per-task=15
+#SBATCH --mem=200G  # Requested Memory
 #SBATCH -p gpu  # Partition
 #SBATCH -G 1  # Number of GPUs
 #SBATCH -t 7-24:00:00
@@ -513,8 +513,8 @@ nano por-align.sh
 ```
 #!/bin/bash
 #SBATCH --job-name=por-align
-#SBATCH --nodes=1 --cpus-per-task=30
-#SBATCH --mem=500G  # Requested Memory
+#SBATCH --nodes=1 --cpus-per-task=15
+#SBATCH --mem=200G  # Requested Memory
 #SBATCH -p gpu  # Partition
 #SBATCH -G 1  # Number of GPUs
 #SBATCH -t 7-24:00:00
