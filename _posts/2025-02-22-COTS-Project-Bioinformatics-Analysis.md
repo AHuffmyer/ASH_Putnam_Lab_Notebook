@@ -453,12 +453,12 @@ nano acr-align.sh
 ```
 #!/bin/bash
 #SBATCH --job-name=acr-align
-#SBATCH --nodes=1 --cpus-per-task=8
-#SBATCH --nodes=1 --cpus-per-task=25
+#SBATCH --nodes=1 --cpus-per-task=30
 #SBATCH --mem=500G  # Requested Memory
 #SBATCH -p gpu  # Partition
 #SBATCH -G 1  # Number of GPUs
-#SBATCH --time=48:00:00  # Job time limit
+#SBATCH -t 7-24:00:00
+#SBATCH -q long #job lasting over 2 days
 #SBATCH -o slurm-acr-align.out  # %j = job ID
 #SBATCH -e slurm-acr-align.err  # %j = job ID
 #SBATCH -D /work/pi_hputnam_uri_edu/ashuffmyer/cots-gorman/acr/
@@ -513,11 +513,12 @@ nano por-align.sh
 ```
 #!/bin/bash
 #SBATCH --job-name=por-align
-#SBATCH --nodes=1 --cpus-per-task=25
+#SBATCH --nodes=1 --cpus-per-task=30
 #SBATCH --mem=500G  # Requested Memory
 #SBATCH -p gpu  # Partition
 #SBATCH -G 1  # Number of GPUs
-#SBATCH --t=48:00:00  # Job time limit
+#SBATCH -t 7-24:00:00
+#SBATCH -q long #job lasting over 2 days
 #SBATCH -o slurm-por-align.out  # %j = job ID
 #SBATCH -e slurm-por-align.err  # %j = job ID
 #SBATCH -D /work/pi_hputnam_uri_edu/ashuffmyer/cots-gorman/por/
