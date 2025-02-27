@@ -1,7 +1,7 @@
 ---
 layout: post
 title: February 2025 Goals
-date: '2025-02-20'
+date: '2025-02-27'
 categories: Monthly_Goals
 tags: Goals
 ---
@@ -53,9 +53,20 @@ February goals and daily notebook entries.
 1. PolyIC resazurin experiments with UW and undergraduates
 2. ~~PolyIC survival experiments~~ 
 3. Cell count processing for HI2023
-4. Purchase plate reader
+4. ~~Purchase plate reader~~
 
 ## **Daily Log**   
+
+### Feb 27 
+
+- Transport oysters to campus
+- Oyster tanks 
+- Clean lab 
+- Planning experiments 
+
+### Feb 26 
+
+- Point Whitney field day 
 
 ### Feb 25 
 

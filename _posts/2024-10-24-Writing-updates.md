@@ -87,7 +87,3 @@ This is a list of the papers (I think all of them) that I am a coauthor on at th
 - Ashey et al. Mcap developmental RNAs - **writing** 
 - Putnam et al. Pocillopora larval development = **writing** 
 - Gorman et al. Toxin discovery = **in review** 
-
-
-
-

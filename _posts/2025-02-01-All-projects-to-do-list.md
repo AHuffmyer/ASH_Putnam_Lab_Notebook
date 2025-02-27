@@ -1,7 +1,7 @@
 ---
 layout: post
 title: All Projects To Do List
-date: '2025-01-25'
+date: '2025-02-27'
 categories: Monthly_Goals
 tags: Goals
 ---
@@ -11,7 +11,7 @@ This post lists all my ongoing projects and to-do list.
 ## Mcap 2020   
 **In review!**   
 
-- Revise by mid March 2020 at the latest
+- Revise by mid March 2020 
 
 ## Hawaii 2023   
 **Analysis and writing**   
@@ -74,10 +74,8 @@ This post lists all my ongoing projects and to-do list.
 - *Point Whitney* 
 	- Conduct spring assessment of siblings outplanted at Point Whitney 
 	- Transfer HUDLs to other facilities if we decide not to keep them 
-	- Move 2024 USDA seed out of heath trays and into larger cages or upwellers when they outgrow the current trays 
 
-- Record methods for all efforts 
-- Plan spring field assessments 
+- Plan spring field assessments for Goose Point, Westcott, and Point Whitney 
 
 ## Oyster Lifestage Carry Over 
 **Analysis and writing** 
@@ -101,7 +99,7 @@ This post lists all my ongoing projects and to-do list.
 **Data collection and experiments**   
 
 - Conduct testing in the lab and resazurin assay in January-February 
-- Measure size from December and January images for growth (Madeline)
+- Measure size from December, January, February images for growth (Madeline)
 - RNA extractions and RNAseq analyses
 
 ## Oyster 2025 Stress Hardening   

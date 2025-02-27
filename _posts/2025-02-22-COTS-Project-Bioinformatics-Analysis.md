@@ -454,10 +454,11 @@ nano acr-align.sh
 #!/bin/bash
 #SBATCH --job-name=acr-align
 #SBATCH --nodes=1 --cpus-per-task=8
-#SBATCH --mem=250G  # Requested Memory
+#SBATCH --nodes=1 --cpus-per-task=25
+#SBATCH --mem=500G  # Requested Memory
 #SBATCH -p gpu  # Partition
 #SBATCH -G 1  # Number of GPUs
-#SBATCH --time=24:00:00  # Job time limit
+#SBATCH --time=48:00:00  # Job time limit
 #SBATCH -o slurm-acr-align.out  # %j = job ID
 #SBATCH -e slurm-acr-align.err  # %j = job ID
 #SBATCH -D /work/pi_hputnam_uri_edu/ashuffmyer/cots-gorman/acr/
@@ -512,11 +513,11 @@ nano por-align.sh
 ```
 #!/bin/bash
 #SBATCH --job-name=por-align
-#SBATCH --nodes=1 --cpus-per-task=8
-#SBATCH --mem=250G  # Requested Memory
+#SBATCH --nodes=1 --cpus-per-task=25
+#SBATCH --mem=500G  # Requested Memory
 #SBATCH -p gpu  # Partition
 #SBATCH -G 1  # Number of GPUs
-#SBATCH --time=24:00:00  # Job time limit
+#SBATCH --t=48:00:00  # Job time limit
 #SBATCH -o slurm-por-align.out  # %j = job ID
 #SBATCH -e slurm-por-align.err  # %j = job ID
 #SBATCH -D /work/pi_hputnam_uri_edu/ashuffmyer/cots-gorman/por/
@@ -558,7 +559,7 @@ sbatch por-align
 
 This script outputs files in the scratch `acr` directory that I made.  
 
-Both jobs started on 25 Feb 2025 at 16:30.  
+Both jobs started on 27 Feb 2025 at 07:00.  
 
 
 
