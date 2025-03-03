@@ -560,46 +560,285 @@ sbatch por-align
 
 This script outputs files in the scratch `acr` directory that I made.  
 
-Both jobs started on 27 Feb 2025 at 07:00.  
-
-
-
-
-
-
-
-
+Both jobs started on 27 Feb 2025 at 07:00. Jobs finished on 1 March.    
 
 ## Look at mapping results
 
 Obtain mapping percentages after job was completed. Use the `samtools flagstat` function that does a full pass through the input file to calculate and print statistics to stdout. Provides counts for each of 13 categories based primarily on bit flags in the FLAG field. Each category in the output is broken down into QC pass and QC fail, which is presented as "#PASS + #FAIL" followed by a description of the category.
 
-Porites  
+### Porites  
+
+Write a script to generate alignment stats.  
 
 ```
-interactive 
+cd scripts
+nano por-stats.sh
+```
 
-cd /work/pi_hputnam_uri_edu/ashuffmyer/cots-gorman/por/
+```
+#!/bin/bash
+#SBATCH --job-name=por-stats
+#SBATCH --nodes=1 --cpus-per-task=15
+#SBATCH --mem=100G  # Requested Memory
+#SBATCH -p gpu  # Partition
+#SBATCH -G 1  # Number of GPUs
+#SBATCH -t 24:00:00
+#SBATCH -o slurm-por-stats.out  # %j = job ID
+#SBATCH -e slurm-por-stats.err  # %j = job ID
+#SBATCH -D /work/pi_hputnam_uri_edu/ashuffmyer/cots-gorman/por/
 
-module load SAMtools/1.9-foss-2018b 
+module load uri/main
+module load SAMtools/1.18-GCC-12.3.0
+
+cd /scratch3/workspace/ashuffmyer_uri_edu-cots/por/
+
+# Define output file
+output_file="por_alignment_stats.txt"
+
+# Clear the output file if it exists
+> "$output_file"
 
 for i in *.bam; do
-    echo "${i}" >> mapped_reads_counts
-    samtools flagstat ${i} | grep "mapped (" >> mapped_reads_counts
+    echo "${i}" >> "$output_file"
+    samtools flagstat "${i}" | grep "mapped (" >> "$output_file"
 done
 ```
 
-Acropora  
+```
+sbatch por-stats.sh
+```
+
+Move file to user directory 
 
 ```
-interactive 
+cp /scratch3/workspace/ashuffmyer_uri_edu-cots/por/por_alignment_stats.txt /work/pi_hputnam_uri_edu/ashuffmyer/cots-gorman/por/
+```
 
-cd /work/pi_hputnam_uri_edu/ashuffmyer/cots-gorman/acr/
+The output looks like this:  
 
-module load SAMtools/1.9-foss-2018b 
+```
+trim.16R_Aligned.sortedByCoord.out.bam
+3797576 + 0 mapped (2.36% : N/A)
+3314780 + 0 primary mapped (2.07% : N/A)
+trim.211R_Aligned.sortedByCoord.out.bam
+500889612 + 0 mapped (48.39% : N/A)
+470004384 + 0 primary mapped (46.80% : N/A)
+trim.218R_Aligned.sortedByCoord.out.bam
+41218742 + 0 mapped (30.63% : N/A)
+39657624 + 0 primary mapped (29.82% : N/A)
+trim.225R_Aligned.sortedByCoord.out.bam
+866866 + 0 mapped (1.33% : N/A)
+753202 + 0 primary mapped (1.15% : N/A)
+trim.227R_Aligned.sortedByCoord.out.bam
+94051372 + 0 mapped (56.82% : N/A)
+87824202 + 0 primary mapped (55.13% : N/A)
+trim.235R_Aligned.sortedByCoord.out.bam
+40775646 + 0 mapped (26.80% : N/A)
+38140810 + 0 primary mapped (25.51% : N/A)
+trim.236R_Aligned.sortedByCoord.out.bam
+57274150 + 0 mapped (34.73% : N/A)
+52577952 + 0 primary mapped (32.82% : N/A)
+trim.244R_Aligned.sortedByCoord.out.bam
+42584786 + 0 mapped (29.85% : N/A)
+40319002 + 0 primary mapped (28.72% : N/A)
+trim.253R_Aligned.sortedByCoord.out.bam
+58346292 + 0 mapped (38.89% : N/A)
+54584348 + 0 primary mapped (37.31% : N/A)
+trim.34R_Aligned.sortedByCoord.out.bam
+510168 + 0 mapped (0.68% : N/A)
+456620 + 0 primary mapped (0.61% : N/A)
+trim.43R_Aligned.sortedByCoord.out.bam
+2473270 + 0 mapped (1.97% : N/A)
+2222166 + 0 primary mapped (1.77% : N/A)
+trim.61R_Aligned.sortedByCoord.out.bam
+48904270 + 0 mapped (37.72% : N/A)
+45761608 + 0 primary mapped (36.17% : N/A)
+trim.71R_Aligned.sortedByCoord.out.bam
+39363360 + 0 mapped (28.30% : N/A)
+36603192 + 0 primary mapped (26.84% : N/A)
+trim.76R_Aligned.sortedByCoord.out.bam
+49636416 + 0 mapped (32.19% : N/A)
+45848520 + 0 primary mapped (30.48% : N/A)
+trim.82R_Aligned.sortedByCoord.out.bam
+39928236 + 0 mapped (29.10% : N/A)
+36333724 + 0 primary mapped (27.19% : N/A)
+trim.86R_Aligned.sortedByCoord.out.bam
+40120754 + 0 mapped (31.95% : N/A)
+38270032 + 0 primary mapped (30.93% : N/A)
+```
+There is a wide range in mapping. There is a group of samples (n=5) with mapping of 0.5-3%. There are 12 samples mapping at 25% or higher. We need to see if the samples with low mapping are from the "eaten" treatment. We will also compare mapping to the *P. evermanni* genome next.  
+
+### Acropora  
+
+```
+cd scripts
+nano acr-stats.sh
+```
+
+```
+#!/bin/bash
+#SBATCH --job-name=acr-stats
+#SBATCH --nodes=1 --cpus-per-task=15
+#SBATCH --mem=100G  # Requested Memory
+#SBATCH -p gpu  # Partition
+#SBATCH -G 1  # Number of GPUs
+#SBATCH -t 24:00:00
+#SBATCH -o slurm-acr-stats.out  # %j = job ID
+#SBATCH -e slurm-acr-stats.err  # %j = job ID
+#SBATCH -D /work/pi_hputnam_uri_edu/ashuffmyer/cots-gorman/acr/
+
+module load uri/main
+module load SAMtools/1.18-GCC-12.3.0
+
+cd /scratch3/workspace/ashuffmyer_uri_edu-cots/acr/
+
+# Define output file
+output_file="acr_alignment_stats.txt"
+
+# Clear the output file if it exists
+> "$output_file"
 
 for i in *.bam; do
-    echo "${i}" >> mapped_reads_counts
-    samtools flagstat ${i} | grep "mapped (" >> mapped_reads_counts
+    echo "${i}" >> "$output_file"
+    samtools flagstat "${i}" | grep "mapped (" >> "$output_file"
 done
 ```
+
+```
+sbatch acr-stats.sh
+```
+
+Move file to user directory 
+
+```
+cp /scratch3/workspace/ashuffmyer_uri_edu-cots/acr/acr_alignment_stats.txt /work/pi_hputnam_uri_edu/ashuffmyer/cots-gorman/acr/
+```
+
+The output looks like this:  
+
+```
+trim.321RA_Aligned.sortedByCoord.out.bam
+101145264 + 0 mapped (75.26% : N/A)
+91192744 + 0 primary mapped (73.29% : N/A)
+trim.331RA_Aligned.sortedByCoord.out.bam
+99763802 + 0 mapped (75.29% : N/A)
+88927416 + 0 primary mapped (73.09% : N/A)
+trim.336R_Aligned.sortedByCoord.out.bam
+110716976 + 0 mapped (61.04% : N/A)
+100464150 + 0 primary mapped (58.71% : N/A)
+trim.370R_Aligned.sortedByCoord.out.bam
+34239394 + 0 mapped (24.31% : N/A)
+30624808 + 0 primary mapped (22.32% : N/A)
+trim.380R_Aligned.sortedByCoord.out.bam
+99627838 + 0 mapped (74.16% : N/A)
+89986620 + 0 primary mapped (72.16% : N/A)
+trim.410R_Aligned.sortedByCoord.out.bam
+80526182 + 0 mapped (46.17% : N/A)
+73098402 + 0 primary mapped (43.77% : N/A)
+trim.414R_Aligned.sortedByCoord.out.bam
+87333162 + 0 mapped (38.67% : N/A)
+78162862 + 0 primary mapped (36.07% : N/A)
+trim.419R_Aligned.sortedByCoord.out.bam
+106151016 + 0 mapped (68.00% : N/A)
+94939130 + 0 primary mapped (65.52% : N/A)
+trim.468R_Aligned.sortedByCoord.out.bam
+100108574 + 0 mapped (67.37% : N/A)
+90603050 + 0 primary mapped (65.14% : N/A)
+trim.497R_Aligned.sortedByCoord.out.bam
+3090986 + 0 mapped (2.22% : N/A)
+2760422 + 0 primary mapped (1.98% : N/A)
+trim.512R_Aligned.sortedByCoord.out.bam
+134343958 + 0 mapped (74.83% : N/A)
+121579012 + 0 primary mapped (72.91% : N/A)
+trim.549R_Aligned.sortedByCoord.out.bam
+77332112 + 0 mapped (66.06% : N/A)
+69416060 + 0 primary mapped (63.60% : N/A)
+trim.568R_Aligned.sortedByCoord.out.bam
+74142102 + 0 mapped (53.01% : N/A)
+66507248 + 0 primary mapped (50.29% : N/A)
+trim.571R_Aligned.sortedByCoord.out.bam
+76962776 + 0 mapped (47.52% : N/A)
+69663792 + 0 primary mapped (45.04% : N/A)
+trim.581R_Aligned.sortedByCoord.out.bam
+23750278 + 0 mapped (19.23% : N/A)
+21582796 + 0 primary mapped (17.78% : N/A)
+trim.586R_Aligned.sortedByCoord.out.bam
+87532254 + 0 mapped (68.31% : N/A)
+79263634 + 0 primary mapped (66.12% : N/A)
+
+```
+
+There is a pretty wide range in mapping for Acropora as well, but the lowest value is 17%.  
+
+## Run alignment of POR files to the P. lobata/lutea genome 
+
+### Index the genome 
+
+Download the files using the script written by Lucy.    
+
+```
+cd refs
+mkdir por-ever 
+cd por-ever
+
+wget https://www.genoscope.cns.fr/corals/data/Porites_evermanni_v1.annot.gff
+
+wget https://www.genoscope.cns.fr/corals/data/Porites_evermanni_v1.annot.pep.fa
+```
+
+Now available as `Porites_evermanni_v1.annot.pep.fa` and `Porites_evermanni_v1.annot.gff` in the `refs/por-ever` folder.  
+
+```
+cd scripts 
+nano por-ever-genome.sh
+```
+
+```
+module --show_hidden spider gffread
+```
+
+```
+#!/bin/bash
+#SBATCH --job-name=Pevermanni_index
+#SBATCH --nodes=1 --cpus-per-task=10
+#SBATCH --mem=100G  # Requested Memory
+#SBATCH -p gpu  # Partition
+#SBATCH -G 1  # Number of GPUs
+#SBATCH --time=24:00:00  # Job time limit
+#SBATCH -o slurm-por-ever-genome.out  # %j = job ID
+#SBATCH -e slurm-por-ever-genome.err  # %j = job ID
+#SBATCH -D /work/pi_hputnam_uri_edu/ashuffmyer/cots-gorman/refs/por-ever
+
+#load modules
+module load uri/main
+module load STAR/2.7.11b-GCC-12.3.0
+module load gffread/0.12.7
+
+#convert gff to gtf 
+gffread Porites_evermanni_v1.annot.gff -T -o Porites_evermanni_v1.annot.gtf
+
+STAR --runThreadN 6 \
+--runMode genomeGenerate \
+--genomeDir Pevermanni_index \
+--genomeFastaFiles /work/pi_hputnam_uri_edu/ashuffmyer/cots-gorman/refs/por-ever/Porites_evermanni_v1.annot.pep.fa \
+--sjdbGTFfile /work/pi_hputnam_uri_edu/ashuffmyer/cots-gorman/refs/por-ever/Porites_evermanni_v1.annot.gtf \
+--sjdbGTFtagExonParentTranscript Parent \
+--sjdbOverhang 99 \
+--genomeSAindexNbases 13
+```
+
+```
+sbatch por-ever-genome.sh
+```
+
+I ran into this error from the GFF file:  
+
+```
+Fatal INPUT FILE error, no valid exon lines in the GTF file: /work/pi_hputnam_uri_edu/ashuffmyer/cots-gorman/refs/por-ever/Porites_evermanni_v1.annot.gtf
+Solution: check the formatting of the GTF file. One likely cause is the difference in chromosome naming between GTF and FASTA file.
+``` 
+
+I need to look at issues in the GTF files next to troubleshoot.  
+
+
+### Run alignment to the genome to compare alignment rates with P. evermanni genome 
