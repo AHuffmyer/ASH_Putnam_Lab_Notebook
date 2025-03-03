@@ -558,7 +558,7 @@ echo "Alignment of Trimmed Seq data complete." $(date)
 sbatch por-align
 ```
 
-This script outputs files in the scratch `acr` directory that I made.  
+This script outputs files in the scratch `por` directory that I made.  
 
 Both jobs started on 27 Feb 2025 at 07:00. Jobs finished on 1 March.    
 
@@ -783,10 +783,10 @@ cd por-ever
 
 wget https://www.genoscope.cns.fr/corals/data/Porites_evermanni_v1.annot.gff
 
-wget https://www.genoscope.cns.fr/corals/data/Porites_evermanni_v1.annot.pep.fa
+wget https://www.genoscope.cns.fr/corals/data/Porites_evermanni_v1.fa
 ```
 
-Now available as `Porites_evermanni_v1.annot.pep.fa` and `Porites_evermanni_v1.annot.gff` in the `refs/por-ever` folder.  
+Now available as `Porites_evermanni_v1.annot.fa` and `Porites_evermanni_v1.annot.gff` in the `refs/por-ever` folder.  
 
 ```
 cd scripts 
@@ -820,7 +820,7 @@ gffread Porites_evermanni_v1.annot.gff -T -o Porites_evermanni_v1.annot.gtf
 STAR --runThreadN 6 \
 --runMode genomeGenerate \
 --genomeDir Pevermanni_index \
---genomeFastaFiles /work/pi_hputnam_uri_edu/ashuffmyer/cots-gorman/refs/por-ever/Porites_evermanni_v1.annot.pep.fa \
+--genomeFastaFiles /work/pi_hputnam_uri_edu/ashuffmyer/cots-gorman/refs/por-ever/Porites_evermanni_v1.fa \
 --sjdbGTFfile /work/pi_hputnam_uri_edu/ashuffmyer/cots-gorman/refs/por-ever/Porites_evermanni_v1.annot.gtf \
 --sjdbGTFtagExonParentTranscript Parent \
 --sjdbOverhang 99 \
@@ -831,14 +831,133 @@ STAR --runThreadN 6 \
 sbatch por-ever-genome.sh
 ```
 
-I ran into this error from the GFF file:  
-
-```
-Fatal INPUT FILE error, no valid exon lines in the GTF file: /work/pi_hputnam_uri_edu/ashuffmyer/cots-gorman/refs/por-ever/Porites_evermanni_v1.annot.gtf
-Solution: check the formatting of the GTF file. One likely cause is the difference in chromosome naming between GTF and FASTA file.
-``` 
-
-I need to look at issues in the GTF files next to troubleshoot.  
+Submitted job on 3 March at 08:00. Finished in about 5 min.   
 
 
 ### Run alignment to the genome to compare alignment rates with P. evermanni genome 
+
+```
+cd cots-gorman 
+mkdir por-ever 
+
+cd /scratch3/workspace/ashuffmyer_uri_edu-cots/
+mkdir por-ever 
+```
+
+Align all POR files in the relevant folder using generated P. evermanni genome index.    
+
+``` 
+cd scripts 
+nano por-ever-align.sh
+```
+
+```
+#!/bin/bash
+#SBATCH --job-name=por-ever-align
+#SBATCH --nodes=1 --cpus-per-task=15
+#SBATCH --mem=200G  # Requested Memory
+#SBATCH -p gpu  # Partition
+#SBATCH -G 1  # Number of GPUs
+#SBATCH -t 7-24:00:00
+#SBATCH -q long #job lasting over 2 days
+#SBATCH -o slurm-por-ever-align.out  # %j = job ID
+#SBATCH -e slurm-por-ever-align.err  # %j = job ID
+#SBATCH -D /work/pi_hputnam_uri_edu/ashuffmyer/cots-gorman/por-ever/
+
+#load modules
+echo "Loading programs" $(date)
+module load uri/main
+module load STAR/2.7.11b-GCC-12.3.0
+
+echo "Starting read alignment." $(date)
+#loop through all files to align them to genome
+for i in /work/pi_hputnam_uri_edu/ashuffmyer/cots-gorman/por/*_R1_001.fastq.gz; do
+
+# Define the corresponding R2 file by replacing _R1_ with _R2_
+    r2_file="${i/_R1_001.fastq.gz/_R2_001.fastq.gz}"
+    
+# Define output prefix
+    output_prefix="/scratch3/workspace/ashuffmyer_uri_edu-cots/por-ever/$(basename "${i%_R1_001.fastq.gz}")_"
+    
+# Run STAR alignment
+    STAR --runMode alignReads \
+        --genomeDir /work/pi_hputnam_uri_edu/ashuffmyer/cots-gorman/refs/por-ever/Pevermanni_index \
+        --runThreadN 10 \
+        --readFilesCommand zcat \
+        --readFilesIn "$i" "$r2_file" \
+        --outSAMtype BAM SortedByCoordinate \
+        --outSAMunmapped Within \
+        --outSAMattributes Standard \
+        --outFileNamePrefix "$output_prefix"
+done
+
+echo "Alignment of Trimmed Seq data complete." $(date)
+
+```   
+
+```
+sbatch por-ever-align.sh
+```
+
+This script outputs files in the scratch `por-ever` directory that I made.  
+
+Submitted job at 08:00 on March 3.  
+
+
+
+
+
+AH left off here on 3 March.  
+
+
+Write a script to generate alignment stats.  
+
+```
+cd scripts
+nano por-ever-stats.sh
+```
+
+```
+#!/bin/bash
+#SBATCH --job-name=por-ever-stats
+#SBATCH --nodes=1 --cpus-per-task=15
+#SBATCH --mem=100G  # Requested Memory
+#SBATCH -p gpu  # Partition
+#SBATCH -G 1  # Number of GPUs
+#SBATCH -t 24:00:00
+#SBATCH -o slurm-por-ever-stats.out  # %j = job ID
+#SBATCH -e slurm-por-ever-stats.err  # %j = job ID
+#SBATCH -D /work/pi_hputnam_uri_edu/ashuffmyer/cots-gorman/por-ever/
+
+module load uri/main
+module load SAMtools/1.18-GCC-12.3.0
+
+cd /scratch3/workspace/ashuffmyer_uri_edu-cots/por-ever/
+
+# Define output file
+output_file="por_ever_alignment_stats.txt"
+
+# Clear the output file if it exists
+> "$output_file"
+
+for i in *.bam; do
+    echo "${i}" >> "$output_file"
+    samtools flagstat "${i}" | grep "mapped (" >> "$output_file"
+done
+```
+
+```
+sbatch por-ever-stats.sh
+```
+
+Move file to user directory 
+
+```
+cp /scratch3/workspace/ashuffmyer_uri_edu-cots/por-ever/por_ever_alignment_stats.txt /work/pi_hputnam_uri_edu/ashuffmyer/cots-gorman/por-ever/
+```
+
+The output looks like this: 
+
+```
+xxxxx
+```
