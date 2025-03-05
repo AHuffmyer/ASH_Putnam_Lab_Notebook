@@ -901,13 +901,7 @@ sbatch por-ever-align.sh
 
 This script outputs files in the scratch `por-ever` directory that I made.  
 
-Submitted job at 08:00 on March 3.  
-
-
-
-
-
-AH left off here on 3 March.  
+Submitted job at 08:00 on March 3, finished on March 4.  
 
 
 Write a script to generate alignment stats.  
@@ -950,6 +944,8 @@ done
 sbatch por-ever-stats.sh
 ```
 
+Submitted job on March 4 at 19:00.  
+
 Move file to user directory 
 
 ```
@@ -959,5 +955,52 @@ cp /scratch3/workspace/ashuffmyer_uri_edu-cots/por-ever/por_ever_alignment_stats
 The output looks like this: 
 
 ```
-xxxxx
+trim.16R_Aligned.sortedByCoord.out.bam
+9932412 + 0 mapped (6.14% : N/A)
+8301790 + 0 primary mapped (5.18% : N/A)
+trim.211R_Aligned.sortedByCoord.out.bam
+trim.218R_Aligned.sortedByCoord.out.bam
+183856720 + 0 mapped (96.73% : N/A)
+126776572 + 0 primary mapped (95.33% : N/A)
+trim.225R_Aligned.sortedByCoord.out.bam
+2907570 + 0 mapped (4.43% : N/A)
+2534398 + 0 primary mapped (3.88% : N/A)
+trim.227R_Aligned.sortedByCoord.out.bam
+171417626 + 0 mapped (84.19% : N/A)
+127096866 + 0 primary mapped (79.79% : N/A)
+trim.235R_Aligned.sortedByCoord.out.bam
+211878608 + 0 mapped (97.26% : N/A)
+143543886 + 0 primary mapped (96.01% : N/A)
+trim.236R_Aligned.sortedByCoord.out.bam
+212095574 + 0 mapped (96.43% : N/A)
+152349478 + 0 primary mapped (95.10% : N/A)
+trim.244R_Aligned.sortedByCoord.out.bam
+188686986 + 0 mapped (94.76% : N/A)
+129969490 + 0 primary mapped (92.57% : N/A)
+trim.253R_Aligned.sortedByCoord.out.bam
+195777140 + 0 mapped (97.66% : N/A)
+141597122 + 0 primary mapped (96.80% : N/A)
+trim.34R_Aligned.sortedByCoord.out.bam
+1022532 + 0 mapped (1.37% : N/A)
+783544 + 0 primary mapped (1.05% : N/A)
+trim.43R_Aligned.sortedByCoord.out.bam
+12644158 + 0 mapped (9.78% : N/A)
+8762710 + 0 primary mapped (6.99% : N/A)
+trim.61R_Aligned.sortedByCoord.out.bam
+156888590 + 0 mapped (91.65% : N/A)
+112220878 + 0 primary mapped (88.70% : N/A)
+trim.71R_Aligned.sortedByCoord.out.bam
+190552052 + 0 mapped (95.40% : N/A)
+127166612 + 0 primary mapped (93.26% : N/A)
+trim.76R_Aligned.sortedByCoord.out.bam
+207617046 + 0 mapped (95.93% : N/A)
+141609686 + 0 primary mapped (94.14% : N/A)
+trim.82R_Aligned.sortedByCoord.out.bam
+198766054 + 0 mapped (98.85% : N/A)
+131310576 + 0 primary mapped (98.26% : N/A)
+trim.86R_Aligned.sortedByCoord.out.bam
+172716586 + 0 mapped (97.33% : N/A)
+119000396 + 0 primary mapped (96.17% : N/A)
 ```
+
+Next, we need to compare alignment to *P. evermanni* vs *P. lutea* for each Porites sample.  
