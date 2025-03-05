@@ -1,7 +1,7 @@
 ---
 layout: post
 title: All Projects To Do List
-date: '2025-02-27'
+date: '2025-03-01'
 categories: Monthly_Goals
 tags: Goals
 ---
@@ -31,8 +31,8 @@ This post lists all my ongoing projects and to-do list.
 ## Moorea 2023   
 **Data collection and analysis**   
 
-- Analyze Sanger DNA sequences for Acropora, Pocillopora, and Porites sepecies identification 
-- Decide on samples to process for RNAseq and/or stable isotope metabolomics depending on species DNA identification 
+- Process/submit samples for RNAseq
+- Process/submit samples for Metabolomics
 - Update methods section 
 - ITS2 sequencing analysis
 
@@ -48,9 +48,10 @@ This post lists all my ongoing projects and to-do list.
 **Data analysis** 
 
 - Examine neural networks and SEM modeling for time series multiomic modeling analyses 
-- Analyze metabolomic and lipidomic data when made available
-- Trial machine learning approaches to predict mRNA from features of other omics
-- ~~Multi-omic WGCNA analysis~~ 
+- Analyze lipid data 
+- Analyze metabolite data 
+- Multiomic WGCNA analyses 
+- Machine learning multiomic prediction analyses
 
 ## E5 Nom Nom   
 **Data analysis** 
@@ -60,6 +61,9 @@ This post lists all my ongoing projects and to-do list.
 ## Resazurin methods manuscript   
 **Analysis and writing** 
 
+- Analyze USDA families resazurin response 
+- Include: 10K seed, PolyIC seed, USDA families 
+- Reach out for oxygen validation data 
 - Introduction
 - Methods
 - Results
@@ -98,7 +102,7 @@ This post lists all my ongoing projects and to-do list.
 ## PolyIC Larvae   
 **Data collection and experiments**   
 
-- Conduct testing in the lab and resazurin assay in January-February 
+- Conduct testing in the lab and resazurin assay in March
 - Measure size from December, January, February images for growth (Madeline)
 - RNA extractions and RNAseq analyses
 

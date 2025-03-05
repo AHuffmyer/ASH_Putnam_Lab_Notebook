@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Writing updates
-date: '2025-01-29'
+date: '2025-03-01'
 categories: Writing
 tags: Writing
 ---
