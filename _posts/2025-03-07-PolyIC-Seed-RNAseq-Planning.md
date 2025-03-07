@@ -47,7 +47,7 @@ The sequencing choices we made are:
 - Value service package with 23-28 day turn around 
 - Sample type will be extracted total RNA 
 - 2x150 bp sequencing 
-- >85% of bases at >Q30 
+- `>85% of bases at >Q30` 
 
 The facility recommends RNA in nuclease free water on dry ice. Recommended quantity is >2 ug with required quantity of at least 250 ng.  
 
