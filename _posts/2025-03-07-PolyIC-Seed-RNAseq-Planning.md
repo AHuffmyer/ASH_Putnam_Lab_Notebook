@@ -6,7 +6,7 @@ categories: PolyIC_Larvae RobertsLab_Oysters
 tags: Cgigas Oyster Molecular GeneExpression
 ---
 
-This post details plans for an RNAseq experiment for the PolyIC project.  
+This post details plans for an RNAseq experiment for the PolyIC project.    
 
 # Overview 
 
