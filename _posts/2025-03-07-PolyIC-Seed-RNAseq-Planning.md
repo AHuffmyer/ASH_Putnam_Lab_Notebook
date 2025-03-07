@@ -1,6 +1,6 @@
 ---
 layout: post
-title: PolyIC Seed Resazurin Assay January 28 and 29 2025
+title: PolyIC Seed RNAseq Planning
 date: '2025-03-07'
 categories: PolyIC_Larvae RobertsLab_Oysters
 tags: Cgigas Oyster Molecular GeneExpression
