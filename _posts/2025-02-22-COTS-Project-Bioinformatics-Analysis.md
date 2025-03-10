@@ -1,7 +1,7 @@
 ---
 layout: post
 title: COTS Project Bioinformatic Analysis
-date: '2025-02-22'
+date: '2025-03-07'
 categories: COTS-bioinformatics
 tags: Bioinformatics GeneExpression 
 ---
@@ -1003,4 +1003,192 @@ trim.86R_Aligned.sortedByCoord.out.bam
 119000396 + 0 primary mapped (96.17% : N/A)
 ```
 
-Next, we need to compare alignment to *P. evermanni* vs *P. lutea* for each Porites sample.  
+Next, we need to compare alignment to *P. evermanni* vs *P. lutea* for each Porites sample. Sample 211R did not map, so we need to subsample this file and then re run.  
+
+## Subsample 211R  
+
+We need to make a script to: 
+
+1. Subset sequences from trimmed file for sample 211 
+2. Re run alignment for 211 trimmed files 
+3. Generate stats for all samples again 
+
+### Write a script to subsample 211 trimmed data file 
+
+```
+cd scripts
+
+nano seqtk_211R.sh
+```
+
+Write the script 
+
+```
+#!/bin/bash
+#SBATCH --job-name=seqtk_211R
+#SBATCH --nodes=1 --cpus-per-task=16
+#SBATCH --mem=500G  # Requested Memory
+#SBATCH -p gpu  # Partition
+#SBATCH -G 1  # Number of GPUs
+#SBATCH -t 7-24:00:00
+#SBATCH -q long #job lasting over 2 days
+#SBATCH --time=24:00:00  # Job time limit
+#SBATCH -o slurm-seqtk_211R.out  # %j = job ID
+#SBATCH -e slurm-seqtk_211R.err  # %j = job ID
+#SBATCH -D /work/pi_hputnam_uri_edu/ashuffmyer/cots-gorman/trimmed_data
+
+#load modules 
+
+module load uri/main
+module load seqtk/1.4-GCC-12.3.0
+
+#move to scratch directory for temporary work with large files 
+
+cd /scratch3/workspace/ashuffmyer_uri_edu-cots/
+
+cp /work/pi_hputnam_uri_edu/ashuffmyer/cots-gorman/trimmed_data/trim.211R_R1_001.fastq.gz /scratch3/workspace/ashuffmyer_uri_edu-cots/
+cp /work/pi_hputnam_uri_edu/ashuffmyer/cots-gorman/trimmed_data/trim.211R_R2_001.fastq.gz /scratch3/workspace/ashuffmyer_uri_edu-cots/
+
+echo "Files copied to scratch directory" $(date)
+
+#unzip files
+gunzip trim.211R_R1_001.fastq.gz
+gunzip trim.211R_R2_001.fastq.gz 
+
+echo "Unzipping complete" $(date)
+
+echo "Starting subsetting" $(date)
+
+## Subsample 90,000,000 paired reads from the 211R sample
+seqtk sample -s100 trim.211R_R1_001.fastq 90000000 > trim_sub.211R_R1_001.fastq
+seqtk sample -s100 trim.211R_R2_001.fastq 90000000 > trim_sub.211R_R2_001.fastq
+
+echo "Finished subsetting" $(date)
+
+echo "Starting file zipping" $(date)
+
+gzip trim_sub.211R_R1_001.fastq 
+gzip trim_sub.211R_R2_001.fastq 
+
+echo "Finished file zipping" $(date)
+
+#copy files back into trimmed sequences directory 
+cp /scratch3/workspace/ashuffmyer_uri_edu-cots/trim_sub.211R_R1_001.fastq.gz /work/pi_hputnam_uri_edu/ashuffmyer/cots-gorman/trimmed_data/
+
+cp /scratch3/workspace/ashuffmyer_uri_edu-cots/trim_sub.211R_R2_001.fastq.gz /work/pi_hputnam_uri_edu/ashuffmyer/cots-gorman/trimmed_data/
+
+echo "Files copied. Complete." $(date)
+
+```
+
+Run script.  
+
+```
+sbatch seqtk_211R.sh
+``` 
+
+Job started on 10 March at 07:00. I had to resubmit this job several times - I ran into errors with file copying and symlinking.    
+
+
+
+
+
+
+
+I left off here - will complete the steps elow next.  
+
+
+Check file size of new files. 
+
+```
+cd trimmed_data
+
+ls -lh 
+```
+
+File size is now XXXXX. Zipped trimmed files were originally 22 GB (R1) and 24GB (R2) before trimming.    
+
+
+### Write a script to align 211 subsetting trimmed data to P. evermanni genome 
+
+Sym link file into por file folder 
+
+Now remove previous files that did not run for the full 211R file. 
+
+
+```
+cd scripts
+
+nano align_211R.sh
+```
+
+Write the script.  
+
+```
+#!/bin/bash
+#SBATCH --job-name=211R-por-ever-align
+#SBATCH --nodes=1 --cpus-per-task=15
+#SBATCH --mem=200G  # Requested Memory
+#SBATCH -p gpu  # Partition
+#SBATCH -G 1  # Number of GPUs
+#SBATCH -t 7-24:00:00
+#SBATCH -q long #job lasting over 2 days
+#SBATCH -o slurm-211R-por-ever-align.out  # %j = job ID
+#SBATCH -e slurm-211R-por-ever-align.err  # %j = job ID
+#SBATCH -D /work/pi_hputnam_uri_edu/ashuffmyer/cots-gorman/por-ever/
+
+#load modules
+echo "Loading programs" $(date)
+module load uri/main
+module load STAR/2.7.11b-GCC-12.3.0
+
+echo "Starting read alignment for 211R." $(date)
+#loop through all files to align them to genome
+for i in /work/pi_hputnam_uri_edu/ashuffmyer/cots-gorman/por/trim.sub*_R1_001.fastq.gz; do
+
+# Define the corresponding R2 file by replacing _R1_ with _R2_
+    r2_file="${i/_R1_001.fastq.gz/_R2_001.fastq.gz}"
+    
+# Define output prefix
+    output_prefix="/scratch3/workspace/ashuffmyer_uri_edu-cots/por-ever/$(basename "${i%_R1_001.fastq.gz}")_"
+    
+# Run STAR alignment
+    STAR --runMode alignReads \
+        --genomeDir /work/pi_hputnam_uri_edu/ashuffmyer/cots-gorman/refs/por-ever/Pevermanni_index \
+        --runThreadN 10 \
+        --readFilesCommand zcat \
+        --readFilesIn "$i" "$r2_file" \
+        --outSAMtype BAM SortedByCoordinate \
+        --outSAMunmapped Within \
+        --outSAMattributes Standard \
+        --outFileNamePrefix "$output_prefix"
+done
+
+echo "Alignment of 211R Trimmed Seq data complete." $(date)
+
+```   
+
+```
+sbatch align_211R.sh
+```
+
+
+Then generate alignment stats for all files again. 
+
+```
+sbatch por-ever-stats.sh
+```
+
+Submitted job on XXX  
+
+Move file to user directory 
+
+```
+cp /scratch3/workspace/ashuffmyer_uri_edu-cots/por-ever/por_ever_alignment_stats.txt /work/pi_hputnam_uri_edu/ashuffmyer/cots-gorman/por-ever/
+```
+
+The output looks like this: 
+
+```
+xxx
+``` 
