@@ -69,9 +69,8 @@ Each day, the schedule will be as follows. Note that this schedule is written fo
 10:00: Time 1 measurement   
 11:00: Time 2 measurement  
 12:00: Time 3 measurement  
-13:00: Time 4 measurement  
-14:00: Time 5 measurement  
-14:00-16:00: Survival assessments and clean up   
+13:00: Time 4 measurement   
+13:00-16:00: Survival assessments and clean up   
 
 ## Load and prepare samples  
 
@@ -79,31 +78,35 @@ Before starting, set the incubator at the desired temperature.
 
 1. Prepare spat for assays by getting some spat from each silo in the FTR tank room. Label a cup with the appropriate label (control-1, control-2, treated-4, or treated-5). These are from duplicate tanks. We will want to keep these separate and track the tanks they came from during the measurements. 
 2. Add spat into labeled 96 well plate (with a plate number and "resazurin") from each replicate tank placing them on the bottom of each well. For example, in one plate add control-1 and control-2 spat. Generate four plates as outlined below. We will leave 12 wells open for blank measurements in each plate.   
-	- Here is how the plates will be structured each day: 
-		- *Plate 1*: 16°C (control temperature) with control spat. Wells A1-D6 = control-1; wells D7-E6 = blanks; wells E7-H12 = control-2
-		- *Plate 2*: 16°C (control temperature) with treated spat. Wells A1-D6 = treated-4; wells D7-E6 = blanks; wells E7-H12 = treated-5
-		- *Plate 3*: Elevated temperaure with control spat. Wells A1-D6 = control-1; wells D7-E6 = blanks; wells E7-H12 = control-2 
-		- *Plate 4*: Elevated temperature with treated spat. Wells A1-D6 = treated-4; wells D7-E6 = blanks; wells E7-H12 = treated-5
-3. Write the location of wells on a plate map for each plate. 
-4. Take images of each plate. This can be done by flipping the plate upside down gently with oysters stuck on the bottom of the well. If oysters stay on the bottom of the well, then an image can be taken from the bottom with a scale bar and label in the image. See an example below.  
-5. If the oysters do not stick to the well, take several images across the plate from the top view to view each oyster in each well for size analysis. 
-6. Fill each well with 300 µL of resazurin working stock at ambient temperature (in FTR 213 fridge). 
+	- Here is an example of how the plates will be structured each day: 
+		- Wells A1-A3 = blanks
+		- Wells A4-B12 = control tank 1
+		- Wells C1-C3 = blanks
+		- Wells C4-D12 = treated tank 4
+		- Wells E1-E3 = blanks
+		- Wells E4-F12 = control tank 2
+		- Wells G1-G3 = blanks
+		- Wells G4-H12 = treated tank 5
 
-![](https://github.com/AHuffmyer/ASH_Putnam_Lab_Notebook/blob/master/images/NotebookImages/oysters/analysis/20250128/size.jpg?raw=true)  
+3. Write the location of wells on a plate map for each plate. 
+4. Allocate the oysters onto the lid of the 96 well plate. 
+5. Take images of each set of oysters with a scale bar. See an example below.  
+6. Move the oysters into their respective wells in the plate. 
+7. Fill each well with 300 µL of resazurin working stock at ambient temperature using a microchannel pipette (in FTR 213 fridge). 
+
+![](https://github.com/AHuffmyer/ASH_Putnam_Lab_Notebook/blob/master/images/NotebookImages/oysters/polyic/20250310/20240310_plate1.jpeg?raw=true)  
 
 ## Measurements 
 
 1. Turn on the computer and plate reader. Open the plate reader software. 
-2. Use the "Colby resazurin" protocol in the software to take a measurement of each plate at T0 before starting the incubation. 
+2. Use the "oyster-resazurin" protocol in the software to take a measurement of each plate at T0 before starting the incubation. 
 3. Put the plate on the loading platform. 
-4. Click Start
-5. After the data is collected, press the spreadsheet icon. 
-6. Click File > Export
-7. Save the file as: `YYYYMMDD_TemperatureTreatment_Plate#_T0.xlsx`. For example, `20250128_40C_Plate#_T3.xlsx`. 
-8. Save the data to a flash drive and add to GitHub at the [location here](https://github.com/RobertsLab/polyIC-larvae/tree/main/data/resazurin/plate-files/). 
-9. Record the time of the measurement.
-10. Move the elevated temperature plates to the incubator and record the incubator temperature. 
-11. Repeat at 1, 2, 3, 4, and 5 hours of incubation.
+4. Collect and export readings as directed in the plate software. 
+5. Save the file as: `YYYYMMDD_TemperatureTreatment_Plate#_T0.xlsx`. For example, `20250128_40C_Plate#_T3.xlsx`. 
+6. Save the data to a flash drive and add to GitHub at the [location here](https://github.com/RobertsLab/polyIC-larvae/tree/main/data/resazurin/plate-files/). 
+7. Record the time of the measurement.
+8. Move the elevated temperature plates to the incubator and record the incubator temperature. 
+9. Repeat at 1, 2, 3, and 4 hours of incubation.
 
 Here is an example of the plate maps.  
 
@@ -111,7 +114,7 @@ Here is an example of the plate maps.
 
 ## Survival measurements 
 
-1. After the 5 hour incubation, finish the last measurement and then bring the plates to FTR 213 for survival measurements. 
+1. After the 4 hour incubation, finish the last measurement and then bring the plates to FTR 213 for survival measurements. 
 2. Prepare  96 well plate maps for survival data recording for each plate. 
 3. In the plate maps, you will record which wells have dead oysters. Use an "X" to mark wells with dead oysters. 
 4. Start with high temperature plates. 
