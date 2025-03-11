@@ -1,7 +1,7 @@
 ---
 layout: post
 title: COTS Project Bioinformatic Analysis
-date: '2025-03-07'
+date: '2025-03-11'
 categories: COTS-bioinformatics
 tags: Bioinformatics GeneExpression 
 ---
@@ -1089,14 +1089,14 @@ sbatch seqtk_211R.sh
 
 Job started on 10 March at 07:00. I had to resubmit this job several times - I ran into errors with file copying and symlinking.    
 
+Copy files back to working directory (this didn't work in the script).  
 
+```
+#copy files back into trimmed sequences directory 
+cp /scratch3/workspace/ashuffmyer_uri_edu-cots/trim_sub.211R_R1_001.fastq.gz /work/pi_hputnam_uri_edu/ashuffmyer/cots-gorman/trimmed_data/
 
-
-
-
-
-I left off here - will complete the steps elow next.  
-
+cp /scratch3/workspace/ashuffmyer_uri_edu-cots/trim_sub.211R_R2_001.fastq.gz /work/pi_hputnam_uri_edu/ashuffmyer/cots-gorman/trimmed_data/
+```  
 
 Check file size of new files. 
 
@@ -1106,15 +1106,28 @@ cd trimmed_data
 ls -lh 
 ```
 
-File size is now XXXXX. Zipped trimmed files were originally 22 GB (R1) and 24GB (R2) before trimming.    
+File size is now 4.5-4.7GB. Zipped trimmed files were originally 22 GB (R1) and 24GB (R2) before trimming. This size matches the other files. 
 
+Check number of reads. Do this in the scratch directory.   
+
+```
+cd /scratch3/workspace/ashuffmyer_uri_edu-cots/
+
+gunzip -c trim_sub.211R_R1_001.fastq.gz | wc -l | awk '{print $1/4}'
+```   
+
+This file has 90,000,000 reads, which is what we expected.  
 
 ### Write a script to align 211 subsetting trimmed data to P. evermanni genome 
 
-Sym link file into por file folder 
+The files for subset trimmed data now exist in the trimmed_data directory as:  
 
-Now remove previous files that did not run for the full 211R file. 
+```
+trim_sub.211R_R1_001.fastq.gz
+trim_sub.211R_R2_001.fastq.gz
+```
 
+Write a script for alignment to the *P. evermanni* genome.  
 
 ```
 cd scripts
@@ -1144,7 +1157,7 @@ module load STAR/2.7.11b-GCC-12.3.0
 
 echo "Starting read alignment for 211R." $(date)
 #loop through all files to align them to genome
-for i in /work/pi_hputnam_uri_edu/ashuffmyer/cots-gorman/por/trim.sub*_R1_001.fastq.gz; do
+for i in /work/pi_hputnam_uri_edu/ashuffmyer/cots-gorman/trimmed_data/trim_sub*_R1_001.fastq.gz; do
 
 # Define the corresponding R2 file by replacing _R1_ with _R2_
     r2_file="${i/_R1_001.fastq.gz/_R2_001.fastq.gz}"
@@ -1172,14 +1185,17 @@ echo "Alignment of 211R Trimmed Seq data complete." $(date)
 sbatch align_211R.sh
 ```
 
+Job started on 11 March at 8:00, finished after 1 h.  
+
+`.bam` files are now in the scratch directory at `/scratch3/workspace/ashuffmyer_uri_edu-cots/por-ever/`.  
 
 Then generate alignment stats for all files again. 
 
 ```
+cd scripts 
+
 sbatch por-ever-stats.sh
 ```
-
-Submitted job on XXX  
 
 Move file to user directory 
 
@@ -1190,5 +1206,192 @@ cp /scratch3/workspace/ashuffmyer_uri_edu-cots/por-ever/por_ever_alignment_stats
 The output looks like this: 
 
 ```
-xxx
+trim.16R_Aligned.sortedByCoord.out.bam
+9932412 + 0 mapped (6.14% : N/A)
+8301790 + 0 primary mapped (5.18% : N/A)
+trim.218R_Aligned.sortedByCoord.out.bam
+183856720 + 0 mapped (96.73% : N/A)
+126776572 + 0 primary mapped (95.33% : N/A)
+trim.225R_Aligned.sortedByCoord.out.bam
+2907570 + 0 mapped (4.43% : N/A)
+2534398 + 0 primary mapped (3.88% : N/A)
+trim.227R_Aligned.sortedByCoord.out.bam
+171417626 + 0 mapped (84.19% : N/A)
+127096866 + 0 primary mapped (79.79% : N/A)
+trim.235R_Aligned.sortedByCoord.out.bam
+211878608 + 0 mapped (97.26% : N/A)
+143543886 + 0 primary mapped (96.01% : N/A)
+trim.236R_Aligned.sortedByCoord.out.bam
+212095574 + 0 mapped (96.43% : N/A)
+152349478 + 0 primary mapped (95.10% : N/A)
+trim.244R_Aligned.sortedByCoord.out.bam
+188686986 + 0 mapped (94.76% : N/A)
+129969490 + 0 primary mapped (92.57% : N/A)
+trim.253R_Aligned.sortedByCoord.out.bam
+195777140 + 0 mapped (97.66% : N/A)
+141597122 + 0 primary mapped (96.80% : N/A)
+trim.34R_Aligned.sortedByCoord.out.bam
+1022532 + 0 mapped (1.37% : N/A)
+783544 + 0 primary mapped (1.05% : N/A)
+trim.43R_Aligned.sortedByCoord.out.bam
+12644158 + 0 mapped (9.78% : N/A)
+8762710 + 0 primary mapped (6.99% : N/A)
+trim.61R_Aligned.sortedByCoord.out.bam
+156888590 + 0 mapped (91.65% : N/A)
+112220878 + 0 primary mapped (88.70% : N/A)
+trim.71R_Aligned.sortedByCoord.out.bam
+190552052 + 0 mapped (95.40% : N/A)
+127166612 + 0 primary mapped (93.26% : N/A)
+trim.76R_Aligned.sortedByCoord.out.bam
+207617046 + 0 mapped (95.93% : N/A)
+141609686 + 0 primary mapped (94.14% : N/A)
+trim.82R_Aligned.sortedByCoord.out.bam
+198766054 + 0 mapped (98.85% : N/A)
+131310576 + 0 primary mapped (98.26% : N/A)
+trim.86R_Aligned.sortedByCoord.out.bam
+172716586 + 0 mapped (97.33% : N/A)
+119000396 + 0 primary mapped (96.17% : N/A)
+trim_sub.211R_Aligned.sortedByCoord.out.bam
+219954702 + 0 mapped (89.86% : N/A)
+155192096 + 0 primary mapped (86.22% : N/A)
 ``` 
+
+The 211R file that was subset now has mapping information with mapping at ~89%.    
+
+We now need to proceed with assembly and generating a gene count matrix. 
+
+## Assemble and quantify read counts with stringtie 
+
+First, sym link .bam files to a new bam-files directory. I am using sym links throughout this pipeline so that the original scripts will overwrite existing files if something needs to be re run. If desired, you can keep all files in the same directory. I like to keep things in discrete directories to keep it organized.   
+
+```
+cd /work/pi_hputnam_uri_edu/ashuffmyer/cots-gorman/
+
+mkdir bam-files-por
+
+cd bam-files-por
+
+ln -s /scratch3/workspace/ashuffmyer_uri_edu-cots/por-ever/*.bam /work/pi_hputnam_uri_edu/ashuffmyer/cots-gorman/bam-files-por
+
+
+cd /work/pi_hputnam_uri_edu/ashuffmyer/cots-gorman/
+
+mkdir bam-files-acr
+
+cd bam-files-acr
+
+ln -s /scratch3/workspace/ashuffmyer_uri_edu-cots/acr/*.bam /work/pi_hputnam_uri_edu/ashuffmyer/cots-gorman/bam-files-acr
+``` 
+
+Files are now sym linked.  
+
+### Porites assembly 
+
+Make a script. 
+
+```
+cd /work/pi_hputnam_uri_edu/ashuffmyer/cots-gorman/scripts
+
+nano assembly-por.sh
+```
+
+We will use stringtie for assembly with the following options:  
+
+- `-p 8` for using multiple processors 
+- `-e` this option directs StringTie to operate in expression estimation mode; this limits the processing of read alignments to estimating the coverage of the transcripts given with the -G option (hence this option requires -G).
+- `-B` This switch enables the output of Ballgown input table files (.ctab) containing coverage data for the reference transcripts given with the -G option. (See the Ballgown documentation for a description of these files.) With this option StringTie can be used as a direct replacement of the tablemaker program included with the Ballgown distribution. If the option -o is given as a full path to the output transcript file, StringTie will write the .ctab files in the same directory as the output GTF.
+- `-G` Use a reference annotation file (in GTF or GFF3 format) to guide the assembly process. The output will include expressed reference transcripts as well as any novel transcripts that are assembled. This option is required by options -B, -b, -e, -C.
+- `-A` Gene abundances will be reported (tab delimited format) in the output file with the given name.
+- `-o` output file name for the merged transcripts GTF (default: stdout)
+
+
+I am waiting for StringTie to be installed on Unity before proceeding to submitting the script.  
+
+```
+#!/bin/bash
+#SBATCH --job-name=por-assembly
+#SBATCH --nodes=1 --cpus-per-task=15
+#SBATCH --mem=200G  # Requested Memory
+#SBATCH -p gpu  # Partition
+#SBATCH -G 1  # Number of GPUs
+#SBATCH -t 7-24:00:00
+#SBATCH -q long #job lasting over 2 days
+#SBATCH -o slurm-por-assembly.out  # %j = job ID
+#SBATCH -e slurm-por-assembly.err  # %j = job ID
+#SBATCH -D /work/pi_hputnam_uri_edu/ashuffmyer/cots-gorman/bam-files-por/
+
+module load uri/main
+#ADD STRINGTIE MODULE 
+
+echo "Assembling transcripts using stringtie" $(date)
+
+cd /work/pi_hputnam_uri_edu/ashuffmyer/cots-gorman/bam-files-por/
+
+array=($(ls *.bam)) #Make an array of sequences to assemble
+
+for i in ${array[@]}; do 
+        sample_name=`echo $i| awk -F [_] '{print $1}'`
+	stringtie -p 8 -e -B -G /work/pi_hputnam_uri_edu/ashuffmyer/cots-gorman/refs/por-ever/Porites_evermanni_v1.annot.gtf -A ${sample_name}.gene_abund.tab -o ${sample_name}.gtf ${i}
+        echo "StringTie assembly for seq file ${i}" $(date)
+done
+
+echo "Assembly for each Porites sample complete" $(date)
+```
+
+```
+sbatch assembly-por.sh
+```
+
+### Acropora assembly 
+
+Make a script. 
+
+```
+cd /work/pi_hputnam_uri_edu/ashuffmyer/cots-gorman/scripts
+
+nano assembly-acr.sh
+```
+
+We will use stringtie for assembly with the following options:  
+
+- `-p 8` for using multiple processors 
+- `-e` this option directs StringTie to operate in expression estimation mode; this limits the processing of read alignments to estimating the coverage of the transcripts given with the -G option (hence this option requires -G).
+- `-B` This switch enables the output of Ballgown input table files (.ctab) containing coverage data for the reference transcripts given with the -G option. (See the Ballgown documentation for a description of these files.) With this option StringTie can be used as a direct replacement of the tablemaker program included with the Ballgown distribution. If the option -o is given as a full path to the output transcript file, StringTie will write the .ctab files in the same directory as the output GTF.
+- `-G` Use a reference annotation file (in GTF or GFF3 format) to guide the assembly process. The output will include expressed reference transcripts as well as any novel transcripts that are assembled. This option is required by options -B, -b, -e, -C.
+- `-A` Gene abundances will be reported (tab delimited format) in the output file with the given name.
+- `-o` output file name for the merged transcripts GTF (default: stdout)
+
+```
+#!/bin/bash
+#SBATCH --job-name=acr-assembly
+#SBATCH --nodes=1 --cpus-per-task=15
+#SBATCH --mem=200G  # Requested Memory
+#SBATCH -p gpu  # Partition
+#SBATCH -G 1  # Number of GPUs
+#SBATCH -t 7-24:00:00
+#SBATCH -q long #job lasting over 2 days
+#SBATCH -o slurm-acr-assembly.out  # %j = job ID
+#SBATCH -e slurm-acr-assembly.err  # %j = job ID
+#SBATCH -D /work/pi_hputnam_uri_edu/ashuffmyer/cots-gorman/bam-files-acr/
+
+module load uri/main
+#ADD STRINGTIE MODULE 
+
+echo "Assembling transcripts using stringtie" $(date)
+
+cd /work/pi_hputnam_uri_edu/ashuffmyer/cots-gorman/bam-files-acr/
+
+array=($(ls *.bam)) #Make an array of sequences to assemble
+
+for i in ${array[@]}; do 
+        sample_name=`echo $i| awk -F [_] '{print $1}'`
+	stringtie -p 8 -e -B -G /work/pi_hputnam_uri_edu/ashuffmyer/cots-gorman/refs/acr/Ahyacinthus.coding.gff3 -A ${sample_name}.gene_abund.tab -o ${sample_name}.gtf ${i}
+        echo "StringTie assembly for seq file ${i}" $(date)
+done
+
+echo "Assembly for each Acropora sample complete" $(date)
+```
+
+```
+sbatch assembly-acr.sh
+```
