@@ -77,7 +77,6 @@ This post lists all my ongoing projects and to-do list.
   
 - *Point Whitney* 
 	- Conduct spring assessment of siblings outplanted at Point Whitney 
-	- Transfer HUDLs to other facilities if we decide not to keep them 
 
 - Plan spring field assessments for Goose Point, Westcott, and Point Whitney 
 
