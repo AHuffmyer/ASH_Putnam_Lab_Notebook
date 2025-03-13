@@ -1,7 +1,7 @@
 ---
 layout: post
 title: COTS Project Bioinformatic Analysis
-date: '2025-03-11'
+date: '2025-03-13'
 categories: COTS-bioinformatics
 tags: Bioinformatics GeneExpression 
 ---
@@ -1027,7 +1027,7 @@ Write the script
 #!/bin/bash
 #SBATCH --job-name=seqtk_211R
 #SBATCH --nodes=1 --cpus-per-task=16
-#SBATCH --mem=500G  # Requested Memory
+#SBATCH --mem=300G  # Requested Memory
 #SBATCH -p gpu  # Partition
 #SBATCH -G 1  # Number of GPUs
 #SBATCH -t 7-24:00:00
@@ -1106,7 +1106,7 @@ cd trimmed_data
 ls -lh 
 ```
 
-File size is now 4.5-4.7GB. Zipped trimmed files were originally 22 GB (R1) and 24GB (R2) before trimming. This size matches the other files. 
+File size is now 4.5-4.7GB. Zipped trimmed files were originally 22 GB (R1) and 24 GB (R2) before trimming. This size matches the other files. 
 
 Check number of reads. Do this in the scratch directory.   
 
@@ -1273,7 +1273,6 @@ cd bam-files-por
 
 ln -s /scratch3/workspace/ashuffmyer_uri_edu-cots/por-ever/*.bam /work/pi_hputnam_uri_edu/ashuffmyer/cots-gorman/bam-files-por
 
-
 cd /work/pi_hputnam_uri_edu/ashuffmyer/cots-gorman/
 
 mkdir bam-files-acr
@@ -1295,6 +1294,15 @@ cd /work/pi_hputnam_uri_edu/ashuffmyer/cots-gorman/scripts
 nano assembly-por.sh
 ```
 
+Rename the subsetted 211R file back to the original nomenclature. 
+
+```
+cd /work/pi_hputnam_uri_edu/ashuffmyer/cots-gorman/bam-files-por
+mv trim_sub.211R_Aligned.sortedByCoord.out.bam trim.211R_Aligned.sortedByCoord.out.bam
+
+```
+
+
 We will use stringtie for assembly with the following options:  
 
 - `-p 8` for using multiple processors 
@@ -1304,13 +1312,10 @@ We will use stringtie for assembly with the following options:
 - `-A` Gene abundances will be reported (tab delimited format) in the output file with the given name.
 - `-o` output file name for the merged transcripts GTF (default: stdout)
 
-
-I am waiting for StringTie to be installed on Unity before proceeding to submitting the script.  
-
 ```
 #!/bin/bash
 #SBATCH --job-name=por-assembly
-#SBATCH --nodes=1 --cpus-per-task=15
+#SBATCH --nodes=1 --cpus-per-task=8
 #SBATCH --mem=200G  # Requested Memory
 #SBATCH -p gpu  # Partition
 #SBATCH -G 1  # Number of GPUs
@@ -1321,7 +1326,7 @@ I am waiting for StringTie to be installed on Unity before proceeding to submitt
 #SBATCH -D /work/pi_hputnam_uri_edu/ashuffmyer/cots-gorman/bam-files-por/
 
 module load uri/main
-#ADD STRINGTIE MODULE 
+module load StringTie/2.2.1-GCC-11.2.0
 
 echo "Assembling transcripts using stringtie" $(date)
 
@@ -1364,7 +1369,7 @@ We will use stringtie for assembly with the following options:
 ```
 #!/bin/bash
 #SBATCH --job-name=acr-assembly
-#SBATCH --nodes=1 --cpus-per-task=15
+#SBATCH --nodes=1 --cpus-per-task=8
 #SBATCH --mem=200G  # Requested Memory
 #SBATCH -p gpu  # Partition
 #SBATCH -G 1  # Number of GPUs
@@ -1375,7 +1380,7 @@ We will use stringtie for assembly with the following options:
 #SBATCH -D /work/pi_hputnam_uri_edu/ashuffmyer/cots-gorman/bam-files-acr/
 
 module load uri/main
-#ADD STRINGTIE MODULE 
+module load StringTie/2.2.1-GCC-11.2.0
 
 echo "Assembling transcripts using stringtie" $(date)
 
@@ -1395,3 +1400,231 @@ echo "Assembly for each Acropora sample complete" $(date)
 ```
 sbatch assembly-acr.sh
 ```
+
+To check disk space/folder storage used: 
+
+```
+#for example 
+du -hs /work/pi_hputnam_uri_edu/ashuffmyer/cots-gorman
+```
+
+Both the acr and por jobs were started at 09:45 on 12 March and finished by 14:00.  
+
+## Prepare .gtf files and generate gene count matrix   
+
+Make a list of .gtf files in each Acropora and Porites directory.  
+
+```
+cd bam-files-acr
+ls *R.gtf > acr_gtf_list.txt
+
+cd bam-files-por
+ls *R.gtf > por_gtf_list.txt
+``` 
+
+Write a script to merge the .gtf's together and evaluate with GFF compare.    
+
+```
+cd scripts
+nano gtf-merge.sh
+``` 
+
+```
+#!/bin/bash
+#SBATCH --job-name=gtf_merge
+#SBATCH --nodes=1 --cpus-per-task=8
+#SBATCH --mem=150G  # Requested Memory
+#SBATCH -p gpu  # Partition
+#SBATCH -G 1  # Number of GPUs
+#SBATCH -t 24:00:00
+#SBATCH -o slurm-gtf-merge.out  # %j = job ID
+#SBATCH -e slurm-gtf-merge.err  # %j = job ID
+
+module load uri/main
+module load StringTie/2.2.1-GCC-11.2.0
+module load GffCompare/0.12.6-GCC-11.2.0
+
+echo "Merging ACR gtf files" $(date)
+
+cd /work/pi_hputnam_uri_edu/ashuffmyer/cots-gorman/bam-files-acr/
+
+stringtie --merge -e -p 8 -G /work/pi_hputnam_uri_edu/ashuffmyer/cots-gorman/refs/acr/Ahyacinthus.coding.gff3 -o Acropora_merged.gtf acr_gtf_list.txt 
+
+echo "ACR complete" $(date)
+
+echo "Merging POR gtf files" $(date)
+
+cd /work/pi_hputnam_uri_edu/ashuffmyer/cots-gorman/bam-files-por/
+
+stringtie --merge -e -p 8 -G /work/pi_hputnam_uri_edu/ashuffmyer/cots-gorman/refs/por-ever/Porites_evermanni_v1.annot.gtf -o Porites_merged.gtf por_gtf_list.txt 
+
+echo "POR complete" $(date)
+
+echo "Starting GFF compare for Acropora" $(date) 
+
+cd /work/pi_hputnam_uri_edu/ashuffmyer/cots-gorman/bam-files-acr/
+
+gffcompare -r /work/pi_hputnam_uri_edu/ashuffmyer/cots-gorman/refs/acr/Ahyacinthus.coding.gff3 Acropora_merged.gtf 
+
+echo "ACR complete" $(date)
+
+echo "Starting GFF compare for Porites" $(date) 
+
+cd /work/pi_hputnam_uri_edu/ashuffmyer/cots-gorman/bam-files-por/
+
+gffcompare -r /work/pi_hputnam_uri_edu/ashuffmyer/cots-gorman/refs/por-ever/Porites_evermanni_v1.annot.gtf Porites_merged.gtf 
+
+echo "POR complete" $(date)
+```
+
+```
+sbatch gtf-merge.sh
+```
+
+Job started at 14:00 on 12 March, ran after about 15 min. 
+
+The output for Acropora looks like this (gffcmp.stats file in the bam-files-acr folder):  
+
+```
+27110 reference transcripts loaded.
+  27110 query transfrags loaded.
+  
+less gffcmp.stats
+
+# gffcompare v0.12.6 | Command line was:
+#gffcompare -r /work/pi_hputnam_uri_edu/ashuffmyer/cots-gorman/refs/acr/Ahyacinthus.coding.gff3 Acropora_merged.gtf
+#
+
+#= Summary for dataset: Acropora_merged.gtf 
+#     Query mRNAs :   27110 in   27110 loci  (24082 multi-exon transcripts)
+#            (0 multi-transcript loci, ~1.0 transcripts per locus)
+# Reference mRNAs :   27110 in   27110 loci  (24082 multi-exon)
+# Super-loci w/ reference transcripts:    27110
+#-----------------| Sensitivity | Precision  |
+        Base level:   100.0     |   100.0    |
+        Exon level:   100.0     |   100.0    |
+      Intron level:   100.0     |   100.0    |
+Intron chain level:   100.0     |   100.0    |
+  Transcript level:   100.0     |   100.0    |
+       Locus level:   100.0     |   100.0    |
+
+     Matching intron chains:   24082
+       Matching transcripts:   27110
+              Matching loci:   27110
+
+          Missed exons:       0/173641  (  0.0%)
+           Novel exons:       0/173641  (  0.0%)
+        Missed introns:       0/146531  (  0.0%)
+         Novel introns:       0/146531  (  0.0%)
+           Missed loci:       0/27110   (  0.0%)
+            Novel loci:       0/27110   (  0.0%)
+
+ Total union super-loci across all input datasets: 27110 
+27110 out of 27110 consensus transcripts written in gffcmp.annotated.gtf (0 discarded as redundant)
+```
+
+The output for Porites looks like this (gffcmp.stats file in the bam-files-por folder):  
+
+```
+40389 reference transcripts loaded.
+40389 query transfrags loaded
+
+gffcmp.stats
+
+#gffcompare -r /work/pi_hputnam_uri_edu/ashuffmyer/cots-gorman/refs/por-ever/Porites_evermanni_v1.annot.gtf Porites_merged.gtf
+#
+
+#= Summary for dataset: Porites_merged.gtf 
+#     Query mRNAs :   40389 in   40240 loci  (32889 multi-exon transcripts)
+#            (147 multi-transcript loci, ~1.0 transcripts per locus)
+# Reference mRNAs :   40389 in   40240 loci  (32889 multi-exon)
+# Super-loci w/ reference transcripts:    40240
+#-----------------| Sensitivity | Precision  |
+        Base level:   100.0     |   100.0    |
+        Exon level:   100.0     |   100.0    |
+      Intron level:   100.0     |   100.0    |
+Intron chain level:   100.0     |   100.0    |
+  Transcript level:   100.0     |   100.0    |
+       Locus level:   100.0     |   100.0    |
+
+     Matching intron chains:   32889
+       Matching transcripts:   40387
+              Matching loci:   40240
+
+          Missed exons:       0/235837  (  0.0%)
+           Novel exons:       0/235836  (  0.0%)
+        Missed introns:       0/195463  (  0.0%)
+         Novel introns:       0/195463  (  0.0%)
+           Missed loci:       0/40240   (  0.0%)
+            Novel loci:       0/40240   (  0.0%)
+
+ Total union super-loci across all input datasets: 40240 
+40389 out of 40389 consensus transcripts written in gffcmp.annotated.gtf (0 discarded as redundant)
+```
+
+Everything looks good.  
+
+Make gtf list text file for gene count matrix creation for ACR and por files.  
+
+```
+cd /work/pi_hputnam_uri_edu/ashuffmyer/cots-gorman/bam-files-acr/
+
+for filename in *R*.gtf; do echo $filename $PWD/$filename; done > listGTF_acr.txt
+
+cd /work/pi_hputnam_uri_edu/ashuffmyer/cots-gorman/bam-files-por/
+
+for filename in *R*.gtf; do echo $filename $PWD/$filename; done > listGTF_por.txt
+```
+
+Download the prepDE.py script from [here](https://github.com/gpertea/stringtie/blob/master/prepDE.py3) and put it in the scripts folder 
+
+```
+cd scripts 
+
+wget https://raw.githubusercontent.com/gpertea/stringtie/refs/heads/master/prepDE.py3
+```
+
+Start an interactive session.  
+
+```
+salloc -c 1
+```
+
+Run the prepDE script to obtain gene count matrices. Note that you must load Python 2.7 for this script to work.     
+
+```
+cd /work/pi_hputnam_uri_edu/ashuffmyer/cots-gorman/bam-files-acr
+
+module load uri/main
+module load Python/2.7.18-GCCcore-9.3.0
+
+python /work/pi_hputnam_uri_edu/ashuffmyer/cots-gorman/scripts/prepDE.py -g /work/pi_hputnam_uri_edu/ashuffmyer/cots-gorman/bam-files-acr/Acropora_gene_count_matrix.csv -i listGTF_acr.txt
+```
+
+```
+less Acropora_gene_count_matrix.csv
+```
+
+The file looks good and I do not see any obvious presence of STRG gene names - appears to have correctly identified gene IDs from the reference.  
+
+```
+cd /work/pi_hputnam_uri_edu/ashuffmyer/cots-gorman/bam-files-por
+
+python /work/pi_hputnam_uri_edu/ashuffmyer/cots-gorman/scripts/prepDE.py -g /work/pi_hputnam_uri_edu/ashuffmyer/cots-gorman/bam-files-por/Porites_gene_count_matrix.csv -i listGTF_por.txt
+```
+
+```
+less Porites_gene_count_matrix.csv
+```
+The file looks good and I do not see any obvious presence of STRG gene names - appears to have correctly identified gene IDs from the reference.  
+
+Transfer gene count matrix to desktop for upload to GitHub.   
+
+```
+scp ashuffmyer_uri_edu@unity.rc.umass.edu:/work/pi_hputnam_uri_edu/ashuffmyer/cots-gorman/bam-files-acr/Acropora_gene_count_matrix.csv /Users/ashuffmyer/MyProjects/CoTS-RNAseq/output/gene-count-matrix/
+
+scp ashuffmyer_uri_edu@unity.rc.umass.edu:/work/pi_hputnam_uri_edu/ashuffmyer/cots-gorman/bam-files-por/Porites_gene_count_matrix.csv /Users/ashuffmyer/MyProjects/CoTS-RNAseq/output/gene-count-matrix/
+
+```
+
+Done! 
