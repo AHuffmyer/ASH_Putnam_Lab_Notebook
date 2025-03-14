@@ -6,7 +6,7 @@ categories: RobertsLab_Oysters PolyIC_Larvae
 tags: Resazurin Oyster Cgigas
 ---
 
-This post details results from resazurin trials of PolyIC seed from 13 March 2025 run at control (20°C) and high (36°C) temperatures. This is a continuation of trials I ran earlier this week.   
+This post details results from resazurin trials of PolyIC seed from 13 March 2025 run at control (20°C) and high (36°C) temperatures. This is a continuation of trials I ran earlier this week.     
 
 # Overview 
 
@@ -39,10 +39,10 @@ I prepared oysters using the following plate map.
 I set oysters on the lid of the plates and took an image with a scale bar for size. I used ImageJ to measure max length of each oyster for analysis.  
 
 Size for plate 1:  
-![](https://github.com/AHuffmyer/ASH_Putnam_Lab_Notebook/blob/master/images/NotebookImages/oysters/polyic/20250313/20240313_plate1.jpeg?raw=true)  
+![](https://github.com/AHuffmyer/ASH_Putnam_Lab_Notebook/blob/master/images/NotebookImages/oysters/polyic/20250313/20250313_plate1.jpeg?raw=true)  
 
 Size for plate 2:  
-![](https://github.com/AHuffmyer/ASH_Putnam_Lab_Notebook/blob/master/images/NotebookImages/oysters/polyic/20250313/20240313_plate2.jpeg?raw=true)  
+![](https://github.com/AHuffmyer/ASH_Putnam_Lab_Notebook/blob/master/images/NotebookImages/oysters/polyic/20250313/20250313_plate2.jpeg?raw=true)  
 
 I then measured resazurin fluorescence hourly from 10:30-2:30 for a 4 hour incubation.  
 
