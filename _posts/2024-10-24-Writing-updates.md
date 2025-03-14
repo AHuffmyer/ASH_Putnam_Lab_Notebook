@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Writing updates
-date: '2025-03-09'
+date: '2025-03-10'
 categories: Writing
 tags: Writing
 ---
@@ -48,7 +48,7 @@ They are organized from "oldest" data sets to "newest" data sets.
 
 *Next step*: Finalize analysis, draft manuscript   
 
-*Timeline*: Draft by end of Dec 2024  
+*Timeline*: Draft by May 2025  
 
 ## Lifestage Carryover 
 
@@ -56,7 +56,7 @@ They are organized from "oldest" data sets to "newest" data sets.
 
 *Next step*: Analyze final qPCR data and write methods section
 
-*Timeline*: Finish analysis and methods by end of November 2024
+*Timeline*: Finish analysis and methods by May 2025
 
 ## PolyIC Larvae   
 
@@ -64,7 +64,7 @@ They are organized from "oldest" data sets to "newest" data sets.
 
 *Next step*: Analyze resazurin data and growth; complete methods section
 
-*Timeline*: Finish analysis by February 2025
+*Timeline*: Finish analysis by April 2025
 
 ## Nom Nom Project   
 
@@ -72,18 +72,19 @@ They are organized from "oldest" data sets to "newest" data sets.
 
 *Next step*: Analyze PR data and work with collaborators on ITS2 data
 
-*Timeline*: Finish analysis by March 2025
+*Timeline*: Finish analysis by June 2025
 
 ## Collaborative manuscripts 
 
 This is a list of the papers (I think all of them) that I am a coauthor on at the moment:  
 
 - Ashey et al. Pocillopora acuta temp x pCO2 - **in review**
-- Ashey et al. E5 ncRNA descriptive - **waiting for submission**
-- E5 group deep dive expression - **analysis**
-- E5 group time series molecular - **analysis and data collection**
+- Ashey et al. E5 ncRNA descriptive - **submitted**
+- Gorman et al. Toxin discovery = **in review**
 - Becker et al. Molecular mechanisms - **writing**
 - Becker et al. Heatwave environmental memory - **writing**  
 - Ashey et al. Mcap developmental RNAs - **writing** 
 - Putnam et al. Pocillopora larval development = **writing** 
-- Gorman et al. Toxin discovery = **in review** 
+- Gorman et al. CoTS RNAseq = **analysis**  
+- E5 group deep dive expression - **analysis**
+- E5 group time series molecular - **analysis and data collection**

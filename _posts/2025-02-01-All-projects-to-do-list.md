@@ -1,7 +1,7 @@
 ---
 layout: post
 title: All Projects To Do List
-date: '2025-03-01'
+date: '2025-03-10'
 categories: Monthly_Goals
 tags: Goals
 ---
@@ -9,7 +9,7 @@ tags: Goals
 This post lists all my ongoing projects and to-do list.  
   
 ## Mcap 2020   
-**In review!**   
+**In revision!**   
 
 - Revise by mid March 2020 
 
@@ -63,7 +63,7 @@ This post lists all my ongoing projects and to-do list.
 
 - Analyze USDA families resazurin response 
 - Include: 10K seed, PolyIC seed, USDA families 
-- Reach out for oxygen validation data 
+- Reach out for oxygen validation data with Louis at USDA
 - Introduction
 - Methods
 - Results
@@ -76,15 +76,22 @@ This post lists all my ongoing projects and to-do list.
 	- Measure size of December 2024 oysters from images (Noah K. in progress) and analyze
   
 - *Point Whitney* 
-	- Conduct spring assessment of siblings outplanted at Point Whitney 
+	- Conduct spring assessment of Efforts siblings outplanted at Point Whitney 
 
-- Plan spring field assessments for Goose Point, Westcott, and Point Whitney 
+- *Goose Point* 
+	- Conduct spring assessment of Efforts oysters outplanted 
+
+- *Baywater* 
+	- Conduct spring assessment of 10K oysters outplanted
+
+- *Westcott* 
+	- Conduct spring assessment of Efforts oysters outplanted
 
 ## Oyster Lifestage Carry Over 
 **Analysis and writing** 
 
 - Analyze next set of qPCR 
-- Storyboard potential manuscript 
+- Storyboard manuscript 
 - Analyze final time point growth data 
 - Organize GitHub repository 
 - Introduction 
@@ -101,15 +108,16 @@ This post lists all my ongoing projects and to-do list.
 ## PolyIC Larvae   
 **Data collection and experiments**   
 
-- Conduct testing in the lab and resazurin assay in March
+- Conduct testing in the lab and resazurin assay in March (Ariana) 
+- Conduct survival testing in the lab (Madeline)  
 - Measure size from December, January, February images for growth (Madeline)
 - RNA extractions and RNAseq analyses
 
 ## Oyster 2025 Stress Hardening   
 **Planning**   
 
-- Design spring-summer oyster stress hardening projects  
-- Design spring-summer oyster spawning/larval projects 
+- Design spring-summer oyster stress hardening projects  to include heat and aerial exposure treatments
+- Ask Neil about timeline on sending new seed 
 
 ## Planning and funding    
 
