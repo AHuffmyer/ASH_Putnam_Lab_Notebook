@@ -6,7 +6,7 @@ categories: RobertsLab_Oysters PolyIC_Larvae
 tags: Resazurin Oyster Cgigas
 ---
 
-This post details results from resazurin trials of PolyIC seed from 13 March 2025 run at control (20°C) and high (36°C) temperatures.  
+This post details results from resazurin trials of PolyIC seed from 13 March 2025 run at control (20°C) and high (36°C) temperatures. This is a continuation of trials I ran earlier this week.   
 
 # Overview 
 
