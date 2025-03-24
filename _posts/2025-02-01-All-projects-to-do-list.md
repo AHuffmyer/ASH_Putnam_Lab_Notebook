@@ -108,7 +108,6 @@ This post lists all my ongoing projects and to-do list.
 ## PolyIC Larvae   
 **Data collection and experiments**   
 
-- Conduct testing in the lab and resazurin assay in March (Ariana) 
 - Conduct survival testing in the lab (Madeline)  
 - Measure size from December, January, February images for growth (Madeline)
 - RNA extractions and RNAseq analyses
