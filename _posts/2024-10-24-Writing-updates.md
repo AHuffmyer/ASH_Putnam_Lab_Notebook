@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Writing updates
-date: '2025-03-10'
+date: '2025-03-20'
 categories: Writing
 tags: Writing
 ---
@@ -12,11 +12,9 @@ They are organized from "oldest" data sets to "newest" data sets.
 
 ## Mcap2020   
 
-*Status*: Minor revisions
+*Status*: In review post revisions
 
-*Next step*: Complete revisions
-
-*Timeline*: Mid March submit revisions 
+*Next step*: Complete publication
 
 ## E5 physiology 
 

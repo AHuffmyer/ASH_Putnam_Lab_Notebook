@@ -1,7 +1,7 @@
 ---
 layout: post
 title: All Projects To Do List
-date: '2025-03-10'
+date: '2025-03-20'
 categories: Monthly_Goals
 tags: Goals
 ---
@@ -9,9 +9,7 @@ tags: Goals
 This post lists all my ongoing projects and to-do list.  
   
 ## Mcap 2020   
-**In revision!**   
-
-- Revise by mid March 2020 
+**In post revision review!**   
 
 ## Hawaii 2023   
 **Analysis and writing**   
