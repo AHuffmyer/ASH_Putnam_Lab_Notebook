@@ -105,8 +105,7 @@ This post lists all my ongoing projects and to-do list.
 
 ## PolyIC Larvae   
 **Data collection and experiments**   
-
-- Conduct survival testing in the lab (Madeline)  
+ 
 - Measure size from December, January, February images for growth (Madeline)
 - RNA extractions and RNAseq analyses
 
@@ -114,7 +113,6 @@ This post lists all my ongoing projects and to-do list.
 **Planning**   
 
 - Design spring-summer oyster stress hardening projects  to include heat and aerial exposure treatments
-- Ask Neil about timeline on sending new seed 
 
 ## Planning and funding    
 
