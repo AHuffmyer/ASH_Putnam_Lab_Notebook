@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Writing updates
-date: '2025-03-20'
+date: '2025-04-06'
 categories: Writing
 tags: Writing
 ---
@@ -40,9 +40,9 @@ They are organized from "oldest" data sets to "newest" data sets.
 
 *Timeline*: DNA species ID completed by end of January 2025, decide on sequencing by January 2025
 
-## 10K Seed Hardening/Resazurin paper 
+## Resazurin paper 
 
-*Status*: Final data analysis
+*Status*: Final data analysis and data collection
 
 *Next step*: Finalize analysis, draft manuscript   
 

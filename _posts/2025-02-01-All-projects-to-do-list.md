@@ -1,7 +1,7 @@
 ---
 layout: post
 title: All Projects To Do List
-date: '2025-03-20'
+date: '2025-04-06'
 categories: Monthly_Goals
 tags: Goals
 ---
@@ -119,6 +119,7 @@ This post lists all my ongoing projects and to-do list.
 - Talk with the Coral Resilience Lab about upcoming work and potential projects 
 - Work on grant applications with Steven and Hollie 
 - Perspectives manuscript with Yaamini
+- WSG 2025 proposal 
 
 ## Outreach and education   
 
