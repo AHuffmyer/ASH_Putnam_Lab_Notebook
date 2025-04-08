@@ -12,9 +12,9 @@ They are organized from "oldest" data sets to "newest" data sets.
 
 ## Mcap2020   
 
-*Status*: In review post revisions
+*Status*: Pre-acceptance! 
 
-*Next step*: Complete publication
+*Next step*: Final publication check list 
 
 ## E5 physiology 
 
