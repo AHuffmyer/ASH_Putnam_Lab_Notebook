@@ -1,12 +1,14 @@
 ---
 layout: post
 title: ITS2 amplicon sequencing preparation protocol
-date: '2024-04-01'
+date: '2025-04-01'
 categories: Protocol
 tags: PCR ITS2 Molecular
 ---
 
 This protocol details sample preparation for next-generation sequencing of ITS2 amplicons for identification of Symbiodiniaceae in reef-building coral samples.  
+
+Updated 8 April 2025  
 
 # Overview 
 
@@ -217,3 +219,34 @@ After QC'ing gel, we will pool PCR product from the technical replicates for eac
 # 7. Clean up (if required)
 
 If primer dimers are present or size specific clean up is required, see [this protocol](https://ahuffmyer.github.io/ASH_Putnam_Lab_Notebook/KAPA-bead-clean-up-protocol-for-removal-of-primer-dimers-from-PCR-product/) for more information.  
+
+# 8. Information on library preparation and sequencing 
+
+We conducted sequencing at the [URI RI-INBRE core facility](https://web.uri.edu/riinbre/mic/). The following information contains the protocols used for library preparation.  
+
+The indices and adapters used are for the Nextera, Illumina Prep, and Illumina PCR Kits and are located at [Illumina's website here](https://support-docs.illumina.com/SHARE/AdapterSequences/Content/SHARE/AdapterSeq/Nextera/SequencesNextera_Illumina.htm). 
+ 
+25 µL of each sample was then submitted to the RI-INBRE Molecular Informatics Core at the University of Rhode Island (Kingston, RI, USA) for the index PCR and sequencing. PCR products from the first round of PCR were cleaned with NucleoMag beads (Takara Bio, San Jose, CA, USA) and then visualized by agarose gel electrophoresis. A second round of PCR (50 ng of template DNA, 8 cycles) was performed to attach Nextera XT indices and adapters using the Illumina Nextera XT® Index Kit (Illumina, San Diego, CA, USA) and Phusion HiFi PCR master mix (New England Biolabs, Ipswich, MA, USA, Catalog #Cat #M0531S). PCR products from the second PCR were cleaned with NucleoMag beads and analyzed by agarose gel electrophoresis. Selected samples were confirmed on an Agilent BioAnalyzer DNA1000 chip (Santa Clara, CA, USA). Quantification was performed on all samples prior to pooling using a Qubit fluorometer (Invitrogen, Carlsbad, CA, USA), and the final pooled library was quantified by qPCR in a Roche LightCycler480 with the KAPA Biosystems Illumina Kit (Roche Sequencing, Indianapolis, IN, USA). Samples were sequenced on an Illumina MiSeq platform (Illumina, San Diego, CA, USA) using 2x300 bp paired-end sequencing at the RI-INBRE Molecular Informatics Core (University of Rhode Island, Kingston, RI, USA).  
+
+The PCR protocols for the index and adapter PCR are below:   
+
+Set up 1 50-µl reaction per sample:   
+
+- 25 µl Phusion mastermix 
+- 5 µl Nextera 7xx primer 
+- 5 µl Nextera 5xx primer 
+- 50 ng template DNA (or 7 ul) 
+- H2O to 50 µl 
+
+Perform PCR on thermal cycler:   
+
+- 72°C for 3 minutes 
+- 98°C for 30 seconds 
+- 8-12 cycles of  
+- 98°C for 10 seconds 
+- 63°C for 30 seconds 
+- 72°C for 3 minutes 
+- Hold at 4°C 
+
+The protocol for library preparation can be found on OSF [at the link here](https://osf.io/fq7ry).  
+
