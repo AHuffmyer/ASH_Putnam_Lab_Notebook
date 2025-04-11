@@ -9,7 +9,9 @@ tags: Goals
 This post lists all my ongoing projects and to-do list.  
   
 ## Mcap 2020   
-**In post revision review!**   
+**Pre-accepted!**   
+
+- Final revisions 
 
 ## Hawaii 2023   
 **Analysis and writing**   
@@ -50,6 +52,7 @@ This post lists all my ongoing projects and to-do list.
 - Analyze metabolite data 
 - Multiomic WGCNA analyses 
 - Machine learning multiomic prediction analyses
+- Energy state analysis 
 
 ## E5 Nom Nom   
 **Data analysis** 
@@ -116,10 +119,10 @@ This post lists all my ongoing projects and to-do list.
 
 ## Planning and funding    
 
-- Talk with the Coral Resilience Lab about upcoming work and potential projects 
-- Work on grant applications with Steven and Hollie 
+- BIO-OCE submission with Hollie (July/August 2025)
 - Perspectives manuscript with Yaamini
 - WSG 2025 proposal 
+- WSG 2025 annual report 
 
 ## Outreach and education   
 
