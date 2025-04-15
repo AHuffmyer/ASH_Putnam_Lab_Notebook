@@ -1,7 +1,7 @@
 ---
 layout: post
 title: All Projects To Do List
-date: '2025-04-06'
+date: '2025-04-15'
 categories: Monthly_Goals
 tags: Goals
 ---
@@ -110,7 +110,7 @@ This post lists all my ongoing projects and to-do list.
 **Data collection and experiments**   
  
 - Measure size from December, January, February images for growth (Madeline)
-- RNA extractions and RNAseq analyses
+- RNA extractions and RNAseq analyses (on hold)
 
 ## Oyster 2025 Stress Hardening   
 **Planning**   
@@ -126,4 +126,4 @@ This post lists all my ongoing projects and to-do list.
 
 ## Outreach and education   
 
-- Create and publish Reva Atea spring issue of communications magazine 
+- Create and publish Reva Atea spring issue of communications magazine
