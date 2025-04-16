@@ -20,11 +20,11 @@ For this protocol, we expect to analyze 45-50 samples (20 mL volume per sample) 
 
 ### 1. Stock resazurin solution 
 
-To make the resazurin stock solution (10 mL) mix the following. We will use this solution for multiple trials.  
+To make the resazurin stock solution (approx. 20 mL) mix the following. We will use this solution for multiple trials.  
 
-- [0.5 g resazurin salt](https://www.thermofisher.com/order/catalog/product/R12204)
-- 10 mL DI water
-- 10 µL DMSO
+- [1.0 g resazurin salt](https://www.thermofisher.com/order/catalog/product/R12204)
+- 20 mL DI water
+- 20 µL DMSO
 
 Store in a dark fridge or freezer.  
 
