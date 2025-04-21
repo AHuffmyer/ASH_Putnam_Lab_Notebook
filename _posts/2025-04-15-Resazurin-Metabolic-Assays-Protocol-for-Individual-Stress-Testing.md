@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Resazurin Metabolic Assays Protocol for Individual Stress Testing
-date: '2025-04-15'
+date: '2025-04-17'
 categories: Protocol RobertsLab_Oysters
 tags: Cgigas Oyster Protocol Resazurin Survival
 ---
@@ -107,11 +107,15 @@ Before starting, set the incubator at 18°C and pre heat the solution in another
 5. After collecting a sample from each cup, move the cups back into the incubator in random order to randomize position in the incubator. 
 6. Record the sample locations in the notebook. 
 7. Put the plate on the loading platform. 
-8. Collect and export readings as directed in the plate software. 
-9. Save the file as: `YYYYMMDD_18C_T0.xlsx`. For example, `20250128_18C_T0.xlsx`. 
-10. Save the data to a flash drive and add to GitHub at the [location here under the Data directory](https://github.com/RobertsLab/oyster-resazurin). 
-11. Record the time of the measurement. Rinse the 96 well palte thoroughly. 
-12. Repeat at 1, 2, and 3 hours of incubation at 18°C.
+8. Select the "resazurin-fluorescence" protocol. 
+9. Collect and export readings as directed in the plate software. 
+10. Save the file as: `YYYYMMDD_18C_T0_fl.xlsx`. For example, `20250128_18C_T0_fl.xlsx`. 
+11. Now, repeat measurements under absorbance. Select the "resazurin-absorbance" protocol. 
+12. Collect and export readings as directed in the plate software. 
+13. Save the file as: `YYYYMMDD_18C_T0_ab.xlsx`. For example, `20250128_18C_T0_ab.xlsx`. 
+14. Save the data to a flash drive and add to GitHub at the [location here under the Data directory](https://github.com/RobertsLab/oyster-resazurin). 
+15. Record the time of the measurement. Rinse the 96 well plate thoroughly. 
+16. Repeat at 1, 2, and 3 hours of incubation at 18°C.
 
 ## Measurements at 42°C 
 
@@ -120,13 +124,17 @@ Before starting, set the incubator at 18°C and pre heat the solution in another
 3. Change the incubator to 42°C.
 4. Now fill each cup with the pre heated 42°C resazurin solution. 
 5. Immediately take a sample for the T0 measurement of the high temperature phase using the same protocol as described above for taking measurements. Survival does not need to be assessed at this time point. 
-6. Collect and export readings as directed in the plate software. 
-7. Save the file as: `YYYYMMDD_42C_T0.xlsx`. For example, `20250128_42C_T0.xlsx`. 
-8. After collecting a sample from each cup, move the cups back into the incubator now at 42°C in random order to randomize position in the incubator. 
-9. Record the time that samples were taken and added back into the incubator. 
-10. Save the data to a flash drive and add to GitHub at the [location here under the Data directory](https://github.com/RobertsLab/oyster-resazurin). 
-11. Record the time of the measurement. Rinse the 96 well plate thoroughly. 
-12. Repeat at 1, 2, and 3 hours of incubation at 42°C.
+6. Select the "resazurin-fluorescence" protocol. 
+7. Collect and export readings as directed in the plate software. 
+8. Save the file as: `YYYYMMDD_42C_T0_fl.xlsx`. For example, `20250128_42C_T0_fl.xlsx`. 
+9. Now, repeat measurements under absorbance. Select the "resazurin-absorbance" protocol. 
+10. Collect and export readings as directed in the plate software. 
+11. Save the file as: `YYYYMMDD_42C_T0_ab.xlsx`. For example, `20250128_42C_T0_ab.xlsx`. 
+12. After collecting a sample from each cup, move the cups back into the incubator now at 42°C in random order to randomize position in the incubator. 
+13. Record the time that samples were taken and added back into the incubator. 
+14. Save the data to a flash drive and add to GitHub at the [location here under the Data directory](https://github.com/RobertsLab/oyster-resazurin). 
+15. Record the time of the measurement. Rinse the 96 well plate thoroughly. 
+16. Repeat at 1, 2, and 3 hours of incubation at 42°C.
 
 ## Clean up
 

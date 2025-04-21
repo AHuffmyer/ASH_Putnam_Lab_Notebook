@@ -29,6 +29,8 @@ I transferred the following files from Andromeda to Unity. The file paths indica
 
 Transfers completed on April 15th 2025. All data on Andromeda can now be deleted.   
 
+I completed md5checksums for data integrity. All files were OK.  
+
 # Transfer to UW Hyak
 
 I transferred the following directories from Andromeda to UW Hyak. I included all files including raw files and intermediate files.  
