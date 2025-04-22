@@ -28,9 +28,7 @@ Store in a dark fridge or freezer.
 
 ### 2. Working resazurin solution
 
-To prepare the working solution of resazurin, prepare the following to make 500 mL of solution. Adjust if more volume is needed. 
-
-prior to each batch of trials. Generate into two 1,000 mL bottles. This volume includes a little extra to allow for errors in pipetting.  
+To prepare the working solution of resazurin, prepare the following to make 500 mL of solution. Adjust if more or less volume is needed. 
 
 - 493 mL filtered seawater or DI water with Instant Ocean adjusted to approx. 25 ppt 
 - 1,110 µL resazurin stock solution (pre made, above)
@@ -54,6 +52,8 @@ An antibiotic solution is typically added for experimental trials. For demonstra
 # Protocol
 
 For this demonstration, conduct hourly measurements or photographs of oysters in resazurin at a control and high (>40°C) temperature. 
+
+Volume are set lower than typically used to elicit a stronger visual change in color. Fluorescence measurements will be the best way to detect differences that you cannot see visually. 
 
 Include 1-2 samples that are blanks (no oysters) as reference. 
 
@@ -79,7 +79,7 @@ Before starting, set the incubator at desired high temperature (40-42°C). Contr
 1. Prepare oysters for assays and try to use oysters in a similar size range.   
 2. Place oysters in a labeled cup, beaker, or tripour.  
 3. Prepare n=1-2 cups for blank samples that will have solution, but no oysters, for reference. 
-4. Fill each cup with the required volume of resazurin working stock. Oysters should be completely submerged at a minimum volume of approximately 1 mL per mm length. 
+4. Fill each cup with the required volume of resazurin working stock. Oysters should be completely submerged at a volume of approximately 0.5 mL per mm length. For example, a 20 mm oyster could be in 10 mL of water as long as it is submerged. 
 5. Proceed with the first measurement (next step below). 
 
 ## Measurements 
@@ -98,6 +98,9 @@ Before starting, set the incubator at desired high temperature (40-42°C). Contr
 7. After collecting a sample from each cup, move the oysters back into the incubator.
 8. Rinse the 96 well plate thoroughly. 
 9. Repeat at 1, 2, 3, 4, and 5 (optional) hours of incubation.
+10. If doing a demonstration, you can visualize the change over time using Excel or by comparison of photographs. 
+
+If desired, example scripts can be found on [GitHub here for the PolyIC project](https://github.com/RobertsLab/polyIC-larvae/blob/main/scripts/resazurin/resazurin-analysis-batch2.Rmd). 
 
 ## Clean up
 
@@ -111,7 +114,8 @@ After the final measurement and survival assessment at 4 or 5 h exposure the tri
 
 ## Assemble data 
 
-- Survival: A data sheet with columns for date, temperature, time point, oyster ID, and relevant notes 
+If using R scripts for analysis, prepare the following data sets:  
+
 - Metadata: A data sheet with columns for date, temperature, oyster ID, and relevant notes
 - Plate reader files 
 

@@ -173,7 +173,7 @@ plot<-data%>%
   theme_classic();plot
 ```
 
-![](https://github.com/AHuffmyer/ASH_Putnam_Lab_Notebook/tree/master/images/NotebookImages/E5_molecular/23-Apul-energetic-state_files/figure-gfm/unnamed-chunk-7-1.png?raw=true)<!-- -->
+![](https://raw.githubusercontent.com/AHuffmyer/ASH_Putnam_Lab_Notebook/blob/master/images/NotebookImages/E5_molecular/23-Apul-energetic-state_files/figure-gfm/unnamed-chunk-7-1.png?raw=true)<!-- -->
 
 Plot as a PCA.
 
@@ -235,7 +235,7 @@ plot<-ggplot2::autoplot(scaled.pca, data=pca_data_cleaned, loadings=FALSE,  colo
         axis.title = element_text(size=18,  face="bold"));plot
 ```
 
-![](https://github.com/AHuffmyer/ASH_Putnam_Lab_Notebook/tree/master/images/NotebookImages/E5_molecular/23-Apul-energetic-state_files/figure-gfm/unnamed-chunk-11-1.png?raw=true)<!-- -->
+![](https://raw.githubusercontent.com/AHuffmyer/ASH_Putnam_Lab_Notebook/tree/master/images/NotebookImages/E5_molecular/23-Apul-energetic-state_files/figure-gfm/unnamed-chunk-11-1.png?raw=true)<!-- -->
 
 Which genes are driving this? Run PLSDA and VIP.
 
@@ -260,7 +260,7 @@ MyResult.plsda <- plsda(X,Y) # 1 Run the method
 plotIndiv(MyResult.plsda, ind.names = FALSE, legend=TRUE, legend.title = "Glycolysis", ellipse = FALSE, title="", style = "graphics", centroid=FALSE, point.lwd = 2, cex=2)
 ```
 
-![](https://github.com/AHuffmyer/ASH_Putnam_Lab_Notebook/tree/master/images/NotebookImages/E5_molecular/23-Apul-energetic-state_files/figure-gfm/unnamed-chunk-12-1.png?raw=true)<!-- -->
+![](https://raw.githubusercontent.com/AHuffmyer/ASH_Putnam_Lab_Notebook/tree/master/images/NotebookImages/E5_molecular/23-Apul-energetic-state_files/figure-gfm/unnamed-chunk-12-1.png?raw=true)<!-- -->
 
 Extract VIPs.
 
@@ -292,7 +292,7 @@ VIP_list_plot<-treatment_VIP_1 %>%
                      panel.grid.minor = element_blank(), axis.line = element_line(colour = "black"));VIP_list_plot
 ```
 
-![](https://github.com/AHuffmyer/ASH_Putnam_Lab_Notebook/tree/master/images/NotebookImages/E5_molecular/23-Apul-energetic-state_files/figure-gfm/unnamed-chunk-13-1.png?raw=true)<!-- -->
+![](https://raw.githubusercontent.com/AHuffmyer/ASH_Putnam_Lab_Notebook/tree/master/images/NotebookImages/E5_molecular/23-Apul-energetic-state_files/figure-gfm/unnamed-chunk-13-1.png?raw=true)<!-- -->
 
 Gene FUN_010519 is the most important - plot this. This is also the gene
 most important for lipolysis.
@@ -306,7 +306,7 @@ plot<-data%>%
   theme_classic();plot
 ```
 
-![](https://github.com/AHuffmyer/ASH_Putnam_Lab_Notebook/tree/master/images/NotebookImages/E5_molecular/23-Apul-energetic-state_files/figure-gfm/unnamed-chunk-14-1.png?raw=true)<!-- -->
+![](https://raw.githubusercontent.com/AHuffmyer/ASH_Putnam_Lab_Notebook/tree/master/images/NotebookImages/E5_molecular/23-Apul-energetic-state_files/figure-gfm/unnamed-chunk-14-1.png?raw=true)<!-- -->
 
 Plot second most important.
 
@@ -319,7 +319,7 @@ plot<-data%>%
   theme_classic();plot
 ```
 
-![](https://github.com/AHuffmyer/ASH_Putnam_Lab_Notebook/tree/master/images/NotebookImages/E5_molecular/23-Apul-energetic-state_files/figure-gfm/unnamed-chunk-15-1.png?raw=true)<!-- -->
+![](https://raw.githubusercontent.com/AHuffmyer/ASH_Putnam_Lab_Notebook/tree/master/images/NotebookImages/E5_molecular/23-Apul-energetic-state_files/figure-gfm/unnamed-chunk-15-1.png?raw=true)<!-- -->
 
 Plot third most important.
 
@@ -332,7 +332,7 @@ plot<-data%>%
   theme_classic();plot
 ```
 
-![](https://github.com/AHuffmyer/ASH_Putnam_Lab_Notebook/tree/master/images/NotebookImages/E5_molecular/23-Apul-energetic-state_files/figure-gfm/unnamed-chunk-16-1.png?raw=true)<!-- -->
+![](https://raw.githubusercontent.com/AHuffmyer/ASH_Putnam_Lab_Notebook/tree/master/images/NotebookImages/E5_molecular/23-Apul-energetic-state_files/figure-gfm/unnamed-chunk-16-1.png?raw=true)<!-- -->
 
 Look at a PCA of the differentiating genes.
 
@@ -387,7 +387,7 @@ plot<-ggplot2::autoplot(scaled.pca, data=pca_data_vips, loadings=FALSE,  colour=
         axis.title = element_text(size=18,  face="bold"));plot
 ```
 
-![](https://github.com/AHuffmyer/ASH_Putnam_Lab_Notebook/tree/master/images/NotebookImages/E5_molecular/23-Apul-energetic-state_files/figure-gfm/unnamed-chunk-20-1.png?raw=true)<!-- -->
+![](https://raw.githubusercontent.com/AHuffmyer/ASH_Putnam_Lab_Notebook/tree/master/images/NotebookImages/E5_molecular/23-Apul-energetic-state_files/figure-gfm/unnamed-chunk-20-1.png?raw=true)<!-- -->
 
 Pull out PC1 score for each sample for GO term.
 
@@ -460,7 +460,7 @@ plot<-data2%>%
   theme_classic();plot
 ```
 
-![](https://github.com/AHuffmyer/ASH_Putnam_Lab_Notebook/tree/master/images/NotebookImages/E5_molecular/23-Apul-energetic-state_files/figure-gfm/unnamed-chunk-26-1.png?raw=true)<!-- -->
+![](https://raw.githubusercontent.com/AHuffmyer/ASH_Putnam_Lab_Notebook/tree/master/images/NotebookImages/E5_molecular/23-Apul-energetic-state_files/figure-gfm/unnamed-chunk-26-1.png?raw=true)<!-- -->
 
 Plot as a PCA.
 
@@ -522,7 +522,7 @@ plot<-ggplot2::autoplot(scaled.pca, data=pca_data_cleaned, loadings=FALSE,  colo
         axis.title = element_text(size=18,  face="bold"));plot
 ```
 
-![](https://github.com/AHuffmyer/ASH_Putnam_Lab_Notebook/tree/master/images/NotebookImages/E5_molecular/23-Apul-energetic-state_files/figure-gfm/unnamed-chunk-30-1.png?raw=true)<!-- -->
+![](https://raw.githubusercontent.com/AHuffmyer/ASH_Putnam_Lab_Notebook/tree/master/images/NotebookImages/E5_molecular/23-Apul-energetic-state_files/figure-gfm/unnamed-chunk-30-1.png?raw=true)<!-- -->
 
 Which genes are driving this? Run PLSDA and VIP.
 
@@ -547,7 +547,7 @@ MyResult.plsda <- plsda(X,Y) # 1 Run the method
 plotIndiv(MyResult.plsda, ind.names = FALSE, legend=TRUE, legend.title = "Gluconeogenesis", ellipse = FALSE, title="", style = "graphics", centroid=FALSE, point.lwd = 2, cex=2)
 ```
 
-![](https://github.com/AHuffmyer/ASH_Putnam_Lab_Notebook/tree/master/images/NotebookImages/E5_molecular/23-Apul-energetic-state_files/figure-gfm/unnamed-chunk-31-1.png?raw=true)<!-- -->
+![](https://raw.githubusercontent.com/AHuffmyer/ASH_Putnam_Lab_Notebook/tree/master/images/NotebookImages/E5_molecular/23-Apul-energetic-state_files/figure-gfm/unnamed-chunk-31-1.png?raw=true)<!-- -->
 
 Extract VIPs.
 
@@ -579,7 +579,7 @@ VIP_list_plot<-treatment_VIP_1 %>%
                      panel.grid.minor = element_blank(), axis.line = element_line(colour = "black"));VIP_list_plot
 ```
 
-![](https://github.com/AHuffmyer/ASH_Putnam_Lab_Notebook/tree/master/images/NotebookImages/E5_molecular/23-Apul-energetic-state_files/figure-gfm/unnamed-chunk-32-1.png?raw=true)<!-- -->
+![](https://raw.githubusercontent.com/AHuffmyer/ASH_Putnam_Lab_Notebook/tree/master/images/NotebookImages/E5_molecular/23-Apul-energetic-state_files/figure-gfm/unnamed-chunk-32-1.png?raw=true)<!-- -->
 
 Gene FUN_001654 is the most important - plot this. This is also the gene
 most important for lipolysis.
@@ -593,7 +593,7 @@ plot<-data2%>%
   theme_classic();plot
 ```
 
-![](https://github.com/AHuffmyer/ASH_Putnam_Lab_Notebook/tree/master/images/NotebookImages/E5_molecular/23-Apul-energetic-state_files/figure-gfm/unnamed-chunk-33-1.png?raw=true)<!-- -->
+![](https://raw.githubusercontent.com/AHuffmyer/ASH_Putnam_Lab_Notebook/tree/master/images/NotebookImages/E5_molecular/23-Apul-energetic-state_files/figure-gfm/unnamed-chunk-33-1.png?raw=true)<!-- -->
 
 Plot second most important.
 
@@ -606,7 +606,7 @@ plot<-data2%>%
   theme_classic();plot
 ```
 
-![](https://github.com/AHuffmyer/ASH_Putnam_Lab_Notebook/tree/master/images/NotebookImages/E5_molecular/23-Apul-energetic-state_files/figure-gfm/unnamed-chunk-34-1.png?raw=true)<!-- -->
+![](https://raw.githubusercontent.com/AHuffmyer/ASH_Putnam_Lab_Notebook/tree/master/images/NotebookImages/E5_molecular/23-Apul-energetic-state_files/figure-gfm/unnamed-chunk-34-1.png?raw=true)<!-- -->
 
 Plot third most important.
 
@@ -619,7 +619,7 @@ plot<-data2%>%
   theme_classic();plot
 ```
 
-![](https://github.com/AHuffmyer/ASH_Putnam_Lab_Notebook/tree/master/images/NotebookImages/E5_molecular/23-Apul-energetic-state_files/figure-gfm/unnamed-chunk-35-1.png?raw=true)<!-- -->
+![](https://raw.githubusercontent.com/AHuffmyer/ASH_Putnam_Lab_Notebook/tree/master/images/NotebookImages/E5_molecular/23-Apul-energetic-state_files/figure-gfm/unnamed-chunk-35-1.png?raw=true)<!-- -->
 
 Look at a PCA of the differentiating genes.
 
@@ -674,7 +674,7 @@ plot<-ggplot2::autoplot(scaled.pca, data=pca_data_vips, loadings=FALSE,  colour=
         axis.title = element_text(size=18,  face="bold"));plot
 ```
 
-![](https://github.com/AHuffmyer/ASH_Putnam_Lab_Notebook/tree/master/images/NotebookImages/E5_molecular/23-Apul-energetic-state_files/figure-gfm/unnamed-chunk-39-1.png?raw=true)<!-- -->
+![](https://raw.githubusercontent.com/AHuffmyer/ASH_Putnam_Lab_Notebook/tree/master/images/NotebookImages/E5_molecular/23-Apul-energetic-state_files/figure-gfm/unnamed-chunk-39-1.png?raw=true)<!-- -->
 
 Pull out PC1 score for each sample for GO term.
 
@@ -749,7 +749,7 @@ plot<-data3%>%
   theme_classic();plot
 ```
 
-![](https://github.com/AHuffmyer/ASH_Putnam_Lab_Notebook/tree/master/images/NotebookImages/E5_molecular/23-Apul-energetic-state_files/figure-gfm/unnamed-chunk-45-1.png?raw=true)<!-- -->
+![](https://raw.githubusercontent.com/AHuffmyer/ASH_Putnam_Lab_Notebook/tree/master/images/NotebookImages/E5_molecular/23-Apul-energetic-state_files/figure-gfm/unnamed-chunk-45-1.png?raw=true)<!-- -->
 
 Plot as a PCA.
 
@@ -810,7 +810,7 @@ plot<-ggplot2::autoplot(scaled.pca, data=pca_data_cleaned, loadings=FALSE,  colo
         axis.title = element_text(size=18,  face="bold"));plot
 ```
 
-![](https://github.com/AHuffmyer/ASH_Putnam_Lab_Notebook/tree/master/images/NotebookImages/E5_molecular/23-Apul-energetic-state_files/figure-gfm/unnamed-chunk-49-1.png?raw=true)<!-- -->
+![](https://raw.githubusercontent.com/AHuffmyer/ASH_Putnam_Lab_Notebook/tree/master/images/NotebookImages/E5_molecular/23-Apul-energetic-state_files/figure-gfm/unnamed-chunk-49-1.png?raw=true)<!-- -->
 
 Which genes are driving this? Run PLSDA and VIP.
 
@@ -835,7 +835,7 @@ MyResult.plsda <- plsda(X,Y) # 1 Run the method
 plotIndiv(MyResult.plsda, ind.names = FALSE, legend=TRUE, legend.title = "Lipolysis", ellipse = FALSE, title="", style = "graphics", centroid=FALSE, point.lwd = 2, cex=2)
 ```
 
-![](https://github.com/AHuffmyer/ASH_Putnam_Lab_Notebook/tree/master/images/NotebookImages/E5_molecular/23-Apul-energetic-state_files/figure-gfm/unnamed-chunk-50-1.png?raw=true)<!-- -->
+![](https://raw.githubusercontent.com/AHuffmyer/ASH_Putnam_Lab_Notebook/tree/master/images/NotebookImages/E5_molecular/23-Apul-energetic-state_files/figure-gfm/unnamed-chunk-50-1.png?raw=true)<!-- -->
 
 Extract VIPs.
 
@@ -867,7 +867,7 @@ VIP_list_plot<-treatment_VIP_1 %>%
                      panel.grid.minor = element_blank(), axis.line = element_line(colour = "black"));VIP_list_plot
 ```
 
-![](https://github.com/AHuffmyer/ASH_Putnam_Lab_Notebook/tree/master/images/NotebookImages/E5_molecular/23-Apul-energetic-state_files/figure-gfm/unnamed-chunk-51-1.png?raw=true)<!-- -->
+![](https://raw.githubusercontent.com/AHuffmyer/ASH_Putnam_Lab_Notebook/tree/master/images/NotebookImages/E5_molecular/23-Apul-energetic-state_files/figure-gfm/unnamed-chunk-51-1.png?raw=true)<!-- -->
 
 Gene FUN_001654 is the most important - plot this.
 
@@ -880,7 +880,7 @@ plot<-data3%>%
   theme_classic();plot
 ```
 
-![](https://github.com/AHuffmyer/ASH_Putnam_Lab_Notebook/tree/master/images/NotebookImages/E5_molecular/23-Apul-energetic-state_files/figure-gfm/unnamed-chunk-52-1.png?raw=true)<!-- -->
+![](https://raw.githubusercontent.com/AHuffmyer/ASH_Putnam_Lab_Notebook/tree/master/images/NotebookImages/E5_molecular/23-Apul-energetic-state_files/figure-gfm/unnamed-chunk-52-1.png?raw=true)<!-- -->
 
 Plot second most important
 
@@ -893,7 +893,7 @@ plot<-data3%>%
   theme_classic();plot
 ```
 
-![](https://github.com/AHuffmyer/ASH_Putnam_Lab_Notebook/tree/master/images/NotebookImages/E5_molecular/23-Apul-energetic-state_files/figure-gfm/unnamed-chunk-53-1.png?raw=true)<!-- -->
+![](https://raw.githubusercontent.com/AHuffmyer/ASH_Putnam_Lab_Notebook/tree/master/images/NotebookImages/E5_molecular/23-Apul-energetic-state_files/figure-gfm/unnamed-chunk-53-1.png?raw=true)<!-- -->
 
 Plot third most important
 
@@ -906,7 +906,7 @@ plot<-data3%>%
   theme_classic();plot
 ```
 
-![](https://github.com/AHuffmyer/ASH_Putnam_Lab_Notebook/tree/master/images/NotebookImages/E5_molecular/23-Apul-energetic-state_files/figure-gfm/unnamed-chunk-54-1.png?raw=true)<!-- -->
+![](https://raw.githubusercontent.com/AHuffmyer/ASH_Putnam_Lab_Notebook/tree/master/images/NotebookImages/E5_molecular/23-Apul-energetic-state_files/figure-gfm/unnamed-chunk-54-1.png?raw=true)<!-- -->
 
 Look at a PCA of the differentiating genes.
 
@@ -961,7 +961,7 @@ plot<-ggplot2::autoplot(scaled.pca, data=pca_data_vips, loadings=FALSE,  colour=
         axis.title = element_text(size=18,  face="bold"));plot
 ```
 
-![](https://github.com/AHuffmyer/ASH_Putnam_Lab_Notebook/tree/master/images/NotebookImages/E5_molecular/23-Apul-energetic-state_files/figure-gfm/unnamed-chunk-58-1.png?raw=true)<!-- -->
+![](https://raw.githubusercontent.com/AHuffmyer/ASH_Putnam_Lab_Notebook/tree/master/images/NotebookImages/E5_molecular/23-Apul-energetic-state_files/figure-gfm/unnamed-chunk-58-1.png?raw=true)<!-- -->
 
 Pull out PC1 score for each sample for GO term.
 
@@ -1035,7 +1035,7 @@ plot<-data4%>%
   theme_classic();plot
 ```
 
-![](https://github.com/AHuffmyer/ASH_Putnam_Lab_Notebook/tree/master/images/NotebookImages/E5_molecular/23-Apul-energetic-state_files/figure-gfm/unnamed-chunk-64-1.png?raw=true)<!-- -->
+![](https://raw.githubusercontent.com/AHuffmyer/ASH_Putnam_Lab_Notebook/tree/master/images/NotebookImages/E5_molecular/23-Apul-energetic-state_files/figure-gfm/unnamed-chunk-64-1.png?raw=true)<!-- -->
 
 Plot as a PCA.
 
@@ -1098,7 +1098,7 @@ plot<-ggplot2::autoplot(scaled.pca, data=pca_data_cleaned, loadings=FALSE,  colo
         axis.title = element_text(size=18,  face="bold"));plot
 ```
 
-![](https://github.com/AHuffmyer/ASH_Putnam_Lab_Notebook/tree/master/images/NotebookImages/E5_molecular/23-Apul-energetic-state_files/figure-gfm/unnamed-chunk-68-1.png?raw=true)<!-- -->
+![](https://raw.githubusercontent.com/AHuffmyer/ASH_Putnam_Lab_Notebook/tree/master/images/NotebookImages/E5_molecular/23-Apul-energetic-state_files/figure-gfm/unnamed-chunk-68-1.png?raw=true)<!-- -->
 
 Which genes are driving this? Run PLSDA and VIP.
 
@@ -1123,7 +1123,7 @@ MyResult.plsda <- plsda(X,Y) # 1 Run the method
 plotIndiv(MyResult.plsda, ind.names = FALSE, legend=TRUE, legend.title = "FFA Beta Oxidation", ellipse = FALSE, title="", style = "graphics", centroid=FALSE, point.lwd = 2, cex=2)
 ```
 
-![](https://github.com/AHuffmyer/ASH_Putnam_Lab_Notebook/tree/master/images/NotebookImages/E5_molecular/23-Apul-energetic-state_files/figure-gfm/unnamed-chunk-69-1.png?raw=true)<!-- -->
+![](https://raw.githubusercontent.com/AHuffmyer/ASH_Putnam_Lab_Notebook/tree/master/images/NotebookImages/E5_molecular/23-Apul-energetic-state_files/figure-gfm/unnamed-chunk-69-1.png?raw=true)<!-- -->
 
 Extract VIPs.
 
@@ -1168,7 +1168,7 @@ plot<-data3%>%
   theme_classic();plot
 ```
 
-![](https://github.com/AHuffmyer/ASH_Putnam_Lab_Notebook/tree/master/images/NotebookImages/E5_molecular/23-Apul-energetic-state_files/figure-gfm/unnamed-chunk-71-1.png?raw=true)<!-- -->
+![](https://raw.githubusercontent.com/AHuffmyer/ASH_Putnam_Lab_Notebook/tree/master/images/NotebookImages/E5_molecular/23-Apul-energetic-state_files/figure-gfm/unnamed-chunk-71-1.png?raw=true)<!-- -->
 
 Plot second most important
 
@@ -1181,7 +1181,7 @@ plot<-data3%>%
   theme_classic();plot
 ```
 
-![](https://github.com/AHuffmyer/ASH_Putnam_Lab_Notebook/tree/master/images/NotebookImages/E5_molecular/23-Apul-energetic-state_files/figure-gfm/unnamed-chunk-72-1.png?raw=true)<!-- -->
+![](https://raw.githubusercontent.com/AHuffmyer/ASH_Putnam_Lab_Notebook/tree/master/images/NotebookImages/E5_molecular/23-Apul-energetic-state_files/figure-gfm/unnamed-chunk-72-1.png?raw=true)<!-- -->
 
 Plot third most important
 
@@ -1194,7 +1194,7 @@ plot<-data3%>%
   theme_classic();plot
 ```
 
-![](https://github.com/AHuffmyer/ASH_Putnam_Lab_Notebook/tree/master/images/NotebookImages/E5_molecular/23-Apul-energetic-state_files/figure-gfm/unnamed-chunk-73-1.png?raw=true)<!-- -->
+![](https://raw.githubusercontent.com/AHuffmyer/ASH_Putnam_Lab_Notebook/tree/master/images/NotebookImages/E5_molecular/23-Apul-energetic-state_files/figure-gfm/unnamed-chunk-73-1.png?raw=true)<!-- -->
 
 Look at a PCA of the differentiating genes.
 
@@ -1247,7 +1247,7 @@ plot2<-ggplot2::autoplot(scaled.pca, data=pca_data_vips, loadings=FALSE,  colour
         axis.title = element_text(size=18,  face="bold"));plot2
 ```
 
-![](https://github.com/AHuffmyer/ASH_Putnam_Lab_Notebook/tree/master/images/NotebookImages/E5_molecular/23-Apul-energetic-state_files/figure-gfm/unnamed-chunk-77-1.png?raw=true)<!-- -->
+![](https://raw.githubusercontent.com/AHuffmyer/ASH_Putnam_Lab_Notebook/tree/master/images/NotebookImages/E5_molecular/23-Apul-energetic-state_files/figure-gfm/unnamed-chunk-77-1.png?raw=true)<!-- -->
 
 Pull out PC1 score for each sample for GO term.
 
@@ -1326,7 +1326,7 @@ plot<-data5%>%
   theme_classic();plot
 ```
 
-![](https://github.com/AHuffmyer/ASH_Putnam_Lab_Notebook/tree/master/images/NotebookImages/E5_molecular/23-Apul-energetic-state_files/figure-gfm/unnamed-chunk-83-1.png?raw=true)<!-- -->
+![](https://raw.githubusercontent.com/AHuffmyer/ASH_Putnam_Lab_Notebook/tree/master/images/NotebookImages/E5_molecular/23-Apul-energetic-state_files/figure-gfm/unnamed-chunk-83-1.png?raw=true)<!-- -->
 
 Plot as a PCA.
 
@@ -1386,7 +1386,7 @@ plot<-ggplot2::autoplot(scaled.pca, data=pca_data_cleaned, loadings=FALSE,  colo
         axis.title = element_text(size=18,  face="bold"));plot
 ```
 
-![](https://github.com/AHuffmyer/ASH_Putnam_Lab_Notebook/tree/master/images/NotebookImages/E5_molecular/23-Apul-energetic-state_files/figure-gfm/unnamed-chunk-87-1.png?raw=true)<!-- -->
+![](https://raw.githubusercontent.com/AHuffmyer/ASH_Putnam_Lab_Notebook/tree/master/images/NotebookImages/E5_molecular/23-Apul-energetic-state_files/figure-gfm/unnamed-chunk-87-1.png?raw=true)<!-- -->
 
 Which genes are driving this? Run PLSDA and VIP.
 
@@ -1413,7 +1413,7 @@ MyResult.plsda <- plsda(X,Y) # 1 Run the method
 plotIndiv(MyResult.plsda, ind.names = FALSE, legend=TRUE, legend.title = "Starvation", ellipse = FALSE, title="", style = "graphics", centroid=FALSE, point.lwd = 2, cex=2)
 ```
 
-![](https://github.com/AHuffmyer/ASH_Putnam_Lab_Notebook/tree/master/images/NotebookImages/E5_molecular/23-Apul-energetic-state_files/figure-gfm/unnamed-chunk-88-1.png?raw=true)<!-- -->
+![](https://raw.githubusercontent.com/AHuffmyer/ASH_Putnam_Lab_Notebook/tree/master/images/NotebookImages/E5_molecular/23-Apul-energetic-state_files/figure-gfm/unnamed-chunk-88-1.png?raw=true)<!-- -->
 
 Extract VIPs.
 
@@ -1446,7 +1446,7 @@ VIP_list_plot<-treatment_VIP_1 %>%
                      panel.grid.minor = element_blank(), axis.line = element_line(colour = "black"));VIP_list_plot
 ```
 
-![](https://github.com/AHuffmyer/ASH_Putnam_Lab_Notebook/tree/master/images/NotebookImages/E5_molecular/23-Apul-energetic-state_files/figure-gfm/unnamed-chunk-89-1.png?raw=true)<!-- -->
+![](https://raw.githubusercontent.com/AHuffmyer/ASH_Putnam_Lab_Notebook/tree/master/images/NotebookImages/E5_molecular/23-Apul-energetic-state_files/figure-gfm/unnamed-chunk-89-1.png?raw=true)<!-- -->
 
 
 ``` r
@@ -1458,7 +1458,7 @@ plot<-data5%>%
   theme_classic();plot
 ```
 
-![](https://github.com/AHuffmyer/ASH_Putnam_Lab_Notebook/tree/master/images/NotebookImages/E5_molecular/23-Apul-energetic-state_files/figure-gfm/unnamed-chunk-90-1.png?raw=true)<!-- -->
+![](https://raw.githubusercontent.com/AHuffmyer/ASH_Putnam_Lab_Notebook/tree/master/images/NotebookImages/E5_molecular/23-Apul-energetic-state_files/figure-gfm/unnamed-chunk-90-1.png?raw=true)<!-- -->
 
 Plot second most important
 
@@ -1471,7 +1471,7 @@ plot<-data5%>%
   theme_classic();plot
 ```
 
-![](https://github.com/AHuffmyer/ASH_Putnam_Lab_Notebook/tree/master/images/NotebookImages/E5_molecular/23-Apul-energetic-state_files/figure-gfm/unnamed-chunk-91-1.png?raw=true)<!-- -->
+![](https://raw.githubusercontent.com/AHuffmyer/ASH_Putnam_Lab_Notebook/tree/master/images/NotebookImages/E5_molecular/23-Apul-energetic-state_files/figure-gfm/unnamed-chunk-91-1.png?raw=true)<!-- -->
 
 Plot third most important
 
@@ -1484,7 +1484,7 @@ plot<-data5%>%
   theme_classic();plot
 ```
 
-![](https://github.com/AHuffmyer/ASH_Putnam_Lab_Notebook/tree/master/images/NotebookImages/E5_molecular/23-Apul-energetic-state_files/figure-gfm/unnamed-chunk-92-1.png?raw=true)<!-- -->
+![](https://raw.githubusercontent.com/AHuffmyer/ASH_Putnam_Lab_Notebook/tree/master/images/NotebookImages/E5_molecular/23-Apul-energetic-state_files/figure-gfm/unnamed-chunk-92-1.png?raw=true)<!-- -->
 
 Look at a PCA of the differentiating genes.
 
@@ -1536,7 +1536,7 @@ plot<-ggplot2::autoplot(scaled.pca, data=pca_data_vips, loadings=FALSE,  colour=
         axis.title = element_text(size=18,  face="bold"));plot
 ```
 
-![](https://github.com/AHuffmyer/ASH_Putnam_Lab_Notebook/tree/master/images/NotebookImages/E5_molecular/23-Apul-energetic-state_files/figure-gfm/unnamed-chunk-96-1.png?raw=true)<!-- -->
+![](https://raw.githubusercontent.com/AHuffmyer/ASH_Putnam_Lab_Notebook/tree/master/images/NotebookImages/E5_molecular/23-Apul-energetic-state_files/figure-gfm/unnamed-chunk-96-1.png?raw=true)<!-- -->
 
 Pull out PC1 score for each sample for GO term.
 
@@ -1610,7 +1610,7 @@ plot<-data6%>%
   theme_classic();plot
 ```
 
-![](https://github.com/AHuffmyer/ASH_Putnam_Lab_Notebook/tree/master/images/NotebookImages/E5_molecular/23-Apul-energetic-state_files/figure-gfm/unnamed-chunk-102-1.png?raw=true)<!-- -->
+![](https://raw.githubusercontent.com/AHuffmyer/ASH_Putnam_Lab_Notebook/tree/master/images/NotebookImages/E5_molecular/23-Apul-energetic-state_files/figure-gfm/unnamed-chunk-102-1.png?raw=true)<!-- -->
 
 Plot as a PCA.
 
@@ -1670,7 +1670,7 @@ plot<-ggplot2::autoplot(scaled.pca, data=pca_data_cleaned, loadings=FALSE,  colo
         axis.title = element_text(size=18,  face="bold"));plot
 ```
 
-![](https://github.com/AHuffmyer/ASH_Putnam_Lab_Notebook/tree/master/images/NotebookImages/E5_molecular/23-Apul-energetic-state_files/figure-gfm/unnamed-chunk-106-1.png?raw=true)<!-- -->
+![](https://raw.githubusercontent.com/AHuffmyer/ASH_Putnam_Lab_Notebook/tree/master/images/NotebookImages/E5_molecular/23-Apul-energetic-state_files/figure-gfm/unnamed-chunk-106-1.png?raw=true)<!-- -->
 
 Which genes are driving this? Run PLSDA and VIP.
 
@@ -1697,7 +1697,7 @@ MyResult.plsda <- plsda(X,Y) # 1 Run the method
 plotIndiv(MyResult.plsda, ind.names = FALSE, legend=TRUE, legend.title = "Lipid Synthesis", ellipse = FALSE, title="", style = "graphics", centroid=FALSE, point.lwd = 2, cex=2)
 ```
 
-![](https://github.com/AHuffmyer/ASH_Putnam_Lab_Notebook/tree/master/images/NotebookImages/E5_molecular/23-Apul-energetic-state_files/figure-gfm/unnamed-chunk-107-1.png?raw=true)<!-- -->
+![](https://raw.githubusercontent.com/AHuffmyer/ASH_Putnam_Lab_Notebook/tree/master/images/NotebookImages/E5_molecular/23-Apul-energetic-state_files/figure-gfm/unnamed-chunk-107-1.png?raw=true)<!-- -->
 
 Extract VIPs.
 
@@ -1728,7 +1728,7 @@ VIP_list_plot<-treatment_VIP_1 %>%
                      panel.grid.minor = element_blank(), axis.line = element_line(colour = "black"));VIP_list_plot
 ```
 
-![](https://github.com/AHuffmyer/ASH_Putnam_Lab_Notebook/tree/master/images/NotebookImages/E5_molecular/23-Apul-energetic-state_files/figure-gfm/unnamed-chunk-108-1.png?raw=true)<!-- -->
+![](https://raw.githubusercontent.com/AHuffmyer/ASH_Putnam_Lab_Notebook/tree/master/images/NotebookImages/E5_molecular/23-Apul-energetic-state_files/figure-gfm/unnamed-chunk-108-1.png?raw=true)<!-- -->
 
 ``` r
 plot<-data6%>%
@@ -1739,7 +1739,7 @@ plot<-data6%>%
   theme_classic();plot
 ```
 
-![](https://github.com/AHuffmyer/ASH_Putnam_Lab_Notebook/tree/master/images/NotebookImages/E5_molecular/23-Apul-energetic-state_files/figure-gfm/unnamed-chunk-109-1.png?raw=true)<!-- -->
+![](https://raw.githubusercontent.com/AHuffmyer/ASH_Putnam_Lab_Notebook/tree/master/images/NotebookImages/E5_molecular/23-Apul-energetic-state_files/figure-gfm/unnamed-chunk-109-1.png?raw=true)<!-- -->
 
 Plot second most important
 
@@ -1752,7 +1752,7 @@ plot<-data6%>%
   theme_classic();plot
 ```
 
-![](https://github.com/AHuffmyer/ASH_Putnam_Lab_Notebook/tree/master/images/NotebookImages/E5_molecular/23-Apul-energetic-state_files/figure-gfm/unnamed-chunk-110-1.png?raw=true)<!-- -->
+![](https://raw.githubusercontent.com/AHuffmyer/ASH_Putnam_Lab_Notebook/tree/master/images/NotebookImages/E5_molecular/23-Apul-energetic-state_files/figure-gfm/unnamed-chunk-110-1.png?raw=true)<!-- -->
 
 Plot third most important
 
@@ -1765,7 +1765,7 @@ plot<-data6%>%
   theme_classic();plot
 ```
 
-![](https://github.com/AHuffmyer/ASH_Putnam_Lab_Notebook/tree/master/images/NotebookImages/E5_molecular/23-Apul-energetic-state_files/figure-gfm/unnamed-chunk-111-1.png?raw=true)<!-- -->
+![](https://raw.githubusercontent.com/AHuffmyer/ASH_Putnam_Lab_Notebook/tree/master/images/NotebookImages/E5_molecular/23-Apul-energetic-state_files/figure-gfm/unnamed-chunk-111-1.png?raw=true)<!-- -->
 
 Look at a PCA of the differentiating genes.
 
@@ -1818,7 +1818,7 @@ plot<-ggplot2::autoplot(scaled.pca, data=pca_data_vips, loadings=FALSE,  colour=
         axis.title = element_text(size=18,  face="bold"));plot
 ```
 
-![](https://github.com/AHuffmyer/ASH_Putnam_Lab_Notebook/tree/master/images/NotebookImages/E5_molecular/23-Apul-energetic-state_files/figure-gfm/unnamed-chunk-115-1.png?raw=true)<!-- -->
+![](https://raw.githubusercontent.com/AHuffmyer/ASH_Putnam_Lab_Notebook/tree/master/images/NotebookImages/E5_molecular/23-Apul-energetic-state_files/figure-gfm/unnamed-chunk-115-1.png?raw=true)<!-- -->
 
 Pull out PC1 score for each sample for GO term.
 
@@ -1894,7 +1894,7 @@ plot<-data7%>%
   theme_classic();plot
 ```
 
-![](https://github.com/AHuffmyer/ASH_Putnam_Lab_Notebook/tree/master/images/NotebookImages/E5_molecular/23-Apul-energetic-state_files/figure-gfm/unnamed-chunk-121-1.png?raw=true)<!-- -->
+![](https://raw.githubusercontent.com/AHuffmyer/ASH_Putnam_Lab_Notebook/tree/master/images/NotebookImages/E5_molecular/23-Apul-energetic-state_files/figure-gfm/unnamed-chunk-121-1.png?raw=true)<!-- -->
 
 Plot as a PCA.
 
@@ -1954,7 +1954,7 @@ plot<-ggplot2::autoplot(scaled.pca, data=pca_data_cleaned, loadings=FALSE,  colo
         axis.title = element_text(size=18,  face="bold"));plot
 ```
 
-![](https://github.com/AHuffmyer/ASH_Putnam_Lab_Notebook/tree/master/images/NotebookImages/E5_molecular/23-Apul-energetic-state_files/figure-gfm/unnamed-chunk-125-1.png?raw=true)<!-- -->
+![](https://raw.githubusercontent.com/AHuffmyer/ASH_Putnam_Lab_Notebook/tree/master/images/NotebookImages/E5_molecular/23-Apul-energetic-state_files/figure-gfm/unnamed-chunk-125-1.png?raw=true)<!-- -->
 
 Which genes are driving this? Run PLSDA and VIP.
 
@@ -1979,7 +1979,7 @@ MyResult.plsda <- plsda(X,Y) # 1 Run the method
 plotIndiv(MyResult.plsda, ind.names = FALSE, legend=TRUE, legend.title = "Protein Catabolism", ellipse = FALSE, title="", style = "graphics", centroid=FALSE, point.lwd = 2, cex=2)
 ```
 
-![](https://github.com/AHuffmyer/ASH_Putnam_Lab_Notebook/tree/master/images/NotebookImages/E5_molecular/23-Apul-energetic-state_files/figure-gfm/unnamed-chunk-126-1.png?raw=true)<!-- -->
+![](https://raw.githubusercontent.com/AHuffmyer/ASH_Putnam_Lab_Notebook/tree/master/images/NotebookImages/E5_molecular/23-Apul-energetic-state_files/figure-gfm/unnamed-chunk-126-1.png?raw=true)<!-- -->
 
 Extract VIPs.
 
@@ -2012,7 +2012,7 @@ VIP_list_plot<-treatment_VIP_1 %>%
                      panel.grid.minor = element_blank(), axis.line = element_line(colour = "black"));VIP_list_plot
 ```
 
-![](https://github.com/AHuffmyer/ASH_Putnam_Lab_Notebook/tree/master/images/NotebookImages/E5_molecular/23-Apul-energetic-state_files/figure-gfm/unnamed-chunk-127-1.png?raw=true)<!-- -->
+![](https://raw.githubusercontent.com/AHuffmyer/ASH_Putnam_Lab_Notebook/tree/master/images/NotebookImages/E5_molecular/23-Apul-energetic-state_files/figure-gfm/unnamed-chunk-127-1.png?raw=true)<!-- -->
 
 
 ``` r
@@ -2024,7 +2024,7 @@ plot<-data7%>%
   theme_classic();plot
 ```
 
-![](https://github.com/AHuffmyer/ASH_Putnam_Lab_Notebook/tree/master/images/NotebookImages/E5_molecular/23-Apul-energetic-state_files/figure-gfm/unnamed-chunk-128-1.png?raw=true)<!-- -->
+![](https://raw.githubusercontent.com/AHuffmyer/ASH_Putnam_Lab_Notebook/tree/master/images/NotebookImages/E5_molecular/23-Apul-energetic-state_files/figure-gfm/unnamed-chunk-128-1.png?raw=true)<!-- -->
 
 Plot second most important
 
@@ -2037,7 +2037,7 @@ plot<-data7%>%
   theme_classic();plot
 ```
 
-![](https://github.com/AHuffmyer/ASH_Putnam_Lab_Notebook/tree/master/images/NotebookImages/E5_molecular/23-Apul-energetic-state_files/figure-gfm/unnamed-chunk-129-1.png?raw=true)<!-- -->
+![](https://raw.githubusercontent.com/AHuffmyer/ASH_Putnam_Lab_Notebook/tree/master/images/NotebookImages/E5_molecular/23-Apul-energetic-state_files/figure-gfm/unnamed-chunk-129-1.png?raw=true)<!-- -->
 
 Plot third most important
 
@@ -2050,7 +2050,7 @@ plot<-data7%>%
   theme_classic();plot
 ```
 
-![](https://github.com/AHuffmyer/ASH_Putnam_Lab_Notebook/tree/master/images/NotebookImages/E5_molecular/23-Apul-energetic-state_files/figure-gfm/unnamed-chunk-130-1.png?raw=true)<!-- -->
+![](https://raw.githubusercontent.com/AHuffmyer/ASH_Putnam_Lab_Notebook/tree/master/images/NotebookImages/E5_molecular/23-Apul-energetic-state_files/figure-gfm/unnamed-chunk-130-1.png?raw=true)<!-- -->
 
 Look at a PCA of the differentiating genes.
 
@@ -2103,7 +2103,7 @@ plot<-ggplot2::autoplot(scaled.pca, data=pca_data_vips, loadings=FALSE,  colour=
         axis.title = element_text(size=18,  face="bold"));plot
 ```
 
-![](https://github.com/AHuffmyer/ASH_Putnam_Lab_Notebook/tree/master/images/NotebookImages/E5_molecular/23-Apul-energetic-state_files/figure-gfm/unnamed-chunk-134-1.png?raw=true)<!-- -->
+![](https://raw.githubusercontent.com/AHuffmyer/ASH_Putnam_Lab_Notebook/tree/master/images/NotebookImages/E5_molecular/23-Apul-energetic-state_files/figure-gfm/unnamed-chunk-134-1.png?raw=true)<!-- -->
 
 Pull out PC1 score for each sample for GO term.
 
@@ -2209,7 +2209,7 @@ corrplot(subset_cor,
 )
 ```
 
-![](https://github.com/AHuffmyer/ASH_Putnam_Lab_Notebook/tree/master/images/NotebookImages/E5_molecular/23-Apul-energetic-state_files/figure-gfm/unnamed-chunk-139-1.png?raw=true)<!-- -->
+![](https://raw.githubusercontent.com/AHuffmyer/ASH_Putnam_Lab_Notebook/tree/master/images/NotebookImages/E5_molecular/23-Apul-energetic-state_files/figure-gfm/unnamed-chunk-139-1.png?raw=true)<!-- -->
 
 
 
