@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Resazurin Metabolic Assays Protocol for Individual Stress Testing
-date: '2025-04-17'
+date: '2025-04-23'
 categories: Protocol RobertsLab_Oysters
 tags: Cgigas Oyster Protocol Resazurin Survival
 ---
@@ -30,14 +30,12 @@ Store in a dark fridge or freezer.
 
 ### 2. Working resazurin solution
 
-To prepare the working solution of resazurin, prepare the following to make 2,000 mL prior to each batch of trials. Generate into two 1,000 mL bottles. This volume includes a little extra to allow for errors in pipetting.  
+To prepare the working solution of resazurin, prepare the following to make 1,000 mL prior to each batch of trials. This volume includes a little extra to allow for errors in pipetting and testing additional samples.  
 
-- 1,973 mL seawater DI water with Instant Ocean adjusted to approx. 25 ppt) 
-- 4,440 µL (4.44 mL) resazurin stock solution
-- 2,000 µL (2 mL) DMSO
-- 20 mL antibiotic solution [100x Penn/Strep & 100x Fungizone](https://us.vwr.com/store/product/4648458/null) - this should be frozen in a dark freezer and defrosted before use
-
-Use one of the bottles (1,000 mL) to fill sample cups (see below). Place the other in an incubator heated to 42°C to pre heat for the stress trial.  
+- 987 mL seawater DI water with Instant Ocean adjusted to approx. 25 ppt) 
+- 2,220 µL (2.22 mL) resazurin stock solution
+- 1,000 µL (1 mL) DMSO
+- 10 mL antibiotic solution [100x Penn/Strep & 100x Fungizone](https://us.vwr.com/store/product/4648458/null) - this should be frozen in a dark freezer and defrosted before use
 
 ### 3. Supplies 
 
@@ -52,41 +50,38 @@ Use one of the bottles (1,000 mL) to fill sample cups (see below). Place the oth
 - 25 mL glass seriological pipette and dispenser 
 - Scale bar/ruler
 - 96 well plate 
+- Temperature probe 
 
 For this experiment, we pre-labeled cups with the family ID ("A", "B", "C", and so on) and a serial number. For example, "A1", "A2", and so on. 
 
 We will be conducting measurements on n=8 oysters per family per batch. We have five families, which will total to 40 oysters measured per batch. Five blanks will be run as well. 
 
-Measurements will be repeated over 3-4 batches to obtain final replication of n=24-32 per family. 
+Measurements will be repeated over 5-6 batches to obtain final replication of n=40-50 per family. 
 
 # Protocol
 
-On each day, we will measure metabolic response of oysters first at ambient temperature (3 h; 18-20°C) and then at high temperature (3 h; 42°C).  
+On each day, we will measure metabolic response of oysters first at ambient temperature (3 h; incubator at 18°C) and then at high temperature (3 h; incubator at 42°C).  
 
-We will measure metabolic rate every hour and assess survival at each hour.  
-
-After the ambient period, resazurin will be refreshed using the pre heated working solution and measurements will start again.  
+We will measure metabolic rate every hour and assess survival at the end of the trial.  
 
 ## Schedule 
 
 Each day, the schedule will be as follows. 
 
-08:00-09:00: Prepare solutions, load oysters in cups, take size images   
+08:00-09:00: Prepare solutions, load oysters in cups, take size images, set incubator to 18°C   
 09:00: Ambient Time 0 measurement   
 10:00: Ambient Time 1 measurement   
 11:00: Ambient Time 2 measurement  
 12:00: Ambient Time 3 measurement   
-12:00-13:00: Refresh resazurin and start high temperature exposure
+12:00: Start high temperature exposure, set incubator to 42°C
 13:00: High Time 0 measurement
 14:00: High Time 1 measurement
 15:00: High Time 2 measurement
 16:00: High Time 3 measurement
 
-*We will test this schedule and see if we need to extend the time. From previous tests, differences were clearly seen by 3 hours of incubation.*  
-
 ## Load and prepare samples  
 
-Before starting, set the incubator at 18°C and pre heat the solution in another incubator set at 42°C as listed above.   
+Before starting, set the incubator at 18°C. 
 
 1. Prepare seed for assays by getting some seed from each family bag in the FTR tank room. We will need n=8 seed per family within the 15-20 mm size range. 
 2. Place the seed next to their empty cups with their specified ID such that the oyster and the ID can be seen next to each other.
@@ -94,7 +89,7 @@ Before starting, set the incubator at 18°C and pre heat the solution in another
 4. Prepare n=5 cups for blank samples ("blank 1", "blank 2", and so on). 
 5. Write the sample IDs in the notebook. 
 6. Move the oysters into their respective cups. 
-7. Fill each cup with 20 mL of resazurin working stock at ambient temperature using a seriological pipette. Rinse the pipette with DI water after this step. 
+7. Fill each cup with 15 mL of resazurin working stock at ambient temperature using a seriological pipette. Rinse the pipette with DI water after this step. 
 8. Move the oysters to the incubator set at 18°C and stack in random order. Proceed with the first measurement (next step below). 
 9. Ensure a temperature logger is in the incubator. 
 
@@ -103,8 +98,8 @@ Before starting, set the incubator at 18°C and pre heat the solution in another
 1. Turn on the computer and plate reader. Open the plate reader software. 
 2. Use the "oyster-resazurin" protocol in the software to take a measurement of each sample at T0 before starting the incubation. 
 3. Take a sample of 250-280 µL out of each cup using a transfer pipette and add to a 96 well plate. Rinse the pipette with DI water between samples. Put sample A1 in well A1 and so on.  
-4. As a sample is taken, observe whether the oyster is dead or alive. If the oyster is dead, record this in the notebook in a table that includes the time point and a list of the ID's of dead oysters. Even if the oyster is dead, collect a resazurin sample.
-5. After collecting a sample from each cup, move the cups back into the incubator in random order to randomize position in the incubator. 
+4. After collecting a sample from each cup, move the cups back into the incubator in random order to randomize position in the incubator. 
+5. Take temperature readings using a digital temperature probe in n=3-4 cups and record in the notebook. 
 6. Record the sample locations in the notebook. 
 7. Put the plate on the loading platform. 
 8. Select the "resazurin-fluorescence" protocol. 
@@ -120,27 +115,28 @@ Before starting, set the incubator at 18°C and pre heat the solution in another
 ## Measurements at 42°C 
 
 1. After the T3 measurement is taken in the ambient condition, we will now conduct the measurements at 42°C. 
-2. Empty the resazurin from each cup into a hazardous waste collection container and rinse with seawater briefly to remove most resazurin residue. Keep the oyster in their cup! 
-3. Change the incubator to 42°C.
-4. Now fill each cup with the pre heated 42°C resazurin solution. 
-5. Immediately take a sample for the T0 measurement of the high temperature phase using the same protocol as described above for taking measurements. Survival does not need to be assessed at this time point. 
-6. Select the "resazurin-fluorescence" protocol. 
-7. Collect and export readings as directed in the plate software. 
-8. Save the file as: `YYYYMMDD_42C_T0_fl.xlsx`. For example, `20250128_42C_T0_fl.xlsx`. 
-9. Now, repeat measurements under absorbance. Select the "resazurin-absorbance" protocol. 
-10. Collect and export readings as directed in the plate software. 
-11. Save the file as: `YYYYMMDD_42C_T0_ab.xlsx`. For example, `20250128_42C_T0_ab.xlsx`. 
-12. After collecting a sample from each cup, move the cups back into the incubator now at 42°C in random order to randomize position in the incubator. 
-13. Record the time that samples were taken and added back into the incubator. 
-14. Save the data to a flash drive and add to GitHub at the [location here under the Data directory](https://github.com/RobertsLab/oyster-resazurin). 
-15. Record the time of the measurement. Rinse the 96 well plate thoroughly. 
-16. Repeat at 1, 2, and 3 hours of incubation at 42°C.
+2. Change the incubator to 42°C.
+3. Each hour, repeat the measurements as before for another three hours (T4, T5, and T6)
+4. For each measurement, select the "resazurin-fluorescence" protocol. 
+5. Collect and export readings as directed in the plate software for fluorescence. 
+6. Save the file as: `YYYYMMDD_42C_T0_fl.xlsx`. For example, `20250128_42C_T0_fl.xlsx`. 
+7. Now, repeat measurements under absorbance. Select the "resazurin-absorbance" protocol. 
+8. Collect and export readings as directed in the plate software. 
+9. Save the file as: `YYYYMMDD_42C_T0_ab.xlsx`. For example, `20250128_42C_T0_ab.xlsx`. 
+10. After collecting a sample from each cup, move the cups back into the incubator at 42°C in random order to randomize position in the incubator. 
+11. Record the time that samples were taken and added back into the incubator. At each hour, take temperature readings using a digital temperature probe in n=3-4 cups and record in the notebook.
+12. Save the data to a flash drive and add to GitHub at the [location here under the Data directory](https://github.com/RobertsLab/oyster-resazurin). 
+13. Record the time of the measurement. Rinse the 96 well plate thoroughly. 
+14. Repeat at T4, T5, and T6 hours of incubation at 42°C.
+
+## Final survival measurements 
+
+1. At the end of the incubation, following the T6 measurement, empty the resazurin from each cup into a waste collection container. 
+2. Look at each oyster to see if the shell is open. If the shell is open and does not close when you probe the shell, the oyster is dead. 
+3. Record whether each oyster is dead or alive in the notebook and record the oyster ID with each survival assessment. 
 
 ## Clean up
 
-After the final T3 measurement and survival assessment at 42°C, the trial is completed. Follow these steps for clean up.  
-
-- Empty the resazurin from each cup into a hazardous waste collection container. 
 - Place oysters in a large tripour or cup and then put them in the compost. 
 - Rinse all cups, pipettes, and plates thoroughly. 
 - Save all data to the zip drive and upload to GitHub or send to Ariana. 
@@ -149,8 +145,10 @@ After the final T3 measurement and survival assessment at 42°C, the trial is co
 
 ## Assemble data 
 
-- Survival: A data sheet with columns for date, temperature, time point, oyster ID, family ID, and relevant notes 
+- Survival: A data sheet with columns for date, temperature, oyster ID, family ID, and relevant notes 
 - Metadata: A data sheet with columns for date, temperature, oyster ID, family ID, and relevant notes
+- Resazurin fluorescence: All data files for fluorescence measurements during the trial (T0-T6 "fl" files). 
+- Resazurin absorbance: All data files for absorbance measurements during the trial (T0-T6 "ab" files). 
 
 Scripts for analysis will be available on GitHub [here](https://github.com/RobertsLab/oyster-resazurin). 
 
