@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Resazurin Metabolic Assays Protocol for Steven's VIMS trip
-date: '2025-04-17'
+date: '2025-04-20'
 categories: Protocol RobertsLab_Oysters
 tags: Cgigas Oyster Protocol Resazurin Survival
 ---

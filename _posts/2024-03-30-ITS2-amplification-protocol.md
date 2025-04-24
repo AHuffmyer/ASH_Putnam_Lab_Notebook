@@ -1,7 +1,7 @@
 ---
 layout: post
 title: ITS2 amplicon sequencing preparation protocol
-date: '2025-04-01'
+date: '2025-04-20'
 categories: Protocol
 tags: PCR ITS2 Molecular
 ---

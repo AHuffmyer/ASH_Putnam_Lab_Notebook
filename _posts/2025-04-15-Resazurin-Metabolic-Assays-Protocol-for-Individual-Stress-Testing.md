@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Resazurin Metabolic Assays Protocol for Individual Stress Testing
-date: '2025-04-23'
+date: '2025-04-24'
 categories: Protocol RobertsLab_Oysters
 tags: Cgigas Oyster Protocol Resazurin Survival
 ---

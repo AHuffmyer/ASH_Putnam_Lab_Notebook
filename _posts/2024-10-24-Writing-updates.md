@@ -12,7 +12,7 @@ They are organized from "oldest" data sets to "newest" data sets.
 
 ## Mcap2020   
 
-*Status*: Pre-acceptance! 
+*Status*: Acceptance! 
 
 *Next step*: Final publication check list 
 

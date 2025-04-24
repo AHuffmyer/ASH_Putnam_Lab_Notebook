@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Poly IC Resazurin Trials 20 March 2025
-date: '2025-03-20'
+date: '2025-04-20'
 categories: RobertsLab_Oysters PolyIC_Larvae
 tags: Resazurin Oyster Cgigas
 ---

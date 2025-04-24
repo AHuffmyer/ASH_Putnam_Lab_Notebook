@@ -37,7 +37,7 @@ Date|Position| Affiliation
 
 [Google Scholar Profile](https://scholar.google.com/citations?user=_dw3pYEAAAAJ&hl=en)
 
-18. **AS Huffmyer**, KH Wong, DM Becker, E Strand, T Mass, HM Putnam. 2023. Metabolic dynamics of the coral-algal symbiosis from fertilization to settlement identify critical coral energetic vulnerabilities. In review. Current Biology. Available on bioRxiv at https://www.biorxiv.org/content/10.1101/2023.03.20.533475 
+18. **AS Huffmyer**, KH Wong, DM Becker, E Strand, T Mass, HM Putnam. 2023. Shifts and critical periods in coral metabolism reveal energetic vulnerability during development. *In press*. Current Biology.  
 17. **AS Huffmyer**, J Ashey, E Strand, E Chiles, X Su, HM Putnam. 2024. Coral larvae increase nitrogen assimilation to stabilize algal symbiosis and combat bleaching under increased temperature. PLoS Biology 22(11): e3002875
 16. Venkataraman Y, **AS Huffmyer**, S White, A Downey-Wall, J Ashey, D Becker, Z Bengtsson, HM Putnam, E Strand, J Rodríguez-Casariego, SA Wanamaker, K Lottheros, S Roberts. 2024. DNA methylation correlates with transcriptional noise in response to elevated pCO2 in the eastern oyster (*Crassostrea virginica*). Environmental Epigenetics. 10(1): dvae018
 15. Chiles EN, **AS Huffmyer**, C Drury, HM Putnam, D Bhattacharya, X Su. 2022. Stable isotope tracing reveals compartmentalized nitrogen assimilation in scleractinian corals. Frontiers in Marine Science. https://doi.org/10.3389/fmars.2022.1035523  
@@ -113,6 +113,7 @@ Date|Position| Affiliation
 
 #### *Invited Lectures and Presentations*  
 
+10. **Huffmyer AS**. Empowering Discovery: The Role of Education in Scientific Resilience. Philanthropic Education Organization of Oregon. Seaside, OR, USA. April 2025.
 9. **Huffmyer AS**. Understanding shifts in symbiotic and physiological state in reef-building corals across developmental and environmental gradients. Old Dominion University Biology Seminar Series. Virtual invited seminar speaker. December 2022.  
 8. **Huffmyer AS**. Multi-omic approaches to understand reef coral development and symbiosis. University of Washington eScience Postdoctoral Fellows seminar. Virtual invited seminar speaker. November 2022.    
 7. **Huffmyer AS**. Physiological and multi-omic signatures of shifts in symbiotic nutritional exchange in reef-building coral early life history. University of Technology Sydney Climate Change Cluster (C3). Virtual invited seminar speaker. June 2022.   

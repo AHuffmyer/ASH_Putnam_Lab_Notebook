@@ -1,7 +1,7 @@
 ---
 layout: post
 title: E5 timeseries energy state exploratory analysis
-date: '2025-04-11'
+date: '2025-04-24'
 categories: E5
 tags: Physiology R 
 ---
