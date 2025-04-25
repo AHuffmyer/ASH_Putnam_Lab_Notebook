@@ -51,6 +51,7 @@ To prepare the working solution of resazurin, prepare the following to make 1,00
 - Scale bar/ruler
 - 96 well plate 
 - Temperature probe 
+- Color scale
 
 For this experiment, we pre-labeled cups with the family ID ("A", "B", "C", and so on) and a serial number. For example, "A1", "A2", and so on. 
 
@@ -98,19 +99,21 @@ Before starting, set the incubator at 18°C.
 1. Turn on the computer and plate reader. Open the plate reader software. 
 2. Use the "oyster-resazurin" protocol in the software to take a measurement of each sample at T0 before starting the incubation. 
 3. Take a sample of 250-280 µL out of each cup using a transfer pipette and add to a 96 well plate. Rinse the pipette with DI water between samples. Put sample A1 in well A1 and so on.  
-4. After collecting a sample from each cup, move the cups back into the incubator in random order to randomize position in the incubator. 
-5. Take temperature readings using a digital temperature probe in n=3-4 cups and record in the notebook. 
-6. Record the sample locations in the notebook. 
-7. Put the plate on the loading platform. 
-8. Select the "resazurin-fluorescence" protocol. 
-9. Collect and export readings as directed in the plate software. 
-10. Save the file as: `YYYYMMDD_18C_T0_fl.xlsx`. For example, `20250128_18C_T0_fl.xlsx`. 
-11. Now, repeat measurements under absorbance. Select the "resazurin-absorbance" protocol. 
-12. Collect and export readings as directed in the plate software. 
-13. Save the file as: `YYYYMMDD_18C_T0_ab.xlsx`. For example, `20250128_18C_T0_ab.xlsx`. 
-14. Save the data to a flash drive and add to GitHub at the [location here under the Data directory](https://github.com/RobertsLab/oyster-resazurin). 
-15. Record the time of the measurement. Rinse the 96 well plate thoroughly. 
-16. Repeat at 1, 2, and 3 hours of incubation at 18°C.
+4. Take an image of all cups with a color scale at the T0 (initial) sampling. Take lids off of the cups and take an image that includes all cups so that we can conduct color analysis of the liquid. 
+5. After collecting a sample from each cup, move the cups back into the incubator in random order to randomize position in the incubator. 
+6. Take temperature readings using a digital temperature probe in n=3-4 cups and record in the notebook. 
+7. Record the sample locations in the notebook. 
+8. Put the plate on the loading platform. 
+9. Select the "resazurin-fluorescence" protocol. 
+10. Collect and export readings as directed in the plate software. 
+11. Save the file as: `YYYYMMDD_18C_T0_fl.xlsx`. For example, `20250128_18C_T0_fl.xlsx`. 
+12. Now, repeat measurements under absorbance. Select the "resazurin-absorbance" protocol. 
+13. Collect and export readings as directed in the plate software. 
+14. Save the file as: `YYYYMMDD_18C_T0_ab.xlsx`. For example, `20250128_18C_T0_ab.xlsx`. 
+15. Save the data to a flash drive and add to GitHub at the [location here under the Data directory](https://github.com/RobertsLab/oyster-resazurin). 
+16. Record the time of the measurement. Rinse the 96 well plate thoroughly. 
+17. Repeat at 1, 2, and 3 hours of incubation at 18°C.
+18. Take an image of all cups with a color scale at the T3 (final ambient) sampling. Take lids off of the cups and take an image that includes all cups so that we can conduct color analysis of the liquid. 
 
 ## Measurements at 42°C 
 
@@ -128,6 +131,7 @@ Before starting, set the incubator at 18°C.
 12. Save the data to a flash drive and add to GitHub at the [location here under the Data directory](https://github.com/RobertsLab/oyster-resazurin). 
 13. Record the time of the measurement. Rinse the 96 well plate thoroughly. 
 14. Repeat at T4, T5, and T6 hours of incubation at 42°C.
+15. Take an image of all cups with a color scale at the T6 (final high temperature) sampling. Take lids off of the cups and take an image that includes all cups so that we can conduct color analysis of the liquid. 
 
 ## Final survival measurements 
 
@@ -149,6 +153,7 @@ Before starting, set the incubator at 18°C.
 - Metadata: A data sheet with columns for date, temperature, oyster ID, family ID, and relevant notes
 - Resazurin fluorescence: All data files for fluorescence measurements during the trial (T0-T6 "fl" files). 
 - Resazurin absorbance: All data files for absorbance measurements during the trial (T0-T6 "ab" files). 
+- Photos for color analysis: All images for color analysis (T0, T3, and T6). 
 
 Scripts for analysis will be available on GitHub [here](https://github.com/RobertsLab/oyster-resazurin). 
 
