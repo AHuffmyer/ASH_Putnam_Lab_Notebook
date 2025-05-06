@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Writing updates
-date: '2025-04-06'
+date: '2025-05-01'
 categories: Writing
 tags: Writing
 ---
@@ -15,6 +15,14 @@ They are organized from "oldest" data sets to "newest" data sets.
 *Status*: Acceptance! 
 
 *Next step*: Final publication check list 
+
+## Omic perspectives paper 
+
+*Status*: Final writing 
+
+*Next step*: Submission 
+
+*Timeline*: Submit in mid May
 
 ## E5 physiology 
 
@@ -77,8 +85,8 @@ They are organized from "oldest" data sets to "newest" data sets.
 This is a list of the papers (I think all of them) that I am a coauthor on at the moment:  
 
 - Ashey et al. Pocillopora acuta temp x pCO2 - **in review**
-- Ashey et al. E5 ncRNA descriptive - **submitted**
-- Gorman et al. Toxin discovery = **in review**
+- Ashey et al. E5 ncRNA descriptive - **in review**
+- Gorman et al. Toxin discovery = **in revisions**
 - Becker et al. Molecular mechanisms - **writing**
 - Becker et al. Heatwave environmental memory - **writing**  
 - Ashey et al. Mcap developmental RNAs - **writing** 

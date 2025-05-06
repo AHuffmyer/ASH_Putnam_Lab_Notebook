@@ -1,7 +1,7 @@
 ---
 layout: post
 title: All Projects To Do List
-date: '2025-04-20'
+date: '2025-05-01'
 categories: Monthly_Goals
 tags: Goals
 ---
@@ -74,24 +74,24 @@ This post lists all my ongoing projects and to-do list.
 **Data collection and analysis** 
 
 - *Goose Point*
-	- Measure size of December 2024 oysters from images (Noah K. in progress) and analyze
+	- Conduct May assessment
   
 - *Point Whitney* 
-	- Conduct spring assessment of Efforts siblings outplanted at Point Whitney 
+	- Conduct May assessment of Efforts siblings outplanted at Point Whitney 
 
 - *Goose Point* 
-	- Conduct spring assessment of Efforts oysters outplanted 
+	- Conduct May assessment of Efforts oysters outplanted 
 
 - *Baywater* 
-	- Conduct spring assessment of 10K oysters outplanted
+	- Conduct May assessment of 10K oysters outplanted
 
 - *Westcott* 
-	- Conduct spring assessment of Efforts oysters outplanted
+	- Conduct May assessment of Efforts oysters outplanted
 
 ## Oyster Lifestage Carry Over 
 **Analysis and writing** 
 
-- Analyze next set of qPCR 
+- Analyze next set of qPCR (Sam)
 - Storyboard manuscript 
 - Analyze final time point growth data 
 - Organize GitHub repository 
@@ -103,14 +103,13 @@ This post lists all my ongoing projects and to-do list.
 ## 10K Seed    
 **Data collection and analysis**   
 
-- Conduct spring growth and survival of outplants at Baywater shellfish 
-- Pending outplant data, storyboard potential manuscripts or additional analyses 
+- Conduct May growth and survival of outplants at Baywater shellfish 
 
 ## PolyIC Larvae   
 **Data collection and experiments**   
  
-- Measure size from December, January, February images for growth (Madeline)
-- RNA extractions and RNAseq analyses (on hold)
+- Final resazurin and growth analysis 
+- RNA extractions and RNAseq analyses (Sam)
 
 ## Oyster 2025 Stress Hardening   
 **Planning**   
@@ -122,7 +121,6 @@ This post lists all my ongoing projects and to-do list.
 - BIO-OCE submission with Hollie (July/August 2025)
 - Perspectives manuscript with Yaamini
 - WSG 2025 proposal 
-- WSG 2025 annual report 
 
 ## Outreach and education   
 
