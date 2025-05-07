@@ -3,7 +3,7 @@ layout: post
 title: Multi-Omic Integration Analysis Part 1
 date: '2022-04-26'
 categories: Mcapitata_EarlyLifeHistory_2020 Analysis
-tags: Multi-omic R
+tags: Multiomic R
 ---
 
 This post details preliminary analyses of multi-omic datasets collected in the *Montipora capitata* early life history time series project.  
