@@ -69,18 +69,17 @@ We will measure metabolic rate every hour and assess survival at the end of the 
 
 ## Schedule 
 
-Each day, the schedule will be as follows. 
+Here is an example schedule.  
 
-08:00-09:00: Prepare solutions, load oysters in cups, take size images, set incubator to 18°C    
-09:00: Ambient Time 0 measurement   
-10:00: Ambient Time 1 measurement   
-11:00: Ambient Time 2 measurement  
-12:00: Ambient Time 3 measurement   
-12:00: Start high temperature exposure, set incubator to 42°C  
-13:00: High Time 4 measurement   
-14:00: High Time 5 measurement  
-15:00: High Time 6 measurement  
-16:00: High Time 7 measurement (preferred, but can be removed if time is limiting)    
+08:30-09:30: Prepare solutions, load oysters in cups, take size images, set incubator to 18°C    
+09:30: Ambient Time 0 measurement   
+10:30: Ambient Time 1 measurement   
+11:30: Ambient Time 2 measurement  
+12:30: Ambient Time 3 measurement   
+12:30: Start high temperature exposure, set incubator to 42°C  
+13:30: High Time 4 measurement   
+14:30: High Time 5 measurement  
+15:30: High Time 6 measurement    
 
 ## Load and prepare samples  
 
@@ -141,7 +140,7 @@ Record all times, notes, and sample information in the notebook.
 
 After samples are taken at the 3 h (T3) time point, increase the incubator temperature to 44°C. This will increase water temperature to 41-42°C during the incubation.    
 
-Repeat the steps above for fluorescence, absorbance, and color measurements at 4 h (T4), 5 h (T5), 6 h (T6), and 7 h (T7) of incubation at high temperature. If time is short for the day, the 7 h measurement can be skipped. Record the 7 h time point if possible.       
+Repeat the steps above for fluorescence, absorbance, and color measurements at 4 h (T4), 5 h (T5), and 6 h (T6) of incubation at high temperature. If there is more time, a 7 h measurement can be done as well.      
 
 At the end of the day, save all of the data to a flash drive and add the text files to GitHub at the [location here under the Data directory](https://github.com/RobertsLab/resazurin-assay-development/tree/main/data/usda-families). 
 
