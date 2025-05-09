@@ -14,15 +14,15 @@ They are organized from "oldest" data sets to "newest" data sets.
 
 *Status*: Acceptance! 
 
-*Next step*: Final publication check list 
+*Next step*: Production 
 
 ## Omic perspectives paper 
 
-*Status*: Final writing 
+*Status*: Submitted!  
 
-*Next step*: Submission 
+*Next step*: Revisions 
 
-*Timeline*: Submit in mid May
+*Timeline*: Pending review 
 
 ## E5 physiology 
 

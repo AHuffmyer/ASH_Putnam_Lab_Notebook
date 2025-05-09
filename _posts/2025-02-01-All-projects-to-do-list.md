@@ -7,11 +7,6 @@ tags: Goals
 ---
 
 This post lists all my ongoing projects and to-do list.  
-  
-## Mcap 2020   
-**Accepted!**   
-
-- Final revisions 
 
 ## Hawaii 2023   
 **Analysis and writing**   
