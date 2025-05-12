@@ -32,9 +32,9 @@ Store in a dark fridge or freezer.
 
 ### 2. Working resazurin solution
 
-To prepare the working solution of resazurin, prepare the following to make 500 mL prior to each batch of trials. This volume includes a little extra to allow for errors in pipetting and testing additional samples.  
+To prepare the working solution of resazurin, prepare the following to make 500 mL prior to each batch of trials. This volume includes a little extra to allow for errors in pipetting and testing additional samples.
 
-- 194 mL seawater DI water with Instant Ocean adjusted to approx. 25 ppt) 
+- 494 mL seawater DI water with Instant Ocean adjusted to approx. 25 ppt) 
 - 1,110 µL (1.11 mL) resazurin stock solution
 - 500 µL (0.5 mL) DMSO
 - 5 mL antibiotic solution [100x Penn/Strep & 100x Fungizone](https://us.vwr.com/store/product/4648458/null) - this should be frozen in a dark freezer and defrosted before use
