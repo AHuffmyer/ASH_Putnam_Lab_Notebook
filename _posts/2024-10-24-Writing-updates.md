@@ -30,7 +30,7 @@ They are organized from "oldest" data sets to "newest" data sets.
 
 *Next step*: Complete introduction and discussion writing 
 
-*Timeline*: Complete writing and submit by end of February 2025
+*Timeline*: Complete writing and submit by May 2025
 
 ## Hawaii2023
 
@@ -38,7 +38,7 @@ They are organized from "oldest" data sets to "newest" data sets.
 
 *Next step*: Finish RNAseq, ITS2, lipids, metabolites, and phenoplate data analysis
 
-*Time line*: Wrap up data analysis by January 2025
+*Time line*: Wrap up data analysis by June 2025
 
 ## Moorea2023
 
@@ -46,7 +46,7 @@ They are organized from "oldest" data sets to "newest" data sets.
 
 *Next step*: Write methods complete up to this point, conduct DNA species ID 
 
-*Timeline*: DNA species ID completed by end of January 2025, decide on sequencing by January 2025
+*Timeline*: Process metabolomics and RNA sequencing by July 2025
 
 ## Resazurin paper 
 
@@ -54,7 +54,7 @@ They are organized from "oldest" data sets to "newest" data sets.
 
 *Next step*: Finalize analysis, draft manuscript   
 
-*Timeline*: Draft by May 2025  
+*Timeline*: Draft by July 2025  
 
 ## Lifestage Carryover 
 
@@ -62,7 +62,7 @@ They are organized from "oldest" data sets to "newest" data sets.
 
 *Next step*: Analyze final qPCR data and write methods section
 
-*Timeline*: Finish analysis and methods by May 2025
+*Timeline*: Finish analysis and methods by June 2025
 
 ## PolyIC Larvae   
 
@@ -70,7 +70,7 @@ They are organized from "oldest" data sets to "newest" data sets.
 
 *Next step*: Analyze resazurin data and growth; complete methods section
 
-*Timeline*: Finish analysis by April 2025
+*Timeline*: RNA sequencing 
 
 ## Nom Nom Project   
 
@@ -78,7 +78,7 @@ They are organized from "oldest" data sets to "newest" data sets.
 
 *Next step*: Analyze PR data and work with collaborators on ITS2 data
 
-*Timeline*: Finish analysis by June 2025
+*Timeline*: Pending metadata provided by HP 
 
 ## Collaborative manuscripts 
 

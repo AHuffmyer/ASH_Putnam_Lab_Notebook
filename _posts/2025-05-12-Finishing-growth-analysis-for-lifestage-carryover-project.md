@@ -32,5 +32,23 @@ There was no difference in growth over time depending on the original treatment.
 
 ## Tracking spat growth over time  
 
-I will update this section when image analysis is complete.  
+Spat were significantly larger in the treated group in August (the warmer time of the year). 
+
+There is a significant month x treatment effect (P<0.001). 
+
+```
+Type III Analysis of Variance Table with Satterthwaite's method
+                 Sum Sq Mean Sq NumDF   DenDF F value    Pr(>F)    
+month           10374.6 1296.83     8 12.4698 55.5057 1.522e-08 ***
+treatment           1.5    1.46     1  2.5899  0.0624 0.8212679    
+month:treatment  1139.5  142.44     8 21.0479  6.0966 0.0004108 ***
+```
+
+Interestingly, treated spat are significantly larger in August 2024, but are significantly smaller in October 2024.    
+
+![](https://github.com/AHuffmyer/ASH_Putnam_Lab_Notebook/blob/master/images/NotebookImages/oysters/lco/20250512/spat_lengths_box.png?raw=true)
+
+
+
+
 
