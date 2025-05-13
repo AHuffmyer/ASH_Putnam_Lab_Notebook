@@ -81,14 +81,13 @@ This post lists all my ongoing projects and to-do list.
 	- Conduct May assessment of 10K oysters outplanted
 
 - *Westcott* 
-	- Conduct May assessment of Efforts oysters outplanted
+	- Analyze May assessment images (Grace L.)
 
 ## Oyster Lifestage Carry Over 
 **Analysis and writing** 
 
 - Analyze next set of qPCR (Sam)
 - Storyboard manuscript 
-- Analyze final time point growth data 
 - Organize GitHub repository 
 - Introduction 
 - Methods 
