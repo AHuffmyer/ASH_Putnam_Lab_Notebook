@@ -1,7 +1,7 @@
 ---
 layout: post
 title: All Projects To Do List
-date: '2025-05-01'
+date: '2025-05-15'
 categories: Monthly_Goals
 tags: Goals
 ---
@@ -43,11 +43,9 @@ This post lists all my ongoing projects and to-do list.
 **Data analysis** 
 
 - Examine neural networks and SEM modeling for time series multiomic modeling analyses 
-- Analyze lipid data 
-- Analyze metabolite data 
+- Analyze lipid data with site effects 
 - Multiomic WGCNA analyses 
 - Machine learning multiomic prediction analyses
-- Energy state analysis 
 
 ## E5 Nom Nom   
 **Data analysis** 
@@ -113,8 +111,6 @@ This post lists all my ongoing projects and to-do list.
 ## Planning and funding    
 
 - BIO-OCE submission with Hollie (July/August 2025)
-- Perspectives manuscript with Yaamini
-- WSG 2025 proposal 
 
 ## Outreach and education   
 
