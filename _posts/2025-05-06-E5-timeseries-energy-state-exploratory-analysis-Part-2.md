@@ -1,7 +1,7 @@
 ---
 layout: post
 title: E5 timeseries energy state exploratory analysis Part 2
-date: '2025-04-24'
+date: '2025-05-17'
 categories: E5
 tags: R Lipidomics Lipids Metabolomics Multivariate Pocillopora Porites Acropora  
 ---
