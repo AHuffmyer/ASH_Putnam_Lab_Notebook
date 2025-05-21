@@ -22,7 +22,7 @@ We processed 32 total bags today. There were no missing bags and no issues to no
 
 Grace will return in about a month to move oysters into larger mesh bags.  
 
-All images of data sheets and temperature logger files have been uploaded to GitHub [here]().  
+All images of data sheets and temperature logger files have been uploaded to GitHub [here](https://github.com/RobertsLab/project-gigas-conditioning/tree/main/data/outplanting/GoosePoint).  
 
 Here are some field pictures from today.  
 
