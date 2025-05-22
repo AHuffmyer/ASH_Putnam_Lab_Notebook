@@ -18,16 +18,17 @@ Samples include larvae preserved in RNA/DNA shield as well as clippings from rec
 
 ### Materials 
 
-- Zymo Quick-DNA/RNA Miniprep Plus Kit [HERE](https://files.zymoresearch.com/protocols/_d7003t_d7003_quick-dna-rna_miniprep_plus_kit.pdf) Protocol Booklet
+- Zymo Quick-DNA/RNA Miniprep Plus [Kit and Protocol](https://files.zymoresearch.com/protocols/_d7003t_d7003_quick-dna-rna_miniprep_plus_kit.pdf)
 - Tris-Ethylenediaminetetraacetic acid (EDTA) 1X buffer for DNA elution
-- Heating block capable of heating to 70ºC
+- Heating block capable of heating to 70°C
 - Centrifuge and rotor capable of spinning at 15,000 rcf
 - Sample tube freezer boxes (1 for RNA and 1 for DNA)
 - Plastics 
-	- 3-4 1.5 mL microcentrifuge tubes per sample (3 tubes for larval samples, 4 tubes for recruit fragment samples)
+	- 3-4 1.5 mL microcentrifuge tubes per sample 
 	- 2 PCR tubes per sample
 	- 2 Qubit tubes per sample 
 	- 1 5 mL tube per sample 
+- Beads for bead beating [RPI Glass disruption beads](https://www.rpicorp.com/products/laboratory-equipment/homogenizers/disruption-beads-for-yeast-fungi-0-5mm-glass-2-5-g-cc-454-gm.html) 
 
 ### Protocol 
 
@@ -37,15 +38,23 @@ Samples include larvae preserved in RNA/DNA shield as well as clippings from rec
 
 - Spin down tubes so there are no bubbles in lid 
 
-- Add 0.25 uL of glass beads (0.5mm) into sample tubes. 
+- Add ~50 uL of glass beads (0.5mm) into sample tubes (enough to cover the bottom of the tube) 
 
-- Beat beat tubes at high speed for 2 minutes 
+- Beat beat tubes at high speed for 2 minutes. 
 
 - Spin down in mini centrifuge for 1 minute 
+
+- Remove 300 uL of liquid sample from the original sample tube into a new tube to proceed with extraction. 
 
 #### Sample prep: Recruit fragments 
 
 - Thaw samples in an ice bucket. 
+
+- Depending on the color of the shield pigementation, bead beating may be needed. If the shield is pale, bead beat the sample. 
+
+- Beat beat tubes at high speed for 2 minutes. 
+
+- Spin down in mini centrifuge for 1 minute 
 
 - Remove 300 uL of liquid sample from the original sample tube into a new tube to proceed with extraction. 
 
@@ -83,7 +92,7 @@ Samples include larvae preserved in RNA/DNA shield as well as clippings from rec
 
 - Move yellow DNA spin column into final gDNA 1.5 mL tube. 
 
-- Add 50 µL of warm Tris to spin column. Let columns sit for 5 minutes at room temperature. Spin for 30 seconds at 16000 rpm. DO THIS TWICE!
+- Add 40 µL of warm Tris to spin column. Let columns sit for 5 minutes at room temperature. Spin for 30 seconds at 16000 rpm. DO THIS TWICE! Total elution volume = 80 µL
 
 - Aliquot 12 µL into PCR tubes for QC. Store the rest of the gDNA at -20℃. 
 
@@ -118,7 +127,7 @@ Samples include larvae preserved in RNA/DNA shield as well as clippings from rec
 
 - Move green RNA spin column into final RNA 1.5 mL tube. 
 
-- Add 50 µL of warmed DNA/RNA free water to spin column. Let columns sit for 5 minutes. Spin for 30 seconds at 16000 rpm. DO THIS TWICE!
+- Add 40 µL of warmed DNA/RNA free water to spin column. Let columns sit for 5 minutes. Spin for 30 seconds at 16000 rpm. DO THIS TWICE! Total elution volume = 80 µL
 
 - Aliquot 12 µL into PCR tubes for QC. Store the rest of the RNA at -80℃. 
 
@@ -134,4 +143,24 @@ QC using Qubit, Nanodrop, Gel, and Tapestation
 
 #### Tapestation 
 
+### Prep for sending for sequencing 
 
+- Metadata sheet and labeled tubes 
+
+- Send around 70 µL (whole tube) 
+
+### Tips and tricks 
+
+- Start with a couple to troubleshoot 
+
+- Can work our way up to doing 10-12 at a time 
+
+- Prep tubes and boxes before starting 
+
+- Print out protocol 
+
+- Clean everything before starting with ethanol and RNAase spray 
+
+- Avoid touching anything and be super sterile 
+
+- Every 5 min do RNAase and ethanol washes on gloves and surfaces 
