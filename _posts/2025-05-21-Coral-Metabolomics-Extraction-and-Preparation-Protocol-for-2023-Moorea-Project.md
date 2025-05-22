@@ -77,12 +77,12 @@ Conduct separations in the following order:
 4. Homogenize the sample for 1 minute on ice (or until tissue is completely homogenized). Use the homogenizer tip to get all the sample from the sides of the tube. 
 5. Sonicate sample briefly (<30 sec).  
 6. Remove the homogenate and place into new tube (ID-Sym)
-	- This will be around **XX-XX** uL of liquid. The volume will be variable because there may be excess seawater in the larval samples.
+	- This will be around **300-350** uL of liquid. The volume will be variable because there may be excess seawater in the samples.
 7. Spin the "Sym" tube at 9000g for 3 minutes at 4°C. 
 	- Make sure the homogenate in the "Sym" tube is liquid (as opposed to slushy) prior to centrifuging. 
 	- If supernatant is cloudy after centrifugation, spin again for 1 minute. 
 8. Remove the supernatant and place into new tube (ID-Host)
-	- This will be around **XX-XX** uL of liquid.
+	- This will be around **150-300** uL of liquid.
 	- Store at -80°C.
 9. The "Sym" tube now only contains a symbiont pellet. 
 	- Add 150uL of DI water to the tube with the symbiont pellet. Store at -80°C.
@@ -157,13 +157,13 @@ Prior to starting, label the following tubes for each sample fraction to intend 
 
 1.5mL tubes (2 per sample): 
 
-- #-A
-- #-B
+- ID-A
+- ID-B
 
 Autosampler vials (2 per sample): 
 
-- #-A Date Initials
-- #-B Date Initials
+- ID-A Date Initials
+- ID-B Date Initials
 
 **CRITICAL**: Conduct sample extraction in the following order of sample groups: (1) C12 control samples, (2) C13 Dark samples, (3) C13 light/experimental samples. This will ensure that we reduce the likelihood of contamination of labeled metabolites between groups.  
 
