@@ -25,9 +25,9 @@ Samples include larvae preserved in RNA/DNA shield as well as clippings from rec
 - Sample tube freezer boxes (1 for RNA and 1 for DNA)
 - Plastics 
 	- 3 1.5 mL microcentrifuge tubes per sample 
-	- 2 PCR tubes per sample
-	- 2 Qubit tubes per sample 
-	- 2 5 mL tubes per sample 
+	- 1 PCR tube per sample
+	- 1 Qubit tube per sample 
+	- 1 5 mL tubes per sample 
 - Beads for bead beating [RPI Glass disruption beads](https://www.rpicorp.com/products/laboratory-equipment/homogenizers/disruption-beads-for-yeast-fungi-0-5mm-glass-2-5-g-cc-454-gm.html) 
 
 ### Protocol 
@@ -44,7 +44,7 @@ Samples include larvae preserved in RNA/DNA shield as well as clippings from rec
 
 - Spin down in mini centrifuge for 1 minute 
 
-- Remove 300 uL of liquid sample from the original sample tube into a new tube to proceed with extraction. 
+- Remove 500 uL of liquid sample from the original sample tube into a new tube to proceed with extraction. Save the leftover sample + beads at -80°C. 
 
 #### Sample prep: Recruit fragments 
 
@@ -56,11 +56,9 @@ Samples include larvae preserved in RNA/DNA shield as well as clippings from rec
 
 - Spin down in mini centrifuge for 1 minute 
 
-- Remove 300 uL of liquid sample from the original sample tube into a new tube to proceed with extraction. 
+- Remove 500 uL of liquid sample from the original sample tube into a new tube to proceed with extraction. Save the leftover sample + beads at -80°C. 
 
 #### Lysis 
-
-- Remove 500 uL from sample and add it to new tube. Save the leftover sample + beads at -80°C. 
 
 - Add 50 uL of Proteinase K digestion buffer (10:1 ratio of sample:digestion buffer) and 25 uL of Proteinase K (2:1 ratio of digestion buffer:Proteinase K) to each sample.
 
@@ -96,7 +94,7 @@ Samples include larvae preserved in RNA/DNA shield as well as clippings from rec
 
 - Add 40 µL of warm Tris to spin column. Let columns sit for 5 minutes at room temperature. Spin for 30 seconds at 16000 rpm. DO THIS TWICE! Total elution volume = 80 µL
 
-- Aliquot 12 µL into PCR tubes for QC. Store the rest of the gDNA at -20°C. 
+- Store the gDNA at -20°C. 
 
 #### RNA extraction
 
@@ -127,21 +125,18 @@ Samples include larvae preserved in RNA/DNA shield as well as clippings from rec
 
 - Centrifuge columns dry for 2 minutes at 16000 rpm. 
 
-- Move green RNA spin column into final RNA 1.5 mL tube ("ID RNA Date"). 
+- Move green RNA spin column into final RNA 1.5 mL tube ("ID RNA"). 
 
 - Add 40 µL of warmed DNA/RNA free water to spin column. Let columns sit for 5 minutes. Spin for 30 seconds at 16000 rpm. DO THIS TWICE! Total elution volume = 80 µL
 
-- Aliquot 12 µL into PCR tubes for QC. Store the rest of the RNA at -80°C. 
+- Aliquot 12 µL into one PCR tubes for QC. Store the rest of the RNA at -80°C. 
 
 ### QC 
 
-QC using Qubit, Nanodrop, Gel, and Tapestation 
+QC using Qubit.  
 
-#### Qubit & Nanodrop 
+#### Qubit
 
-#### Gel 
-
-#### Tapestation 
 
 ### Prep for sending for sequencing 
 
