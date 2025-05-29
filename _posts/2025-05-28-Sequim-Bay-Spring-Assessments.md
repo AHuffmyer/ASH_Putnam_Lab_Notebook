@@ -39,3 +39,19 @@ Here are some field pictures from today.
 ![](https://github.com/AHuffmyer/ASH_Putnam_Lab_Notebook/blob/master/images/NotebookImages/oysters/wsg_usda/20250528/pic5.jpeg?raw=true)
 
 Size analysis will be completed by undergraduate students.  
+
+# Temperature loggers 
+
+I downloaded the temperature logger that was deployed with the oysters in April 2024. The logger had data up until January 2025 - the battery likely died during the deployment.  
+
+Here is the temperature data.  
+
+![](https://github.com/AHuffmyer/ASH_Putnam_Lab_Notebook/blob/master/images/NotebookImages/oysters/wsg_usda/20250528/sequim-loggers.png?raw=true)  
+
+The oysters did experience several warm days likely on low tides during last summer.  
+
+This next plot shows the daily variability in temperature (daily max - daily min).  
+
+![](https://github.com/AHuffmyer/ASH_Putnam_Lab_Notebook/blob/master/images/NotebookImages/oysters/wsg_usda/20250528/sequim-loggers_daily-range.png?raw=true)
+
+Temperature variability is higher in the summer.  
