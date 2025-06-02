@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Writing updates
-date: '2025-05-01'
+date: '2025-06-01'
 categories: Writing
 tags: Writing
 ---
@@ -9,12 +9,6 @@ tags: Writing
 I have listed active manuscripts below and their status along with my writing goals!  
 
 They are organized from "oldest" data sets to "newest" data sets.  
-
-## Mcap2020   
-
-*Status*: Acceptance! 
-
-*Next step*: Production 
 
 ## Omic perspectives paper 
 
@@ -30,7 +24,7 @@ They are organized from "oldest" data sets to "newest" data sets.
 
 *Next step*: Complete introduction and discussion writing 
 
-*Timeline*: Complete writing and submit by May 2025
+*Timeline*: Complete writing and submit by July 2025
 
 ## Hawaii2023
 
@@ -38,7 +32,7 @@ They are organized from "oldest" data sets to "newest" data sets.
 
 *Next step*: Finish RNAseq, ITS2, lipids, metabolites, and phenoplate data analysis
 
-*Time line*: Wrap up data analysis by June 2025
+*Time line*: Wrap up data analysis by August 2025
 
 ## Moorea2023
 
@@ -62,7 +56,7 @@ They are organized from "oldest" data sets to "newest" data sets.
 
 *Next step*: Analyze final qPCR data and write methods section
 
-*Timeline*: Finish analysis and methods by June 2025
+*Timeline*: Finish analysis and methods by July 2025
 
 ## PolyIC Larvae   
 

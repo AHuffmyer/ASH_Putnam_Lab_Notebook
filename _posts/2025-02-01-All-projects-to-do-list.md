@@ -1,7 +1,7 @@
 ---
 layout: post
 title: All Projects To Do List
-date: '2025-05-15'
+date: '2025-06-01'
 categories: Monthly_Goals
 tags: Goals
 ---
@@ -57,7 +57,7 @@ This post lists all my ongoing projects and to-do list.
 
 - Analyze USDA families resazurin response 
 - Include: 10K seed, PolyIC seed, USDA families 
-- Reach out for oxygen validation data with Louis at USDA
+- Conduct oxygen experiment with Mac 
 - Introduction
 - Methods
 - Results
@@ -67,25 +67,21 @@ This post lists all my ongoing projects and to-do list.
 **Data collection and analysis** 
 
 - *Goose Point*
-	- Conduct May assessment
+	- Conduct August assessments 
   
 - *Point Whitney* 
-	- Conduct May assessment of Efforts siblings outplanted at Point Whitney 
-
-- *Goose Point* 
-	- Conduct May assessment of Efforts oysters outplanted 
+	- Conduct August assessments  
 
 - *Baywater* 
-	- Conduct May assessment of 10K oysters outplanted
+	- Conduct June assessment of 10K oysters outplanted
 
 - *Westcott* 
-	- Analyze May assessment images (Grace L.)
+	- Analyze August assessment images (Grace L.)
 
 ## Oyster Lifestage Carry Over 
 **Analysis and writing** 
 
 - Analyze next set of qPCR (Sam)
-- Storyboard manuscript 
 - Organize GitHub repository 
 - Introduction 
 - Methods 
@@ -95,13 +91,13 @@ This post lists all my ongoing projects and to-do list.
 ## 10K Seed    
 **Data collection and analysis**   
 
-- Conduct May growth and survival of outplants at Baywater shellfish 
+- Conduct June growth and survival of outplants at Baywater shellfish 
 
 ## PolyIC Larvae   
 **Data collection and experiments**   
  
-- Final resazurin and growth analysis 
 - RNA extractions and RNAseq analyses (Sam)
+- Decide on manuscript directions 
 
 ## Oyster 2025 Stress Hardening   
 **Planning**   
