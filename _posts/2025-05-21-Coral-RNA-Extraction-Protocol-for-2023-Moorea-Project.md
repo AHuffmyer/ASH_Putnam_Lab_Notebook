@@ -62,7 +62,7 @@ Samples include larvae preserved in RNA/DNA shield as well as clippings from rec
 
 - Add 50 uL of Proteinase K digestion buffer (10:1 ratio of sample:digestion buffer) and 25 uL of Proteinase K (2:1 ratio of digestion buffer:Proteinase K) to each sample.
 
-- Vortex and spin down. **Should this include an incubation step? 30 min recommended in Zymo protocol.** 
+- Vortex. Incubate on counter for 30 min. Spin down.   
 
 - Add 575 uL of lysis buffer (1:1 ratio of sample:lysis buffer) to each sample. The volume in each tube should be 1150 uL. 
 
