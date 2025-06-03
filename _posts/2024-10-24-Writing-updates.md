@@ -50,7 +50,7 @@ They are organized from "oldest" data sets to "newest" data sets.
 
 *Timeline*: Draft by July 2025  
 
-## Lifestage Carryover 
+## Lifestage Carryover/Hardening 
 
 *Status*: Final data collection, written outline
 

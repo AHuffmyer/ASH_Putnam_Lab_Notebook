@@ -98,11 +98,14 @@ This post lists all my ongoing projects and to-do list.
  
 - RNA extractions and RNAseq analyses (Sam)
 - Decide on manuscript directions 
+- Lab qPCR thermal stress assays 
+- Outplant PW stocks 
 
 ## Oyster 2025 Stress Hardening   
-**Planning**   
+**Experiment and data collection**   
 
-- Design spring-summer oyster stress hardening projects  to include heat and aerial exposure treatments
+- Outplant USDA stocks and do thermal hardening at Point Whitney 
+- Manchester hardening experiment 
 
 ## Planning and funding    
 

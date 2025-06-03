@@ -25,7 +25,6 @@ Samples include larvae preserved in RNA/DNA shield as well as clippings from rec
 - Sample tube freezer boxes (1 for RNA and 1 for DNA)
 - Plastics 
 	- 3 1.5 mL microcentrifuge tubes per sample 
-	- 1 PCR tube per sample
 	- 1 Qubit tube per sample 
 	- 1 5 mL tubes per sample 
 - Beads for bead beating [RPI Glass disruption beads](https://www.rpicorp.com/products/laboratory-equipment/homogenizers/disruption-beads-for-yeast-fungi-0-5mm-glass-2-5-g-cc-454-gm.html) 
@@ -129,20 +128,68 @@ Samples include larvae preserved in RNA/DNA shield as well as clippings from rec
 
 - Add 40 µL of warmed DNA/RNA free water to spin column. Let columns sit for 5 minutes. Spin for 30 seconds at 16000 rpm. DO THIS TWICE! Total elution volume = 80 µL
 
-- Aliquot 12 µL into one PCR tubes for QC. Store the rest of the RNA at -80°C. 
+- Proceed directly to QC. Store the rest of the RNA at -80°C. 
 
 ### QC 
 
-QC using Qubit.  
+QC using the Qubit High Sensitivity RNA assay.   
 
-#### Qubit
+- Remove kit standards from the fridge.  
 
+- Set up the required number of Qubit 0.5 mL tubes (n=1 per sample with 2 additional for the 2 standards). Label teh lids of the Qubit tubes with the sample numbers and "S1"/"S2" for the standards.  
+
+- Prepare Qubit working solution. The final volume is 200 µL. Samples will have 1 µL of sample and standards will have 10µL of standard. 
+
+	- Samples: 199 µL x _____ samples = _____ solution needed
+	- Standards: 190 µL x _____ samples = _____ solution needed
+	- Total = _______ solution needed + 10% = ______ total solution
+	- HS Qubit Reagent total volume = _____ total solution * (1/200) = ______ HS Reagent Volume
+	- HS Qubit buffer total volume = total ______ solution needed - _______ HS Reagent volume 
+
+	- For example: 
+
+	- Samples: 199 µL x 10 samples = 1990 µL solution needed
+	- Standards: 190 µL x 2 samples = 380 µL solution needed
+	- Total = 2370 µL solution needed + 10% = 2607 µL total solution
+	- HS Qubit Reagent total volume = 2607 µL total solution * (1/200) = 13.04 µL HS Reagent Volume
+	- HS Qubit buffer total volume = total 2607 µL solution needed - 13.04 HS Reagent volume = 2594 µL buffer 
+
+- Add 190 µL of working solution to the S1 and S2 standard tubes. 
+
+- Add 10 µL (exactly!) of Standard 1 to the S1 tube and 10 µL of Standard 2 to the S2 tube. 
+
+- Vortex. 
+
+- Add 199 µL to all sample Qubit tubes. 
+
+- Add 1 µL of sample to respective Qubit sample tubes. 
+
+- Vortex.  
+
+- Incubate tubes at room temperature for 2 min. 
+
+- Read standards
+
+	- On the Qubit (3.0), press "RNA", then "RNA: High Sensitivity". Press "Read standards". 
+	- Insert the S1 tube. Press "Read standard". Remove. 
+	- Insert the S2 tube. Press "read standard". Remove. 
+	- Record calibration information.  
+
+- Run samples 
+
+	- Select the sample volume and units (200 µL total, 199 µL working solution, 1 µL sample) 
+	- Select ng/µL units. 
+	- Insert a sample tube and press "Read tube". Remove the tube when done. 
+	- Record the data - include the top value (concentration) and the bottom value (dilution concentration). 
+	- Repeat to read all samples. Record the order in which you read all samples. 
 
 ### Prep for sending for sequencing 
 
 - Metadata sheet and labeled tubes 
 
 - Send around 70 µL (send the whole tube) 
+
+- Package with dry ice 
 
 ### Tips and tricks 
 
