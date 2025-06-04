@@ -71,45 +71,41 @@ I will summarize the results here that our relevant to our main questions.
 
 ### Does metabolic rate change between control and high temperature? Is there variation between families in metabolic rates?  
 
-![](https://github.com/AHuffmyer/ASH_Putnam_Lab_Notebook/blob/master/images/NotebookImages/oysters/resazurin/usda/20250520/fl_family_trajectories.png?raw=true)
+![](https://github.com/AHuffmyer/ASH_Putnam_Lab_Notebook/blob/master/images/NotebookImages/oysters/resazurin/usda/20250603/fl_family_trajectories.png?raw=true)
 
 - This figure shows resazurin values (size normalized change in fluorescence) over the entire trial. The dotted line indicates the time at which temperature was increased (18C = blue; 42C = red). Each line represents an individual oyster in each of the 5 families (facet).  
 
-- There appears to be a change in the slope of the line after the temperature was increased. This is what we would expect given that previous trials shows oysters enter metabolic depression at 40-42°C. 
+- There appears to be a change in the slope of the line after the temperature was increased. 
 
 - It is also interesting to note that there appears to be changes in the magnitude of fluorescence change between families.
 
-![](https://github.com/AHuffmyer/ASH_Putnam_Lab_Notebook/blob/master/images/NotebookImages/oysters/resazurin/usda/20250520/fl_family_slopes.png?raw=true)
+![](https://github.com/AHuffmyer/ASH_Putnam_Lab_Notebook/blob/master/images/NotebookImages/oysters/resazurin/usda/20250603/fl_family_slopes.png?raw=true)
 
 - Next, I examined whether the change in metabolic rate (slope) was different between temperatures and the five families. This plot is showing you the metabolic rate (slope) for each oyster at control (18°C) and high (42°C) temperatures. Each panel and color indicates a family. The lines are connecting the slopes for each individual oyster between the temperatures. A line that decreases from 18-42°C indicates that the oyster reduced metabolic rates under thermal stress. 
 
-- Each family shows a majority of oysters exhibiting metabolic depression (reduced metabolic rates) at high temperature. I ran a statistical test to test the effects of temperature and family on metabolic rates. 
+- Each family shows some oysters exhibiting metabolic depression (reduced metabolic rates) at high temperature. I ran a statistical test to test the effects of temperature and family on metabolic rates. 
 
-- For most of the oysters, metabolic rates decrease under high temperature. There are a few, however, lthat increase slightly. Based on our [previous experiments](https://ahuffmyer.github.io/ASH_Putnam_Lab_Notebook/Resazurin-data-analysis-and-size-normalization-for-10K-seed-project/), we would expect these to be more sensitive to stress. Capacity for metabolic depression appears to be positively correlated with survival in our previous tests.  
+- The results show there Family A has higher metabolic rates than all other families and is more variable. 
 
-- The results show there Family A has higher metabolic rates than all other families. Family A had higher rates than Family C at ambient temperature. And family A had higher rates than C, D, and E under 42C. This family may be more sensitive to stress. 
-
-![](https://github.com/AHuffmyer/ASH_Putnam_Lab_Notebook/blob/master/images/NotebookImages/oysters/resazurin/usda/20250520/fl_family_percent_change.png?raw=true)
+![](https://github.com/AHuffmyer/ASH_Putnam_Lab_Notebook/blob/master/images/NotebookImages/oysters/resazurin/usda/20250603/fl_family_percent_change.png?raw=true)
 
 - Finally, I calculated the percent change in slopes between control and high temperatures to generate a potential "resilience index". A larger negative percent change would indicate higher survival likelihood based on our previous observations of higher survival in oysters with more metabolic depression.  
 
 - This plot shows the percent change for each oyster in each family. A more negative percent change means there was greater metabolic depression at high temperature.  
 
-- I then ran a test to examine variation in this index between families.  
-
-- The two highest values on this plot were from oysters that did die by the end of the trial.  
+- I then ran a test to examine variation in this index between families. There was no difference.  
 
 ### Is metabolic rate indicative of mortality? 
 
 I then plotted dead oysters (red dots/lines) onto the plots of metabolic rate.  
 
-![](https://github.com/AHuffmyer/ASH_Putnam_Lab_Notebook/blob/master/images/NotebookImages/oysters/resazurin/usda/20250520/fl_family_slopes_mortality.png?raw=true)
+![](https://github.com/AHuffmyer/ASH_Putnam_Lab_Notebook/blob/master/images/NotebookImages/oysters/resazurin/usda/20250603/fl_family_slopes_mortality.png?raw=true)
 
-![](https://github.com/AHuffmyer/ASH_Putnam_Lab_Notebook/blob/master/images/NotebookImages/oysters/resazurin/usda/20250520/fl_family_percent_change_mortality.png?raw=true)
+![](https://github.com/AHuffmyer/ASH_Putnam_Lab_Notebook/blob/master/images/NotebookImages/oysters/resazurin/usda/20250630/fl_family_percent_change_mortality.png?raw=true)
 
-There is a trend that higher metabolic rates tend to be shown in oysters that die, but this is not a universal effect. 
+There is a trend that higher metabolic rates tend to be shown in oysters that die, but this is not a universal effect and is a small sample size because only a few oysters died.   
 
-It appears that Family A is more susceptible with more mortality than the other families. This family also has higher metabolic rates, which is consistent with our previous findings.  
+It appears that Family A is more susceptible with more mortality than the other families. This family also has higher and more variable metabolic rates, which is consistent with our previous findings.  
 
 ### Is absorbance or fluorescence more appropriate for analysis?
 
@@ -117,27 +113,21 @@ The short answer is that fluorescence appears to be more sensitive with higher r
 
 Note that for absorbance, we expect a decrease in values as metabolism progresses (turning the solution a lighter color). If there is an increase in absorbance, that means that metabolism is reduced.  
 
-![](https://github.com/AHuffmyer/ASH_Putnam_Lab_Notebook/blob/master/images/NotebookImages/oysters/resazurin/usda/20250520/ab_family_trajectories.png?raw=true)
+![](https://github.com/AHuffmyer/ASH_Putnam_Lab_Notebook/blob/master/images/NotebookImages/oysters/resazurin/usda/20250603/ab_family_trajectories.png?raw=true)
 
-- The data is definitely noiser than fluorescence, but we can see a trend for increased metabolic rate at control temperature (decreasing slope) and decreased metabolic rate at high temperature (increasing slope).   
+- The data is definitely noiser than fluorescence.   
 
-- As we saw in the fluorescence data, there are different slopes between temperatures. At high temperature, metabolic rates are lower (higher values) and at control temperature, rates are higher (lower values).  
+![](https://github.com/AHuffmyer/ASH_Putnam_Lab_Notebook/blob/master/images/NotebookImages/oysters/resazurin/usda/20250603/ab_family_slopes.png?raw=true)
 
-![](https://github.com/AHuffmyer/ASH_Putnam_Lab_Notebook/blob/master/images/NotebookImages/oysters/resazurin/usda/20250520/ab_family_slopes.png?raw=true)
+- The results show no effects of family, unlike fluorescence data, demonstrating the absorbance results are less sensitive than fluorescence.  
 
-- There is similar agreement between families and perhaps less variation within family as measured by absorbance. 
-
-- All families show decreased metabolic rates (higher values) at high temperature on average, with the exception of a few individuals.  
-
-- The results show no effects of temperature or family, demonstrating the absorbance results are less sensitive than fluorescence.  
-
-![](https://github.com/AHuffmyer/ASH_Putnam_Lab_Notebook/blob/master/images/NotebookImages/oysters/resazurin/usda/20250520/ab_family_percent_change.png?raw=true)
+![](https://github.com/AHuffmyer/ASH_Putnam_Lab_Notebook/blob/master/images/NotebookImages/oysters/resazurin/usda/20250603/ab_family_percent_change.png?raw=true)
 
 - There is not a strong indication of mortality in the absorbance data either. 
 
-![](https://github.com/AHuffmyer/ASH_Putnam_Lab_Notebook/blob/master/images/NotebookImages/oysters/resazurin/usda/20250520/ab_family_slopes_mortality.png?raw=true)
+![](https://github.com/AHuffmyer/ASH_Putnam_Lab_Notebook/blob/master/images/NotebookImages/oysters/resazurin/usda/20250603/ab_family_slopes_mortality.png?raw=true)
 
-![](https://github.com/AHuffmyer/ASH_Putnam_Lab_Notebook/blob/master/images/NotebookImages/oysters/resazurin/usda/20250520/ab_family_percent_change_mortality.png?raw=true)
+![](https://github.com/AHuffmyer/ASH_Putnam_Lab_Notebook/blob/master/images/NotebookImages/oysters/resazurin/usda/20250603/ab_family_percent_change_mortality.png?raw=true)
 
 # Next steps
 
