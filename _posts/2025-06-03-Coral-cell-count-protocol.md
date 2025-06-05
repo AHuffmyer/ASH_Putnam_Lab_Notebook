@@ -51,7 +51,7 @@ Based on the Putnam Lab protocol.
 
 	![hemacytometer](https://github.com/Putnam-Lab/Lab_Management/blob/master/images/Hemacytometer.png?raw=true)
 	
-13. Store any remaining sample in freezer. 
+13. Dispose of empty tube.  
 
 14. Repeat the process with a new sample.  
 
