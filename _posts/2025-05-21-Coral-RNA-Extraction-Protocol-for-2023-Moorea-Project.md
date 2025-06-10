@@ -42,6 +42,8 @@ Samples include larvae preserved in RNA/DNA shield as well as clippings from rec
 
 - Transfer sample to a labeled 1.5 mL Safe-Lock tube. 
 
+- Add more RNA/DNA shield to the sample to bring total volume to 1000 µL. 
+
 - Spin down tubes so there are no bubbles in lid 
 
 - Add ~50 uL of glass beads (0.5mm) into sample tubes (enough to cover the bottom of the tube) 
@@ -61,6 +63,8 @@ Samples include larvae preserved in RNA/DNA shield as well as clippings from rec
 - Thaw samples in an ice bucket. 
 
 - Transfer sample to a labeled 1.5 mL Safe-Lock tube. 
+
+- Add more RNA/DNA shield to the sample to bring total volume to 1000 µL. 
 
 - Place Safe-Lock tubes in specified Bullet Blender adapters. Fill Bullet Blender with dry ice. 
 
