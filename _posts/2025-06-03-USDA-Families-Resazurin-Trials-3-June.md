@@ -101,7 +101,7 @@ I then plotted dead oysters (red dots/lines) onto the plots of metabolic rate.
 
 ![](https://github.com/AHuffmyer/ASH_Putnam_Lab_Notebook/blob/master/images/NotebookImages/oysters/resazurin/usda/20250603/fl_family_slopes_mortality.png?raw=true)
 
-![](https://github.com/AHuffmyer/ASH_Putnam_Lab_Notebook/blob/master/images/NotebookImages/oysters/resazurin/usda/20250630/fl_family_percent_change_mortality.png?raw=true)
+![](https://github.com/AHuffmyer/ASH_Putnam_Lab_Notebook/blob/master/images/NotebookImages/oysters/resazurin/usda/20250603/fl_family_percent_change_mortality.png?raw=true)
 
 There is a trend that higher metabolic rates tend to be shown in oysters that die, but this is not a universal effect and is a small sample size because only a few oysters died.   
 
