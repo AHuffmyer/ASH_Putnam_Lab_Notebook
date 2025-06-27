@@ -1,7 +1,7 @@
 ---
 layout: post
 title: All Projects To Do List
-date: '2025-06-01'
+date: '2025-06-20'
 categories: Monthly_Goals
 tags: Goals
 ---
@@ -11,7 +11,7 @@ This post lists all my ongoing projects and to-do list.
 ## Hawaii 2023   
 **Analysis and writing**   
 
-- Process all samples for larval symbiont cell density in the lab at UW 
+- Process all samples for larval symbiont cell density in the lab at UW (in progress, Aakriti) 
 - Revise analysis of rapid light curves from phenoplate data and send results to UTS collaborators 
 - Analyze larval size and symbiont cell density data 
 - Finalize RNAseq differential gene expression and functional enrichment analyses 
@@ -26,8 +26,8 @@ This post lists all my ongoing projects and to-do list.
 ## Moorea 2023   
 **Data collection and analysis**   
 
-- Process/submit samples for RNAseq
-- Process/submit samples for Metabolomics
+- Process/submit samples for RNAseq (July 2025)
+- Process/submit samples for Metabolomics (August 2025) 
 - Update methods section 
 - ITS2 sequencing analysis
 
@@ -35,17 +35,14 @@ This post lists all my ongoing projects and to-do list.
 **Final manuscript**   
 
 - Finish writing discussion section 
-- Send draft of full manuscript to coauthors 
+- Send draft of full manuscript to coauthors (August 2025) 
 - Revise manuscript and post on bioRxiv 
 - Submit manuscript
 
 ## E5 Molecular   
 **Data analysis** 
 
-- Examine neural networks and SEM modeling for time series multiomic modeling analyses 
-- Analyze lipid data with site effects 
-- Multiomic WGCNA analyses 
-- Machine learning multiomic prediction analyses
+- Metabolomics and lipidomics analysis for timeseries metabolism paper 
 
 ## E5 Nom Nom   
 **Data analysis** 
@@ -55,13 +52,10 @@ This post lists all my ongoing projects and to-do list.
 ## Resazurin methods manuscript   
 **Analysis and writing** 
 
-- Analyze USDA families resazurin response 
-- Include: 10K seed, PolyIC seed, USDA families 
 - Conduct oxygen experiment with Mac 
-- Introduction
-- Methods
 - Results
 - Discussion
+- Final draft to coauthors in August 2025
 
 ## Oyster 2024 Stress Hardening   
 **Data collection and analysis** 
@@ -69,11 +63,11 @@ This post lists all my ongoing projects and to-do list.
 - *Goose Point*
 	- Conduct August assessments 
   
-- *Point Whitney* 
+- *Sequim* 
 	- Conduct August assessments  
 
 - *Baywater* 
-	- Conduct June assessment of 10K oysters outplanted
+	- Conduct summer assessment of 10K oysters outplanted
 
 - *Westcott* 
 	- Analyze August assessment images (Grace L.)
@@ -91,26 +85,20 @@ This post lists all my ongoing projects and to-do list.
 ## 10K Seed    
 **Data collection and analysis**   
 
-- Conduct June growth and survival of outplants at Baywater shellfish 
+- Conduct summer growth and survival of outplants at Baywater shellfish (pending farm to give us the green light) 
 
 ## PolyIC Larvae   
 **Data collection and experiments**   
  
-- RNA extractions and RNAseq analyses (Sam)
-- Decide on manuscript directions 
+- RNA extractions and RNAseq analyses (Madeline & Sam & Ariana)
 - Lab qPCR thermal stress assays 
-- Outplant PW stocks 
+- Outplant PW stocks in Sequim 
 
-## Oyster 2025 Stress Hardening   
+## Oyster 2025 Stress Hardening at Manchester   
 **Experiment and data collection**   
 
-- Outplant USDA stocks and do thermal hardening at Point Whitney 
-- Manchester hardening experiment 
+- Assess summer mortality and growth of Manchester experiment 
 
 ## Planning and funding    
 
 - BIO-OCE submission with Hollie (July/August 2025)
-
-## Outreach and education   
-
-- Create and publish Reva Atea spring issue of communications magazine

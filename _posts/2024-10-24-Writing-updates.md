@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Writing updates
-date: '2025-06-01'
+date: '2025-06-20'
 categories: Writing
 tags: Writing
 ---
@@ -24,7 +24,7 @@ They are organized from "oldest" data sets to "newest" data sets.
 
 *Next step*: Complete introduction and discussion writing 
 
-*Timeline*: Complete writing and submit by July 2025
+*Timeline*: Complete writing and submit by August 2025
 
 ## Hawaii2023
 
@@ -40,7 +40,7 @@ They are organized from "oldest" data sets to "newest" data sets.
 
 *Next step*: Write methods complete up to this point, conduct DNA species ID 
 
-*Timeline*: Process metabolomics and RNA sequencing by July 2025
+*Timeline*: Process metabolomics by August 2025 and RNA sequencing by July 2025
 
 ## Resazurin paper 
 
@@ -56,7 +56,7 @@ They are organized from "oldest" data sets to "newest" data sets.
 
 *Next step*: Analyze final qPCR data and write methods section
 
-*Timeline*: Finish analysis and methods by July 2025
+*Timeline*: Finish analysis and methods by August 2025
 
 ## PolyIC Larvae   
 
@@ -64,7 +64,7 @@ They are organized from "oldest" data sets to "newest" data sets.
 
 *Next step*: Analyze resazurin data and growth; complete methods section
 
-*Timeline*: RNA sequencing 
+*Timeline*: RNA sequencing, preparation being done by Madeline
 
 ## Nom Nom Project   
 
@@ -79,8 +79,8 @@ They are organized from "oldest" data sets to "newest" data sets.
 This is a list of the papers (I think all of them) that I am a coauthor on at the moment:  
 
 - Ashey et al. Pocillopora acuta temp x pCO2 - **in review**
-- Ashey et al. E5 ncRNA descriptive - **in review**
-- Gorman et al. Toxin discovery = **in revisions**
+- Ashey et al. E5 ncRNA descriptive - **in revision**
+- Gorman et al. Toxin discovery = **in revision**
 - Becker et al. Molecular mechanisms - **writing**
 - Becker et al. Heatwave environmental memory - **writing**  
 - Ashey et al. Mcap developmental RNAs - **writing** 
