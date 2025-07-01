@@ -45,18 +45,33 @@ We monitored the temperature in the wells throughout the trial. Here is what the
 - Timepoint 0-2: 40°C
 - Timepoint 3-4: 4°C 
  
+![](https://github.com/AHuffmyer/ASH_Putnam_Lab_Notebook/blob/master/images/NotebookImages/oysters/vims/20250701/temps.png?raw=true)
 
+Average temperature was about 35°C during temperature exposure, chilling back down to the low-mid 20's by the end of the trial.  
 
+### Resazurin
 
-- moved samples to fridge at 2.5 hrs exposure 
-- average temp in high is 35C
-- May need to cut off any sample where fluorescence exceeds 2800 ish to remove the oversaturation 
+I used the same approach as my previous resazurin analyses to produce change in size-normalized fluorescence over time for each oyster. In addition, I filtered the data to remove any sample that exceeded 3,000 raw resazurin fluorescence values at any point during the trial, due to the problem of oversaturation we had yesterday. This excluded 150 out of 480 oysters. We can return to this filtering as we proceed with trials over the next few days.  
 
-9. Temperature measurements 
-10. Results - family and phenotypes 
+Here are our preliminary results from today! 
 
+- There was a significant difference in metabolic rates between families. Some families had steeper slopes and some had more shallow slopes over the trial. Variability is generally quite low within family.   
 
+![](https://github.com/AHuffmyer/ASH_Putnam_Lab_Notebook/blob/master/images/NotebookImages/oysters/vims/20250701/family_trajectories.png?raw=true)
 
+- When looking at salinity phenotype, there was significantly higher metabolic rates in the low salinity families.  
+
+![](https://github.com/AHuffmyer/ASH_Putnam_Lab_Notebook/blob/master/images/NotebookImages/oysters/vims/20250701/phenotype_trajectories.png?raw=true)
+
+- Total fluorescence over the course of the trial also significantly varied by family and phenotype.  
+
+![](https://github.com/AHuffmyer/ASH_Putnam_Lab_Notebook/blob/master/images/NotebookImages/oysters/vims/20250701/end.png?raw=true)
+
+- Finally, I calculated the change in fluorescence between each hour. For example, `delta_T0_T1` indicates change in fluorescence from the initial time point to the first hour time point. There was significant variation in hour-specific metabolic rates between families. 
+
+![](https://github.com/AHuffmyer/ASH_Putnam_Lab_Notebook/blob/master/images/NotebookImages/oysters/vims/20250701/deltas.png?raw=true)
+
+We will add more data to these datasets tomorrow and Thursday! 
 
 ## Preparation for tomorrow 
 
@@ -71,11 +86,6 @@ We monitored the temperature in the wells throughout the trial. Here is what the
 - 1,498 µL DMSO 
 - 15 mL antibiotic solution 
 
-
-
-
-
-
 ## Decisions for tomorrow 
 
-We will run trials in the same format tomorrow!   
+We will run trials in the same format tomorrow and Thursday!     
