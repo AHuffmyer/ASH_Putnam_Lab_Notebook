@@ -151,7 +151,7 @@ We obtained data from Jess on the predicted trait values for each family based o
 
 From our discussions with the VIMS team, we would expect higher disease prevalence in high salinity environments. Lower salinity environments are considered psu <15 where as high salinity is considered psu >18. Theses designations of "low" and "high" are relative based on the environments that are being selected. We can discuss the implications of these environments with the VIMS team to learn more about how metabolism might relate to these environments.  
 
-Note that these are predicted performance values, not actual measured values. We will learn more about actual performance over the summer!  
+Note that these are predicted performance values, not actual measured values. We will learn more about actual performance over the next year!  
 
 ### Correlation of AUC (total metabolic activity) with traits
 
@@ -205,4 +205,4 @@ Data were calculated and analysed as I described above.
 
 - Families selected for low salinity with higher metabolic rates had higher predicted survival in low salinity environments.  
 
-- Next steps include relating metabolic rates to actual performance data collected in the field this summer.  
+- Next steps include relating metabolic rates to actual performance data collected in the field (fall 2026).  
