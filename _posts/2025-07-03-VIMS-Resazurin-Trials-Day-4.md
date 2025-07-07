@@ -149,7 +149,7 @@ We obtained data from Jess on the predicted trait values for each family based o
 - Predicted weight in a high salinity environment 
 - Predicted weight in a low salinity environment 
 
-From our discussions with the VIMS team, we would expect higher disease prevalence in low salinity environments. Lower salinity environments are considered psu <15 where as high salinity is considered psu >18. Theses designations of "low" and "high" are relative based on the environments that are being selected. We can discuss the implications of these environments with the VIMS team to learn more about how metabolism might relate to these environments.  
+From our discussions with the VIMS team, we would expect higher disease prevalence in high salinity environments. Lower salinity environments are considered psu <15 where as high salinity is considered psu >18. Theses designations of "low" and "high" are relative based on the environments that are being selected. We can discuss the implications of these environments with the VIMS team to learn more about how metabolism might relate to these environments.  
 
 Note that these are predicted performance values, not actual measured values. We will learn more about actual performance over the summer!  
 
