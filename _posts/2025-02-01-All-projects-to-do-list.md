@@ -90,7 +90,7 @@ This post lists all my ongoing projects and to-do list.
 ## PolyIC Larvae   
 **Data collection and experiments**   
  
-- RNA extractions and RNAseq analyses (Madeline & Sam & Ariana)
+- RNA extractions and RNAseq analyses (Madeline & Sam)
 - Lab qPCR thermal stress assays 
 - Outplant PW stocks in Sequim 
 
@@ -101,4 +101,4 @@ This post lists all my ongoing projects and to-do list.
 
 ## Planning and funding    
 
-- BIO-OCE submission with Hollie (July/August 2025)
+- BIO-OCE submission with Hollie (September/October 2025)
