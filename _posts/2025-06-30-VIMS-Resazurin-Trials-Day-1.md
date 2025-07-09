@@ -16,8 +16,8 @@ Today we ran trials in which we tested resazurin response of 3 oyster lines (*Cr
 
 The lines we tested are related to the families we will test later this week and are as follows: 
 
-- "Lola": Selected for high/moderate salinity 
-- "Henry": Selected for low salinity 
+- "Lola": Selected for low salinity 
+- "Henry": Selected for high/moderate salinity 
 - "Wild": Wildtype   
 
 ### Resazurin solutions 
@@ -95,7 +95,7 @@ There are a few things I noticed right off the bat:
 
 - At the higher temperatures, resazurin fluorescence crashes after time point 2. This corresponded with our observations of very rapid changes in the resazurin solution to a bright pink color. This happened much more quickly than we expected (described below). This is likely due to oversaturation and completion of the resazurin reaction. Metabolic rates exceeded the capacity of resazurin to detect differences at high metabolic rates.  
 - This crash occured only at >42°C and did not seem to occur at 40°C. 
-- There were some interesting family level differences in which the H family (low salinity phenotype) had higher initial metabolic rates, leading to a more rapid crash. 
+- There were some interesting family level differences in which the H family had higher initial metabolic rates, leading to a more rapid crash. 
 - There is a dip in fluorescence at timepoint 2. This is when the plate reader started having errors and plates sat out for a bit longer than other time points.  
 
 The over saturation of resazurin may be due to one or more of the following reasons: 
@@ -113,7 +113,7 @@ Here are some images showing the stark changes in color.
 Overall, our biggest findings were: 
 
 - 40°C is the most appropriate temperature to use because we did not exceed the capacity of the resazurin reaction
-- There are statistical differences in metabolism between families. The low salinity family had higher metabolic rates than the other families, with a trend for lower metabolism in the wild family.  
+- There are statistical differences in metabolism between lines. 
 - We will adjust our approach for tomorrow based on what we learned (see below).  
 
 ### Additional testing 
