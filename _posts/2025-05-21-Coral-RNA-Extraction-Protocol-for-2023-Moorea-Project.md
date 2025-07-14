@@ -48,11 +48,11 @@ Samples include larvae preserved in RNA/DNA shield as well as clippings from rec
 
 - Add ~50 uL of glass beads (0.5mm) into sample tubes (enough to cover the bottom of the tube) 
 
-- Place Safe-Lock tubes in specified Bullet Blender adapters. Fill Bullet Blender with dry ice. 
+- Place Safe-Lock tubes in specified Bullet Blender adapters. Fill Bullet Blender with dry ice and pre cool. 
 
-- Bead beat tubes at high speed for 2 minutes. 
+- Bead beat tubes at high speed (8) for 4 minutes. 
 
-- Spin down in mini centrifuge for 1 minute. 
+- Spin down at 3000 rcf in a centrifuge for 1 minute. 
 
 - Remove 500 µL of liquid sample from the safe-lock sample tube into a new tube to proceed with extraction. Save the leftover sample + beads at -80°C. 
 
@@ -66,13 +66,11 @@ Samples include larvae preserved in RNA/DNA shield as well as clippings from rec
 
 - Add more RNA/DNA shield to the sample to bring total volume to 1000 µL. 
 
-- Place Safe-Lock tubes in specified Bullet Blender adapters. Fill Bullet Blender with dry ice. 
+- Place Safe-Lock tubes in specified Bullet Blender adapters. Fill Bullet Blender with dry ice and pre cool.   
 
-- Bead beat tubes at high speed for 2 minutes. 
+- Bead beat tubes at high speed (8) for 4 minutes. 
 
-- Beat beat tubes at high speed for 2 minutes. 
-
-- Spin down in mini centrifuge for 1 minute. 
+- Spin down at 3000 rcf in a centrifuge for 1 minute.
 
 - Remove 500 µL of liquid sample from the safe-lock sample tube into a new tube to proceed with extraction. Save the leftover sample + beads at -80°C. 
 

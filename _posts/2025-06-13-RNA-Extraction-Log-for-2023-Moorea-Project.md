@@ -55,5 +55,25 @@ Concentrations look good! In general RNA concentration is 20-50 ng/µL and I do 
 
 Each day, I will thaw the samples on ice (n=10 per batch), bead beat, aliquot, extract RNA and DNA, and quantify RNA.  
 
+### 20250714
 
+Today I extracted 10 samples for RNA and gDNA using the protocol linked above with no modifications.  
 
+I quantified using the Qubit after extractions.  
+
+RNA concentrations look good in general. The lowest concentration samples were the Pocillopora larvae, especially those from the 33C treatment.  
+
+| seq_id | sample_id | tube_id | genus       | lifestage | Treatment | rna.tube | dna.tube | date.extracted | extraction.batch | total.volume.ul | concentration.ng.ul | total.rna.ng |
+|--------|-----------|---------|-------------|-----------|----------:|----------|----------|----------------|------------------|-----------------|---------------------|--------------|
+| 1      | A7        | A7      | Acropora    | Larvae    | 30        | 1 RNA    | 1 gDNA   | 20250714       | 1                | 80              | 22.8                | 1824         |
+| 2      | ACR-R22   | 24      | Acropora    | Recruit   |        30 | 2 RNA    | 2 gDNA   | 20250714       | 1                | 80              | 11.2                | 896          |
+| 3      | A10       | A10     | Acropora    | Larvae    | 30        | 3 RNA    | 3 gDNA   | 20250714       | 1                | 80              | 24.8                | 1984         |
+| 4      | P15       | P15     | Pocillopora | Larvae    | 33        | 4 RNA    | 4 gDNA   | 20250714       | 1                | 80              | 4.6                 | 368          |
+| 5      | P16       | P16     | Pocillopora | Larvae    | 33        | 5 RNA    | 5 gDNA   | 20250714       | 1                | 80              | 6.84                | 547.2        |
+| 6      | ACR-R24   | 26      | Acropora    | Recruit   |        27 | 6 RNA    | 6 gDNA   | 20250714       | 1                | 80              | 19.1                | 1528         |
+| 7      | P5        | P5      | Pocillopora | Larvae    | 27        | 7 RNA    | 7 gDNA   | 20250714       | 1                | 80              | 11.2                | 896          |
+| 8      | A6        | A6      | Acropora    | Larvae    | 27        | 8 RNA    | 8 gDNA   | 20250714       | 1                | 80              | 20                  | 1600         |
+| 9      | A2        | A2      | Acropora    | Larvae    | 27        | 9 RNA    | 9 gDNA   | 20250714       | 1                | 80              | 24.4                | 1952         |
+| 10     | P6        | P6      | Pocillopora | Larvae    | 27        | 10 RNA   | 10 gDNA  | 20250714       | 1                | 80              | 10.6                | 848          |
+
+I will proceed with another batch on Wednesday. Today, I bead beat and aliquoted samples 11-30 in preparation for future extractions.   

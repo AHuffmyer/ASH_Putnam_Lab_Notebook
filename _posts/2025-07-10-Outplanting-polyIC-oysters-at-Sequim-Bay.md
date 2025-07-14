@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Preparing PolyIC project outplants at Point Whitney 
+title: Outplanting PolyIC project oysters at Sequim Bay 
 date: '2025-07-10'
 categories: RobertsLab_Oysters PolyIC_Larvae WSG_USDA
 tags: Oyster Cgigas
