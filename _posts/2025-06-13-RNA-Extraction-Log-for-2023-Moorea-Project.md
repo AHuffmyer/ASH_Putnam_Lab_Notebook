@@ -1,7 +1,7 @@
 ---
 layout: post
 title: RNA Extraction Log for 2023 Moorea Project
-date: '2025-07-08'
+date: '2025-07-16'
 categories: Moorea_SymbioticExchange_2023
 tags: Molecular Extraction GeneExpression
 ---
@@ -63,6 +63,8 @@ I quantified using the Qubit after extractions.
 
 RNA concentrations look good in general. The lowest concentration samples were the Pocillopora larvae, especially those from the 33C treatment.  
 
+Batch 1:  
+
 | seq_id | sample_id | tube_id | genus       | lifestage | Treatment | rna.tube | dna.tube | date.extracted | extraction.batch | total.volume.ul | concentration.ng.ul | total.rna.ng |
 |--------|-----------|---------|-------------|-----------|----------:|----------|----------|----------------|------------------|-----------------|---------------------|--------------|
 | 1      | A7        | A7      | Acropora    | Larvae    | 30        | 1 RNA    | 1 gDNA   | 20250714       | 1                | 80              | 22.8                | 1824         |
@@ -77,3 +79,51 @@ RNA concentrations look good in general. The lowest concentration samples were t
 | 10     | P6        | P6      | Pocillopora | Larvae    | 27        | 10 RNA   | 10 gDNA  | 20250714       | 1                | 80              | 10.6                | 848          |
 
 I will proceed with another batch on Wednesday. Today, I bead beat and aliquoted samples 11-30 in preparation for future extractions.   
+
+### 20250716
+
+Today I extracted 20 samples (2 batches of 10) for RNA and gDNA using the protocol linked above with no modifications. Aakriti completed gDNA extraction steps following lysis. All samples stored in -80°C.   
+
+I quantified using the Qubit after extractions.  
+
+RNA concentrations look good in general. The lowest concentration samples were the Pocillopora larvae, consistent with previous extractions. The facility requires >200 ng total RNA, so we are above this limit so far.    
+
+Batch 2:  
+
+| seq_id | sample_id | tube_id | genus       | lifestage | Treatment | rna.tube | dna.tube | date.extracted | extraction.batch | total.volume.ul | concentration.ng.ul | total.rna.ng |
+|--------|-----------|---------|-------------|-----------|----------:|----------|----------|----------------|------------------|-----------------|---------------------|--------------|
+| 11     | POC-R19   | 53      | Pocillopora | Recruit   |        33 | 11 RNA   | 11 gDNA  | 20250716       | 2                | 80              | 57                  | 4560         |
+| 12     | A4        | A4      | Acropora    | Larvae    | 27        | 12 RNA   | 12 gDNA  | 20250716       | 2                | 80              | 27.8                | 2224         |
+| 13     | P12       | P12     | Pocillopora | Larvae    | 30        | 13 RNA   | 13 gDNA  | 20250716       | 2                | 80              | 6.66                | 532.8        |
+| 14     | POC-R11   | 45      | Pocillopora | Recruit   |        27 | 14 RNA   | 14 gDNA  | 20250716       | 2                | 80              | 32.2                | 2576         |
+| 15     | P9        | P9      | Pocillopora | Larvae    | 30        | 15 RNA   | 15 gDNA  | 20250716       | 2                | 80              | 7.48                | 598.4        |
+| 16     | P18       | P18     | Pocillopora | Larvae    | 33        | 16 RNA   | 16 gDNA  | 20250716       | 2                | 80              | 8.68                | 694.4        |
+| 17     | POC-R28   | 62      | Pocillopora | Recruit   |        27 | 17 RNA   | 17 gDNA  | 20250716       | 2                | 80              | 22.2                | 1776         |
+| 18     | A17       | A17     | Acropora    | Larvae    | 33        | 18 RNA   | 18 gDNA  | 20250716       | 2                | 80              | 32.2                | 2576         |
+| 19     | P3        | P3      | Pocillopora | Larvae    | 27        | 19 RNA   | 19 gDNA  | 20250716       | 2                | 80              | 6.04                | 483.2        |
+| 20     | A9        | A9      | Acropora    | Larvae    | 30        | 20 RNA   | 20 gDNA  | 20250716       | 2                | 80              | 32.2                | 2576         |
+
+Batch 3:  
+
+| seq_id | sample_id | tube_id | genus       | lifestage | Treatment | rna.tube | dna.tube | date.extracted | extraction.batch | total.volume.ul | concentration.ng.ul | total.rna.ng |
+|--------|-----------|---------|-------------|-----------|----------:|----------|----------|----------------|------------------|-----------------|---------------------|--------------|
+| 21     | A16       | A16     | Acropora    | Larvae    | 33        | 21 RNA   | 21 gDNA  | 20250716       | 3                | 80              | 48.2                | 3856         |
+| 22     | P4        | P4      | Pocillopora | Larvae    | 27        | 22 RNA   | 22 gDNA  | 20250716       | 3                | 80              | 8.08                | 646.4        |
+| 23     | ACR-R28   | 30      | Acropora    | Recruit   |        30 | 23 RNA   | 23 gDNA  | 20250716       | 3                | 80              | 8.88                | 710.4        |
+| 24     | A3        | A3      | Acropora    | Larvae    | 27        | 24 RNA   | 24 gDNA  | 20250716       | 3                | 80              | 42.6                | 3408         |
+| 25     | POC-R26   | 60      | Pocillopora | Recruit   |        30 | 25 RNA   | 25 gDNA  | 20250716       | 3                | 80              | 7.22                | 577.6        |
+| 26     | P14       | P14     | Pocillopora | Larvae    | 33        | 26 RNA   | 26 gDNA  | 20250716       | 3                | 80              | 7.92                | 633.6        |
+| 27     | ACR-R29   | 31      | Acropora    | Recruit   |        27 | 27 RNA   | 27 gDNA  | 20250716       | 3                | 80              | 27                  | 2160         |
+| 28     | ACR-R18   | 20      | Acropora    | Recruit   |        30 | 28 RNA   | 28 gDNA  | 20250716       | 3                | 80              | 17.5                | 1400         |
+| 29     | ACR-R25   | 27      | Acropora    | Recruit   |        30 | 29 RNA   | 29 gDNA  | 20250716       | 3                | 80              | 29.2                | 2336         |
+| 30     | P10       | P10     | Pocillopora | Larvae    | 30        | 30 RNA   | 30 gDNA  | 20250716       | 3                | 80              | 7.5                 | 600          |
+
+We are using the following equipment:  
+
+- Eppendorf Centrifuge 5424
+- Qubit High Sensitivity RNA 3.0 Fluoreometer and reagents 
+- Bullet Blender bead beater Gold + 
+
+Batches 1-3 used the following kit: Zymo Quick RNA DNA MiniPrep Plus Kit (cat no. D7003, Lot no. 225465).     
+
+I will proceed with another batch on Friday using a new kit (Lot no. 225465). I prepped the reagents today.    
