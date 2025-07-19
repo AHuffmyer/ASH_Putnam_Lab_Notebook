@@ -127,3 +127,32 @@ We are using the following equipment:
 Batches 1-3 used the following kit: Zymo Quick RNA DNA MiniPrep Plus Kit (cat no. D7003, Lot no. 225465).     
 
 I will proceed with another batch on Friday using a new kit (Lot no. 225465). I prepped the reagents today.    
+
+### 20250718
+
+Today I extracted 14 samples (1 batch of 14) for RNA and gDNA using the protocol linked above with no modifications. Aakriti completed gDNA extraction steps following lysis. All samples stored in -80°C.   
+
+I quantified using the Qubit after extractions.  
+
+RNA concentrations look good in general. The lowest concentration samples were the Pocillopora larvae, consistent with previous extractions.   
+
+Batch 4:  
+
+| seq_id | sample_id | tube_id | genus       | lifestage | Treatment | rna.tube | dna.tube | date.extracted | extraction.batch | total.volume.ul | concentration.ng.ul | total.rna.ng |
+|--------|-----------|---------|-------------|-----------|----------:|----------|----------|----------------|------------------|-----------------|---------------------|--------------|
+| 31     | POC-R21   | 55      | Pocillopora | Recruit   |        27 | 31 RNA   | 31 gDNA  | 20250718       | 4                | 80              | 22.4                | 1792         |
+| 32     | ACR-R15   | 17      | Acropora    | Recruit   |        33 | 32 RNA   | 32 gDNA  | 20250718       | 4                | 80              | 19.4                | 1552         |
+| 33     | POC-R14   | 48      | Pocillopora | Recruit   |        33 | 33 RNA   | 33 gDNA  | 20250718       | 4                | 80              | 46.6                | 3728         |
+| 34     | P7        | P7      | Pocillopora | Larvae    | 30        | 34 RNA   | 34 gDNA  | 20250718       | 4                | 80              | 6.98                | 558.4        |
+| 35     | ACR-R27   | 29      | Acropora    | Recruit   |        27 | 35 RNA   | 35 gDNA  | 20250718       | 4                | 80              | 24.6                | 1968         |
+| 36     | ACR-R12   | 14      | Acropora    | Recruit   |        33 | 36 RNA   | 36 gDNA  | 20250718       | 4                | 80              | 12.7                | 1016         |
+| 37     | A8        | A8      | Acropora    | Larvae    | 30        | 37 RNA   | 37 gDNA  | 20250718       | 4                | 80              | 38.2                | 3056         |
+| 38     | P8        | P8      | Pocillopora | Larvae    | 30        | 38 RNA   | 38 gDNA  | 20250718       | 4                | 80              | 7.42                | 593.6        |
+| 39     | A15       | A15     | Acropora    | Larvae    | 33        | 39 RNA   | 39 gDNA  | 20250718       | 4                | 80              | 28.4                | 2272         |
+| 40     | A13       | A13     | Acropora    | Larvae    | 33        | 40 RNA   | 40 gDNA  | 20250718       | 4                | 80              | 28.6                | 2288         |
+| 41     | A12       | A12     | Acropora    | Larvae    | 30        | 41 RNA   | 41 gDNA  | 20250718       | 4                | 80              | 35.8                | 2864         |
+| 42     | ACR-R19   | 21      | Acropora    | Recruit   |        33 | 42 RNA   | 42 gDNA  | 20250718       | 4                | 80              | 15.7                | 1256         |
+| 43     | ACR-R17   | 19      | Acropora    | Recruit   |        27 | 43 RNA   | 43 gDNA  | 20250718       | 4                | 80              | 16.7                | 1336         |
+| 44     | ACR-R14   | 16      | Acropora    | Recruit   |        30 | 44 RNA   | 44 gDNA  | 20250718       | 4                | 80              | 17.9                | 1432         |
+
+Batch 4 used a new kit with the following information: Zymo Quick RNA DNA MiniPrep Plus Kit (cat no. D7003, Lot no. 225465).     
