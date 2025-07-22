@@ -1,7 +1,7 @@
 ---
 layout: post
 title: RNA Extraction Log for 2023 Moorea Project
-date: '2025-07-16'
+date: '2025-07-21'
 categories: Moorea_SymbioticExchange_2023
 tags: Molecular Extraction GeneExpression
 ---
@@ -156,3 +156,27 @@ Batch 4:
 | 44     | ACR-R14   | 16      | Acropora    | Recruit   |        30 | 44 RNA   | 44 gDNA  | 20250718       | 4                | 80              | 17.9                | 1432         |
 
 Batch 4 used a new kit with the following information: Zymo Quick RNA DNA MiniPrep Plus Kit (cat no. D7003, Lot no. 225465).     
+
+### 20250721
+
+Today I extracted 10 samples (1 batch of 10) for RNA and gDNA using the protocol linked above with no modifications. Aakriti completed gDNA extraction steps following lysis. All samples stored in -80°C.   
+
+I quantified using the Qubit after extractions.  
+
+RNA concentrations look good in general. The lowest concentration samples were the Pocillopora larvae, consistent with previous extractions.   
+
+Batch 5:  
+
+| seq_id | box       | sample_id | tube_id | genus       | lifestage | preservation  | Treatment | rna.tube | dna.tube | date.extracted | extraction.batch | total.volume.ul | concentration.ng.ul | total.rna.ng | notes |
+|--------|-----------|-----------|---------|-------------|-----------|---------------|----------:|----------|----------|----------------|------------------|-----------------|---------------------|--------------|-------|
+| 45     | Box 4     | P13       | P13     | Pocillopora | Larvae    | 250 uL shield | 33        | 45 RNA   | 45 gDNA  | 20250721       | 5                | 80              | 8.34                | 667.2        |       |
+| 46     | RNA Box 1 | ACR-R30   | 32      | Acropora    | Recruit   | 500 uL shield |        33 | 46 RNA   | 46 gDNA  | 20250721       | 5                | 80              | 32.4                | 2592         |       |
+| 47     | RNA Box 2 | POC-R12   | 46      | Pocillopora | Recruit   | 500 uL shield |        30 | 47 RNA   | 47 gDNA  | 20250721       | 5                | 80              | 26.8                | 2144         |       |
+| 48     | Box 4     | A14       | A14     | Acropora    | Larvae    | 500 uL shield | 33        | 48 RNA   | 48 gDNA  | 20250721       | 5                | 80              | 51.4                | 4112         |       |
+| 49     | Box 4     | P2        | P2      | Pocillopora | Larvae    | 250 uL shield | 27        | 49 RNA   | 49 gDNA  | 20250721       | 5                | 80              | 10                  | 800          |       |
+| 50     | RNA Box 1 | ACR-R13   | 15      | Acropora    | Recruit   | 500 uL shield |        33 | 50 RNA   | 50 gDNA  | 20250721       | 5                | 80              | 22.6                | 1808         |       |
+| 51     | Box 4     | P1        | P1      | Pocillopora | Larvae    | 250 uL shield | 27        | 51 RNA   | 51 gDNA  | 20250721       | 5                | 80              | 6.06                | 484.8        |       |
+| 52     | Box 4     | P17       | P17     | Pocillopora | Larvae    | 250 uL shield | 33        | 52 RNA   | 52 gDNA  | 20250721       | 5                | 80              | 5.34                | 427.2        |       |
+| 53     | RNA Box 1 | ACR-R23   | 25      | Acropora    | Recruit   | 500 uL shield |        27 | 53 RNA   | 53 gDNA  | 20250721       | 5                | 80              | 26.4                | 2112         |       |
+| 54     | RNA Box 1 | ACR-R11   | 13      | Acropora    | Recruit   | 500 uL shield |        27 | 54 RNA   | 54 gDNA  | 20250721       | 5                | 80              | 13.8                | 1104         |       | 
+
