@@ -180,3 +180,25 @@ Batch 5:
 | 53     | RNA Box 1 | ACR-R23   | 25      | Acropora    | Recruit   | 500 uL shield |        27 | 53 RNA   | 53 gDNA  | 20250721       | 5                | 80              | 26.4                | 2112         |       |
 | 54     | RNA Box 1 | ACR-R11   | 13      | Acropora    | Recruit   | 500 uL shield |        27 | 54 RNA   | 54 gDNA  | 20250721       | 5                | 80              | 13.8                | 1104         |       | 
 
+### 20250722
+
+Today I extracted 10 samples (1 batch of 10) for RNA and gDNA using the protocol linked above with no modifications. Aakriti completed gDNA extraction steps following lysis. All samples stored in -80°C.   
+
+I quantified using the Qubit after extractions.  
+
+RNA concentrations look good in general. The lowest concentration samples were the Pocillopora larvae, consistent with previous extractions. 
+
+| seq_id | sample_id | tube_id | genus       | lifestage | Treatment | rna.tube | dna.tube | date.extracted | extraction.batch | total.volume.ul | concentration.ng.ul | total.rna.ng |
+|--------|-----------|---------|-------------|-----------|----------:|----------|----------|----------------|------------------|-----------------|---------------------|--------------|
+| 55     | POC-R24   | 58      | Pocillopora | Recruit   |        30 | 55 RNA   | 55 gDNA  | 20250722       | 6                | 80              | 44.8                | 3584         |
+| 56     | A18       | A18     | Acropora    | Larvae    | 33        | 56 RNA   | 56 gDNA  | 20250722       | 6                | 80              | 21                  | 1680         |
+| 57     | A5        | A5      | Acropora    | Larvae    | 27        | 57 RNA   | 57 gDNA  | 20250722       | 6                | 80              | 28                  | 2240         |
+| 58     | P11       | P11     | Pocillopora | Larvae    | 30        | 58 RNA   | 58 gDNA  | 20250722       | 6                | 80              | 10.5                | 840          |
+| 59     | ACR-R26   | 28      | Acropora    | Recruit   |        30 | 59 RNA   | 59 gDNA  | 20250722       | 6                | 80              | 23.2                | 1856         |
+| 60     | A1        | A1      | Acropora    | Larvae    | 27        | 60 RNA   | 60 gDNA  | 20250722       | 6                | 80              | 31.2                | 2496         |
+| 61     | POC-R30   | 64      | Pocillopora | Recruit   |        33 | 61 RNA   | 61 gDNA  | 20250722       | 6                | 80              | 33.2                | 2656         |
+| 62     | POC-R16   | 50      | Pocillopora | Recruit   |        33 | 62 RNA   | 62 gDNA  | 20250722       | 6                | 80              | 5.18                | 414.4        |
+| 63     | A11       | A11     | Acropora    | Larvae    | 30        | 63 RNA   | 63 gDNA  | 20250722       | 6                | 80              | 34.2                | 2736         |
+| 64     | ACR-R16   | 18      | Acropora    | Recruit   |        33 | 64 RNA   | 64 gDNA  | 20250722       | 6                | 80              | 14                  | 1120         |
+
+I prepared a box and will ship the samples out on Monday with overnight delivery.  

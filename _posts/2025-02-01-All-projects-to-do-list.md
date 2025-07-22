@@ -1,7 +1,7 @@
 ---
 layout: post
 title: All Projects To Do List
-date: '2025-06-20'
+date: '2025-07-20'
 categories: Monthly_Goals
 tags: Goals
 ---
@@ -11,7 +11,6 @@ This post lists all my ongoing projects and to-do list.
 ## Hawaii 2023   
 **Analysis and writing**   
 
-- Process all samples for larval symbiont cell density in the lab at UW (in progress, Aakriti) 
 - Revise analysis of rapid light curves from phenoplate data and send results to UTS collaborators 
 - Analyze larval size and symbiont cell density data 
 - Finalize RNAseq differential gene expression and functional enrichment analyses 
@@ -26,7 +25,6 @@ This post lists all my ongoing projects and to-do list.
 ## Moorea 2023   
 **Data collection and analysis**   
 
-- Process/submit samples for RNAseq (July 2025)
 - Process/submit samples for Metabolomics (August 2025) 
 - Update methods section 
 - ITS2 sequencing analysis
@@ -75,7 +73,7 @@ This post lists all my ongoing projects and to-do list.
 ## Oyster Lifestage Carry Over 
 **Analysis and writing** 
 
-- Analyze next set of qPCR (Sam)
+- Analyze qPCR results
 - Organize GitHub repository 
 - Introduction 
 - Methods 
@@ -90,9 +88,8 @@ This post lists all my ongoing projects and to-do list.
 ## PolyIC Larvae   
 **Data collection and experiments**   
  
-- RNA extractions and RNAseq analyses (Madeline & Sam)
-- Lab qPCR thermal stress assays 
-- Outplant PW stocks in Sequim 
+- RNA extractions and RNAseq analyses (UG's)
+- Lab qPCR thermal stress assays (UG's)
 
 ## Oyster 2025 Stress Hardening at Manchester   
 **Experiment and data collection**   

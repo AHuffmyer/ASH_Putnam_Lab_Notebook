@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Coral RNA Extraction Protocol for 2023 Moorea Project
-date: '2025-06-05'
+date: '2025-07-20'
 categories: Protocol Moorea_SymbioticExchange_2023
 tags: Protocol Molecular Extraction GeneExpression
 ---
@@ -30,7 +30,8 @@ Samples include larvae preserved in RNA/DNA shield as well as clippings from rec
 - 70% ethanol
 - 10% bleach 
 - Elmininase 
-- Tweezers (for transfering samples if needed in first section)  
+- P1000, P200, P20, P10 pipettes and RNase/DNase free tips (lots of 1000 µL tips required)
+- Standard consumables (gloves, KimWipes, etc.)
 
 ### Protocol 
 
@@ -54,7 +55,7 @@ Samples include larvae preserved in RNA/DNA shield as well as clippings from rec
 
 - Spin down at 3000 rcf in a centrifuge for 1 minute. 
 
-- Remove 500 µL of liquid sample from the safe-lock sample tube into a new tube to proceed with extraction. Save the leftover sample + beads at -80°C. 
+- Remove 500 µL of liquid sample from the safe-lock sample tube into a new tube to proceed with extraction. Save the leftover bead beat sample with beads at -80°C. 
 
 #### Sample prep: Recruit fragments 
 
@@ -62,7 +63,7 @@ Samples include larvae preserved in RNA/DNA shield as well as clippings from rec
 
 - Thaw samples in an ice bucket. 
 
-- Transfer sample to a labeled 1.5 mL Safe-Lock tube. 
+- Transfer sample (including fragment) to a labeled 1.5 mL Safe-Lock tube. 
 
 - Add more RNA/DNA shield to the sample to bring total volume to 1000 µL. 
 
@@ -72,7 +73,7 @@ Samples include larvae preserved in RNA/DNA shield as well as clippings from rec
 
 - Spin down at 3000 rcf in a centrifuge for 1 minute.
 
-- Remove 500 µL of liquid sample from the safe-lock sample tube into a new tube to proceed with extraction. Save the leftover sample + beads at -80°C. 
+- Remove 500 µL of liquid sample from the safe-lock sample tube into a new tube to proceed with extraction. Save the leftover bead beat sample with beads at -80°C. 
 
 #### Lysis 
 
@@ -82,6 +83,8 @@ Samples include larvae preserved in RNA/DNA shield as well as clippings from rec
 		- DNase I: 		 5 µL x _____ samples = _____ DNase I needed
 	- DNase I is stored at -20°C
 	- Combine in 1.5 mL tube and invert gently to mix
+	- Make for each batch or make in advance and freeze
+	- Store at -20°C
 
 - Add 50 uL of Proteinase K digestion buffer (10:1 ratio of sample:digestion buffer) and 25 uL of Proteinase K (2:1 ratio of digestion buffer:Proteinase K) to each sample.
 
@@ -141,13 +144,15 @@ Samples include larvae preserved in RNA/DNA shield as well as clippings from rec
 
 - Add 400 uL of wash buffer. Centrifuge for 2 minutes at 16000 rpm. Discard liquid. 
 
-- Repeat the wash. Add 400 uL of wash buffer. Centrifuge for 2 minutes at 16000 rpm. Discard liquid. 
+- Add 400 uL of wash buffer. Centrifuge for 2 minutes at 16000 rpm. Discard liquid. 
 
 - Centrifuge columns dry for 2 minutes at 16000 rpm. 
 
 - Move green RNA spin column into final RNA 1.5 mL tube ("ID RNA"). 
 
 - Add 40 µL of warmed DNA/RNA free water (56°C) to spin column. Let columns sit for 5 minutes. Spin for 30 seconds at 16000 rpm. DO THIS TWICE! Total elution volume = 80 µL
+
+- Prepare Qubit reagents during incubation waiting periods. 
 
 - Proceed directly to QC. Store the RNA at -80°C if not proceeding to QC. 
 
@@ -193,7 +198,7 @@ QC using the Qubit High Sensitivity RNA assay.
 
 	- On the Qubit (3.0), press "RNA", then "RNA: High Sensitivity". Press "Read standards". 
 	- Insert the S1 tube. Press "Read standard". Remove. 
-	- Insert the S2 tube. Press "read standard". Remove. 
+	- Insert the S2 tube. Press "Read standard". Remove. 
 	- Record calibration information.  
 
 - Run samples 
@@ -206,24 +211,20 @@ QC using the Qubit High Sensitivity RNA assay.
 
 ### Prep for sending for sequencing 
 
-- Metadata sheet and labeled tubes 
+- Package with dry ice and provide sequencing facility with required metadata
 
-- Send around 70 µL (send the whole tube) 
-
-- Package with dry ice 
+- Follow sequencing facility instructions for shipment
 
 ### Tips and tricks 
 
-- Start with a couple to troubleshoot 
+- Start with small test batches to troublshoot 
 
-- Can work our way up to doing 10-12 at a time 
+- I recommend no more than 10 samples in a single batch 
 
-- Prep tubes and boxes before starting 
+- Prep all tubes and boxes before starting 
 
 - Print out protocol 
 
-- Clean everything before starting with ethanol and RNAase spray 
-
-- Avoid touching anything and be super sterile 
+- Clean everything before starting with ethanol and RNAase spray before starting and between batches 
 
 - Every 5 min do RNAase and ethanol washes on gloves and surfaces 
