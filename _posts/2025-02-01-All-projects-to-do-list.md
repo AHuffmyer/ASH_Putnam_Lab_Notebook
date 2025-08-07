@@ -1,7 +1,7 @@
 ---
 layout: post
 title: All Projects To Do List
-date: '2025-07-20'
+date: '2025-08-01'
 categories: Monthly_Goals
 tags: Goals
 ---
@@ -12,14 +12,10 @@ This post lists all my ongoing projects and to-do list.
 **Analysis and writing**   
 
 - Revise analysis of rapid light curves from phenoplate data and send results to UTS collaborators 
-- Analyze larval size and symbiont cell density data 
 - Finalize RNAseq differential gene expression and functional enrichment analyses 
-- Finalize ITS2 analysis
 - Revise lipidomic analyses for differential lipids and SAM modeling methods 
 - Finalize metabolomics analysis 
-- Conduct WGCNA correlation analyses between lipidomic and RNAseq datasets across temperature, parental phenotypes, and ITS2 
-- Conduct WGCNA correlation analyses of lipid and RNAseq datasets across parental phenotypes, symbiont cell density, phenoplate metrics, and ITS2 
-- Storyboard manuscript with collaborators 
+- Conduct WGCNA correlation analyses 
 - Finalize methods section 
 
 ## Moorea 2023   
@@ -37,7 +33,7 @@ This post lists all my ongoing projects and to-do list.
 - Revise manuscript and post on bioRxiv 
 - Submit manuscript
 
-## E5 Molecular   
+## E5 Metabolism   
 **Data analysis** 
 
 - Metabolomics and lipidomics analysis for timeseries metabolism paper 
@@ -59,10 +55,10 @@ This post lists all my ongoing projects and to-do list.
 **Data collection and analysis** 
 
 - *Goose Point*
-	- Conduct August assessments 
+	- Conduct August/September assessments 
   
 - *Sequim* 
-	- Conduct August assessments  
+	- Conduct August/September assessments  
 
 - *Baywater* 
 	- Conduct summer assessment of 10K oysters outplanted
@@ -83,12 +79,12 @@ This post lists all my ongoing projects and to-do list.
 ## 10K Seed    
 **Data collection and analysis**   
 
-- Conduct summer growth and survival of outplants at Baywater shellfish (pending farm to give us the green light) 
+- Conduct summer growth and survival of outplants at Baywater shellfish 
 
 ## PolyIC Larvae   
 **Data collection and experiments**   
  
-- RNA extractions and RNAseq analyses (UG's)
+- RNAseq analyses (UG's)
 - Lab qPCR thermal stress assays (UG's)
 
 ## Oyster 2025 Stress Hardening at Manchester   

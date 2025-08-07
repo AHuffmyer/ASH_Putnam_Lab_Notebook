@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Writing updates
-date: '2025-07-22'
+date: '2025-08-01'
 categories: Writing
 tags: Writing
 ---
@@ -20,15 +20,15 @@ They are organized from "oldest" data sets to "newest" data sets.
 
 *Status*: Final writing 
 
-*Next step*: Complete introduction and discussion writing 
+*Next step*: Complete discussion writing 
 
-*Timeline*: Complete writing and submit by August 2025
+*Timeline*: Complete writing and send to coauthors August 2025
 
 ## Hawaii2023
 
-*Status*: Data analysis, methods complete 
+*Status*: Data analysis, methods complete
 
-*Next step*: Finish RNAseq, ITS2, lipids, metabolites, and phenoplate data analysis
+*Next step*: Finish RNAseq, ITS2, lipids, metabolites, and phenoplate data analysis and finalize methods
 
 *Time line*: Wrap up data analysis by September 2025
 
@@ -36,9 +36,9 @@ They are organized from "oldest" data sets to "newest" data sets.
 
 *Status*: Initial data collection, draft of methods
 
-*Next step*: Write methods complete up to this point, conduct DNA species ID 
+*Next step*: Write methods complete up to this point, start RNAseq when available  
 
-*Timeline*: Process metabolomics by August 2025
+*Timeline*: Process metabolomics by September 2025
 
 ## Resazurin paper 
 
@@ -46,7 +46,7 @@ They are organized from "oldest" data sets to "newest" data sets.
 
 *Next step*: Finalize analysis, draft manuscript   
 
-*Timeline*: Draft by August/September 2025  
+*Timeline*: Draft by September 2025  
 
 ## Lifestage Carryover/Hardening 
 
@@ -62,7 +62,7 @@ They are organized from "oldest" data sets to "newest" data sets.
 
 *Next step*: Analyze resazurin data and growth; complete methods section
 
-*Timeline*: RNA sequencing, preparation being done by Madeline
+*Timeline*: RNA sequencing submission August 2025 
 
 ## Nom Nom Project   
 
@@ -77,6 +77,14 @@ They are organized from "oldest" data sets to "newest" data sets.
 *Status*: Data analysis
 
 *Next step*: Analyze lipidomic and metabolomic data in context of physiology data
+
+*Timeline*: Early 2026 draft 
+
+## E5 ecological strategies 
+
+*Status*: Initial concept
+
+*Next step*: Plan manuscript approach
 
 *Timeline*: Early 2026 draft 
 
