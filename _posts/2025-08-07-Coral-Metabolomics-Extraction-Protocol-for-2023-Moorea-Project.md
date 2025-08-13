@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Coral Metabolomics Extraction Protocol for 2023 Moorea Project
-date: '2025-08-07'
+date: '2025-08-11'
 categories: Protocol Moorea_SymbioticExchange_2023
 tags: Protocol Metabolomics StableIsotopes Extraction
 ---
@@ -40,6 +40,8 @@ Supplies:
 - Autoclave
 - P1000, P200, P20, P10 pipettes 
 - Standard consumables (gloves, KimWipes, etc.)
+- Glass dounces
+- Alconox/Liquinox laboratory detergent 
 
 ### Protocol 
 
@@ -104,7 +106,7 @@ Autosampler vials = 2
 
 - Place on ice between all steps.  
 
-- Sonicate sample for 30 sec [CHECK TIMING].
+- Sonicate sample for 30 sec.
 
 - Wipe the sonicator tip with 10% bleach, 70% ethanol, and DI water after each sample. 
 
@@ -163,7 +165,7 @@ Store at 4°C in a non-flammable fridge.
 
 #### Metabolite extraction
 
-- Work in small batches of [CHECK NUMBERS]
+- Work in small batches with the number of dounces available. 
 
 - Keep samples on dry ice. 
 
