@@ -21,11 +21,10 @@ Samples include snap frozen recruits and larvae. We are processing 57 total samp
 Chemicals: 
 
 - LCMS grade water 
-- Methanol
+- LC or hypergrade Methanol
 - Acetonitrile
 - Formic acid 
 - Ammonium bicarbonate
-- 10% hydrochloric acid solution 
 
 Supplies:  
 
@@ -76,31 +75,27 @@ Autosampler vials = 2
 
 #### Sample prep, homogenization, and fractionation: Recruits 
 
-- Obtain dry ice. 
-
 - Get small batches of samples from the freezer (2-3 at a time at most). 
 
-- Using cleaned (using ethanol follwed by bleach) clippers, remove a 1 cm2 area of tissue and place into a labeled 1.5 mL tube. Return to the freezer if not proceeding with homogenization immediately. 
+- Using cleaned (using ethanol follwed by bleach) clippers, remove a 1 cm2 area of tissue and place into a labeled 1.5 mL tube. Return to the freezer if not proceeding with homogenization immediately. Do this on ice. 
 
 - Add 200 µL ice cold LCMS grade water.
 
 - Place on ice between all steps.  
 
-- Sonicate sample for 30 sec [CHECK TIMING].
+- Sonicate sample for 30 sec.
 
 - Wipe the sonicator tip with 10% bleach, 70% ethanol, and DI water after each sample. 
 
-- Spin at 2,500g for 5 min at 4°C. 
+- Spin at 3,000g for 5 min at 4°C. 
 
-- Remove supernatant and place in a new labeled tube ("host" tube). Record volume. 
+- Remove supernatant and place in a new labeled tube ("host" tube). Record volume. If needed repeat a second time. 
 
 - Place in a freezer box and store at -80°C until extraction.  
 
 #### Sample prep, homogenization, and fractionation: Larvae
 
-- Obtain dry ice. 
-
-- Thaw samples on dry ice. Work in small batches so that samples are not thawed for longer than required. 
+- Thaw samples on ice. Work in small batches so that samples are not thawed for longer than required. 
 
 - Add 200 µL ice cold LCMS grade water to the sample and transfer to a new 1.5 mL tube.
 
@@ -110,9 +105,9 @@ Autosampler vials = 2
 
 - Wipe the sonicator tip with 10% bleach, 70% ethanol, and DI water after each sample. 
 
-- Spin at 2,500g for 5 min at 4°C. 
+- Spin at 3,000g for 5 min at 4°C. 
 
-- Remove supernatant and place in a new labeled tube ("host" tube). Record volume. 
+- Remove supernatant and place in a new labeled tube ("host" tube). Record volume. If needed repeat a second time.
 
 - Place in a freezer box and store at -80°C until extraction.
 
@@ -122,17 +117,11 @@ Autosampler vials = 2
 
 Before each batch, thoroughly clean glassware (dounces).  
 
-- After use, rinse with DI water thoroughly followed by a thorough rinse with 70% ethanol.  
+- After use, rinse with DI water thoroughly followed by a thorough rinse with methanol.  
 
-- Use a lab-grade detergent (Alconox or Liquinox) to thoroughly scrub and clean the glassware. Use a soft brush to avoid any scratches.
+- Rinse thoroughly with DI water.  
 
-- Rinse thoroughly (at least 5 times) with DI water to remove all detergent. 
-
-- Prepare a 10% [v/v] hydrochloric acid solution in a fume hood. 
-
-- Soak the glassware in the acid solution for 1 h. 
-
-- Rinse thoroughly with DI water. 
+- Repeat a methanol rinse and DI water rinse. 
 
 - Do a final rinse with LCMS grade water. 
 
