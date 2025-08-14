@@ -39,8 +39,7 @@ Supplies:
 - Autoclave
 - P1000, P200, P20, P10 pipettes 
 - Standard consumables (gloves, KimWipes, etc.)
-- Glass dounces
-- Alconox/Liquinox laboratory detergent 
+- Glass dounces 
 
 ### Protocol 
 
