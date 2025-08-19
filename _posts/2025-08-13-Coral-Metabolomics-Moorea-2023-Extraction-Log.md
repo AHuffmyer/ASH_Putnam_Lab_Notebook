@@ -20,3 +20,13 @@ This post details metabolomics extractions for samples taken during the [2023 Sy
 - Organized/obtained required chemicals (still waiting on LCMS water and ammonium bicarbonate) 
 - Labeled tubes 
 - Located samples 
+
+#### 20250819
+
+- Clipped recruit samples and placed into tubes with 1000 µL of LC water  
+- Move larvae into new labeled tubes (added 200 µL LC water to tubes and then moved to new labeled tube) 
+- Picked up extraction supplies 
+- Noticed few larvae in larval tubes, biomass may be low 
+
+
+xxxxxx

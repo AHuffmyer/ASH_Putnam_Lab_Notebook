@@ -76,11 +76,11 @@ Autosampler vials = 2
 
 - Get small batches of samples from the freezer (2-3 at a time at most). 
 
-- Using cleaned (using ethanol follwed by bleach) clippers, remove a 1 cm2 area of tissue and place into a labeled 1.5 mL tube. Return to the freezer if not proceeding with homogenization immediately. Do this on ice. 
+- Using cleaned (using ethanol follwed by bleach) clippers, remove a 1 cm2 area of tissue and place into a labeled 1.5 mL tube. Return to the freezer if not proceeding with homogenization immediately. Do this on dry ice. 
 
-- Add 200 µL ice cold LCMS grade water.
+- Add 1000 µL ice cold LCMS grade water.
 
-- Place on ice between all steps.  
+- Place on dry ice between all steps.  
 
 - Sonicate sample for 30 sec.
 
@@ -94,11 +94,11 @@ Autosampler vials = 2
 
 #### Sample prep, homogenization, and fractionation: Larvae
 
-- Thaw samples on ice. Work in small batches so that samples are not thawed for longer than required. 
+- Thaw samples on dry ice. Work in small batches so that samples are not thawed for longer than required. 
 
 - Add 200 µL ice cold LCMS grade water to the sample and transfer to a new 1.5 mL tube.
 
-- Place on ice between all steps.  
+- Place on dry ice between all steps.  
 
 - Sonicate sample for 30 sec.
 
