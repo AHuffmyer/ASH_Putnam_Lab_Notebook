@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Coral Metabolomics Extraction Log for Moorea 2023 Project
-date: '2025-08-13'
+date: '2025-08-21'
 categories: Moorea_SymbioticExchange_2023
 tags: Metabolomics StableIsotopes Extraction
 ---
@@ -10,14 +10,14 @@ This post details metaboloimcs extractions for the 2023 Moorea Symbiotic Exchang
 
 # Metabolomics Extraction Protocol 
 
-See my protocol I am using [in my notebook here](https://ahuffmyer.github.io/ASH_Putnam_Lab_Notebook/Coral-Metabolomics-Extraction-Protocol-for-2023-Moorea-Project/). 
+See the protocol I am using [in my notebook here](https://ahuffmyer.github.io/ASH_Putnam_Lab_Notebook/Coral-Metabolomics-Extraction-Protocol-for-2023-Moorea-Project/). 
 
 This post details metabolomics extractions for samples taken during the [2023 Symbiotic Exchange](https://github.com/AHuffmyer/moorea_symbiotic_exchange_2023) project. 
 
 #### 20250814 
 
 - Prepared bench and hood areas and cleaned all supplies
-- Organized/obtained required chemicals (still waiting on LCMS water and ammonium bicarbonate) 
+- Organized/obtained required chemicals 
 - Labeled tubes 
 - Located samples 
 
@@ -28,5 +28,8 @@ This post details metabolomics extractions for samples taken during the [2023 Sy
 - Picked up extraction supplies 
 - Noticed few larvae in larval tubes, biomass may be low 
 
+#### 20250819
 
-xxxxxx
+- Host-symbiont fraction separations (noticed pellets in larval samples and recruit samples with recruit pellets much larger)
+- Completed separations for all samples 
+- Prepare extraction reagents - 15% ammonium bicarbonate and extraction buffer 

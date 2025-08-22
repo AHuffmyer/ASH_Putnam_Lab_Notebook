@@ -20,24 +20,24 @@ Samples include snap frozen recruits and larvae. We are processing 57 total samp
 
 Chemicals: 
 
-- LCMS grade water 
-- LC or hypergrade Methanol
+- LCMS/HPLC grade water 
+- HPLC grade Methanol
 - Acetonitrile
 - Formic acid 
-- Ammonium bicarbonate
+- Ammonium bicarbonate (solid) 
 
 Supplies:  
 
 - Microtip sonicator for homogenization
-- Centrifuge and rotor capable of spinning at 15,000 rcf
-- Sample tube freezer boxes (3-4 boxes)
+- Centrifuge and rotor capable of spinning at 15,000 rcf and chilling to 4°C 
+- Sample tube freezer boxes (4 boxes)
 - Plastics 
 	- 4 1.5 mL microcentrifuge tubes per sample, labeled 
 	- 2 Autosampler vials per sample, labeled 
-- 70% ethanol
+- 70% ethanol, 100% ethanol 
 - 10% bleach 
-- Autoclave
-- P1000, P200, P20, P10 pipettes 
+- DI water 
+- P1000, P200 pipettes 
 - Standard consumables (gloves, KimWipes, etc.)
 - Glass dounces 
 
@@ -74,17 +74,17 @@ Autosampler vials = 2
 
 #### Sample prep, homogenization, and fractionation: Recruits 
 
-- Get small batches of samples from the freezer (2-3 at a time at most). 
+- Get small batches of samples from the freezer and hold on dry ice in a cooler 
 
-- Using cleaned (using ethanol follwed by bleach) clippers, remove a 1 cm2 area of tissue and place into a labeled 1.5 mL tube. Return to the freezer if not proceeding with homogenization immediately. Do this on dry ice. 
+- Using cleaned (using ethanol follwed by bleach) clippers, remove a >1 cm2 area of tissue and place into a labeled 1.5 mL tube. 
 
-- Add 1000 µL ice cold LCMS grade water.
+- Add 1000 µL ice cold LCMS grade water. Return to the freezer at this step if needed if not proceeding with homogenization. 
 
 - Place on dry ice between all steps.  
 
-- Sonicate sample for 30 sec.
+- Sonicate sample for 10 sec at 75% amplitude .
 
-- Wipe the sonicator tip with 10% bleach, 70% ethanol, and DI water after each sample. 
+- Wipe the sonicator tip with 70% ethanol, and DI water after each sample. 
 
 - Spin at 3,000g for 5 min at 4°C. 
 
@@ -94,21 +94,21 @@ Autosampler vials = 2
 
 #### Sample prep, homogenization, and fractionation: Larvae
 
-- Thaw samples on dry ice. Work in small batches so that samples are not thawed for longer than required. 
+- Get small batches of samples from the freezer and hold on dry ice in a cooler 
 
-- Add 200 µL ice cold LCMS grade water to the sample and transfer to a new 1.5 mL tube.
+- Add 200 µL ice cold LCMS grade water to the original sample tube. Pipette into a new labeled tube. Return to the freezer at this step if needed if not proceeding with homogenization. 
 
 - Place on dry ice between all steps.  
 
-- Sonicate sample for 30 sec.
+- Sonicate sample for 10 sec at 75% amplitude .
 
-- Wipe the sonicator tip with 10% bleach, 70% ethanol, and DI water after each sample. 
+- Wipe the sonicator tip with 70% ethanol, and DI water after each sample. 
 
 - Spin at 3,000g for 5 min at 4°C. 
 
-- Remove supernatant and place in a new labeled tube ("host" tube). Record volume. If needed repeat a second time.
+- Remove supernatant and place in a new labeled tube ("host" tube). Record volume. If needed repeat a second time. 
 
-- Place in a freezer box and store at -80°C until extraction.
+- Place in a freezer box and store at -80°C until extraction.  
 
 #### Prepare extraction buffers and supplies 
 
@@ -116,11 +116,11 @@ Autosampler vials = 2
 
 Before each batch, thoroughly clean glassware (dounces).  
 
-- After use, rinse with DI water thoroughly followed by a thorough rinse with methanol.  
+- After use, rinse with DI water thoroughly followed by a thorough rinse with ethanol.  
 
 - Rinse thoroughly with DI water.  
 
-- Repeat a methanol rinse and DI water rinse. 
+- Repeat an ethanol rinse and DI water rinse. 
 
 - Do a final rinse with LCMS grade water. 
 
@@ -153,9 +153,9 @@ Store at 4°C in a non-flammable fridge.
 
 #### Metabolite extraction
 
-- Work in small batches with the number of dounces available. 
+- Work in batches of 10 with the number of dounces available. 
 
-- Keep samples on dry ice. 
+- Keep samples on dry ice and place dounces over dry ice on a tube rack in a cooler. 
 
 - Add sample (pipette from tube) into the ice cold douce with 500 µL of ice cold extraction buffer. Sit on dry ice for 5 minutes.
 
@@ -181,7 +181,7 @@ Store at 4°C in a non-flammable fridge.
 
 - Coordinate with facility to ship samples using overnight FedEx shipment. 
 
-- Send in a box with dry ice (~10 lbs). 
+- Send in a box with dry ice (~8 lbs). 
 
 - Once data is obtained, discard of other extraction tubes. 
 
