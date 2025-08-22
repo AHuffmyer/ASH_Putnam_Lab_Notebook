@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Writing updates
-date: '2025-08-01'
+date: '2025-08-15'
 categories: Writing
 tags: Writing
 ---
@@ -10,17 +10,11 @@ I have listed active manuscripts below and their status along with my writing go
 
 They are organized from "oldest" data sets to "newest" data sets.  
 
-## Omic perspectives paper 
-
-*Status*: Accepted!  
-
-*Next step*: Proof and publish 
-
 ## E5 physiology 
 
 *Status*: Final writing 
 
-*Next step*: Complete discussion writing 
+*Next step*: Full draft to coauthors  
 
 *Timeline*: Complete writing and send to coauthors August 2025
 
@@ -28,41 +22,41 @@ They are organized from "oldest" data sets to "newest" data sets.
 
 *Status*: Data analysis, methods complete
 
-*Next step*: Finish RNAseq, ITS2, lipids, metabolites, and phenoplate data analysis and finalize methods
+*Next step*: Finish RNAseq, lipids, metabolites, and phenoplate data analysis and finalize methods
 
 *Time line*: Wrap up data analysis by September 2025
 
 ## Moorea2023
 
-*Status*: Initial data collection, draft of methods
+*Status*: Sample processing, draft of methods
 
-*Next step*: Write methods complete up to this point, start RNAseq when available  
+*Next step*: Write methods complete up to this point, start RNAseq and metabolomics analysis when available  
 
 *Timeline*: Process metabolomics by September 2025
 
 ## Resazurin paper 
 
-*Status*: Final data analysis and data collection
+*Status*: Final draft 
 
-*Next step*: Finalize analysis, draft manuscript   
+*Next step*: Send to coauthors by August 2025  
 
-*Timeline*: Draft by September 2025  
+*Timeline*: Submit by September 2025  
 
 ## Lifestage Carryover/Hardening 
 
-*Status*: Final data collection, written outline
+*Status*: Final data collection, outline data available 
 
 *Next step*: Analyze final qPCR data and write methods section
 
-*Timeline*: Finish analysis and methods by August 2025
+*Timeline*: Finish analysis and methods by October 2025
 
 ## PolyIC Larvae   
 
-*Status*: Data collection, written outline
+*Status*: Paper in writing 
 
-*Next step*: Analyze resazurin data and growth; complete methods section
+*Next step*: Write full draft
 
-*Timeline*: RNA sequencing submission August 2025 
+*Timeline*: Full draft by September 2025
 
 ## Nom Nom Project   
 

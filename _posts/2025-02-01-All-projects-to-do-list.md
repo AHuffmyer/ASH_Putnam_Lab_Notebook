@@ -1,7 +1,7 @@
 ---
 layout: post
 title: All Projects To Do List
-date: '2025-08-01'
+date: '2025-08-15'
 categories: Monthly_Goals
 tags: Goals
 ---
@@ -28,9 +28,8 @@ This post lists all my ongoing projects and to-do list.
 ## E5 Physiology     
 **Final manuscript**   
 
-- Finish writing discussion section 
 - Send draft of full manuscript to coauthors (August 2025) 
-- Revise manuscript and post on bioRxiv 
+- Post on bioRxiv
 - Submit manuscript
 
 ## E5 Metabolism   
@@ -46,10 +45,9 @@ This post lists all my ongoing projects and to-do list.
 ## Resazurin methods manuscript   
 **Analysis and writing** 
 
-- Conduct oxygen experiment with Mac 
-- Results
 - Discussion
 - Final draft to coauthors in August 2025
+- Submit early September to journal 
 
 ## Oyster 2024 Stress Hardening   
 **Data collection and analysis** 
@@ -61,7 +59,7 @@ This post lists all my ongoing projects and to-do list.
 	- Conduct August/September assessments  
 
 - *Baywater* 
-	- Conduct summer assessment of 10K oysters outplanted
+	- Conduct fall/late summer assessment of 10K and PolyIC oysters
 
 - *Westcott* 
 	- Analyze August assessment images (Grace L.)
@@ -70,7 +68,6 @@ This post lists all my ongoing projects and to-do list.
 **Analysis and writing** 
 
 - Analyze qPCR results
-- Organize GitHub repository 
 - Introduction 
 - Methods 
 - Results 
@@ -79,13 +76,12 @@ This post lists all my ongoing projects and to-do list.
 ## 10K Seed    
 **Data collection and analysis**   
 
-- Conduct summer growth and survival of outplants at Baywater shellfish 
+- Analyze summer growth from outplant assessment photos 
 
 ## PolyIC Larvae   
 **Data collection and experiments**   
  
-- RNAseq analyses (UG's)
-- Lab qPCR thermal stress assays (UG's)
+- Write physiology/performance paper 
 
 ## Oyster 2025 Stress Hardening at Manchester   
 **Experiment and data collection**   
@@ -95,3 +91,4 @@ This post lists all my ongoing projects and to-do list.
 ## Planning and funding    
 
 - BIO-OCE submission with Hollie (September/October 2025)
+- Look at USDA funding calls
