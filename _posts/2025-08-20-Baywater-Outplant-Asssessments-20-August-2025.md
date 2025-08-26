@@ -114,3 +114,8 @@ Data are on [GitHub here](https://github.com/RobertsLab/polyIC-larvae/tree/main/
 - [10K seed image analysis](https://github.com/RobertsLab/resources/issues/2282)
 - [PolyIC seed image analysis](https://github.com/RobertsLab/resources/issues/2281)
 
+# Update from Baywater on 8/22
+
+- Bags were deployed on Line 11, Block E
+- The PolyIC "large" bags (323, 326) were moved into smaller mesh bags by Caleb as they were too small. 
+
