@@ -36,6 +36,7 @@ Date|Position| Affiliation
 
 [Google Scholar Profile](https://scholar.google.com/citations?user=_dw3pYEAAAAJ&hl=en)
 
+19. Venkataraman Y and **AS Huffmyer**. Interrogating metabolic plasticity in marine organisms: A framework for best practices using metabolomic and lipidomic approaches. 2025. Integrative and Comparative Biology. https://doi.org/10.1093/icb/icaf138
 18. **AS Huffmyer**, KH Wong, DM Becker, E Strand, T Mass, HM Putnam. 2023. Shifts and critical periods in coral metabolism reveal energetic vulnerability during development. Current Biology. 10.1016/j.cub.2025.05.013  
 17. **AS Huffmyer**, J Ashey, E Strand, E Chiles, X Su, HM Putnam. 2024. Coral larvae increase nitrogen assimilation to stabilize algal symbiosis and combat bleaching under increased temperature. PLoS Biology 22(11): e3002875
 16. Venkataraman Y, **AS Huffmyer**, S White, A Downey-Wall, J Ashey, D Becker, Z Bengtsson, HM Putnam, E Strand, J Rodríguez-Casariego, SA Wanamaker, K Lottheros, S Roberts. 2024. DNA methylation correlates with transcriptional noise in response to elevated pCO2 in the eastern oyster (*Crassostrea virginica*). Environmental Epigenetics. 10(1): dvae018

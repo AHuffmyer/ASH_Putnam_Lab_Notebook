@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Coral Metabolomics Extraction Protocol for 2023 Moorea Project
-date: '2025-08-11'
+date: '2025-09-02'
 categories: Protocol Moorea_SymbioticExchange_2023
 tags: Protocol Metabolomics StableIsotopes Extraction
 ---
@@ -155,9 +155,9 @@ Store at 4°C in a non-flammable fridge.
 
 - Work in batches of 10 with the number of dounces available. 
 
-- Keep samples on dry ice and place dounces over dry ice on a tube rack in a cooler. 
+- Keep samples on ice and place dounces over dry ice on a tube rack in a cooler. 
 
-- Add sample (pipette from tube) into the ice cold douce with 500 µL of ice cold extraction buffer. Sit on dry ice for 5 minutes.
+- Add 300 µL of sample (pipette from tube) into the ice cold douce with 500 µL of ice cold extraction buffer. Sit on ice for 5 minutes.
 
 - Homogenize for 1 minute on dry ice in the dounce using the glass dounce. 
 

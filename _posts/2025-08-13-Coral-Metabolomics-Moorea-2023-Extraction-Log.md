@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Coral Metabolomics Extraction Log for Moorea 2023 Project
-date: '2025-08-21'
+date: '2025-09-02'
 categories: Moorea_SymbioticExchange_2023
 tags: Metabolomics StableIsotopes Extraction
 ---
@@ -33,3 +33,7 @@ This post details metabolomics extractions for samples taken during the [2023 Sy
 - Host-symbiont fraction separations (noticed pellets in larval samples and recruit samples with recruit pellets much larger)
 - Completed separations for all samples 
 - Prepare extraction reagents - 15% ammonium bicarbonate and extraction buffer 
+
+#### 20250902
+
+- Extractions in batches of 10: Samples 1-10 (batch 1), 11-20 (batch 2), and 21-30 (batch 3)  

@@ -1,7 +1,7 @@
 ---
 layout: post
 title: All Projects To Do List
-date: '2025-08-15'
+date: '2025-09-01'
 categories: Monthly_Goals
 tags: Goals
 ---
@@ -21,14 +21,15 @@ This post lists all my ongoing projects and to-do list.
 ## Moorea 2023   
 **Data collection and analysis**   
 
-- Process/submit samples for Metabolomics (August 2025) 
 - Update methods section 
 - ITS2 sequencing analysis
+- RNAseq analysis
+- Metabolomics analysis
 
 ## E5 Physiology     
 **Final manuscript**   
 
-- Send draft of full manuscript to coauthors (August 2025) 
+- Send draft of full manuscript to coauthors (Sept 15 2025) 
 - Post on bioRxiv
 - Submit manuscript
 
@@ -45,24 +46,26 @@ This post lists all my ongoing projects and to-do list.
 ## Resazurin methods manuscript   
 **Analysis and writing** 
 
-- Discussion
-- Final draft to coauthors in August 2025
-- Submit early September to journal 
+- Submit end of September to journal 
 
 ## Oyster 2024 Stress Hardening   
 **Data collection and analysis** 
 
 - *Goose Point*
-	- Conduct August/September assessments 
+	- Analyze August images
+	- Conduct fall assessment
   
 - *Sequim* 
-	- Conduct August/September assessments  
+	- Analyze August images
+	- Conduct fall assessment
 
 - *Baywater* 
-	- Conduct fall/late summer assessment of 10K and PolyIC oysters
+	- Analyze August images
+	- Conduct fall assessment
 
 - *Westcott* 
-	- Analyze August assessment images (Grace L.)
+	- Analyze August images (Grace L.)
+	- Conduct fall assessment
 
 ## Oyster Lifestage Carry Over 
 **Analysis and writing** 
@@ -90,5 +93,5 @@ This post lists all my ongoing projects and to-do list.
 
 ## Planning and funding    
 
-- BIO-OCE submission with Hollie (September/October 2025)
+- IOS submission with Hollie (September/October 2025)
 - Look at USDA funding calls

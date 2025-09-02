@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Writing updates
-date: '2025-08-15'
+date: '2025-09-01'
 categories: Writing
 tags: Writing
 ---
@@ -16,7 +16,7 @@ They are organized from "oldest" data sets to "newest" data sets.
 
 *Next step*: Full draft to coauthors  
 
-*Timeline*: Complete writing and send to coauthors August 2025
+*Timeline*: Complete writing and send to coauthors Sept 15 2025
 
 ## Hawaii2023
 
@@ -28,17 +28,17 @@ They are organized from "oldest" data sets to "newest" data sets.
 
 ## Moorea2023
 
-*Status*: Sample processing, draft of methods
+*Status*: Draft of methods
 
-*Next step*: Write methods complete up to this point, start RNAseq and metabolomics analysis when available  
+*Next step*: Write methods, start RNAseq and metabolomics analysis when available  
 
-*Timeline*: Process metabolomics by September 2025
+*Timeline*: Finish methods October 2025
 
 ## Resazurin paper 
 
-*Status*: Final draft 
+*Status*: Revising final draft 
 
-*Next step*: Send to coauthors by August 2025  
+*Next step*: Submit by September 2025  
 
 *Timeline*: Submit by September 2025  
 
