@@ -1,7 +1,7 @@
 ---
 layout: post
 title: September 2025 Goals
-date: '2025-09-02'
+date: '2025-09-03'
 categories: Monthly_Goals
 tags: Goals
 ---
@@ -47,6 +47,11 @@ September goals and daily notebook entries.
 1. Metabolomics processing for Moorea2023 
 
 ## **Daily Log**   
+
+### September 3-4
+
+- Taylor Shellfish seed family screening 
+- Metabolomics extractions 
 
 ### September 2
 
