@@ -37,3 +37,14 @@ This post details metabolomics extractions for samples taken during the [2023 Sy
 #### 20250902
 
 - Extractions in batches of 10: Samples 1-10 (batch 1), 11-20 (batch 2), and 21-30 (batch 3)  
+
+#### 20250903
+
+- Extractions for samples 31-40 (batch 4) 
+
+#### 20250904
+
+- Final extractions for samples 41-50 (batch 5) and 51-60 (batch 6)
+- Boxes prepared for shipment
+- Lab areas cleaned 
+- *Note*: Sample 47 spilled and is not included in the samples to send (59 total samples)
