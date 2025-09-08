@@ -1,7 +1,7 @@
 ---
 layout: post
 title: September 2025 Goals
-date: '2025-09-03'
+date: '2025-09-08'
 categories: Monthly_Goals
 tags: Goals
 ---
@@ -24,6 +24,7 @@ September goals and daily notebook entries.
 2. Revisit respiration scripts for Hawaii 2023 and Moorea 2023 analysis using recent updates with oyster scripts 
 3. Bioinformatics for RNAseq Hawaii 2023 data when available 
 4. E5 time series machine learning
+5. Taylor shellfish family screening analysis 
 
 ### Field work 
 
@@ -44,9 +45,21 @@ September goals and daily notebook entries.
 
 ### Lab experiments 
 
-1. Metabolomics processing for Moorea2023 
+1. ~~Metabolomics processing for Moorea2023~~
+2. Set up Guava Cytek Muse instrument  
 
 ## **Daily Log**   
+
+### September 8
+
+- PCSGA talk
+- Ship out metabolomics samples
+- HPLC water 
+  
+### September 5
+
+- PCSGA talk 
+- Taylor shellfish family screening analysis 
 
 ### September 3-4
 

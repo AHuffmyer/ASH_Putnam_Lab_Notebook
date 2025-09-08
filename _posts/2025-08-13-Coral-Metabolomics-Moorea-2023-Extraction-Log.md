@@ -48,3 +48,7 @@ This post details metabolomics extractions for samples taken during the [2023 Sy
 - Boxes prepared for shipment
 - Lab areas cleaned 
 - *Note*: Sample 47 spilled and is not included in the samples to send (59 total samples)
+
+#### 20250908
+
+- Samples packaged and shipped with dry ice 
