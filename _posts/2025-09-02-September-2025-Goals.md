@@ -1,7 +1,7 @@
 ---
 layout: post
 title: September 2025 Goals
-date: '2025-09-08'
+date: '2025-09-10'
 categories: Monthly_Goals
 tags: Goals
 ---
@@ -41,7 +41,7 @@ September goals and daily notebook entries.
 
 ### Presentations
 
-1. PCSGA conference and talk
+1. ~~PCSGA conference and talk~~
 
 ### Lab experiments 
 
@@ -49,6 +49,10 @@ September goals and daily notebook entries.
 2. Set up Guava Cytek Muse instrument  
 
 ## **Daily Log**   
+
+### September 9-11
+
+- PCSGA conference
 
 ### September 8
 

@@ -82,15 +82,16 @@ Date|Position| Affiliation
 
 2015 National Science Foundation Graduate Research Fellowship Program  
 
-### SELECTED PRESENTATIONS (7 of 35 total) 
+### SELECTED PRESENTATIONS (8 of 35 total) 
 
-1.  **Huffmyer AS** et al. Holobiont composition and seasonal plasticity in physiology are key to understanding reef building coral resilience. Moorea Coral Reef Long Term Ecological Research All-Investigators Meeting. Virtual. December 2024.  
-2. **Huffmyer AS**, J Ashey, E Chiles, E Strand, X Su, HM Putnam. Thermal stress reduces photosynthate metabolism and disrupts nitrogen cycling in coral larvae. Society of Integrative and Comparative Biology. Seattle, WA, USA. January 2024.  
-3. **Huffmyer AS**. Understanding shifts in symbiotic and physiological state in reef-building corals across developmental and environmental gradients. Old Dominion University Biology Seminar Series. V*irtual invited seminar speaker*. December 2022.   
-4. **Huffmyer AS**. Multi-omic approaches to understand reef coral development and symbiosis. University of Washington eScience Postdoctoral Fellows seminar. Seattle, WA, USA. November 2022.  
-5. **Huffmyer AS**. Physiological and multi-omic signatures of shifts in symbiotic nutritional exchange in reef-building coral early life history. University of Technology Sydney Climate Change Cluster (C3). *Virtual invited seminar speaker*. June 2022.  
-6. **Huffmyer AS**, K Wong, DM Becker-Polinski, E Strand, T Mass, HM Putnam. Physiological and multi-omic signatures of shifts in symbiotic nutritional exchange in reef-building coral early life history. Benthic Ecology Conference. Portsmouth, NH, USA. March 2022.
-7. **Huffmyer AS**, T O’Neill, JD Lemus. Supporting professional science identity for science students. STEMS2 Symposium. Virtual presentation. June 2020.
+1. **Huffmyer AS** et al. Stress hardening and metabolic screening: Tools to assess oyster performance and resilience. Pacific Coast Shellfish Growers Association Conference. Vancouver, WA, USA. September 2025. 
+2. **Huffmyer AS** et al. Holobiont composition and seasonal plasticity in physiology are key to understanding reef building coral resilience. Moorea Coral Reef Long Term Ecological Research All-Investigators Meeting. Virtual. December 2024.  
+3. **Huffmyer AS**, J Ashey, E Chiles, E Strand, X Su, HM Putnam. Thermal stress reduces photosynthate metabolism and disrupts nitrogen cycling in coral larvae. Society of Integrative and Comparative Biology. Seattle, WA, USA. January 2024.  
+4. **Huffmyer AS**. Understanding shifts in symbiotic and physiological state in reef-building corals across developmental and environmental gradients. Old Dominion University Biology Seminar Series. *Virtual invited seminar speaker*. December 2022.   
+5. **Huffmyer AS**. Multi-omic approaches to understand reef coral development and symbiosis. University of Washington eScience Postdoctoral Fellows seminar. Seattle, WA, USA. November 2022.  
+6. **Huffmyer AS**. Physiological and multi-omic signatures of shifts in symbiotic nutritional exchange in reef-building coral early life history. University of Technology Sydney Climate Change Cluster (C3). *Virtual invited seminar speaker*. June 2022.  
+7. **Huffmyer AS**, K Wong, DM Becker-Polinski, E Strand, T Mass, HM Putnam. Physiological and multi-omic signatures of shifts in symbiotic nutritional exchange in reef-building coral early life history. Benthic Ecology Conference. Portsmouth, NH, USA. March 2022.
+8. **Huffmyer AS**, T O’Neill, JD Lemus. Supporting professional science identity for science students. STEMS2 Symposium. Virtual presentation. June 2020.
 
 ### SELECTED POSTER PRESENTATIONS BY MENTORED STUDENTS (3 of 8 total)
 
