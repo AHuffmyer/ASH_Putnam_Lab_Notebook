@@ -30,7 +30,7 @@ September goals and daily notebook entries.
 
 1. Field assessments at Manchester
 2. Analyze images from Sequim
-3. Analyze images from Goose Point
+3. ~~Analyze images from Goose Point~~
 4. Analyze images from Baywater 
 5. Analyze images from Manchester
 
@@ -49,6 +49,12 @@ September goals and daily notebook entries.
 2. Set up Guava Cytek Muse instrument  
 
 ## **Daily Log**   
+
+### September 12
+
+- Oyster image analysis
+- Resazurin analysis 
+- Conference follow ups 
 
 ### September 9-11
 

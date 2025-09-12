@@ -52,7 +52,6 @@ This post lists all my ongoing projects and to-do list.
 **Data collection and analysis** 
 
 - *Goose Point*
-	- Analyze August images
 	- Conduct fall assessment
   
 - *Sequim* 
