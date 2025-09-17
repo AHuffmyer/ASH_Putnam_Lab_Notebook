@@ -24,7 +24,7 @@ September goals and daily notebook entries.
 2. Revisit respiration scripts for Hawaii 2023 and Moorea 2023 analysis using recent updates with oyster scripts 
 3. Bioinformatics for RNAseq Hawaii 2023 data when available 
 4. E5 time series machine learning
-5. Taylor shellfish family screening analysis 
+5. ~~Taylor shellfish family screening analysis~~ 
 
 ### Field work 
 
@@ -49,6 +49,27 @@ September goals and daily notebook entries.
 2. Set up Guava Cytek Muse instrument  
 
 ## **Daily Log**   
+
+### September 17
+
+- Meeting with VIMS - GitHub how to 
+- Guava Muse instrument preparation and testing 
+- Meeting with Madeline 
+- CRESST proposal
+- Resazurin metrics
+
+### September 16
+
+- Resazurin analysis 
+- E5 physiology manuscript
+- Resazurin manuscript
+
+### September 15
+
+- Resazurin analysis 
+- E5 physiology manuscript
+- Resazurin manuscript
+- Conference follow ups 
 
 ### September 12
 

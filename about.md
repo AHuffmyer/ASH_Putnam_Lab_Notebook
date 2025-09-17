@@ -36,6 +36,7 @@ Date|Position| Affiliation
 
 [Google Scholar Profile](https://scholar.google.com/citations?user=_dw3pYEAAAAJ&hl=en)
 
+20. Ashey J, F Scucchia, **AS Huffmyer**, HM Putnam, T Mass. Exposure to a gradient of warming and acidification highlights physiological, molecular, and skeletal tolerance thresholds in Pocillopora acuta recruits. In press. Molecular Ecology. 
 19. Venkataraman Y and **AS Huffmyer**. Interrogating metabolic plasticity in marine organisms: A framework for best practices using metabolomic and lipidomic approaches. 2025. Integrative and Comparative Biology. https://doi.org/10.1093/icb/icaf138
 18. **AS Huffmyer**, KH Wong, DM Becker, E Strand, T Mass, HM Putnam. 2023. Shifts and critical periods in coral metabolism reveal energetic vulnerability during development. Current Biology. 10.1016/j.cub.2025.05.013  
 17. **AS Huffmyer**, J Ashey, E Strand, E Chiles, X Su, HM Putnam. 2024. Coral larvae increase nitrogen assimilation to stabilize algal symbiosis and combat bleaching under increased temperature. PLoS Biology 22(11): e3002875
