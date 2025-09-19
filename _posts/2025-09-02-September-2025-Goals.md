@@ -22,7 +22,7 @@ September goals and daily notebook entries.
 
 1. Phenoplate and RLC analyses for Hawaii 2023
 2. Revisit respiration scripts for Hawaii 2023 and Moorea 2023 analysis using recent updates with oyster scripts 
-3. Bioinformatics for RNAseq Hawaii 2023 data when available 
+3. Bioinformatics for RNAseq Moorea 2023 data when available 
 4. E5 time series machine learning
 5. ~~Taylor shellfish family screening analysis~~ 
 
@@ -46,10 +46,20 @@ September goals and daily notebook entries.
 ### Lab experiments 
 
 1. ~~Metabolomics processing for Moorea2023~~
-2. Set up Guava Cytek Muse instrument  
+2. ~~Set up Guava Cytek Muse instrument~~  
 
 ## **Daily Log**   
 
+### September 19
+
+- Hawaii 2023 lipid analysis and results section
+- CRESST proposal
+
+### September 18
+
+- Hawaii 2023 lipid analysis 
+- CRESST proposal 
+ 
 ### September 17
 
 - Meeting with VIMS - GitHub how to 
