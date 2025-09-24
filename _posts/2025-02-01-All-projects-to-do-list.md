@@ -1,7 +1,7 @@
 ---
 layout: post
 title: All Projects To Do List
-date: '2025-09-01'
+date: '2025-09-23'
 categories: Monthly_Goals
 tags: Goals
 ---
@@ -13,8 +13,6 @@ This post lists all my ongoing projects and to-do list.
 
 - Revise analysis of rapid light curves from phenoplate data and send results to UTS collaborators 
 - Finalize RNAseq differential gene expression and functional enrichment analyses 
-- Revise lipidomic analyses for differential lipids and SAM modeling methods 
-- Finalize metabolomics analysis 
 - Conduct WGCNA correlation analyses 
 - Finalize methods section 
 
@@ -29,7 +27,7 @@ This post lists all my ongoing projects and to-do list.
 ## E5 Physiology     
 **Final manuscript**   
 
-- Send draft of full manuscript to coauthors (Sept 15 2025) 
+- Send draft of full manuscript to coauthors (Sept 30 2025) 
 - Post on bioRxiv
 - Submit manuscript
 
@@ -66,6 +64,12 @@ This post lists all my ongoing projects and to-do list.
 	- Analyze August images (Grace L.)
 	- Conduct fall assessment
 
+## Manchester Hardening
+**Data collection** 
+
+- Analyze September images 
+- Winter/fall assessment 
+
 ## Oyster Lifestage Carry Over 
 **Analysis and writing** 
 
@@ -84,11 +88,6 @@ This post lists all my ongoing projects and to-do list.
 **Data collection and experiments**   
  
 - Write physiology/performance paper 
-
-## Oyster 2025 Stress Hardening at Manchester   
-**Experiment and data collection**   
-
-- Assess summer mortality and growth of Manchester experiment 
 
 ## Planning and funding    
 

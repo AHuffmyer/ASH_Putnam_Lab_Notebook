@@ -16,13 +16,13 @@ They are organized from "oldest" data sets to "newest" data sets.
 
 *Next step*: Full draft to coauthors  
 
-*Timeline*: Complete writing and send to coauthors Sept 15 2025
+*Timeline*: Complete writing and send to coauthors Sept 30 2025
 
 ## Hawaii2023
 
 *Status*: Data analysis, methods complete
 
-*Next step*: Finish RNAseq, lipids, metabolites, and phenoplate data analysis and finalize methods
+*Next step*: Finish RNAseq, respirometry, and phenoplate data analysis and finalize methods
 
 *Time line*: Wrap up data analysis by September 2025
 
@@ -86,7 +86,6 @@ They are organized from "oldest" data sets to "newest" data sets.
 
 This is a list of the papers (I think all of them) that I am a coauthor on at the moment:  
 
-- Ashey et al. Pocillopora acuta temp x pCO2 - **in review**
 - Ashey et al. E5 ncRNA descriptive - **in review**
 - Gorman et al. Toxin discovery = **in review**
 - Becker et al. Molecular mechanisms - **writing**
