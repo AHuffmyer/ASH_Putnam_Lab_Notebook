@@ -1,7 +1,7 @@
 ---
 layout: post
 title: September 2025 Goals
-date: '2025-09-23'
+date: '2025-09-25'
 categories: Monthly_Goals
 tags: Goals
 ---
@@ -49,6 +49,19 @@ September goals and daily notebook entries.
 2. ~~Set up Guava Cytek Muse instrument~~  
 
 ## **Daily Log**   
+
+### September 25
+
+- Hawaii 2023 respirometery and results 
+- CRESST proposal 
+
+### September 24
+
+- Hawaii 2023 respirometery and results 
+- Taylor resazurin analysis 
+- Manchester analysis 
+- WSG funding meeting 
+- CRESST proposal 
 
 ### September 23
 
