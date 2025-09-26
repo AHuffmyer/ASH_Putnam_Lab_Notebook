@@ -12,11 +12,11 @@ They are organized from "oldest" data sets to "newest" data sets.
 
 ## E5 physiology 
 
-*Status*: Final writing 
+*Status*: With coauthors for comment 
 
-*Next step*: Full draft to coauthors  
+*Next step*: Submission end of Oct 2025
 
-*Timeline*: Complete writing and send to coauthors Sept 30 2025
+*Timeline*: Oct 2025 submission 
 
 ## Hawaii2023
 

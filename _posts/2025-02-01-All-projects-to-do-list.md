@@ -23,13 +23,13 @@ This post lists all my ongoing projects and to-do list.
 - ITS2 sequencing analysis
 - RNAseq analysis
 - Metabolomics analysis
+- Submit MCR abstract
 
 ## E5 Physiology     
 **Final manuscript**   
 
-- Send draft of full manuscript to coauthors (Sept 30 2025) 
-- Post on bioRxiv
-- Submit manuscript
+- Post on bioRxiv (late Oct)
+- Submit manuscript (late Oct)
 
 ## E5 Metabolism   
 **Data analysis** 

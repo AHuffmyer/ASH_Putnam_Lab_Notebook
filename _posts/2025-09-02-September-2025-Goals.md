@@ -13,7 +13,7 @@ September goals and daily notebook entries.
 ### Writing and manuscripts 
               
 1. Methods and results for Mcap2023 analysis
-2. Finish full draft of E5 physiology ms  
+2. ~~Finish full draft of E5 physiology ms~~  
 3. Submit resazurin manuscript
 4. Map out LCO data and hardening data for inclusion in manuscript  
 5. PolyIC manuscript draft
@@ -54,6 +54,7 @@ September goals and daily notebook entries.
 
 - Hawaii 2023 respirometery and results 
 - CRESST proposal 
+- E5 phys manuscript
 
 ### September 24
 
