@@ -1,7 +1,7 @@
 ---
 layout: post
 title: September 2025 Goals
-date: '2025-09-25'
+date: '2025-09-29'
 categories: Monthly_Goals
 tags: Goals
 ---
@@ -22,7 +22,7 @@ September goals and daily notebook entries.
 
 1. Phenoplate and RLC analyses for Hawaii 2023
 2. ~~Revisit respiration scripts for Hawaii 2023 and Moorea 2023 analysis using recent updates with oyster scripts~~ 
-3. Bioinformatics for RNAseq Moorea 2023 data when available 
+3. QC report for RNAseq Moorea 2023 data 
 4. E5 time series machine learning
 5. ~~Taylor shellfish family screening analysis~~ 
 
@@ -32,7 +32,7 @@ September goals and daily notebook entries.
 2. Analyze images from Sequim
 3. ~~Analyze images from Goose Point~~
 4. Analyze images from Baywater 
-5. Analyze images from Manchester
+5. ~~Analyze images from Manchester~~
 
 ### Funding
 
@@ -48,7 +48,19 @@ September goals and daily notebook entries.
 1. ~~Metabolomics processing for Moorea2023~~
 2. ~~Set up Guava Cytek Muse instrument~~  
 
+### Lab meeting goals 
+
+- Goal for first October lab meeting: Revise resazurin manuscript post technical review 
+
 ## **Daily Log**   
+
+### September 29
+
+- Hawaii 2023 results
+- Resazurin manuscript
+- Moorea 2023 sequence downloads
+- Manchester data analysis
+- Catching up on emails 
 
 ### September 25
 

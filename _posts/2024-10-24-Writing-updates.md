@@ -20,7 +20,7 @@ They are organized from "oldest" data sets to "newest" data sets.
 
 ## Hawaii2023
 
-*Status*: Data analysis, methods complete
+*Status*: Write results section
 
 *Next step*: Finish RNAseq, respirometry, and phenoplate data analysis and finalize methods
 
@@ -28,7 +28,7 @@ They are organized from "oldest" data sets to "newest" data sets.
 
 ## Moorea2023
 
-*Status*: Draft of methods
+*Status*: Draft of methods, abstract in progress
 
 *Next step*: Write methods, start RNAseq and metabolomics analysis when available  
 
@@ -52,9 +52,9 @@ They are organized from "oldest" data sets to "newest" data sets.
 
 ## PolyIC Larvae   
 
-*Status*: Paper in writing 
+*Status*: Writing discussion 
 
-*Next step*: Write full draft
+*Next step*: Finish full draft
 
 *Timeline*: Full draft by September 2025
 
@@ -91,6 +91,5 @@ This is a list of the papers (I think all of them) that I am a coauthor on at th
 - Becker et al. Molecular mechanisms - **writing**
 - Becker et al. Heatwave environmental memory - **writing**  
 - Ashey et al. Mcap developmental RNAs - **writing** 
-- Putnam et al. Pocillopora larval development = **writing** 
 - Gorman et al. CoTS RNAseq = **analysis**  
 - E5 group time series molecular - **analysis and data collection**

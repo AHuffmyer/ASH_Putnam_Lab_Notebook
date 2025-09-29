@@ -44,7 +44,8 @@ This post lists all my ongoing projects and to-do list.
 ## Resazurin methods manuscript   
 **Analysis and writing** 
 
-- Submit end of September to journal 
+- Submit early October to journal 
+- Revise post technical review
 
 ## Oyster 2024 Stress Hardening   
 **Data collection and analysis** 
@@ -67,7 +68,6 @@ This post lists all my ongoing projects and to-do list.
 ## Manchester Hardening
 **Data collection** 
 
-- Analyze September images 
 - Winter/fall assessment 
 
 ## Oyster Lifestage Carry Over 
