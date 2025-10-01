@@ -54,6 +54,12 @@ September goals and daily notebook entries.
 
 ## **Daily Log**   
 
+### September 30
+
+- Hawaii 2023 results
+- Resazurin manuscript
+- Moorea 2023 sequence downloads and QC
+
 ### September 29
 
 - Hawaii 2023 results
