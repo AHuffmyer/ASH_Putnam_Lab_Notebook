@@ -24,6 +24,7 @@ This post lists all my ongoing projects and to-do list.
 - RNAseq analysis
 - Metabolomics analysis
 - Submit MCR abstract
+- ITS2 sample sequencing for POC larvae? 
 
 ## E5 Physiology     
 **Final manuscript**   
