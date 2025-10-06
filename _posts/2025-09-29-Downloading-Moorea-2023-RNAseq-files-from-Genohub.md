@@ -1527,7 +1527,9 @@ mput *
 
 All information was added to the [Putnam Lab sequence inventory here](https://docs.google.com/spreadsheets/d/1qDGGpLFcmoO-fIFOPSUhPcxi4ErXIq2PkQbxvCCzI40/edit?gid=0#gid=0).  
 
-Files were uploaded under SUB15678460.   
+254 Files were uploaded under SUB15678460.   
+
+Sequencing inventory including all accession numbers is [available on GitHub here](https://github.com/AHuffmyer/moorea_symbiotic_exchange_2023/blob/main/data/rna/sequencing_inventory.xlsx).  
 
 
   

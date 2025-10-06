@@ -1,7 +1,7 @@
 ---
 layout: post
 title: All Projects To Do List
-date: '2025-09-23'
+date: '2025-10-01'
 categories: Monthly_Goals
 tags: Goals
 ---
@@ -11,10 +11,10 @@ This post lists all my ongoing projects and to-do list.
 ## Hawaii 2023   
 **Analysis and writing**   
 
-- Revise analysis of rapid light curves from phenoplate data and send results to UTS collaborators 
 - Finalize RNAseq differential gene expression and functional enrichment analyses 
 - Conduct WGCNA correlation analyses 
-- Finalize methods section 
+- Finalize results section
+- Outline discussion main points
 
 ## Moorea 2023   
 **Data collection and analysis**   
@@ -23,8 +23,7 @@ This post lists all my ongoing projects and to-do list.
 - ITS2 sequencing analysis
 - RNAseq analysis
 - Metabolomics analysis
-- Submit MCR abstract
-- ITS2 sample sequencing for POC larvae? 
+- ITS2 sample sequencing for POC larvae 
 
 ## E5 Physiology     
 **Final manuscript**   
@@ -55,16 +54,14 @@ This post lists all my ongoing projects and to-do list.
 	- Conduct fall assessment
   
 - *Sequim* 
-	- Analyze August images
-	- Conduct fall assessment
+	- Analyze October images
 
 - *Baywater* 
 	- Analyze August images
 	- Conduct fall assessment
 
 - *Westcott* 
-	- Analyze August images (Grace L.)
-	- Conduct fall assessment
+	- Conduct fall/winter assessment
 
 ## Manchester Hardening
 **Data collection** 
