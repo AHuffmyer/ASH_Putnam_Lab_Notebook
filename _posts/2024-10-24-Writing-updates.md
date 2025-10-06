@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Writing updates
-date: '2025-09-01'
+date: '2025-10-01'
 categories: Writing
 tags: Writing
 ---
@@ -22,25 +22,25 @@ They are organized from "oldest" data sets to "newest" data sets.
 
 *Status*: Write results section
 
-*Next step*: Finish RNAseq, respirometry, and phenoplate data analysis and finalize methods
+*Next step*: Finish RNAseq data analysis and finalize methods
 
-*Time line*: Wrap up data analysis by September 2025
+*Time line*: Wrap up data analysis by October 2025
 
 ## Moorea2023
 
-*Status*: Draft of methods, abstract in progress
+*Status*: Draft of methods
 
-*Next step*: Write methods, start RNAseq and metabolomics analysis when available  
+*Next step*: Write methods, start RNAseq and metabolomics analysis when available, prepare MCR AIM talk 
 
-*Timeline*: Finish methods October 2025
+*Timeline*: Finish methods November 2025 
 
 ## Resazurin paper 
 
 *Status*: Revising final draft 
 
-*Next step*: Submit by September 2025  
+*Next step*: Submit by October 2025  
 
-*Timeline*: Submit by September 2025  
+*Timeline*: Submit by October 2025  
 
 ## Lifestage Carryover/Hardening 
 
@@ -56,7 +56,7 @@ They are organized from "oldest" data sets to "newest" data sets.
 
 *Next step*: Finish full draft
 
-*Timeline*: Full draft by September 2025
+*Timeline*: Full draft by October 2025
 
 ## Nom Nom Project   
 
@@ -72,7 +72,7 @@ They are organized from "oldest" data sets to "newest" data sets.
 
 *Next step*: Analyze lipidomic and metabolomic data in context of physiology data
 
-*Timeline*: Early 2026 draft 
+*Timeline*: Mid 2026 draft 
 
 ## E5 ecological strategies 
 
@@ -80,7 +80,7 @@ They are organized from "oldest" data sets to "newest" data sets.
 
 *Next step*: Plan manuscript approach
 
-*Timeline*: Early 2026 draft 
+*Timeline*: Mid 2026 draft 
 
 ## Collaborative manuscripts 
 
