@@ -6,6 +6,8 @@ categories: E5
 tags: GeneExpression
 ---
 
+This post details PCA analysis for ortholog expression for E5 timeseries. 
+
 # Overview
 
 This notebook describes a **Principal Component Analysis (PCA)** and **PERMANOVA** of **orthologous gene expression** across three coral species (*Acropora*, *Porites*, and *Pocillopora*) and multiple timepoints (T1–T4). The goal is to assess overall variance structure, evaluate differences among species and timepoints, and identify orthologs that contribute most to the primary axes of variation.
