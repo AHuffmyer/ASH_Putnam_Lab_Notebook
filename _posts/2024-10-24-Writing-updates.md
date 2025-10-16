@@ -24,7 +24,7 @@ They are organized from "oldest" data sets to "newest" data sets.
 
 *Next step*: Finish RNAseq data analysis and finalize methods
 
-*Time line*: Wrap up data analysis by October 2025
+*Time line*: Wrap up data analysis by October-November 2025; Full draft by January 2026
 
 ## Moorea2023
 
@@ -38,9 +38,9 @@ They are organized from "oldest" data sets to "newest" data sets.
 
 *Status*: Revising final draft 
 
-*Next step*: Submit by October 2025  
+*Next step*: Submit by November 2025  
 
-*Timeline*: Submit by October 2025  
+*Timeline*: Submit by November 2025 after NOAA review process 
 
 ## Lifestage Carryover/Hardening 
 
@@ -56,7 +56,7 @@ They are organized from "oldest" data sets to "newest" data sets.
 
 *Next step*: Finish full draft
 
-*Timeline*: Full draft by October 2025
+*Timeline*: Full draft by end of October 2025
 
 ## Nom Nom Project   
 

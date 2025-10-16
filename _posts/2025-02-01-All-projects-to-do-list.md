@@ -1,7 +1,7 @@
 ---
 layout: post
 title: All Projects To Do List
-date: '2025-10-01'
+date: '2025-10-15'
 categories: Monthly_Goals
 tags: Goals
 ---
@@ -28,6 +28,7 @@ This post lists all my ongoing projects and to-do list.
 ## E5 Physiology     
 **Final manuscript**   
 
+- Revise based on coauthor comments 
 - Post on bioRxiv (late Oct)
 - Submit manuscript (late Oct)
 
@@ -44,29 +45,34 @@ This post lists all my ongoing projects and to-do list.
 ## Resazurin methods manuscript   
 **Analysis and writing** 
 
-- Submit early October to journal 
+- Submit early November to journal 
 - Revise post technical review
 
 ## Oyster 2024 Stress Hardening   
 **Data collection and analysis** 
 
 - *Goose Point*
-	- Conduct fall assessment
+	- Image analysis of Oct assessment [Noah]
   
 - *Sequim* 
-	- Analyze October images
+	- Image analysis of Oct assessment [Noah]
 
 - *Baywater* 
-	- Analyze August images
-	- Conduct fall assessment
+	- Conduct Oct assessment
+	- Image analysis of Oct assessment [Noah]
+	- Image analysis of initial outplant images [Ariana]
 
 - *Westcott* 
-	- Conduct fall/winter assessment
+	- Conduct Dec assessment
+	- Image analysis of Dec assessment [Grace]
+
+- Assemble manuscript/note of data from 10K outplant seed, PolyIC outplant seed, hardening efforts outplant seed 
 
 ## Manchester Hardening
 **Data collection** 
 
-- Winter/fall assessment 
+- Winter/fall assessment (Nov?)
+- Image analysis of winter assessment 
 
 ## Oyster Lifestage Carry Over 
 **Analysis and writing** 
@@ -77,11 +83,6 @@ This post lists all my ongoing projects and to-do list.
 - Results 
 - Discussion 
 
-## 10K Seed    
-**Data collection and analysis**   
-
-- Analyze summer growth from outplant assessment photos 
-
 ## PolyIC Larvae   
 **Data collection and experiments**   
  
@@ -90,4 +91,3 @@ This post lists all my ongoing projects and to-do list.
 ## Planning and funding    
 
 - IOS submission with Hollie (September/October 2025)
-- Look at USDA funding calls
