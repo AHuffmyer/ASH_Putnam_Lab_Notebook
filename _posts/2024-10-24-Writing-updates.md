@@ -12,11 +12,11 @@ They are organized from "oldest" data sets to "newest" data sets.
 
 ## E5 physiology 
 
-*Status*: With coauthors for comment 
+*Status*: Coauthor comments completed 
 
-*Next step*: Submission end of Oct 2025
+*Next step*: Submission mid Nov 2025
 
-*Timeline*: Oct 2025 submission 
+*Timeline*: Nov 2025 submission 
 
 ## Hawaii2023
 
@@ -24,7 +24,7 @@ They are organized from "oldest" data sets to "newest" data sets.
 
 *Next step*: Finish RNAseq data analysis and finalize methods
 
-*Time line*: Wrap up data analysis by October-November 2025; Full draft by January 2026
+*Time line*: Wrap up data analysis by November 2025; Full draft by January 2026
 
 ## Moorea2023
 
@@ -36,11 +36,11 @@ They are organized from "oldest" data sets to "newest" data sets.
 
 ## Resazurin paper 
 
-*Status*: Revising final draft 
+*Status*: Pending submission
 
 *Next step*: Submit by November 2025  
 
-*Timeline*: Submit by November 2025 after NOAA review process 
+*Timeline*: Submit by November 2025 
 
 ## Lifestage Carryover/Hardening 
 
@@ -56,7 +56,7 @@ They are organized from "oldest" data sets to "newest" data sets.
 
 *Next step*: Finish full draft
 
-*Timeline*: Full draft by end of October 2025
+*Timeline*: Full draft by mid November 2025
 
 ## Nom Nom Project   
 
