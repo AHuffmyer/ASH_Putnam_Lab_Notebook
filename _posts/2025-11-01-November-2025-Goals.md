@@ -26,7 +26,7 @@ November 2025 goals and daily notebook entries.
 
 ### Field work 
 
-1. Conduct fall/winter assessments at Baywater (Nov 4), Westcott (Dec 2) 
+1. Conduct fall/winter assessments at Westcott (Dec 2) 
 2. Conduct lab resazurin analyses of Manchester oysters 
 
 ### Funding
@@ -39,9 +39,16 @@ November 2025 goals and daily notebook entries.
 
 ### Lab meeting goals 
 
-- Goal for next (11/10) lab meeting: Resazurin paper submitted, E5 physiology manuscript revised and submit   
+- Goal for next (11/17) lab meeting: Resazurin paper submitted, E5 physiology manuscript revised and submit   
 
 ## **Daily Log**   
+
+### November 4
+
+- Resazurin paper bioRxiv submission
+- PolyIC paper 
+- E5 physiology paper 
+- Field work at Baywater 
 
 ### November 3
 
