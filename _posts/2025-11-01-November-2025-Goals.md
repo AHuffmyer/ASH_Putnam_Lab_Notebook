@@ -1,7 +1,7 @@
 ---
 layout: post
 title: November 2025 Goals
-date: '2025-11-03'
+date: '2025-11-13'
 categories: Monthly_Goals
 tags: Goals
 ---
@@ -22,7 +22,7 @@ November 2025 goals and daily notebook entries.
 ### Analysis
 
 1. RNAseq final analysis for Hawaii 2023
-2. E5 time series WGCNA analyses
+2. ~~E5 time series WGCNA analyses~~
 
 ### Field work 
 
@@ -42,6 +42,14 @@ November 2025 goals and daily notebook entries.
 - Goal for next (11/17) lab meeting: Resazurin paper submitted, E5 physiology manuscript revised and submit   
 
 ## **Daily Log**   
+
+### November 12
+
+- USDA reporting 
+- Meeting with Lucy 
+- Barnacle working meeting 
+- Oyster assessment trip planning and reimbursements 
+- PolyIC paper 
 
 ### November 4
 

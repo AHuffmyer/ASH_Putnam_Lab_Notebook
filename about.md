@@ -36,7 +36,10 @@ Date|Position| Affiliation
 
 [Google Scholar Profile](https://scholar.google.com/citations?user=_dw3pYEAAAAJ&hl=en)
 
-20. Ashey J, F Scucchia, **AS Huffmyer**, HM Putnam, T Mass. Exposure to a gradient of warming and acidification highlights physiological, molecular, and skeletal tolerance thresholds in Pocillopora acuta recruits. In press. Molecular Ecology. 
+23. **Huffmyer AS**, N Ozguner, M Baird, C Elvrum, C Kounellas, D Dicksion, SJ White, L Plough, MR Gavery, N Krebs, W Walton, J Small, M Pitsenbarger, H Ealy-Whitfield, S Roberts. From blue to pink: Resazurin as a high-throughput proxy for metabolic rate in oysters. Submitted. Journal of Experimental Biology. Available on bioRxiv at http://doi.org/10.1101/2025.11.06.686367. 
+22. Ashey J, JA Rodriquez-Casariego, KM Durkin, Z Bengtsson, **AS Huffmyer**, SJ White, DM Becker, JM Eirin-Lopez, HM Putnam, S Roberts. Non-coding RNA repertoire in reef-building corals. In review. BMC Genomics. Available on bioRxiv at https://doi.org/10.1101/2025.03.15.643469. 
+21. Gorman LM, **AS Huffmyer**, M Byrne, SC Mills, HM Putnam. Coral venom and toxins as protection against crown-of-thorns sea star attack. In revision. Molecular Ecology. Available on bioRxiv at https://doi.org/10.1101/2025.02.10.637440. 
+20. Ashey J, F Scucchia, **AS Huffmyer**, HM Putnam, T Mass. Exposure to a gradient of warming and acidification highlights physiological, molecular, and skeletal tolerance thresholds in Pocillopora acuta recruits. Molecular Ecology 0:e70116.
 19. Venkataraman Y and **AS Huffmyer**. Interrogating metabolic plasticity in marine organisms: A framework for best practices using metabolomic and lipidomic approaches. 2025. Integrative and Comparative Biology. https://doi.org/10.1093/icb/icaf138
 18. **AS Huffmyer**, KH Wong, DM Becker, E Strand, T Mass, HM Putnam. 2023. Shifts and critical periods in coral metabolism reveal energetic vulnerability during development. Current Biology. 10.1016/j.cub.2025.05.013  
 17. **AS Huffmyer**, J Ashey, E Strand, E Chiles, X Su, HM Putnam. 2024. Coral larvae increase nitrogen assimilation to stabilize algal symbiosis and combat bleaching under increased temperature. PLoS Biology 22(11): e3002875
