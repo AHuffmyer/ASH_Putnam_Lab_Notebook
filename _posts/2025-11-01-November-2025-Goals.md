@@ -39,9 +39,18 @@ November 2025 goals and daily notebook entries.
 
 ### Lab meeting goals 
 
-- Goal for next (11/17) lab meeting: Resazurin paper submitted (done), E5 physiology manuscript revised and submit   
+- Goal for next lab meeting: PolyIC manuscript full draft, E5 physiology manuscript revised and submit   
 
 ## **Daily Log**   
+
+### November 19
+
+- E5 phys paper
+- ASCA analysis 
+- Meeting with Lucy 
+- Oyster project planning 
+- USDA report 
+- Resazurin training 
 
 ### November 18
 
