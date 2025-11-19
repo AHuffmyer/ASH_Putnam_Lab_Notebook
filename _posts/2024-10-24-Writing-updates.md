@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Writing updates
-date: '2025-10-01'
+date: '2025-11-01'
 categories: Writing
 tags: Writing
 ---
@@ -30,17 +30,17 @@ They are organized from "oldest" data sets to "newest" data sets.
 
 *Status*: Draft of methods
 
-*Next step*: Write methods, start RNAseq and metabolomics analysis when available, prepare MCR AIM talk 
+*Next step*: Write methods, start RNAseq and metabolomics analysis, prepare MCR AIM talk 
 
 *Timeline*: Finish methods November 2025 
 
 ## Resazurin paper 
 
-*Status*: Pending submission
+*Status*: Submitted, pending review
 
-*Next step*: Submit by November 2025  
+*Next step*: Address review  
 
-*Timeline*: Submit by November 2025 
+*Timeline*: Unknown
 
 ## Lifestage Carryover/Hardening 
 
@@ -52,11 +52,11 @@ They are organized from "oldest" data sets to "newest" data sets.
 
 ## PolyIC Larvae   
 
-*Status*: Writing discussion 
+*Status*: Finish full draft 
 
-*Next step*: Finish full draft
+*Next step*: Submit to bioRxiv after coauthor comments
 
-*Timeline*: Full draft by mid November 2025
+*Timeline*: End of November 2025
 
 ## Nom Nom Project   
 
@@ -87,9 +87,9 @@ They are organized from "oldest" data sets to "newest" data sets.
 This is a list of the papers (I think all of them) that I am a coauthor on at the moment:  
 
 - Ashey et al. E5 ncRNA descriptive - **in review**
-- Gorman et al. Toxin discovery = **in review**
+- Gorman et al. Toxin discovery = **in revision**
 - Becker et al. Molecular mechanisms - **writing**
 - Becker et al. Heatwave environmental memory - **writing**  
 - Ashey et al. Mcap developmental RNAs - **writing** 
 - Gorman et al. CoTS RNAseq = **analysis**  
-- E5 group time series molecular - **analysis and data collection**
+- E5 group time series molecular - **analysis**

@@ -1,7 +1,7 @@
 ---
 layout: post
 title: All Projects To Do List
-date: '2025-10-15'
+date: '2025-11-01'
 categories: Monthly_Goals
 tags: Goals
 ---
@@ -12,7 +12,6 @@ This post lists all my ongoing projects and to-do list.
 **Analysis and writing**   
 
 - Finalize RNAseq differential gene expression and functional enrichment analyses 
-- Conduct WGCNA correlation analyses 
 - Finalize results section
 - Outline discussion main points
 
@@ -23,14 +22,13 @@ This post lists all my ongoing projects and to-do list.
 - ITS2 sequencing analysis
 - RNAseq analysis
 - Metabolomics analysis
-- ITS2 sample sequencing for POC larvae 
+- ITS2 sample sequencing for POC larvae? 
 
 ## E5 Physiology     
 **Final manuscript**   
 
-- Revise based on coauthor comments 
-- Post on bioRxiv (late Oct)
-- Submit manuscript (late Oct)
+- Post on bioRxiv
+- Submit manuscript
 
 ## E5 Metabolism   
 **Data analysis** 
@@ -43,10 +41,9 @@ This post lists all my ongoing projects and to-do list.
 - Analyze PR rates data set 
 
 ## Resazurin methods manuscript   
-**Analysis and writing** 
+**In reivew** 
 
-- Submit early November to journal 
-- Revise post technical review
+- Post review revisions
 
 ## Oyster 2024 Stress Hardening   
 **Data collection and analysis** 
@@ -66,13 +63,12 @@ This post lists all my ongoing projects and to-do list.
 	- Conduct Dec assessment
 	- Image analysis of Dec assessment [Grace]
 
-- Assemble manuscript/note of data from 10K outplant seed, PolyIC outplant seed, hardening efforts outplant seed 
+- Assemble report of data from 10K outplant seed, PolyIC outplant seed, hardening efforts outplant seed 
 
 ## Manchester Hardening
 **Data collection** 
 
-- Winter/fall assessment (Nov?)
-- Image analysis of winter assessment 
+- Winter/fall assessment of lab performance (Dec)
 
 ## Oyster Lifestage Carry Over 
 **Analysis and writing** 
@@ -84,10 +80,10 @@ This post lists all my ongoing projects and to-do list.
 - Discussion 
 
 ## PolyIC Larvae   
-**Data collection and experiments**   
+**Full draft**   
  
-- Write physiology/performance paper 
+- Post paper on bioRxiv 
 
 ## Planning and funding    
 
-- IOS submission with Hollie (September/October 2025)
+- IOS submission with Hollie (December/January 2025)

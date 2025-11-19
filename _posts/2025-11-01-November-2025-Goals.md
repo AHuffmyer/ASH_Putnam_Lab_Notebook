@@ -43,6 +43,13 @@ November 2025 goals and daily notebook entries.
 
 ## **Daily Log**   
 
+### November 18
+
+- E5 phys paper
+- ASCA analysis 
+- Barnacle paper 
+- Metabolomics writing group 
+
 ### November 17
 
 - E5 phys paper
