@@ -25,10 +25,9 @@ This post lists all my ongoing projects and to-do list.
 - ITS2 sample sequencing for POC larvae? 
 
 ## E5 Physiology     
-**Final manuscript**   
+**In review**   
 
-- Post on bioRxiv
-- Submit manuscript
+- Revise post review
 
 ## E5 Metabolism   
 **Data analysis** 

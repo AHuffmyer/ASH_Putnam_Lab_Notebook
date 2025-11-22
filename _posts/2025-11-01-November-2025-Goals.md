@@ -13,7 +13,7 @@ November 2025 goals and daily notebook entries.
 ### Writing and manuscripts 
               
 1. Results for Mcap2023 analysis
-2. Revise E5 paper based on coauthor feedback 
+2. ~~Revise E5 paper based on coauthor feedback~~ 
 3. ~~Submit resazurin manuscript to biorxiv and JEB~~
 4. USDA final report  
 5. PolyIC manuscript draft
@@ -39,9 +39,23 @@ November 2025 goals and daily notebook entries.
 
 ### Lab meeting goals 
 
-- Goal for next lab meeting: PolyIC manuscript full draft, E5 physiology manuscript revised and submit   
+- Goal for next lab meeting: PolyIC manuscript full draft, E5 physiology manuscript revised and submit (done!)   
 
 ## **Daily Log**   
+
+### November 21
+
+- E5 paper meetings
+- Submitted E5 phys paper
+
+### November 20
+
+- Meeting with Steven
+- Barnacle working meeting
+- Meeting with undergrads
+- E5 phys paper 
+- PolyIC paper
+- USDA report
 
 ### November 19
 
