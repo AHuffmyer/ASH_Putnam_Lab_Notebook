@@ -1,0 +1,50 @@
+---
+layout: post
+title: December 2025 Goals
+date: '2025-12-01'
+categories: Monthly_Goals
+tags: Goals
+---
+
+December 2025 goals and daily notebook entries. 
+
+## Goals  
+
+### Writing and manuscripts 
+              
+1. Results for Mcap2023 analysis
+2. PolyIC manuscript full draft
+3. Start Moorea 2023 paper (abstract, outline methods)
+
+### Analysis
+
+1. RNAseq analysis for Hawaii 2023
+2. Lipid analysis for Hawaii 2023
+3. Finalize Hawaii 2023 scripts and data sets
+
+### Field work 
+
+1. Conduct fall/winter assessments at Westcott (Dec 2) 
+2. Conduct lab survival assays of Westcott oysters (Dec 8-12)
+
+### Funding
+
+1. Write IOS grant with HP
+
+### Lab experiments 
+
+1. Guava Muse cell viability assay testing 
+2. Glycogen assay testing 
+
+### Lab meeting goals 
+
+- Goal for next lab meeting: PolyIC manuscript full draft on bioRxiv, make my MCR AIM talk
+
+## **Daily Log**   
+
+### December 1
+
+- Travel to Westcott for assessments
+- Lab meeting
+- Prepping survival assays 
+- MCR AIM talk

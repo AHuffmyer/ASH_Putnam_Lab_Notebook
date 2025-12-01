@@ -1,7 +1,7 @@
 ---
 layout: post
 title: All Projects To Do List
-date: '2025-11-01'
+date: '2025-12-01'
 categories: Monthly_Goals
 tags: Goals
 ---
@@ -67,7 +67,7 @@ This post lists all my ongoing projects and to-do list.
 ## Manchester Hardening
 **Data collection** 
 
-- Winter/fall assessment of lab performance (Dec)
+- Spring assessment of lab performance (April ish)
 
 ## Oyster Lifestage Carry Over 
 **Analysis and writing** 

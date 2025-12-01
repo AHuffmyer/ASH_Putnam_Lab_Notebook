@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Writing updates
-date: '2025-11-01'
+date: '2025-12-01'
 categories: Writing
 tags: Writing
 ---
@@ -87,7 +87,6 @@ They are organized from "oldest" data sets to "newest" data sets.
 This is a list of the papers (I think all of them) that I am a coauthor on at the moment:  
 
 - Ashey et al. E5 ncRNA descriptive - **in review**
-- Gorman et al. Toxin discovery = **in review**
 - Becker et al. Molecular mechanisms - **writing**
 - Becker et al. Heatwave environmental memory - **writing**  
 - Ashey et al. Mcap developmental RNAs - **writing** 
