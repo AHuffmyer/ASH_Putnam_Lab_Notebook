@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Plan for Westcott Oyster Survival Testing
-date: '2025-11-24'
+date: '2025-12-01'
 categories: RobertsLab_Oysters WSG_USDA
 tags: Oyster Cgigas
 ---
@@ -12,7 +12,7 @@ I'll continue to edit this post as we revise our plan and add data.
 
 ## Overview 
 
-Our goal is to subsample oysters from the treatments at Westcott and conduct acute survival testing in the lab at UW. This post describes the plan for survival testing. We may also try to do some resazurin work on gill tissue, but this will be pending some tests that I will run on Nov 26th to confirm we can use gill tissue for resazurin tests. 
+Our goal is to subsample oysters from the treatments at Westcott and conduct acute survival testing in the lab at UW. This post describes the plan for survival testing. We may also try to do some resazurin work on gill tissue, but this will be preliminary.
 
 Our hypothesis is that hardened oysters will have higher survival under thermal stress than control oysters.  
 
@@ -29,6 +29,51 @@ Below is a general timeline of events. I have specific information for schedulin
 - December 12: Clean up and storage of any remaining samples
 
 People available to help: Steven, Christina, Noah O., Ariana (Dec 10-11 only) 
+
+## tl;dr: what to do at UW during testing 
+
+### Monday Dec 8 
+
+Today is experiment set up and preparation! Here are the things to do:  
+
+- Label plastic cups (drinking sized cups, plastic, ordered by Steven) with a number with permanent marker. Label them with numbers 1-120. 
+- Make three 5-gallon buckets full of Instant Ocean seawater at salinity psu=20-25. Leave stored in cold room. 
+- Familiarize yourself with the oysters. There are four bags of oysters from Westcott in the tanks. There are 30 oysters in each bag. Each bag contains a different treatment group. 20 oysters from each bag will go into cups at high temperature and 10 oysters from each bag will go into cups at control temperature. There will be 1 oyster per cup. 
+- Familiarize yourself with the data sheet. Ariana left a printed datasheet on the counter in FTR 213. For each oyster, you will record the cup number, group information/tag nubmer of the bag, the date trial started, and whether the oyster is "alive" or "dead" at each time point. 
+- Plan schedule for the next day - someone will need to check oysters in the morning, mid day, and before the end of the day. 
+
+### Tuesday Dec 9 
+
+Today is the start of survival trials! Here are the things to do:  
+
+- Fill each cup with about 12-14 oz of water (enough to fully submerge the oyster but not too full that the cups spill when moved)
+- Place individual oysters in individual cups. **Record metadata as you load the cups.** Record the bag/group the oyster came from and which temperature it is going to. 
+- Place n=10 oysters from each bag at control temperature (on the plastic table next to the large incubator). 
+- Place n=20 oysters from each bag at high temperature (inside the large incubator set at 37-38°C). 
+- Randomize the location of the cups in the incubator so that the groups are distributed between different shelves. 
+- Record the time oysters were added into the incubator on the data sheet. This is the first time point. Record "alive" for every oyster for this time point. 
+- Check the oysters again at mid day (about 3-4 hours after the start). Record whether each oyster is alive or dead at this time point. Record the time. Record all data on the data sheet. 
+- Record the temperature in 5 cups in the incubator and at the control table. Write down these measurements on the back of the data seet. 
+- Check the oysters again at the end of the day (about 6-7 hours after the start). Record whether each oyster is alive or dead at this time point. Record the time. Record all data on the data sheet. 
+- Record the temperature in 5 cups in the incubator and at the control table. Write down these measurements on the back of the data seet. 
+
+### Wednesday Dec 10 
+
+Ariana will be on campus today to help. Here are the things to do:  
+
+- Continue survival measurements as done on Tuesday (replicate the same procedure recording the new time each measurement is done at morning, mid day, and before end of day. 
+- Ariana will prepare supplies for sampling (control oysters only) and resazurin measurements (control oysters only) 
+- Ariana will run resazurin trials on gill tissue of control oysters if there is time
+- Ariana will coordinate sampling of oyster tissue if survival trials are nearing completion (nearing mortality targets). This will include labeling tubes and dissecting control oysters. 
+- If resazurin trials and dissections are done on Wednesday, Ariana will need 1-2 people to assist. 
+
+### Thursday Dec 11 
+
+Ariana will run resazurin trials on gill tissue of control oysters if more trials need to be conducted. Ariana will also coordinate sampling of oyster tissue if this is continued. 1-2 people to assist would be appreciated if sampling is not completed on Wednesday. 
+
+### Friday Dec 12
+
+Today is experiment clean up! This includes rinsing cups, disposing of oysters, cleaning/feeding tanks, cleaning resazurin plates, or any other clean up needed.  
 
 ## Sample size and groups to transport
 
@@ -112,7 +157,8 @@ Sampling:
 Resazurin: 
 
 - If we proceed with resazurin, we will use an additional sample of gill tissue from control oysters to run in resazurin plates at control and high temperatures for each individual  
-- This would include n=1 sample at high and n=1 sample at control for each oyster, totaling n=10 per group per temperature 
+- This would include n=1 sample at high and n=1 sample at control for each oyster, totaling n=10 per group per temperature
+- Ariana will run these on Dec 10-11 
 
 ## To do at Westcott & supplies 
 
@@ -125,7 +171,6 @@ Resazurin:
 
 - Prepare batches of Instant Ocean seawater (freshly made) and place in incubator and at room temp to use for water changes 
 - Prepare tubes, freezer boxes 
-- Prepare data sheets 
 - Prepare cups and counter space/incubator space 
 - Prepare dissection tools for sampling
 - Conduct resazurin trial on Nov 26th 
