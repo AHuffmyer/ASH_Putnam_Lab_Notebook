@@ -1,7 +1,7 @@
 ---
 layout: post
 title: December 2025 Goals
-date: '2025-12-01'
+date: '2025-12-02'
 categories: Monthly_Goals
 tags: Goals
 ---
@@ -24,7 +24,7 @@ December 2025 goals and daily notebook entries.
 
 ### Field work 
 
-1. Conduct fall/winter assessments at Westcott (Dec 2) 
+1. ~~Conduct fall/winter assessments at Westcott (Dec 2)~~ 
 2. Conduct lab survival assays of Westcott oysters (Dec 8-12)
 
 ### Funding
@@ -41,6 +41,11 @@ December 2025 goals and daily notebook entries.
 - Goal for next lab meeting: PolyIC manuscript full draft on bioRxiv, make my MCR AIM talk
 
 ## **Daily Log**   
+
+### December 2
+
+- Westcott oyster assessment
+- MCR AIM talk
 
 ### December 1
 
