@@ -42,6 +42,23 @@ December 2025 goals and daily notebook entries.
 
 ## **Daily Log**   
 
+### December 5
+
+- E5 timeseries molecular meeting 
+- PolyIC paper
+- MCR AIM talk
+
+### December 4
+
+- PolyIC paper
+- MCR AIM talk
+
+### December 3
+
+- Travel back from Westcott
+- MCR AIM talk
+- PolyIC paper
+
 ### December 2
 
 - Westcott oyster assessment
