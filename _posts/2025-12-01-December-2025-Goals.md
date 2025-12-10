@@ -1,7 +1,7 @@
 ---
 layout: post
 title: December 2025 Goals
-date: '2025-12-02'
+date: '2025-12-10'
 categories: Monthly_Goals
 tags: Goals
 ---
@@ -13,7 +13,7 @@ December 2025 goals and daily notebook entries.
 ### Writing and manuscripts 
               
 1. Results for Mcap2023 analysis
-2. PolyIC manuscript full draft
+2. ~~PolyIC manuscript full draft~~
 3. Start Moorea 2023 paper (abstract, outline methods)
 
 ### Analysis
@@ -25,7 +25,7 @@ December 2025 goals and daily notebook entries.
 ### Field work 
 
 1. ~~Conduct fall/winter assessments at Westcott (Dec 2)~~ 
-2. Conduct lab survival assays of Westcott oysters (Dec 8-12)
+2. ~~Conduct lab survival assays of Westcott oysters (Dec 8-12)~~
 
 ### Funding
 
@@ -34,13 +34,31 @@ December 2025 goals and daily notebook entries.
 ### Lab experiments 
 
 1. Guava Muse cell viability assay testing 
-2. Glycogen assay testing 
+2. ~~Glycogen assay testing~~ 
 
 ### Lab meeting goals 
 
-- Goal for next lab meeting: PolyIC manuscript full draft on bioRxiv, make my MCR AIM talk
+- Goal for next lab meeting: PolyIC manuscript full draft on bioRxiv (done!), make my MCR AIM talk (done!)
 
 ## **Daily Log**   
+
+### December 10
+
+- MCR AIM talk
+- Campus experiments - resazurin and survival
+- PolyIC paper preprint 
+- Resubmit E5 paper to journal 
+
+### December 9
+
+- MCR AIM talk
+- PolyIC manuscript
+- Metabolomics meeting
+
+### December 8
+
+- MCR AIM talk
+- PolyIC manuscript
 
 ### December 5
 

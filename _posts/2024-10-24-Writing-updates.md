@@ -52,11 +52,11 @@ They are organized from "oldest" data sets to "newest" data sets.
 
 ## PolyIC Larvae   
 
-*Status*: Finish full draft 
+*Status*: On bioRxiv
 
-*Next step*: Submit to bioRxiv after coauthor comments
+*Next step*: Submit to journal
 
-*Timeline*: End of November 2025
+*Timeline*: TBD
 
 ## Nom Nom Project   
 

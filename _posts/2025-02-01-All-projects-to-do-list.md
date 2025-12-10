@@ -81,7 +81,7 @@ This post lists all my ongoing projects and to-do list.
 ## PolyIC Larvae   
 **Full draft**   
  
-- Post paper on bioRxiv 
+- Submit to journal
 
 ## Planning and funding    
 
