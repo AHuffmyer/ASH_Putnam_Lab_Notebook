@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Plan for Westcott Oyster Survival Testing
+title: Westcott oyster survival and resazurin lab testing
 date: '2025-12-11'
 categories: RobertsLab_Oysters WSG_USDA
 tags: Oyster Cgigas Survival R Resazurin
