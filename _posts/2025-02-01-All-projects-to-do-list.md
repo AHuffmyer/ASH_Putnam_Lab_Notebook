@@ -1,7 +1,7 @@
 ---
 layout: post
 title: All Projects To Do List
-date: '2025-12-01'
+date: '2025-12-10'
 categories: Monthly_Goals
 tags: Goals
 ---
@@ -62,12 +62,13 @@ This post lists all my ongoing projects and to-do list.
 	- Conduct Dec assessment
 	- Image analysis of Dec assessment [Grace]
 
-- Assemble report of data from 10K outplant seed, PolyIC outplant seed, hardening efforts outplant seed 
+- Start draft of paper for Westcott data 
 
 ## Manchester Hardening
 **Data collection** 
 
 - Spring assessment of lab performance (April ish)
+- Repackage bags (January)
 
 ## Oyster Lifestage Carry Over 
 **Analysis and writing** 

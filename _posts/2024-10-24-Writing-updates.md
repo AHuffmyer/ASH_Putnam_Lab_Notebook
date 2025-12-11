@@ -44,11 +44,11 @@ They are organized from "oldest" data sets to "newest" data sets.
 
 ## Lifestage Carryover/Hardening 
 
-*Status*: Final data collection, outline data available 
+*Status*: Start a draft of Westcott data for potential paper
 
-*Next step*: Analyze final qPCR data and write methods section
+*Next step*: Write methods and results of Westcott paper
 
-*Timeline*: Finish analysis and methods by October 2025
+*Timeline*: End of December 2025
 
 ## PolyIC Larvae   
 

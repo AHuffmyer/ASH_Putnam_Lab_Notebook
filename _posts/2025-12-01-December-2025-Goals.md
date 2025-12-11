@@ -1,7 +1,7 @@
 ---
 layout: post
 title: December 2025 Goals
-date: '2025-12-10'
+date: '2025-12-11'
 categories: Monthly_Goals
 tags: Goals
 ---
@@ -41,6 +41,14 @@ December 2025 goals and daily notebook entries.
 - Goal for next lab meeting: PolyIC manuscript full draft on bioRxiv (done!), make my MCR AIM talk (done!)
 
 ## **Daily Log**   
+
+### December 11
+
+- MCR AIM talk
+- Campus experiments and data analysis 
+- USDA reporting
+- Westcott paper outlines 
+- eScience meeting
 
 ### December 10
 
