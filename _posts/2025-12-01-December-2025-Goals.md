@@ -15,6 +15,7 @@ December 2025 goals and daily notebook entries.
 1. Results for Mcap2023 analysis
 2. ~~PolyIC manuscript full draft~~
 3. Start Moorea 2023 paper (abstract, outline methods)
+4. Draft of Westcott oyster priming manuscript
 
 ### Analysis
 
