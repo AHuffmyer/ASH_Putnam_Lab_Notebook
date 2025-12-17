@@ -1,7 +1,7 @@
 ---
 layout: post
 title: December 2025 Goals
-date: '2025-12-11'
+date: '2025-12-15'
 categories: Monthly_Goals
 tags: Goals
 ---
@@ -36,12 +36,30 @@ December 2025 goals and daily notebook entries.
 
 1. Guava Muse cell viability assay testing 
 2. ~~Glycogen assay testing~~ 
+3. SORMI glycogen, resazurin, and qPCR testing
 
 ### Lab meeting goals 
 
-- Goal for next lab meeting: PolyIC manuscript full draft on bioRxiv (done!), make my MCR AIM talk (done!)
+- Goal for next lab meeting: IOS grant approach/research plan draft complete
 
 ## **Daily Log**   
+
+### December 17
+
+- IOS proposal 
+- Hawaii 2023
+- SORMI meeting
+
+### December 16
+
+- IOS proposal 
+- Job apps 
+
+### December 15
+
+- Lab meeting
+- IOS proposal 
+- E5 molecular 
 
 ### December 11
 
