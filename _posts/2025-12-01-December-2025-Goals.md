@@ -19,8 +19,8 @@ December 2025 goals and daily notebook entries.
 
 ### Analysis
 
-1. RNAseq analysis for Hawaii 2023
-2. Lipid analysis for Hawaii 2023
+1. ~~RNAseq analysis for Hawaii 2023~~
+2. ~~Lipid analysis for Hawaii 2023~~
 3. Finalize Hawaii 2023 scripts and data sets
 
 ### Field work 
@@ -43,6 +43,15 @@ December 2025 goals and daily notebook entries.
 - Goal for next lab meeting: IOS grant approach/research plan draft complete
 
 ## **Daily Log**   
+
+### December 19
+
+- Hawaii 2023 ASCA analysis 
+- E5 molecular meeting 
+
+### December 18
+
+- Hawaii 2023 ASCA analysis 
 
 ### December 17
 
