@@ -44,6 +44,13 @@ December 2025 goals and daily notebook entries.
 
 ## **Daily Log**   
 
+### December 23
+
+- Tank and lab maintenance and packages 
+- Software install for plate reader 
+- Meeting with Hollie for IOS 
+- Meeting with Steven for funding proposal 
+
 ### December 19
 
 - Hawaii 2023 ASCA analysis 
