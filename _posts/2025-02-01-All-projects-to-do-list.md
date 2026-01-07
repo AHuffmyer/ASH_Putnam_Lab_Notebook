@@ -1,7 +1,7 @@
 ---
 layout: post
 title: All Projects To Do List
-date: '2025-12-10'
+date: '2026-01-07'
 categories: Monthly_Goals
 tags: Goals
 ---
@@ -9,11 +9,10 @@ tags: Goals
 This post lists all my ongoing projects and to-do list.  
 
 ## Hawaii 2023   
-**Analysis and writing**   
+**Writing**   
 
-- Finalize RNAseq differential gene expression and functional enrichment analyses 
-- Finalize results section
-- Outline discussion main points
+- Discussion
+- Introduction
 
 ## Moorea 2023   
 **Data collection and analysis**   
@@ -54,30 +53,24 @@ This post lists all my ongoing projects and to-do list.
 	- Image analysis of Oct assessment [Noah]
 
 - *Baywater* 
-	- Conduct Oct assessment
-	- Image analysis of Oct assessment [Noah]
-	- Image analysis of initial outplant images [Ariana]
+	- Conduct spring assessment 
 
 - *Westcott* 
-	- Conduct Dec assessment
 	- Image analysis of Dec assessment [Grace]
+	- Send data to Westcott 
 
-- Start draft of paper for Westcott data 
+- Westcott data paper writing
+
+## SORMI Assay Development   
+**Data collection**   
+
+- Glycogen assays [Sam and Hazel]
+- Guava Muse assays [Hazel]
 
 ## Manchester Hardening
 **Data collection** 
 
 - Spring assessment of lab performance (April ish)
-- Repackage bags (January)
-
-## Oyster Lifestage Carry Over 
-**Analysis and writing** 
-
-- Analyze qPCR results
-- Introduction 
-- Methods 
-- Results 
-- Discussion 
 
 ## PolyIC Larvae   
 **Full draft**   
@@ -86,4 +79,4 @@ This post lists all my ongoing projects and to-do list.
 
 ## Planning and funding    
 
-- IOS submission with Hollie (December/January 2025)
+- IOS submission with Hollie (January 2026)

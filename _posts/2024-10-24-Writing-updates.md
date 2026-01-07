@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Writing updates
-date: '2025-12-01'
+date: '2026-01-07'
 categories: Writing
 tags: Writing
 ---
@@ -20,19 +20,19 @@ They are organized from "oldest" data sets to "newest" data sets.
 
 ## Hawaii2023
 
-*Status*: Write results section
+*Status*: Results finished
 
-*Next step*: Finish RNAseq data analysis and finalize methods
+*Next step*: Write introduction and discussion sections
 
-*Time line*: Wrap up data analysis by November 2025; Full draft by January 2026
+*Time line*: Finish draft following leave
 
 ## Moorea2023
 
 *Status*: Draft of methods
 
-*Next step*: Write methods, start RNAseq and metabolomics analysis, prepare MCR AIM talk 
+*Next step*: Write methods, start RNAseq and metabolomics analysis
 
-*Timeline*: Finish methods November 2025 
+*Timeline*: Finish draft following leave 
 
 ## Resazurin paper 
 
@@ -40,15 +40,15 @@ They are organized from "oldest" data sets to "newest" data sets.
 
 *Next step*: Address review  
 
-*Timeline*: Unknown
+*Timeline*: Pending
 
-## Lifestage Carryover/Hardening 
+## Oyster Hardening 
 
-*Status*: Start a draft of Westcott data for potential paper
+*Status*: Started a draft of Westcott data for potential paper
 
 *Next step*: Write methods and results of Westcott paper
 
-*Timeline*: End of December 2025
+*Timeline*: Finish draft pending leave 
 
 ## PolyIC Larvae   
 
@@ -56,7 +56,7 @@ They are organized from "oldest" data sets to "newest" data sets.
 
 *Next step*: Submit to journal
 
-*Timeline*: TBD
+*Timeline*: Submit January 2026 
 
 ## Nom Nom Project   
 
@@ -71,14 +71,6 @@ They are organized from "oldest" data sets to "newest" data sets.
 *Status*: Data analysis
 
 *Next step*: Analyze lipidomic and metabolomic data in context of physiology data
-
-*Timeline*: Mid 2026 draft 
-
-## E5 ecological strategies 
-
-*Status*: Initial concept
-
-*Next step*: Plan manuscript approach
 
 *Timeline*: Mid 2026 draft 
 
