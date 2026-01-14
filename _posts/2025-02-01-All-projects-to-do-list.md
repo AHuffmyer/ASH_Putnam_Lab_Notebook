@@ -50,7 +50,7 @@ This post lists all my ongoing projects and to-do list.
 	- Image analysis of Oct assessment [Noah]
   
 - *Sequim* 
-	- Image analysis of Oct assessment [Noah]
+	- Conduct spring assessment
 
 - *Baywater* 
 	- Conduct spring assessment 

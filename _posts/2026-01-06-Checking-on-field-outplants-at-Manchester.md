@@ -58,5 +58,5 @@ Temperatures from the hardening experiment:
 
 Temperatures from the field period:   
 
-![](hhttps://github.com/RobertsLab/manchester-hardening/blob/main/figures/loggers/Manchester_loggers_field.png?raw=true)  
+![](https://github.com/RobertsLab/manchester-hardening/blob/main/figures/loggers/Manchester_loggers_field.png?raw=true)  
  
